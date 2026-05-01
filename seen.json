@@ -1,0 +1,175 @@
+{
+  "_comment": "去重状态。Daily run 自动维护，别手改。每条 = URL 的 SHA256 hash。保留 90 天。",
+  "_version": 1,
+  "_created": "2026-04-26",
+  "items": {
+    "1b0938288101b6f8f32e7e59ba3f7aa130cd931601a9c469615220eb3160bb7d": {
+      "url": "https://openai.com/index/introducing-gpt-5-5/",
+      "first_seen": "2026-04-27"
+    },
+    "33ee06b0a739920c09d1395b85b332a9422825fcb6391bd6a4308e7bd2bfdcbd": {
+      "url": "https://anthropic.com/news/anthropic-amazon-compute",
+      "first_seen": "2026-04-27"
+    },
+    "1e1f8c8fc30a7dd3bdceba9bef115fbddf657a2a8ab5fa83f33ebc3472f21663": {
+      "url": "https://anthropic.com/news/anthropic-nec",
+      "first_seen": "2026-04-27"
+    },
+    "5a37387ce0e8b8abc806363a6c2c37c2aaccf87940f486c1ad5777e1d783cbf3": {
+      "url": "https://blogs.nvidia.com/blog/google-cloud-agentic-physical-ai-factories/",
+      "first_seen": "2026-04-27"
+    },
+    "014fd706d73678c6bacb19722bff3f153d1f7e7144a7e5ee42da8b7ded6adb73": {
+      "url": "https://cursor.com/changelog/04-24-26",
+      "first_seen": "2026-04-27"
+    },
+    "94bd50a28d2bc720927261fc506ef5ec39c0da4b71dd3807e2ba2aeb4ddda9b0": {
+      "url": "https://www.whoop.com/us/en/press-center/whoop-launches-specialized-panels-to-deliver-deeper-more-personalized-health-insights/",
+      "first_seen": "2026-04-27"
+    },
+    "202a0a3b86e5d94c8cfae60d5925b1b60d6c07b90f2a928af8f8ada4f800e649": {
+      "url": "https://www.artificiallawyer.com/2026/04/23/freshfields-now-partners-with-anthropic/",
+      "first_seen": "2026-04-27"
+    },
+    "bd62c0962c92f5aec74eaff6566de1dc28669b3f91cc035284cf3410ba19947e": {
+      "url": "https://www.deepseek.com/",
+      "first_seen": "2026-04-27"
+    },
+    "27b1eab84e88490bb407dd0333130e6d87195c11dc1d5be333ddcc2868963df9": {
+      "url": "https://stratechery.com/2026/he-came-he-saw-he-cooked/",
+      "first_seen": "2026-04-27"
+    },
+    "0135fe82d9bd61d6ecabbd324571f0ed2b903965ea7c531b856e05b3c2e09bc9": {
+      "url": "https://www.latent.space/p/shopify",
+      "first_seen": "2026-04-27"
+    },
+    "53b3523b964016f062af7b5dc84ba95493738e9b621e0e357da685dc5c3e1954": {
+      "url": "https://www.edsurge.com/news/2026-04-23-districts-relying-more-on-data-to-identify-gifted-students",
+      "first_seen": "2026-04-27"
+    },
+    "817dfa31a1165a414efd4d5ec1ea40b1a30440e59164e45219e61d96dbc3f980": {
+      "url": "https://www.scmp.com/tech/tech-trends/article/3351595/chinas-deepseek-prices-new-v4-ai-model-97-below-openais-gpt-55",
+      "first_seen": "2026-04-28"
+    },
+    "330777892e36ae3161f125e5e369718dc15f028c7bc77f3328b6e789adc8a058": {
+      "url": "https://techcrunch.com/2026/04/27/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data/",
+      "first_seen": "2026-04-28"
+    },
+    "67c81557e07f61f416f7fd4b1ebbd925392ae3134e0c6ba1532e19994fd4796e": {
+      "url": "https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand",
+      "first_seen": "2026-04-28"
+    },
+    "6dae1ac749b9f887ec22e020ea32b1447703e6370fa19050bf6d75c5d3499647": {
+      "url": "https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea/",
+      "first_seen": "2026-04-28"
+    },
+    "95dcf18afbe996d5d3441367e05a571caa1dae3f3659ef652f0f600118fad23d": {
+      "url": "https://stratechery.com/2026/ai-hardware-meta-display-redefining-vr-and-ar/",
+      "first_seen": "2026-04-28"
+    },
+    "b2fd5485d1885f2d74395a54e17ea0008158cefd3765c0faa8aaf01045d76788": {
+      "url": "https://www.latent.space/p/appliedintuition",
+      "first_seen": "2026-04-28"
+    },
+    "a9b507c37a919260f97afb6f830736c4898dc32f8b795ec02e1ba2d9dd51dde8": {
+      "url": "https://deepmind.google/blog/decoupled-diloco/",
+      "first_seen": "2026-04-28"
+    },
+    "5cbb89ca63676039598a479c6980000d3a29798bd2c1e65f46851936f0a75aee": {
+      "url": "https://openai.com/index/openai-on-aws/",
+      "first_seen": "2026-04-29"
+    },
+    "8330c219eab8f9285b180d364258f0a236ef9a40decac373cb2eb6ca8a00a64f": {
+      "url": "https://www.anthropic.com/news/claude-for-creative-work",
+      "first_seen": "2026-04-29"
+    },
+    "a6667f2f9dae6746e153caa48a6203ad0b766cd35c0468f01ac6d744db6ee137": {
+      "url": "https://blogs.nvidia.com/blog/nemotron-3-nano-omni-multimodal-ai-agents/",
+      "first_seen": "2026-04-29"
+    },
+    "f0055811639afbe7d84c3900be5020b667777b0b422b1ac3847feb9d80d68d70": {
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/bedrock-openai-models-codex-managed-agents/",
+      "first_seen": "2026-04-29"
+    },
+    "b5d18c04f7f67bab650de071ee075bf027eddddbdd6c84d84abc41f33a9171b7": {
+      "url": "https://openai.com/index/openai-available-at-fedramp-moderate",
+      "first_seen": "2026-04-29"
+    },
+    "a15adbd33f2781761720b631e37a5fe69065ec25c925fa13d56c83e4ca57e77a": {
+      "url": "https://openai.com/index/our-commitment-to-community-safety",
+      "first_seen": "2026-04-29"
+    },
+    "55ff6ff1b7c6fb948399ef4e47f5b4b8bbd66c079a76f5d88917a5dc16a54aaf": {
+      "url": "https://stratechery.com/2026/an-interview-with-openai-ceo-sam-altman-and-aws-ceo-matt-garman-about-bedrock-managed-agents/",
+      "first_seen": "2026-04-29"
+    },
+    "f629323443d7153210e211ba11c794702c93c408a41b830f47e6f93bae76720f": {
+      "url": "https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/",
+      "first_seen": "2026-04-29"
+    },
+    "5d5800118a2654bea383f56b29970c6f6a7a09a2cb5f1f5132a26404cec9e7ec": {
+      "url": "https://mimo.xiaomi.com/mimo-v2-5-pro/",
+      "first_seen": "2026-04-29"
+    },
+    "df213f7580ce3019afa44f29bb755d319053009be72ae1bdf940b0844e6addfe": {
+      "url": "https://www.latent.space/p/ainews-imagegen-is-on-the-path-to",
+      "first_seen": "2026-04-29"
+    },
+    "6ecb048a5f87258b242b13d08941f2818d501cc7cbfb40ee54e4b2fba4362d9e": {
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today",
+      "first_seen": "2026-04-29"
+    },
+    "b0caa1ec272460929a17e457fa9f44db057edfcf36a4d6c77c1587019cbcb3ca": {
+      "url": "https://openai.com/index/advanced-account-security",
+      "first_seen": "2026-05-01"
+    },
+    "8b7276cd935e31848cb57a8aac9e48c315da2446e84648221210a49f42dfe58a": {
+      "url": "https://openai.com/index/where-the-goblins-came-from",
+      "first_seen": "2026-05-01"
+    },
+    "6b8c46a3e355b778925057985f6ecc2d7a8e12e9a4001d32a070da3b74dec460": {
+      "url": "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age",
+      "first_seen": "2026-05-01"
+    },
+    "fe5168dbfadecfd8c9dca8af90294e3bf8bb0162bfe278b183242bd579fef4bd": {
+      "url": "https://www.anthropic.com/news/claude-code-security",
+      "first_seen": "2026-05-01"
+    },
+    "8724c671f271affb09eaeff4ef41cd00590fee287ca43676aae28f480fef7720": {
+      "url": "https://siliconangle.com/2026/04/30/anthropic-announces-claude-security-public-beta-find-fix-software-vulnerabilities/",
+      "first_seen": "2026-05-01"
+    },
+    "55a6a125da398cda38aeefd5717b7a2400693ddbe755374c15e30d8bd57e8cac": {
+      "url": "https://deepmind.google/blog/ai-co-clinician/",
+      "first_seen": "2026-05-01"
+    },
+    "81ddd01002b85cac59d34a6090f3c1e19bdb167ce2599538b768309439cd3208": {
+      "url": "https://news.crunchbase.com/venture/ai-powered-legal-tech-startup-legora-seriesd-extension-nvidia/",
+      "first_seen": "2026-05-01"
+    },
+    "98b05084d5e46ee2f6e1845c6578d4be143c7a19d5d9fc326d01ae03b5939bb9": {
+      "url": "https://stratechery.com/2026/amazon-earnings-trainium-and-commodity-markets-additional-amazon-notes/",
+      "first_seen": "2026-05-01"
+    },
+    "699b0191afcb8d8403aba7752c048acb3c2eb3f0c942539709571f67891eb5ec": {
+      "url": "https://stratechery.com/2026/intel-earnings-intels-differentiation-whither-terafab/",
+      "first_seen": "2026-05-01"
+    },
+    "381f203051596d3ad19d77ce4dd788a816483e0adbc37bf2de4dba3777551226": {
+      "url": "https://www.latent.space/p/ainews-the-inference-inflection",
+      "first_seen": "2026-05-01"
+    },
+    "02b49d0cfa67c74a9eac028c30223288252e9c8932683cc67e9ded64d0014889": {
+      "url": "https://www.latent.space/p/ainews-agents-for-everything-else",
+      "first_seen": "2026-05-01"
+    },
+    "fe66773ea4fde6fbefb51402986c490895939dd4c92795a30b0c4ae6079958a0": {
+      "url": "https://cursor.com/changelog/sdk-release",
+      "first_seen": "2026-05-01"
+    },
+    "f1cfb5220029f8c057088d08e4faf360cb680903fc67c3a8657f5596cd13559f": {
+      "url": "https://artificialanalysis.ai/articles/xai-launches-grok-4-3-with-improved-agentic-performance-and-lower-pricing",
+      "first_seen": "2026-05-01"
+    }
+  }
+}

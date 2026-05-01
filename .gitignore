@@ -1,0 +1,12 @@
+# Local-only
+_archive/
+*.tmp
+*.swp
+.DS_Store
+
+# OS
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
