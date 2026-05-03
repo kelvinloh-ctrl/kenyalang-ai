@@ -170,6 +170,62 @@
     "f1cfb5220029f8c057088d08e4faf360cb680903fc67c3a8657f5596cd13559f": {
       "url": "https://artificialanalysis.ai/articles/xai-launches-grok-4-3-with-improved-agentic-performance-and-lower-pricing",
       "first_seen": "2026-05-01"
+    },
+    "02eab667df4489976a499bf550e4fab233b0ccde136fd84ec95a0f9994fd83af": {
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "first_seen": "2026-05-03"
+    },
+    "82a901da1b9bedec6f38670bb587455ddbcbae1f72df25bcb5a6b8c95709a39b": {
+      "url": "https://github.com/anthropics/skills",
+      "first_seen": "2026-05-03"
+    },
+    "7bddc74969c80ef50b9ecd4ae544fd7610930d00e0c4ba06526f21b8d6d45468": {
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.128.0",
+      "first_seen": "2026-05-03"
+    },
+    "626a5e4fcb233d8d7ffe545e87dad1f9433e0f43b19e1e12b059e2092dcc5147": {
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "first_seen": "2026-05-03"
+    },
+    "c60b77ce50fb8910649941c02ca6d84dc6ad7f81a0a8dcf867e2d6865cc569b0": {
+      "url": "https://github.com/ruvnet/ruflo",
+      "first_seen": "2026-05-03"
+    },
+    "d4c632c98cc2a32f8336ec6f22c0af91def86bc4f3a62da002a08456207c5ffb": {
+      "url": "https://github.com/cline/cline/releases/tag/v3.82.0",
+      "first_seen": "2026-05-03"
+    },
+    "4fed931d247d6cb2a3df47ef9f17d5e274d4868b6bfc296429b790b2eac2e382": {
+      "url": "https://github.com/mistralai/mistral-vibe",
+      "first_seen": "2026-05-03"
+    },
+    "aee3acbf043559b06d43f37e91e23648565152746f36a1a83d3da9393371f534": {
+      "url": "https://github.com/browserbase/skills",
+      "first_seen": "2026-05-03"
+    },
+    "344d46b0f790a3ec4e82f84067fda068e6f48f068ee696aeb6b319035d95134e": {
+      "url": "https://github.com/tirth8205/code-review-graph",
+      "first_seen": "2026-05-03"
+    },
+    "d93dae27bd35ed87888aafd543f298f830e8b0e2b2cc563250c711c2db369cc9": {
+      "url": "https://github.com/Q00/ouroboros",
+      "first_seen": "2026-05-03"
+    },
+    "a9087d8fedb5c8851911072a8302883b8c0b8809c0f451193e92bf269642c015": {
+      "url": "https://github.com/openai/parameter-golf",
+      "first_seen": "2026-05-03"
+    },
+    "fa959546e221c57a13414a467228529599c7e03aafa3ade48b0976a7c30fc7f6": {
+      "url": "https://github.com/google-deepmind/formal-conjectures",
+      "first_seen": "2026-05-03"
+    },
+    "30058af18e34386e19cf837dc25b3346408c7152e4f795c7be6cce9061d70249": {
+      "url": "https://github.com/meta-llama/PurpleLlama",
+      "first_seen": "2026-05-03"
+    },
+    "2a7f0fddd2dac1620be226d8f88ca7919afcdb66ebcbe26da9052cb3ef4dfe76": {
+      "url": "https://github.com/1jehuang/jcode",
+      "first_seen": "2026-05-03"
     }
   }
 }
