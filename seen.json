@@ -226,6 +226,42 @@
     "2a7f0fddd2dac1620be226d8f88ca7919afcdb66ebcbe26da9052cb3ef4dfe76": {
       "url": "https://github.com/1jehuang/jcode",
       "first_seen": "2026-05-03"
+    },
+    "d371edbebc226633ec82322ee5de9a65f0f78465150085900c063f01c62c0157": {
+      "url": "https://github.com/google-deepmind/superhuman",
+      "first_seen": "2026-05-04"
+    },
+    "0a2dc73be1eef6b1ebb789da39b5ff0e9c3cf9714dcb650de4faf0c7fd306593": {
+      "url": "https://github.com/openai/codex/releases",
+      "first_seen": "2026-05-04"
+    },
+    "c45b44d53914aea37e4cf6b144346ad5fc3c72769255407f938a27c10c77bd2e": {
+      "url": "https://github.com/anthropics/claude-plugins-community",
+      "first_seen": "2026-05-04"
+    },
+    "b43152ed996a17a0539678375ce675a34d99de987bdfcee322c4ff8f07af0e28": {
+      "url": "https://github.com/meta-llama/llama-api-python",
+      "first_seen": "2026-05-04"
+    },
+    "55855c4d947093104583eb75443611574faa05f1a5f648537a7c67d1802e574b": {
+      "url": "https://github.com/meta-llama/llama-api-typescript",
+      "first_seen": "2026-05-04"
+    },
+    "d63ee5d5a8430450c6beda90c7d6e8c74aed47ed9822920c474cfd95922792bb": {
+      "url": "https://github.com/AIDC-AI/Pixelle-Video",
+      "first_seen": "2026-05-04"
+    },
+    "eca28fb9520b7bc5219c79a2b1c41f91aa70215f176618b04ace17002b905807": {
+      "url": "https://github.com/Hmbown/DeepSeek-TUI",
+      "first_seen": "2026-05-04"
+    },
+    "b54ffbba091c984c116227a6ee0503addac3dd72d5a9eb21819cfd624123a5b4": {
+      "url": "https://github.com/czlonkowski/n8n-mcp",
+      "first_seen": "2026-05-04"
+    },
+    "06b5e845597b60ae6150db3de840d5afd7d3ce6efc1ee3fb90b1a250bdc8097f": {
+      "url": "https://github.com/openai/snap-o",
+      "first_seen": "2026-05-04"
     }
   }
 }
