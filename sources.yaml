@@ -1,772 +1,751 @@
-# Kenyalang.AI · 来源清单 v1
+# Kenyalang.AI · 来源清单 v2.0
 # 编辑规则：增删改任何来源直接改本文件，下次 daily run 自动生效
-# 字段说明：
-#   name        来源显示名（brief 里会引用）
-#   type        rss / web / x_handle / github / hn / reddit / arxiv
-#   url         抓取地址
-#   weight      权重 1-5（5 = 必看，1 = 弱信号）
-#   tags        分类，方便筛选
 #
-# ⚠️ 核心原则（Kelvin 2026-04-26 定）：真实性 > 数量
-# - 优先官方来源（labs blog / 公司发布）+ 严肃分析（Stratechery / Latent Space / The Information）
-# - 砍掉传谣 / 推测 / 粉丝向论坛
-# - 个人 Twitter 谨慎用，只挑能直接发布消息的本人账号
-# - Brief 里每条必须能溯源到原始来源，不能只引用「有人说」
+# v2.0 重构（Kelvin 2026-05-04 签）：
+# - 顶层从 20 子类合并 → 4 buckets（ai / my-law / fitness / stocks）
+# - 砍：x_handles（13）/ forums（14）/ medical_ai（16）/ legal_ai 学术（18）/ education_ai（19）
+# - 砍 fitness 子项：学会（ACSM/NSCA/NASM/ACE）/ 竞品（Anytime/Planet/F45 — 另起 Fitcom 内部 watch）
+# - 加 my-law bucket：Federal Gazette + Parlimen + AGC + Bernama + 33 Acts watch
+# - 加 fitness：Health & Fitness Association（前 IHRSA 后身）+ KKM
+# - 加 stocks bucket：Bursa + SC + SEC EDGAR + S&P + 4 IR
+#
+# 字段说明：
+#   name              来源显示名（brief 引用）
+#   type              rss / web / github / arxiv
+#   url               抓取地址
+#   weight            权重 1-5（5 = 必看 · 1 = 弱信号）
+#   tags              分类
+#   needs_browser_ua  curl 直接 403，需要正经 User-Agent
+#
+# ⚠️ 核心原则（Kelvin 2026-04-26 + 2026-05-04 定）：真实性 > 数量
+# - 优先官方来源 + 严肃分析
+# - 砍传谣 / 推测 / 粉丝向 / 媒体二手
+# - Brief 每条必须能溯源到原始来源 URL，不允许「有人说」
+# - URL fetch != 200 → 该来源本次 brief 不出现，禁止编造
 
-version: 1.3
-last_updated: 2026-04-27
+version: 2.0
+last_updated: 2026-05-04
 owner: kelvin
-core_principle: "真实性 > 数量"
-# v1.3 changelog: 删 4 个失效 URL（Midjourney / BFL blog / Apple Health / IHRSA）+ WHOOP 改 press-center URL
+core_principle: "真实性 > 数量 · 要官方"
 
 # ============================================================
-# 1. FRONTIER LABS · 必看（weight 5）
+# BUCKET 1 · AI 发展（13 子类 · ~88 来源）
+# 「各大最新更新 + 功能 + 开源」
+# weight ≥ 4 进 daily · weight 2-3 留候选
 # ============================================================
-frontier_labs:
-  - name: OpenAI Blog
-    type: rss
-    url: https://openai.com/blog/rss.xml
-    weight: 5
-    tags: [labs, frontier, us]
-  - name: Anthropic News
-    type: web
-    url: https://www.anthropic.com/news
-    weight: 5
-    tags: [labs, frontier, us]
-  - name: Google DeepMind Blog
-    type: rss
-    url: https://deepmind.google/blog/rss.xml
-    weight: 5
-    tags: [labs, frontier, us]
-  - name: Google AI Blog
-    type: web
-    url: https://blog.google/technology/ai/
-    weight: 4
-    tags: [labs, frontier, us]
-  - name: Meta AI Blog
-    type: web
-    url: https://ai.meta.com/blog/
-    weight: 5
-    tags: [labs, frontier, us]
-  - name: xAI News
-    type: web
-    url: https://x.ai/news
-    weight: 4
-    tags: [labs, frontier, us]
-  - name: Mistral News
-    type: web
-    url: https://mistral.ai/news
-    weight: 3
-    tags: [labs, frontier, eu]
-  - name: SSI (Safe Superintelligence)
-    type: web
-    url: https://ssi.inc/
-    weight: 4
-    tags: [labs, frontier, us, ilya]
+ai:
+
+  frontier_labs:
+    - name: OpenAI Blog
+      type: rss
+      url: https://openai.com/blog/rss.xml
+      weight: 5
+      tags: [labs, frontier, us]
+    - name: Anthropic News
+      type: web
+      url: https://www.anthropic.com/news
+      weight: 5
+      tags: [labs, frontier, us]
+    - name: Google DeepMind Blog
+      type: rss
+      url: https://deepmind.google/blog/rss.xml
+      weight: 5
+      tags: [labs, frontier, us]
+    - name: Google AI Blog
+      type: web
+      url: https://blog.google/technology/ai/
+      weight: 4
+      tags: [labs, frontier, us]
+    - name: Meta AI Blog
+      type: web
+      url: https://ai.meta.com/blog/
+      weight: 5
+      tags: [labs, frontier, us]
+    - name: xAI News
+      type: web
+      url: https://x.ai/news
+      weight: 4
+      tags: [labs, frontier, us]
+    - name: Mistral News
+      type: web
+      url: https://mistral.ai/news
+      weight: 3
+      tags: [labs, frontier, eu]
+    - name: SSI (Safe Superintelligence)
+      type: web
+      url: https://ssi.inc/
+      weight: 4
+      tags: [labs, frontier, us, ilya]
+
+  china_labs:
+    - name: DeepSeek
+      type: web
+      url: https://www.deepseek.com/
+      weight: 5
+      tags: [labs, china]
+    - name: 智谱 ChatGLM
+      type: web
+      url: https://www.zhipuai.cn/
+      weight: 4
+      tags: [labs, china]
+    - name: 月之暗面 Kimi
+      type: web
+      url: https://kimi.moonshot.cn/
+      weight: 4
+      tags: [labs, china]
+    - name: 阿里 Qwen
+      type: web
+      url: https://qwenlm.github.io/
+      weight: 4
+      tags: [labs, china, opensource]
+    - name: 字节 Doubao 豆包
+      type: web
+      url: https://team.doubao.com/
+      weight: 4
+      tags: [labs, china]
+    - name: 百度文心
+      type: web
+      url: https://yiyan.baidu.com/
+      weight: 3
+      tags: [labs, china]
+    - name: MiniMax
+      type: web
+      url: https://www.minimax.io/news
+      weight: 4
+      tags: [labs, china]
+    - name: 零一万物 01.AI
+      type: web
+      url: https://www.01.ai/
+      weight: 3
+      tags: [labs, china]
+    - name: StepFun 阶跃
+      type: web
+      url: https://www.stepfun.com/
+      weight: 3
+      tags: [labs, china]
+    - name: 腾讯 Hunyuan
+      type: web
+      url: https://hunyuan.tencent.com/
+      weight: 3
+      tags: [labs, china]
+
+  search_assistants:
+    - name: Perplexity Blog
+      type: web
+      url: https://www.perplexity.ai/hub/blog
+      weight: 5
+      tags: [search, consumer]
+    - name: You.com
+      type: web
+      url: https://you.com/blog
+      weight: 2
+      tags: [search]
+    - name: Phind
+      type: web
+      url: https://www.phind.com/blog
+      weight: 2
+      tags: [search, dev]
+    - name: Genspark
+      type: web
+      url: https://www.genspark.ai/
+      weight: 3
+      tags: [search]
+
+  coding_agents:
+    - name: Cursor Changelog
+      type: web
+      url: https://cursor.com/changelog
+      weight: 5
+      tags: [coding, dev]
+    - name: Claude Code Changelog
+      type: web
+      url: https://docs.claude.com/en/release-notes/claude-code
+      weight: 5
+      tags: [coding, dev]
+    - name: GitHub Copilot Blog
+      type: web
+      url: https://github.blog/category/ai-and-ml/
+      weight: 4
+      tags: [coding, dev]
+    - name: Cline (GitHub releases)
+      type: github
+      url: https://github.com/cline/cline/releases
+      weight: 3
+      tags: [coding, dev, opensource]
+    - name: Aider
+      type: web
+      url: https://aider.chat/HISTORY.html
+      weight: 3
+      tags: [coding, dev, opensource]
+    - name: OpenAI Codex
+      type: web
+      url: https://openai.com/codex/
+      weight: 4
+      tags: [coding, dev]
+
+  agent_builders:
+    - name: v0 by Vercel
+      type: web
+      url: https://v0.dev/changelog
+      weight: 4
+      tags: [builder, web]
+    - name: Lovable
+      type: web
+      url: https://lovable.dev/blog
+      weight: 4
+      tags: [builder, web]
+    - name: Bolt.new (StackBlitz)
+      type: web
+      url: https://bolt.new/
+      weight: 3
+      tags: [builder, web]
+    - name: Replit
+      type: web
+      url: https://blog.replit.com/
+      weight: 3
+      tags: [builder, dev]
+    - name: Manus
+      type: web
+      url: https://manus.im/
+      weight: 4
+      tags: [builder, agent, china]
+
+  image_gen:
+    - name: Recraft
+      type: web
+      url: https://www.recraft.ai/blog
+      weight: 3
+      tags: [image]
+    - name: Ideogram
+      type: web
+      url: https://about.ideogram.ai/
+      weight: 3
+      tags: [image]
+    - name: Krea
+      type: web
+      url: https://www.krea.ai/blog
+      weight: 3
+      tags: [image]
+    - name: Reve
+      type: web
+      url: https://reve.com/
+      weight: 3
+      tags: [image]
+    - name: Imagen (Google DeepMind)
+      type: web
+      url: https://deepmind.google/technologies/imagen/
+      weight: 4
+      tags: [image]
+    - name: Nano Banana (Gemini Image)
+      type: web
+      url: https://blog.google/technology/google-deepmind/
+      weight: 4
+      tags: [image]
+    - name: Stability AI
+      type: web
+      url: https://stability.ai/news
+      weight: 3
+      tags: [image, opensource]
+    - name: Adobe News (含 Firefly)
+      type: web
+      url: https://news.adobe.com/
+      weight: 3
+      tags: [image, enterprise]
+
+  video_gen:
+    - name: OpenAI Sora
+      type: web
+      url: https://openai.com/sora
+      weight: 5
+      tags: [video]
+    - name: Google Veo
+      type: web
+      url: https://deepmind.google/technologies/veo/
+      weight: 5
+      tags: [video]
+    - name: Runway
+      type: web
+      url: https://runwayml.com/research
+      weight: 4
+      tags: [video]
+    - name: Kling (快手)
+      type: web
+      url: https://klingai.com/
+      weight: 4
+      tags: [video, china]
+    - name: Hailuo (MiniMax)
+      type: web
+      url: https://hailuoai.video/
+      weight: 4
+      tags: [video, china]
+    - name: Luma Dream Machine
+      type: web
+      url: https://lumalabs.ai/blog
+      weight: 3
+      tags: [video]
+    - name: Pika
+      type: web
+      url: https://pika.art/
+      weight: 3
+      tags: [video]
+    - name: Tencent Hunyuan Video
+      type: web
+      url: https://hunyuan.tencent.com/modelSquare/home/list
+      weight: 3
+      tags: [video, china, opensource]
+    - name: Alibaba Wan
+      type: web
+      url: https://wanxai.com/
+      weight: 3
+      tags: [video, china, opensource]
+    - name: Genmo Mochi
+      type: web
+      url: https://www.genmo.ai/blog
+      weight: 2
+      tags: [video, opensource]
+
+  voice_audio:
+    - name: ElevenLabs Blog
+      type: web
+      url: https://elevenlabs.io/blog
+      weight: 4
+      tags: [voice]
+    - name: OpenAI Voice / Realtime
+      type: web
+      url: https://openai.com/index/introducing-the-realtime-api/
+      weight: 4
+      tags: [voice]
+    - name: Suno
+      type: web
+      url: https://suno.com/blog
+      weight: 3
+      tags: [music]
+    - name: Udio
+      type: web
+      url: https://www.udio.com/blog
+      weight: 3
+      tags: [music]
+    - name: Cartesia
+      type: web
+      url: https://cartesia.ai/blog
+      weight: 3
+      tags: [voice]
+    - name: Hume AI
+      type: web
+      url: https://www.hume.ai/blog
+      weight: 2
+      tags: [voice, emotion]
+    - name: Sesame
+      type: web
+      url: https://www.sesame.com/research
+      weight: 3
+      tags: [voice]
+
+  robotics:
+    - name: Figure AI
+      type: web
+      url: https://www.figure.ai/news
+      weight: 4
+      tags: [robotics]
+    - name: 1X
+      type: web
+      url: https://www.1x.tech/discover
+      weight: 4
+      tags: [robotics]
+    - name: Physical Intelligence (π)
+      type: web
+      url: https://www.physicalintelligence.company/blog
+      weight: 4
+      tags: [robotics]
+    - name: Skild AI
+      type: web
+      url: https://www.skild.ai/
+      weight: 3
+      tags: [robotics]
+    - name: Boston Dynamics
+      type: web
+      url: https://bostondynamics.com/blog/
+      weight: 2
+      tags: [robotics]
+    - name: 宇树 Unitree
+      type: web
+      url: https://www.unitree.com/news
+      weight: 3
+      tags: [robotics, china]
+
+  hardware:
+    - name: Nvidia Blog
+      type: web
+      url: https://blogs.nvidia.com/blog/category/deep-learning/
+      weight: 5
+      tags: [hardware]
+    - name: AMD Blog
+      type: web
+      url: https://www.amd.com/en/blogs.html
+      weight: 3
+      tags: [hardware]
+    - name: Groq
+      type: web
+      url: https://groq.com/news/
+      weight: 3
+      tags: [hardware, inference]
+    - name: Cerebras
+      type: web
+      url: https://www.cerebras.net/blog/
+      weight: 3
+      tags: [hardware]
+    - name: Tenstorrent
+      type: web
+      url: https://tenstorrent.com/
+      weight: 2
+      tags: [hardware]
+
+  ma_funding:
+    - name: The Information AI
+      type: web
+      url: https://www.theinformation.com/topics/artificial-intelligence
+      weight: 5
+      tags: [news, mna, paywall]
+    - name: Crunchbase AI Deals
+      type: web
+      url: https://news.crunchbase.com/sections/ai/
+      weight: 4
+      tags: [funding]
+    - name: 36kr AI
+      type: web
+      url: https://36kr.com/information/AI
+      weight: 4
+      tags: [news, china, funding]
+    - name: PitchBook AI
+      type: web
+      url: https://pitchbook.com/news/topics/artificial-intelligence
+      weight: 3
+      tags: [funding, mna]
+
+  news_analysis:
+    - name: Stratechery (Ben Thompson)
+      type: rss
+      url: https://stratechery.com/feed/
+      weight: 5
+      tags: [analysis]
+    - name: Latent Space (swyx)
+      type: rss
+      url: https://www.latent.space/feed
+      weight: 5
+      tags: [analysis, dev]
+    - name: Import AI (Jack Clark)
+      type: rss
+      url: https://importai.substack.com/feed
+      weight: 4
+      tags: [analysis, policy]
+    - name: Ben's Bites
+      type: rss
+      url: https://bensbites.com/feed
+      weight: 3
+      tags: [news, daily]
+    - name: TLDR AI
+      type: web
+      url: https://tldr.tech/ai
+      weight: 3
+      tags: [news, daily]
+    - name: Smol AI Daily
+      type: web
+      url: https://news.smol.ai/
+      weight: 4
+      tags: [news, daily, dev]
+    - name: Last Week in AI
+      type: rss
+      url: https://lastweekin.ai/feed
+      weight: 3
+      tags: [news, weekly]
+
+  opensource_trends:
+    - name: HuggingFace Trending
+      type: web
+      url: https://huggingface.co/models?sort=trending
+      weight: 4
+      tags: [opensource]
+    - name: HuggingFace Daily Papers
+      type: web
+      url: https://huggingface.co/papers
+      weight: 3
+      tags: [research]
+    - name: GitHub Trending AI
+      type: web
+      url: https://github.com/trending?since=daily
+      weight: 3
+      tags: [opensource]
+    - name: Papers with Code Trending
+      type: web
+      url: https://paperswithcode.com/
+      weight: 2
+      tags: [research]
+    - name: arXiv cs.AI Recent
+      type: arxiv
+      url: https://arxiv.org/list/cs.AI/recent
+      weight: 3
+      tags: [research, primary_source]
+
 
 # ============================================================
-# 2. CHINA LABS / 中国 AI 生态
+# BUCKET 2 · 大马法律修订（4 来源 + 33 Acts watch）
+# weight ≥ 3 全收（量本来少）
 # ============================================================
-china_labs:
-  - name: DeepSeek
-    type: web
-    url: https://www.deepseek.com/
-    weight: 5
-    tags: [labs, china]
-  - name: 智谱 ChatGLM
-    type: web
-    url: https://www.zhipuai.cn/
-    weight: 4
-    tags: [labs, china]
-  - name: 月之暗面 Kimi
-    type: web
-    url: https://kimi.moonshot.cn/
-    weight: 4
-    tags: [labs, china]
-  - name: 阿里 Qwen
-    type: web
-    url: https://qwenlm.github.io/
-    weight: 4
-    tags: [labs, china, opensource]
-  - name: 字节 Doubao 豆包
-    type: web
-    url: https://team.doubao.com/
-    weight: 4
-    tags: [labs, china]
-  - name: 百度文心
-    type: web
-    url: https://yiyan.baidu.com/
-    weight: 3
-    tags: [labs, china]
-  - name: MiniMax
-    type: web
-    url: https://www.minimax.io/news
-    weight: 4
-    tags: [labs, china]
-  - name: 零一万物 01.AI
-    type: web
-    url: https://www.01.ai/news
-    weight: 3
-    tags: [labs, china]
-  - name: StepFun 阶跃
-    type: web
-    url: https://www.stepfun.com/
-    weight: 3
-    tags: [labs, china]
-  - name: 腾讯 Hunyuan
-    type: web
-    url: https://hunyuan.tencent.com/
-    weight: 3
-    tags: [labs, china]
+my-law:
+
+  official:
+    - name: Federal Gazette · 大马官方公报
+      type: web
+      url: https://lom.agc.gov.my/
+      weight: 5
+      tags: [my-law, official, gazette]
+      note: "所有 Acts 修订 / 新法令在这正式发布"
+    - name: Parlimen Malaysia · 国会
+      type: web
+      url: https://www.parlimen.gov.my/
+      weight: 5
+      tags: [my-law, official, parliament]
+      needs_browser_ua: true
+      note: "Bills 提呈 / 三读流程"
+    - name: AGC · 总检察署
+      type: web
+      url: https://www.agc.gov.my/agcportal/index.php
+      weight: 4
+      tags: [my-law, official]
+    - name: Bernama · 国家通讯社
+      type: web
+      url: https://www.bernama.com/en/general/index.php
+      weight: 4
+      tags: [my-law, official, news]
+      note: "最早出政府消息 · 法律 / Bills 通告优先看这"
+
+  # ⚠️ 33 Acts watch list — 抓 Federal Gazette / Parlimen 时优先 highlight 这 33 部
+  # 来源：Fitcom/0_VISION/legal/legal_compliance/fitcom-legal-compliance.md
+  # 这 33 部任何修订 → daily brief 头条加红
+  acts_watch_list:
+    tier_1_daily_ops:
+      - "Companies Act 2016 (Act 777)"
+      - "Employment Act 1955 (Act 265)"
+      - "Industrial Relations Act 1967 (Act 177)"
+      - "Employees Provident Fund Act 1991 (Act 452)"
+      - "Employees' Social Security Act 1969 (Act 4)"
+      - "Employment Insurance System Act 2017 (Act 800)"
+      - "Occupational Safety and Health Act 1994 (Act 514)"
+      - "Income Tax Act 1967 (Act 53)"
+      - "Service Tax Act 2018 (Act 807)"
+      - "Personal Data Protection Act 2010 (Act 709)"
+      - "Consumer Protection Act 1999 (Act 599)"
+      - "Contracts Act 1950 (Act 136)"
+      - "Trade Descriptions Act 2011 (Act 730)"
+      - "Local Government Act 1976 (Act 171)"
+      - "Stamp Act 1949 (Act 378)"
+    tier_2_quarterly:
+      - "Trademarks Act 2019 (Act 815)"
+      - "Copyright Act 1987 (Act 332)"
+      - "Cyber Security Act 2024"
+      - "Communications and Multimedia Act 1998 (Act 588)"
+      - "Electronic Commerce Act 2006 (Act 658)"
+      - "Fire Services Act 1988 (Act 341)"
+      - "Industrial Designs Act 1996 (Act 552)"
+      - "Minimum Wages Order 2024"
+      - "Anti-Sexual Harassment Act 2022 (Act 840)"
+      - "Income Tax (Withholding Tax) provisions"
+    tier_3_annual:
+      - "Patents Act 1983 (Act 291)"
+      - "AMLATFPUAA 2001 (Act 613)"
+      - "Food Act 1983 (Act 281)"
+      - "Direct Sales and Anti-Pyramid Scheme Act 1993 (Act 500)"
+      - "Price Control and Anti-Profiteering Act 2011 (Act 723)"
+      - "Whistleblower Protection Act 2010 (Act 711)"
+      - "Private Healthcare Facilities and Services Act 1998 (Act 586)"
+      - "Sale of Goods Act 1957 (Act 382)"
+
 
 # ============================================================
-# 3. SEARCH / ASSISTANT AI
+# BUCKET 3 · 健身行业（13 来源）
+# weight ≥ 3 全收
 # ============================================================
-search_assistants:
-  - name: Perplexity Blog
-    type: web
-    url: https://www.perplexity.ai/hub/blog
-    weight: 5
-    tags: [search, consumer]
-  - name: You.com
-    type: web
-    url: https://you.com/blog
-    weight: 2
-    tags: [search]
-  - name: Phind
-    type: web
-    url: https://www.phind.com/blog
-    weight: 2
-    tags: [search, dev]
-  - name: Genspark
-    type: web
-    url: https://www.genspark.ai/
-    weight: 3
-    tags: [search]
+fitness:
+
+  industry:
+    - name: Health & Fitness Association（前 IHRSA 后身）
+      type: web
+      url: https://www.healthandfitness.org/
+      weight: 5
+      tags: [fitness, industry, global]
+      note: "全球健身房行业第一权威 · Fitcom 直接相关"
+
+  wearables_tech:
+    - name: WHOOP Press Center
+      type: web
+      url: https://www.whoop.com/us/en/press-center/
+      weight: 4
+      tags: [fitness, wearable]
+    - name: Oura Blog
+      type: web
+      url: https://ouraring.com/blog/
+      weight: 4
+      tags: [fitness, wearable]
+    - name: Strava Stories
+      type: web
+      url: https://stories.strava.com/
+      weight: 3
+      tags: [fitness, social]
+    - name: Garmin Newsroom
+      type: web
+      url: https://www.garmin.com/en-US/newsroom/
+      weight: 3
+      tags: [fitness, wearable]
+    - name: Future (AI coaching)
+      type: web
+      url: https://www.future.co/blog
+      weight: 3
+      tags: [fitness, ai-coaching]
+    - name: Tonal (smart strength)
+      type: web
+      url: https://www.tonal.com/blog/
+      weight: 2
+      tags: [fitness]
+
+  policy_government:
+    - name: KBS Malaysia · 青体部
+      type: web
+      url: https://www.kbs.gov.my/
+      weight: 5
+      tags: [fitness, policy, malaysia, government]
+    - name: KKM Malaysia · 卫生部
+      type: web
+      url: https://www.moh.gov.my/
+      weight: 4
+      tags: [fitness, policy, malaysia, government, health]
+    - name: SportSG · 新加坡体育理事会
+      type: web
+      url: https://www.sportsingapore.gov.sg/
+      weight: 4
+      tags: [fitness, policy, singapore, government]
+    - name: WHO · Physical Activity
+      type: web
+      url: https://www.who.int/health-topics/physical-activity
+      weight: 4
+      tags: [fitness, policy, intl]
+    - name: CDC · Physical Activity
+      type: web
+      url: https://www.cdc.gov/physical-activity/index.html
+      weight: 3
+      tags: [fitness, policy, us]
+    - name: Sport Australia
+      type: web
+      url: https://www.sportaus.gov.au/
+      weight: 2
+      tags: [fitness, policy, australia, government]
+
 
 # ============================================================
-# 4. CODING AGENTS / DEV TOOLS
+# BUCKET 4 · 股市持仓 + IPO（9 来源）
+# 个人投资 · 跟 Fitcom 无关 · 重大事件级（季报 / M&A / 派息 / 法律调查 / IPO）
+# weight ≥ 3 全收
 # ============================================================
-coding_agents:
-  - name: Cursor Changelog
-    type: web
-    url: https://www.cursor.com/changelog
-    weight: 5
-    tags: [coding, dev]
-  - name: Claude Code Changelog
-    type: web
-    url: https://docs.claude.com/en/release-notes/claude-code
-    weight: 5
-    tags: [coding, dev]
-  - name: GitHub Copilot Blog
-    type: web
-    url: https://github.blog/category/ai-and-ml/
-    weight: 4
-    tags: [coding, dev]
-  - name: Cline (GitHub releases)
-    type: github
-    url: https://github.com/cline/cline/releases
-    weight: 3
-    tags: [coding, dev, opensource]
-  - name: Aider
-    type: web
-    url: https://aider.chat/HISTORY.html
-    weight: 3
-    tags: [coding, dev, opensource]
-  - name: OpenAI Codex
-    type: web
-    url: https://openai.com/codex/
-    weight: 4
-    tags: [coding, dev]
+stocks:
+
+  exchange_regulator:
+    - name: Bursa Malaysia · 公告页
+      type: web
+      url: https://www.bursamalaysia.com/market_information/announcements/company_announcement
+      weight: 5
+      tags: [stocks, klse, official]
+      needs_browser_ua: true
+      note: "覆盖 Maybank 1155 / Oriental Kopi 5302 / Mr.DIY 5296 / YTL POWR 6742 / CIMB 1023"
+      filter_stock_codes: ["1155", "5302", "5296", "6742", "1023"]
+    - name: Securities Commission Malaysia · Press
+      type: web
+      url: https://www.sc.com.my/resources/media/media-release
+      weight: 5
+      tags: [stocks, official, regulator]
+      note: "监管动作 + 新 IPO prospectus 发布"
+    - name: Bursa IPO Calendar
+      type: web
+      url: https://www.bursamalaysia.com/listing/listing_resources/ipo_summary
+      weight: 4
+      tags: [stocks, ipo, klse]
+      needs_browser_ua: true
+      note: "大马新 IPO 上市前预告"
+    - name: SEC EDGAR · S-1 Filings
+      type: web
+      url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&type=S-1&dateb=&owner=include&count=40
+      weight: 4
+      tags: [stocks, ipo, us]
+      needs_browser_ua: true
+      note: "全球高潜 IPO（美股）· S-1 = 美股 IPO 招股书"
+    - name: S&P Global Indices · News
+      type: web
+      url: https://www.spglobal.com/spdji/en/index-news-and-announcements/
+      weight: 4
+      tags: [stocks, sp500]
+      needs_browser_ua: true
+      note: "S&P500 指数变动 / rebalance"
+
+  holdings_ir:
+    - name: Maybank Investor Relations
+      type: web
+      url: https://www.maybank.com/en/about-us/investor-relations.page
+      weight: 5
+      tags: [stocks, klse, holding, mbb]
+    - name: Mr DIY Corporate
+      type: web
+      url: https://corporate.mrdiy.com/
+      weight: 5
+      tags: [stocks, klse, holding, mrdiy]
+    - name: YTL Power International
+      type: web
+      url: https://www.ytlpowerinternational.com/
+      weight: 5
+      tags: [stocks, klse, holding, ytlpower]
+      needs_browser_ua: true
+    - name: CIMB Investor Relations
+      type: web
+      url: https://www.cimb.com/en/investor-relations.html
+      weight: 5
+      tags: [stocks, klse, holding, cimb]
+  # Oriental Kopi（5302）IR 页未稳定 · 暂用 Bursa 公告覆盖 · IR 上线后补
+
 
 # ============================================================
-# 5. AGENT BUILDERS / 一键建站 / no-code AI
+# Daily brief 输出规则（routine prompt 读这段）
 # ============================================================
-agent_builders:
-  - name: v0 by Vercel
-    type: web
-    url: https://v0.dev/changelog
-    weight: 4
-    tags: [builder, web]
-  - name: Lovable
-    type: web
-    url: https://lovable.dev/blog
-    weight: 4
-    tags: [builder, web]
-  - name: Bolt.new (StackBlitz)
-    type: web
-    url: https://bolt.new/
-    weight: 3
-    tags: [builder, web]
-  - name: Replit
-    type: web
-    url: https://blog.replit.com/
-    weight: 3
-    tags: [builder, dev]
-  - name: Manus
-    type: web
-    url: https://manus.im/
-    weight: 4
-    tags: [builder, agent, china]
+daily_output:
+  format: "4-section markdown"
+  sections:
+    - bucket: ai
+      heading: "## 1. AI 发展"
+      top_n_min: 5
+      top_n_max: 8
+      weight_threshold: 4
+      empty_label: "无重大"
+    - bucket: my-law
+      heading: "## 2. 大马法律修订"
+      top_n_min: 0
+      top_n_max: 3
+      weight_threshold: 3
+      empty_label: "今日无重大法律修订"
+      highlight_acts: true  # 33 Acts watch list 命中 → 头条加红
+    - bucket: fitness
+      heading: "## 3. 健身行业"
+      top_n_min: 0
+      top_n_max: 3
+      weight_threshold: 3
+      empty_label: "今日无重大健身行业新闻"
+    - bucket: stocks
+      heading: "## 4. 股市持仓 + IPO"
+      top_n_min: 0
+      top_n_max: 5
+      weight_threshold: 3
+      empty_label: "今日无重大持仓 / IPO 动作"
+
 
 # ============================================================
-# 6. IMAGE GENERATION / 图像生成（你强调要全谱）
+# 备注 · 待 Kelvin 评估的扩展（不擅自加）
 # ============================================================
-image_gen:
-  # Midjourney Updates · 2026-04-27 实测 404 删除（URL 失效，无可信替代）
-  # Black Forest Labs (FLUX) · 2026-04-27 实测无新 + redirect bfl.ai 不可靠，删除
-  - name: Recraft
-    type: web
-    url: https://www.recraft.ai/blog
-    weight: 3
-    tags: [image]
-  - name: Ideogram
-    type: web
-    url: https://about.ideogram.ai/
-    weight: 3
-    tags: [image]
-  - name: Krea
-    type: web
-    url: https://www.krea.ai/blog
-    weight: 3
-    tags: [image]
-  - name: Reve
-    type: web
-    url: https://reve.com/
-    weight: 3
-    tags: [image]
-  - name: Imagen (Google DeepMind)
-    type: web
-    url: https://deepmind.google/technologies/imagen/
-    weight: 4
-    tags: [image]
-  - name: Nano Banana (Gemini Image)
-    type: web
-    url: https://blog.google/technology/google-deepmind/
-    weight: 4
-    tags: [image]
-  - name: Stability AI
-    type: web
-    url: https://stability.ai/news
-    weight: 3
-    tags: [image, opensource]
-  - name: Adobe Firefly
-    type: web
-    url: https://www.adobe.com/products/firefly.html
-    weight: 3
-    tags: [image, enterprise]
-
-# ============================================================
-# 7. VIDEO GENERATION / 视频生成
-# ============================================================
-video_gen:
-  - name: OpenAI Sora
-    type: web
-    url: https://openai.com/sora
-    weight: 5
-    tags: [video]
-  - name: Google Veo
-    type: web
-    url: https://deepmind.google/technologies/veo/
-    weight: 5
-    tags: [video]
-  - name: Runway
-    type: web
-    url: https://runwayml.com/research
-    weight: 4
-    tags: [video]
-  - name: Kling (快手)
-    type: web
-    url: https://klingai.com/
-    weight: 4
-    tags: [video, china]
-  - name: Hailuo (MiniMax)
-    type: web
-    url: https://hailuoai.video/
-    weight: 4
-    tags: [video, china]
-  - name: Luma Dream Machine
-    type: web
-    url: https://lumalabs.ai/blog
-    weight: 3
-    tags: [video]
-  - name: Pika
-    type: web
-    url: https://pika.art/
-    weight: 3
-    tags: [video]
-  - name: Tencent Hunyuan Video
-    type: web
-    url: https://hunyuan.tencent.com/modelSquare/home/list
-    weight: 3
-    tags: [video, china, opensource]
-  - name: Alibaba Wan
-    type: web
-    url: https://wanxai.com/
-    weight: 3
-    tags: [video, china, opensource]
-  - name: Genmo Mochi
-    type: web
-    url: https://www.genmo.ai/blog
-    weight: 2
-    tags: [video, opensource]
-
-# ============================================================
-# 8. VOICE / AUDIO / MUSIC
-# ============================================================
-voice_audio:
-  - name: ElevenLabs Blog
-    type: web
-    url: https://elevenlabs.io/blog
-    weight: 4
-    tags: [voice]
-  - name: OpenAI Voice / Realtime
-    type: web
-    url: https://openai.com/index/introducing-the-realtime-api/
-    weight: 4
-    tags: [voice]
-  - name: Suno
-    type: web
-    url: https://suno.com/blog
-    weight: 3
-    tags: [music]
-  - name: Udio
-    type: web
-    url: https://www.udio.com/blog
-    weight: 3
-    tags: [music]
-  - name: Cartesia
-    type: web
-    url: https://cartesia.ai/blog
-    weight: 3
-    tags: [voice]
-  - name: Hume AI
-    type: web
-    url: https://www.hume.ai/blog
-    weight: 2
-    tags: [voice, emotion]
-  - name: Sesame
-    type: web
-    url: https://www.sesame.com/research
-    weight: 3
-    tags: [voice]
-
-# ============================================================
-# 9. ROBOTICS / EMBODIED AI / 机器人
-# ============================================================
-robotics:
-  - name: Figure AI
-    type: web
-    url: https://www.figure.ai/news
-    weight: 4
-    tags: [robotics]
-  - name: 1X
-    type: web
-    url: https://www.1x.tech/discover
-    weight: 4
-    tags: [robotics]
-  - name: Tesla Optimus
-    type: x_handle
-    url: https://x.com/Tesla_Optimus
-    weight: 3
-    tags: [robotics]
-  - name: Physical Intelligence (π)
-    type: web
-    url: https://www.physicalintelligence.company/blog
-    weight: 4
-    tags: [robotics]
-  - name: Skild AI
-    type: web
-    url: https://www.skild.ai/
-    weight: 3
-    tags: [robotics]
-  - name: Boston Dynamics
-    type: web
-    url: https://bostondynamics.com/blog/
-    weight: 2
-    tags: [robotics]
-  - name: 宇树 Unitree
-    type: web
-    url: https://www.unitree.com/news
-    weight: 3
-    tags: [robotics, china]
-
-# ============================================================
-# 10. HARDWARE / CHIPS / 算力
-# ============================================================
-hardware:
-  - name: Nvidia Blog
-    type: web
-    url: https://blogs.nvidia.com/blog/category/deep-learning/
-    weight: 5
-    tags: [hardware]
-  - name: AMD AI
-    type: web
-    url: https://www.amd.com/en/blogs/ai.html
-    weight: 3
-    tags: [hardware]
-  - name: Groq
-    type: web
-    url: https://groq.com/blog/
-    weight: 3
-    tags: [hardware, inference]
-  - name: Cerebras
-    type: web
-    url: https://www.cerebras.net/blog/
-    weight: 3
-    tags: [hardware]
-  - name: Tenstorrent
-    type: web
-    url: https://tenstorrent.com/blog
-    weight: 2
-    tags: [hardware]
-
-# ============================================================
-# 11. M&A / 融资 / 大牌跳槽（你今天点名要的）
-# ============================================================
-ma_funding_talent:
-  - name: The Information AI
-    type: web
-    url: https://www.theinformation.com/topics/artificial-intelligence
-    weight: 5
-    tags: [news, mna, paywall]
-  - name: Crunchbase AI Deals
-    type: web
-    url: https://news.crunchbase.com/sections/ai/
-    weight: 4
-    tags: [funding]
-  - name: 36kr AI
-    type: web
-    url: https://36kr.com/information/AI
-    weight: 4
-    tags: [news, china, funding]
-  - name: PitchBook AI
-    type: web
-    url: https://pitchbook.com/news/topics/artificial-intelligence
-    weight: 3
-    tags: [funding, mna]
-
-# ============================================================
-# 12. 综合新闻 / 行业评论
-# ============================================================
-news_analysis:
-  - name: Stratechery (Ben Thompson)
-    type: rss
-    url: https://stratechery.com/feed/
-    weight: 5
-    tags: [analysis]
-  - name: Latent Space (swyx)
-    type: rss
-    url: https://www.latent.space/feed
-    weight: 5
-    tags: [analysis, dev]
-  - name: Import AI (Jack Clark)
-    type: rss
-    url: https://importai.substack.com/feed
-    weight: 4
-    tags: [analysis, policy]
-  - name: Ben's Bites
-    type: rss
-    url: https://bensbites.com/feed
-    weight: 3
-    tags: [news, daily]
-  - name: TLDR AI
-    type: web
-    url: https://tldr.tech/ai
-    weight: 3
-    tags: [news, daily]
-  - name: Smol AI Daily
-    type: rss
-    url: https://buttondown.com/ainews/rss
-    weight: 4
-    tags: [news, daily, dev]
-  - name: Last Week in AI
-    type: rss
-    url: https://lastweekin.ai/feed
-    weight: 3
-    tags: [news, weekly]
-
-# ============================================================
-# 13. X / TWITTER 核心账号
-# ============================================================
-x_handles:
-  - name: Sam Altman
-    type: x_handle
-    url: https://x.com/sama
-    weight: 5
-    tags: [people, openai]
-  - name: Dario Amodei
-    type: x_handle
-    url: https://x.com/DarioAmodei
-    weight: 5
-    tags: [people, anthropic]
-  - name: Andrej Karpathy
-    type: x_handle
-    url: https://x.com/karpathy
-    weight: 5
-    tags: [people, edu]
-  - name: Demis Hassabis
-    type: x_handle
-    url: https://x.com/demishassabis
-    weight: 5
-    tags: [people, deepmind]
-  - name: Yann LeCun
-    type: x_handle
-    url: https://x.com/ylecun
-    weight: 4
-    tags: [people, meta]
-  - name: Ilya Sutskever
-    type: x_handle
-    url: https://x.com/ilyasut
-    weight: 4
-    tags: [people, ssi]
-  - name: Mira Murati
-    type: x_handle
-    url: https://x.com/miramurati
-    weight: 4
-    tags: [people]
-  - name: Greg Brockman
-    type: x_handle
-    url: https://x.com/gdb
-    weight: 4
-    tags: [people, openai]
-  - name: Elon Musk
-    type: x_handle
-    url: https://x.com/elonmusk
-    weight: 2
-    tags: [people, xai, tesla]
-    note: "降权：政治/营销噪音多，只在他亲自发 xAI 产品消息时上 brief"
-  - name: swyx
-    type: x_handle
-    url: https://x.com/swyx
-    weight: 4
-    tags: [people, dev]
-  - name: Logan Kilpatrick
-    type: x_handle
-    url: https://x.com/OfficialLoganK
-    weight: 3
-    tags: [people, google]
-
-# ============================================================
-# 14. FORUMS / SOCIAL
-# ============================================================
-forums:
-  - name: Hacker News (AI front page)
-    type: hn
-    url: https://hn.algolia.com/?query=AI&sort=byDate
-    weight: 4
-    tags: [forum]
-  - name: r/LocalLLaMA
-    type: reddit
-    url: https://www.reddit.com/r/LocalLLaMA/top.json?t=day
-    weight: 4
-    tags: [forum, opensource]
-  # 砍：r/singularity、r/OpenAI 谣言/推测/粉丝向太多，不符合真实性原则（2026-04-26 Kelvin 定）
-  - name: r/ClaudeAI
-    type: reddit
-    url: https://www.reddit.com/r/ClaudeAI/top.json?t=day
-    weight: 2
-    tags: [forum, technical]
-
-# ============================================================
-# 15. OPEN SOURCE TRENDS
-# ============================================================
-opensource_trends:
-  - name: HuggingFace Trending
-    type: web
-    url: https://huggingface.co/models?sort=trending
-    weight: 4
-    tags: [opensource]
-  - name: HuggingFace Daily Papers
-    type: web
-    url: https://huggingface.co/papers
-    weight: 3
-    tags: [research]
-  - name: GitHub Trending AI
-    type: web
-    url: https://github.com/trending?since=daily&spoken_language_code=
-    weight: 3
-    tags: [opensource]
-  - name: Papers with Code Trending
-    type: web
-    url: https://paperswithcode.com/
-    weight: 2
-    tags: [research]
-  - name: arXiv cs.AI Recent
-    type: arxiv
-    url: https://arxiv.org/list/cs.AI/recent
-    weight: 3
-    tags: [research, primary_source]
-    note: "一手论文，最权威。摘要时挑大 lab 出品的"
-
-# ============================================================
-# 16. 医疗 AI（2026-04-26 Kelvin 加）
-# ============================================================
-medical_ai:
-  - name: Microsoft Healthcare AI
-    type: web
-    url: https://blogs.microsoft.com/blog/category/health/
-    weight: 4
-    tags: [vertical, medical]
-  - name: Google Health AI
-    type: web
-    url: https://blog.google/technology/health/
-    weight: 4
-    tags: [vertical, medical]
-  - name: Hippocratic AI
-    type: web
-    url: https://www.hippocraticai.com/news
-    weight: 4
-    tags: [vertical, medical]
-  - name: NVIDIA Clara / Healthcare
-    type: web
-    url: https://blogs.nvidia.com/blog/category/healthcare/
-    weight: 3
-    tags: [vertical, medical]
-  - name: Tempus AI
-    type: web
-    url: https://www.tempus.com/news/
-    weight: 3
-    tags: [vertical, medical]
-  - name: STAT News · Health Tech
-    type: web
-    url: https://www.statnews.com/category/health-tech/
-    weight: 3
-    tags: [vertical, medical, news]
-
-# ============================================================
-# 17. 健身 AI（2026-04-26 Kelvin 加 · 跟 Fitcom 直接相关）
-# ============================================================
-fitness_ai:
-  - name: WHOOP Press Center
-    type: web
-    url: https://www.whoop.com/us/en/press-center/
-    weight: 4
-    tags: [vertical, fitness, wearable]
-    # 2026-04-27 改：原 /blog/ 已 404，press-center 实测可用
-  - name: Oura Blog
-    type: web
-    url: https://ouraring.com/blog/
-    weight: 4
-    tags: [vertical, fitness, wearable]
-  # Apple Health / Watch Updates · 2026-04-27 实测 newsroom/health 路径 404 删除
-  # 替代：apple.com/newsroom 主页可抓但 noise 太多，需筛 health tag — 不加
-  - name: Strava Stories
-    type: web
-    url: https://stories.strava.com/
-    weight: 3
-    tags: [vertical, fitness]
-  - name: Garmin Newsroom
-    type: web
-    url: https://www.garmin.com/en-US/newsroom/
-    weight: 3
-    tags: [vertical, fitness, wearable]
-  - name: Future (AI coaching)
-    type: web
-    url: https://www.future.co/blog
-    weight: 3
-    tags: [vertical, fitness, coaching]
-  - name: Tonal (smart strength)
-    type: web
-    url: https://www.tonal.com/blog/
-    weight: 2
-    tags: [vertical, fitness]
-
-# ============================================================
-# 18. LEGAL AI · 法律 AI（Kelvin 2026-04-28 加）
-# ============================================================
-legal_ai:
-  - name: Stanford CodeX (Center for Legal Informatics)
-    type: web
-    url: https://law.stanford.edu/codex-the-stanford-center-for-legal-informatics/
-    weight: 4
-    tags: [vertical, legal, academic]
-  - name: Artificial Lawyer
-    type: web
-    url: https://www.artificiallawyer.com/
-    weight: 4
-    tags: [vertical, legal, news]
-  - name: LawNext (Robert Ambrogi)
-    type: web
-    url: https://www.lawnext.com/
-    weight: 3
-    tags: [vertical, legal, blog]
-  - name: Harvard Berkman Klein Center
-    type: web
-    url: https://cyber.harvard.edu/
-    weight: 3
-    tags: [vertical, legal, academic, policy]
-  - name: ABA Journal · Legal Technology
-    type: web
-    url: https://www.abajournal.com/topic/legal-technology
-    weight: 3
-    tags: [vertical, legal]
-
-# ============================================================
-# 19. EDUCATION AI · 教育 AI（Kelvin 2026-04-28 加）
-# ============================================================
-education_ai:
-  - name: EdSurge News
-    type: web
-    url: https://www.edsurge.com/news
-    weight: 4
-    tags: [vertical, education, news]
-  - name: The Hechinger Report
-    type: web
-    url: https://hechingerreport.org/
-    weight: 4
-    tags: [vertical, education, news]
-  - name: UNESCO · AI in Education
-    type: web
-    url: https://www.unesco.org/en/digital-education/artificial-intelligence
-    weight: 4
-    tags: [vertical, education, policy, intl]
-  - name: WEF · Education & Skills
-    type: web
-    url: https://www.weforum.org/agenda/education-and-skills/
-    weight: 3
-    tags: [vertical, education, policy, intl]
-  - name: MIT Open Learning
-    type: web
-    url: https://openlearning.mit.edu/news
-    weight: 3
-    tags: [vertical, education, academic]
-
-# ============================================================
-# 20. SPORTS / FITNESS POLICY · 政府对运动相关政策（Kelvin 2026-04-28 加）
-# 重点：Malaysia 本地优先 + 邻国对比 + 国际权威
-# ============================================================
-sports_policy:
-  - name: Kementerian Belia dan Sukan Malaysia (KBS)
-    type: web
-    url: https://www.kbs.gov.my/
-    weight: 5
-    tags: [policy, sports, malaysia, government]
-  - name: Sport Singapore (SportSG)
-    type: web
-    url: https://www.sportsingapore.gov.sg/newsroom
-    weight: 4
-    tags: [policy, sports, singapore, government]
-  - name: WHO · Physical Activity
-    type: web
-    url: https://www.who.int/health-topics/physical-activity
-    weight: 4
-    tags: [policy, health, fitness, intl]
-  # IHRSA · Industry News & Policy · 2026-04-27 实测 redirect 后 404 删除
-  # IHRSA 已 rebrand 为 Health & Fitness Association · 新域名 healthandfitness.org 路径未确认，先不加
-  - name: CDC · Physical Activity
-    type: web
-    url: https://www.cdc.gov/physical-activity/index.html
-    weight: 3
-    tags: [policy, health, fitness, us]
-  - name: Sport Australia
-    type: web
-    url: https://www.sportaus.gov.au/news
-    weight: 2
-    tags: [policy, sports, australia, government]
-
-# ============================================================
-# 待 Kelvin 补的
-# ============================================================
-# - 中文公众号（你日常追的几个）
-# - 微博 / 知乎 / 小红书 上 KOL（如果你追）
+# - Oriental Kopi IR 页正式上线后补
+# - 中文媒体（中国报 / 星洲日报 法律版）— 半官方解读，砍 / 留？
+# - Fitcom 内部竞品 watch（Anytime / Planet / F45）→ 另起 watch，不进 Kenyalang
+# - X handle / forum 不进（要官方 + 砍谣言原则）
