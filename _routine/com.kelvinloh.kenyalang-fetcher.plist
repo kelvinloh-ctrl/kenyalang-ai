@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <!-- Kenyalang.AI · B2 · Mac launchd 每天 MYT 6:30am 跑 fetcher
+       为什么 6:30am：给 7am routine 30 分钟 buffer · 确保 candidates 已 push 到 GitHub -->
+
+  <key>Label</key>
+  <string>com.kelvinloh.kenyalang-fetcher</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/Users/kelvin/Desktop/Kelvin-Brain/kenyalang-ai/_routine/run-fetcher-local.sh</string>
+  </array>
+
+  <!-- MYT 6:30am · launchd 用本机时区 · 你 Mac 是 Asia/Kuala_Lumpur 直接写 6:30 -->
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Hour</key>
+    <integer>6</integer>
+    <key>Minute</key>
+    <integer>30</integer>
+  </dict>
+
+  <!-- 如果 Mac 在睡眠中 · 醒来后会 catch up 跑一次（不会跑多次）-->
+  <key>RunAtLoad</key>
+  <false/>
+
+  <!-- 错过了的 schedule 醒来后补跑 -->
+  <key>StartCalendarIntervalRunInBackground</key>
+  <true/>
+
+  <!-- 路径与 PATH -->
+  <key>WorkingDirectory</key>
+  <string>/Users/kelvin/Desktop/Kelvin-Brain/kenyalang-ai</string>
+
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key>
+    <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
+    <key>HOME</key>
+    <string>/Users/kelvin</string>
+  </dict>
+
+  <key>StandardOutPath</key>
+  <string>/Users/kelvin/Library/Logs/kenyalang-fetcher.stdout.log</string>
+
+  <key>StandardErrorPath</key>
+  <string>/Users/kelvin/Library/Logs/kenyalang-fetcher.stderr.log</string>
+</dict>
+</plist>
