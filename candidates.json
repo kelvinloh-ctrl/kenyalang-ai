@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-05-04T12:10:48+0000",
+  "generated_at": "2026-05-05T04:47:54+0000",
   "fetch_summary": {
     "total_sources": 111,
-    "fetched_200": 95,
+    "fetched_200": 96,
     "fetched_4xx_5xx": 14,
-    "fetched_err": 2,
-    "deduped": 213,
-    "candidates_count": 2,
+    "fetched_err": 1,
+    "deduped": 208,
+    "candidates_count": 9,
     "rss_entries": 69,
-    "subpages_fetched": 69,
+    "subpages_fetched": 70,
     "by_bucket": {
-      "ai": 2,
-      "my-law": 0,
+      "ai": 8,
+      "my-law": 1,
       "fitness": 0,
       "stocks": 0
     }
@@ -20,46 +20,131 @@
     "ai": [
       {
         "bucket": "ai",
-        "subcategory": "news_analysis",
-        "source_name": "Stratechery (Ben Thompson) (RSS entry)",
-        "url": "https://stratechery.com/2026/google-earnings-meta-earnings/",
+        "subcategory": "frontier_labs",
+        "source_name": "OpenAI Blog (RSS entry)",
+        "url": "https://openai.com/index/openai-pwc-finance-collaboration",
         "weight": 5,
-        "title": "Google Earnings, Meta Earnings",
-        "content_excerpt": "Wall Street loved Google's earnings, and hated Meta's, even though the latter's core business was more impressive. The difference is that Google is monetizing its investments now (and it might be all Anthropic).",
-        "fetched_at": "2026-05-04T12:10:27+0000",
-        "published": "Mon, 04 May 2026 10:00:00 +0000",
+        "title": "OpenAI and PwC collaborate to reimagine the office of the CFO",
+        "content_excerpt": "OpenAI and PwC are partnering to help enterprises use AI agents to automate finance workflows, improve forecasting, strengthen controls, and modernize the CFO function.",
+        "fetched_at": "2026-05-05T04:47:33+0000",
+        "published": "Mon, 04 May 2026 21:00:00 GMT",
         "candidate_type": "rss_entry",
-        "parent_feed": "https://stratechery.com/feed/",
-        "url_hash": "0015de2b76af7132"
+        "parent_feed": "https://openai.com/blog/rss.xml",
+        "url_hash": "2b843178b595da18"
+      },
+      {
+        "bucket": "ai",
+        "subcategory": "frontier_labs",
+        "source_name": "OpenAI Blog (RSS entry)",
+        "url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
+        "weight": 5,
+        "title": "How OpenAI delivers low-latency voice AI at scale",
+        "content_excerpt": "How OpenAI rebuilt its WebRTC stack to power real-time Voice AI with low latency, global scale, and seamless conversational turn-taking.",
+        "fetched_at": "2026-05-05T04:47:33+0000",
+        "published": "Mon, 04 May 2026 00:00:00 GMT",
+        "candidate_type": "rss_entry",
+        "parent_feed": "https://openai.com/blog/rss.xml",
+        "url_hash": "5c3d93bd7160f244"
+      },
+      {
+        "bucket": "ai",
+        "subcategory": "news_analysis",
+        "source_name": "Latent Space (swyx) (RSS entry)",
+        "url": "https://www.latent.space/p/ainews-the-other-vs-the-utility",
+        "weight": 5,
+        "title": "[AINews] The Other vs The Utility",
+        "content_excerpt": "a quiet day lets us reflect on the nature of AI \"character\" in the Clippy vs Anton debate",
+        "fetched_at": "2026-05-05T04:47:40+0000",
+        "published": "Mon, 04 May 2026 23:29:05 GMT",
+        "candidate_type": "rss_entry",
+        "parent_feed": "https://www.latent.space/feed",
+        "url_hash": "6f8c09997ee6da2b"
+      },
+      {
+        "bucket": "ai",
+        "subcategory": "coding_agents",
+        "source_name": "Cursor Changelog → May 4, 2026",
+        "url": "https://cursor.com/changelog/05-04-26",
+        "weight": 5,
+        "title": "Model controls, spend management, and usage analytics · Cursor",
+        "content_excerpt": "Model controls, spend management, and usage analytics · Cursor Skip to content Cursor Product ↓ Agents Code Review Cloud ↗ Tab CLI Marketplace ↗ Enterprise Pricing Resources ↓ Changelog Blog Docs Community Help ↗ Workshops Forum ↗ Careers Product → Enterprise Pricing Resources → Sign in Contact Contact sales Download May 4, 2026 · Changelog Changelog Model controls, spend management, and usage analytics This release introduces updates for Enterprise admins: a new system for model controls, updated spend management, and more detail for usage analytics. # Model access controls Admins can now set more granular allow or blocklists at the model and provider level. You can block entire providers or specific model configurations for speed and context window size. Enterprises also have the option to block new providers or model versions by default. Customers with existing blocklists will need to migrate to the new system by June 1st. Admins should go to their team model settings in the Cursor dashboard to get started. # Soft spend limits and intelligent alerts Admins can now set soft limits instead of hard limits to avoid blocking users. Cursor can also monitor usage and sends automatic alerts to users reaching 50%, 80%, and 100% of their soft or hard limits. This keeps users productive while giving admins and users visibility into consumption patterns. Go to the spend management settings in the Cursor dashboard to get started. # Updated usage analytics tab Admins can now filter usage by specific users, or break it down by product surface: clients, Cloud Agents, automations, Bugbot, and Security Review. Go to the usage analytics tab in the Cursor dashboard to get started. Next post → Team Marketplace Updates Product Agents Enterprise Pricing Code Review Tab CLI Cloud Agents Marketplace ↗ Resources Download Changelog Docs Learn ↗ Forum ↗ Help ↗ Workshops Status ↗ Company Careers Blog Community Students Brand Future Anysphere ↗ Legal Terms of Service Privacy Policy Data Use S",
+        "fetched_at": "2026-05-05T04:47:47+0000",
+        "candidate_type": "subpage",
+        "parent_url": "https://cursor.com/changelog",
+        "url_hash": "bd786e990d6acb13"
+      },
+      {
+        "bucket": "ai",
+        "subcategory": "news_analysis",
+        "source_name": "Import AI (Jack Clark) (RSS entry)",
+        "url": "https://importai.substack.com/p/import-ai-455-automating-ai-research",
+        "weight": 4,
+        "title": "Import AI 455: AI systems are about to start building themselves.",
+        "content_excerpt": "The first step towards recursive self improvement",
+        "fetched_at": "2026-05-05T04:47:40+0000",
+        "published": "Mon, 04 May 2026 12:32:09 GMT",
+        "candidate_type": "rss_entry",
+        "parent_feed": "https://importai.substack.com/feed",
+        "url_hash": "9d0d8e3d8780f69e"
       },
       {
         "bucket": "ai",
         "subcategory": "ma_funding",
-        "source_name": "36kr AI → 豆包将在免费模式外新增付费订阅，推出三档月包/年包价格｜最前线",
-        "url": "https://36kr.com/p/3794799114476809",
+        "source_name": "36kr AI → 字节腾讯扎堆入局AI恋陪，女性向游戏要变天？",
+        "url": "https://36kr.com/p/3795122931817730",
         "weight": 4,
-        "title": "豆包将在免费模式外新增付费订阅，推出三档月包/年包价格｜最前线-36氪",
-        "content_excerpt": "豆包将在免费模式外新增付费订阅，推出三档月包/年包价格｜最前线-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 城市 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 豆包将在免费模式外新增付费订阅，推出三档月包/年包价格｜最前线 李小霞 · 2026年05月04日 17:49 相关方案细节目前还在测试阶段，正式上线时会通过官方渠道发布完整信息。 近日，豆包App Store页面出现付费版本服务声明。声明称，为更好地服务专业用户，豆包将在免费版的基础上，推出包含更多增值服务的付费版本。同时，该页面还披露了三档订阅价格：标准版连续包月每月68元（连续包年688元）、加强版连续包月每月200元（连续包年2048元）、专业版连续包月每月500元（连续包年5088元）。 豆包 目前，尚未在豆包产品中看到相关的付费选项和功能。豆包官方回应称，“豆包始终提供免费服务，在免费服务的基础上，豆包也在探索推出更多增值服务，以满足不同用户的差异化需求。相关方案细节目前还在测试阶段，正式上线时会通过官方渠道发布完整信息。” 据接近豆包的人士透露，付费功能将主要专注在复杂任务和生产力场景，如PPT生成、数据分析、影视制作等。随着模型能力持续升级，产品已经能满足越来越多的复杂高价值任务。但此类任务需消耗更多算力与推理时间，因此豆包计划上线付费服务，满足好这部分复杂场景需求。免费版本则继续面向用户的日常使用。 本文由「 李小霞 」原创出品， 转载或内容合作请点击 转载说明 ；违规转载必究。 寻求报道 本文图片来自： 视觉中国 +1 23 好文章，需要你的鼓励 李小霞 资深作者 8 收 藏 +1 0 评 论 打开微信“扫一扫”，打开网页后点击屏幕右上角分享按钮 微 博 沉浸阅读 返回顶部 举报 参与评论 评论千万条，友善第一条 登录 后参与讨论 提交评论 0/1000 你可能也喜欢这些文章 这个五一，年轻人“反向旅行”挤爆县城 1.5亿钓鱼佬，终于拿起了国产高级钓竿 被点名批评的5A景区，终于吃到了点苦头 周杰伦伙伴，要被卖了 茶颜悦色 , 装不下去了 五一吃喝玩乐变贵了？错——是你买的东西变了 AI抢走了你的内存条 9.35万, 威马破产大甩卖 续集没翻车 ，但这次“女魔头”也顶不住了 李小霞 资深作者 欢迎交流：xhht100，关注拼多多/字节及大消费 发表文章 296 篇 最近内容 豆包将在免费模式外新增付费订阅，推出三档月包/年包价格｜最前线 2小时前 错过第一波投影上市潮后，索诺克想靠「枭龙系列」实现超车｜项目报道 2026-04-30 泡泡玛特胡健：盈利不是乐园现阶段最重要的事 2026-04-29 阅读更多内容，狠戳这里 下一篇 “今日头条鼻祖”BuzzFeed要破产了 最后致命一击，来自AI。 4小时前 关于36氪 城市合作 寻求报道 我要入驻 投资者关系 商务合作 关于我们 联系我们 加入我们 36氪欧洲站 36氪欧洲站 36氪欧洲站 Ai产品日报 网络谣言信息举报入口 热门推荐 热门资讯 热门产品 文章标签 快讯标签 合作伙伴 36氪APP下载 iOS & Android 本站由 阿里云 提供计算与安全服务 违法和不良信息、未成年人保护举报电话：010-89650707 举报邮箱：jubao@36kr.com 网上有害信息举报 © 2011~ 2026 北京多氪信息科技有限公司 | 京ICP备12031756号-6 | 京ICP证150143号 | 京公网安备11010502057322号 意见反馈 36氪APP 让一部分人先看到未来 36氪 鲸准 氪空间 推送和解读前沿、有料的科技创投资讯 一级市场金融信息和系统服务提供商 聚焦全球优秀创业者，项目融资率接近97%，领跑行业",
-        "fetched_at": "2026-05-04T12:10:39+0000",
+        "title": "字节腾讯扎堆入局AI恋陪，女性向游戏要变天？-36氪",
+        "content_excerpt": "字节腾讯扎堆入局AI恋陪，女性向游戏要变天？-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 城市 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 字节腾讯扎堆入局AI恋陪，女性向游戏要变天？ Tech星球 · 2026年05月05日 08:55 大厂布局新赛道。 游戏界打开AI新市场，作为近年来异军突起的女性向游戏赛道同样也开始引入AI。 女性向游戏已经在大众视野中崭露头角。伽马数据发布的《女性向游戏调研报告》显示，女性向游戏近年来成为游戏产业增长最快的赛道，展现出显著的商业潜力与市场拉动作用。2024年中国女性向游戏市场规模达80亿元，同比提升124.1%，增速远超行业平均水平。 从去年起，腾讯、米哈游、网易等游戏巨头公司均开始投入AI游戏，对于近年来各个大厂加速布局的女性向游戏来说，拥抱AI也成了大势所趋。用户体验和个性化定制是女性向游戏的重中之重，AI的长期记忆和精准输出完美适配了这类游戏的需求。 因此，女性向游戏其实早已注意到了这个风口，在AI文游和AI陪聊方面耕耘已久。去年年底开始，更是掀起了一大批3D AI乙游的风潮，成为不少创业公司的新选择。大厂也加速布局AI女性向游戏。 女性向游戏，是否已经全面走向AI恋爱陪伴时代？ 01 大厂扎堆布局 在女性向游戏突飞猛进的几年中，大厂纷纷下场，基于自己的大模型优势，推出不少AI驱动的产品。这些游戏的受众，不仅包括了传统女性向游戏玩家，更是囊括了多种小众爱好群体，进一步拓展了市场。不过，几个大厂的产品虽然底层逻辑有共通之处，但都有所侧重。 关注该赛道最早的是字节的“猫箱”，于2024年3月12日上线，最初名为“话炉”，同年4月11日更名“猫箱”，由字节内部团队Flow开发，底层则是基于豆包大模型。“猫箱”的内容偏向于AI角色创造与互动，玩家可以通过关键词自定义创建AI角色，并与之对话。 猫箱的收费模式，是典型的免费下载 + “应用内购买”应用，通过“VIP订阅”和“虚拟货币”并行变现。其会员月卡为30元/月，与市面上的传统乙游月卡处在同一水平线，比如恋与深空月卡同样为30元/月。 猫箱上线后的数据，验证了字节布局这一赛道的先见性，七麦数据显示，截止2026年4月29日，累计下载量为2.46亿，2024下半年为其高速增长期 ，用户量曾一路高歌猛进，MAU（月活跃用户）从8月的307万骤增到12月的688万。 但从2025年1月到5月，用户数据曲线开始掉落，苹果端月下载量从1月的264万暴跌至5月的61万，DAU（日活跃用户）也从59万下滑至49万。 基于此现状，猫箱在不断升级用户体验。最开始的“猫箱”更像是一个单纯的AI陪聊软件，但随着大模型技术的不断完善，开创了更多玩法。从最初只有文字对话，升级为语音对话加电话聊天的方式，还上线了故事编辑器和视觉化生成器。 在此之后，2026年1月28日，由金山世游代理的“卿卿我我”App也正式上线，该App是海外产品LoveyDovey的中国版，与猫箱相似，“卿卿我我”也同样偏向人物创作，既有官方角色也有自创角色，主要通过口令创作记忆体。据玩家反馈，“卿卿我我”App在AI记忆力方面一骑绝尘。 与猫箱不同，“卿卿我我”的核心收费逻辑是按聊天的“句数”计费，消耗的虚拟货币叫 “果酱”，发送一条对话消息，需要花费5个果酱，当好感度足够时，查看角色的内心想法，也需要花费5个果酱。 其海外版appLoveyDovey是整个亚洲市场创收效率最高的AI陪伴产品之一，年化订阅收入约 1698万美元，所以“卿卿我我”此前已经积累了一大批粉丝，国内版上线后，初始玩家量相比其他App具有优势，但目前赛道竞争激烈，其商业化之路及能否复制海外版的成功，尚需时间和市场验证。 腾讯于2026年1月上线的“上头蛙”微信小程序，与上述两个产品不一样，它是以AI剧情创作为主，玩家可以通过AI的协作创造出专属的互动剧情，其创作模式包括自由模式、世界模式和CP模式等。 该游戏能够进行脑洞延伸和剧本杀创作，玩家能够制作专属的悬疑故事、无限流剧情等，AI能够为玩家生成随机灵感，也能",
+        "fetched_at": "2026-05-05T04:47:49+0000",
         "candidate_type": "subpage",
         "parent_url": "https://36kr.com/information/AI",
-        "url_hash": "0b3f721897c2d5e8"
+        "url_hash": "a58bca1abfc4c559"
+      },
+      {
+        "bucket": "ai",
+        "subcategory": "ma_funding",
+        "source_name": "36kr AI → 豆包为什么选择了 “最low”的变现方式？",
+        "url": "https://36kr.com/p/3794920946561542",
+        "weight": 4,
+        "title": "豆包为什么选择了 “最low”的变现方式？-36氪",
+        "content_excerpt": "豆包为什么选择了 “最low”的变现方式？-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 城市 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 豆包为什么选择了 “最low”的变现方式？ 超聚焦 · 2026年05月05日 12:05 AI圈总得有人站出来做“恶人” 国民级AI应用，也要收钱了？ 5月3日，据第一财经报道，字节跳动旗下AI应用“豆包”最快将于5月中下旬上线首款付费包月产品。App Store页面显示，付费订阅分为三档：标准版连续包月68元、加强版200元、专业版500元，年费最高达5088元。 针对付费会员，豆包官方回应称，豆包始终提供免费服务，在免费服务的基础上，豆包也在探索推出更多增值服务，相关方案细节目前还在测试阶段。 有接近豆包的人士透露，付费功能将主要专注在复杂任务和生产力场景，如PPT生成、数据分析、影视制作等。随着模型能力持续升级，产品已经能满足越来越多的复杂高价值任务。 但此类任务需消耗更多算力与推理时间，因此豆包计划上线付费服务，满足好这部分复杂场景需求，免费版本则继续面向用户的日常使用。 为何豆包会在这个时点选择试水付费？又能否在保障用户体验的同时，走通商业化的道路？ 01 免费的豆包，字节也养不起了 在互联网时代，月活人数越多代表着可变现的能力越强，大家也都信奉着一条铁律：流量即资产，规模即壁垒 。 一个App只要月活足够高，其边际成本就会随着规模效应无限趋近于零。随之而来的广告、电商、游戏联运等变现手段，足以让企业通过“羊毛出在猪身上”的模式赚得盆满钵满。 但在AI时代，月活人数越多，却可能意味着企业“破产”速度越快，其与移动互联网核心的差异在于“边际成本”。 传统的图文或短视频分发，多一个用户刷新信息流，服务器增加的成本微乎其微；但AI大模型是典型的“重资产、高消耗”模式，每一次对话交互、每一份长文本处理、每一张图片的生成，AI芯片的需求都是线性增长的。 而QuestMobile发布的《2026年3月人工智能洞察》数据显示，字节就是最“负重前行”的那个。 2026年第一季度，国内AI应用季度活跃用户排名里，豆包以3.4亿的绝对优势稳坐头把交椅。排在后面的DeepSeek是1.27亿，元宝5735万，Kimi只有834万。豆包一家的用户量，比后面九名加起来还多。 头部地位听起来风光，但3.4亿活跃用户背后，是每天数以亿计的对话请求。每一次问答、每一次生成，都是实打实的算力消耗。用户越多，烧钱也就越快。 但在AI时代，单纯看“月活用户数”其实已经是一种落后的估值维度了。 用户规模只是表象，真正代表算力消耗、能够衡量大模型运转压力的核心指标，是AI时代的“水电煤”Token。 2024年5月，豆包大模型的日均Token消耗量还只有0.12万亿；而在不到两年之后，这个数字已经狂飙到了惊人的120万亿。短短两年时间，消耗量实现了1000倍的暴涨。 放眼全球，日均Token消耗能够突破“百万亿”级别的，还只有OpenAI和谷歌这样的绝对头部玩家。 而字节凭借豆包成功跻身了全球大模型调用量的“第一梯队”，但也意味着它正在独自承受着堪比硅谷巨头的基础设施成本压力。这对于在国内AI基建有许多掣肘、只能购买相对落后的国产推理卡的字节来说，难度比只要有钱就能买到卡的OA和谷歌高上太多。 此外，这仅仅是国内业务跑出来的数据，完全不包含TikTok及其他海外业务部门的调用。这意味着，字节已经把算力需求拉到了一个极度夸张的水位。 支撑这日均120万亿Token吞吐的，是真金白银的重资产投入。 而到了2026年，大模型的竞争更是进一步从算法比拼，演变成了算力基础设施军备竞赛。 从BAT过去三年的Capex走势图可以看出，三家大厂在2023年的资本开支还相对克制；2024年，随着AI战略的全面铺开，三家的投入开始齐头并进地大幅增长；而到了2025年，字节的Capex就出现了明显超过另外两家友商的增长。 作为一家尚未上市的全球最大超级独角兽，字节跳动不需要像阿里、腾讯那样每个季度都要向公众股东交出利润答卷，也不必因为短",
+        "fetched_at": "2026-05-05T04:47:49+0000",
+        "candidate_type": "subpage",
+        "parent_url": "https://36kr.com/information/AI",
+        "url_hash": "9ea549916529dac6"
+      },
+      {
+        "bucket": "ai",
+        "subcategory": "hardware",
+        "source_name": "AMD Blog → AMD at Dell Technologies World 2026: Built for Enterprise AI",
+        "url": "https://www.amd.com/en/blogs/2026/amd-at-dell-technologies-world-2026-built-for-enterprise-ai.html",
+        "weight": 3,
+        "title": "AMD at Dell Technologies World 2026: Built for Enterprise AI",
+        "content_excerpt": "AMD at Dell Technologies World 2026: Built for Enterprise AI Skip to main content AMD Website Accessibility Statement Products Processors Accelerators Graphics Adaptive SoCs, FPGAs, & SOMs Software, Tools, & Apps Processors Server CPUs EPYC CPU Portfolio Data Center, Cloud & AI Small Business & Hosting Server CPU Specifications Business Systems Ryzen PRO Laptops Ryzen PRO Desktops Workstations PRO Technologies Ryzen AI for Business Personal & Gaming Ryzen Laptops Ryzen Desktops Advantage Gaming Laptops Advantage Gaming Desktops Ryzen Z Series Handhelds Ryzen AI for Consumer Embedded EPYC and Ryzen Partner Ecosystem Resources Product Specifications Enterprise Blogs & Insights Accelerators GPU Accelerators Instinct GPUs Documentation Cloud Graphics Adaptive Accelerators Alveo Data Center Accelerator Cards Telco Accelerator Cards DPU Accelerators Pensando Salina Ethernet Adapters Pensando Pollara 400 Alveo X3 Series Solarflare Adapters Graphics Workstations Radeon PRO Desktops AMD Advantage Premium Radeon RX Laptops AMD Advantage Premium Radeon Mobile Graphics Resources Product Specifications Documentation Adaptive SoCs, FPGAs, & SOMs Adaptive SoCs & FPGAs Versal Portfolio SoC Portfolio FPGA Portfolio Cost-Optimized Portfolio System-on-Modules (SOMs) SOM Overview Kria SOMs KD240 Drives Starter Kit KV260 Vision AI Starter Kit KR260 Robotics Starter Kit Technologies AI Engine Design Security Digital Signal Processing Functional Safety High Speed Serial Memory Solutions Power Efficiency Resources Intellectual Property Design Hubs Developer Hub Customer Training Evaluation Boards & Kits Evaluation Boards Boards & Kits Accessories Software, Tools, & Apps Processor Tools Ryzen Master Overclocking Utility PRO Technologies StoreMI Ryzen AI Software Zen Software Studio Graphics Tools & Apps AMD Software: Adrenalin Edition AMD Software: PRO Edition FidelityFX Radeon ProRender Adaptive SoC & FPGA Tools Design Tools Vivado Software Vitis Software Vitis Model Composer Vitis HLS Vit",
+        "fetched_at": "2026-05-05T04:47:49+0000",
+        "candidate_type": "subpage",
+        "parent_url": "https://www.amd.com/en/blogs.html",
+        "url_hash": "a6c556338a22624b"
       }
     ],
-    "my-law": [],
+    "my-law": [
+      {
+        "bucket": "my-law",
+        "subcategory": "official",
+        "source_name": "Bernama · 国家通讯社",
+        "url": "https://www.bernama.com/en/general/index.php",
+        "weight": 4,
+        "title": "BERNAMA - Malaysian National News Agency",
+        "content_excerpt": "BERNAMA - Malaysian National News Agency BERNAMA.com | BERNAMA TV | BERNAMA Radio | BERNAMA Images | BLIS | NewsLink5 English Malay Arabic Espa&ntilde;ol General BernamaBiz Crime & Courts Politics Sports Lifestyle Region Central Northern Southern East Sabah Sarawak World Main Nam News Network (NNN) The Organization of Asia-Pacific News Agencies (OANA) Xinhua News Agency Microsite HAWANA 2026 CPI MAPO MCMC Fokus BERNAMA Thoughts MyCheck fotoBERNAMA Garasi More Infographics Videos Exclusive Press Archived English Malay Arabic Espa&ntilde;ol Home General BernamaBiz Crime & Courts Politics Sports Lifestyle Region Central Northern Southern East Sabah Sarawak World Main Nam News Network (NNN) The Organization of Asia-Pacific News Agencies (OANA) Xinhua News Agency Microsite HAWANA 2026 CPI MAPO MCMC Fokus BERNAMA Thoughts MyCheck fotoBERNAMA Garasi More Infographics Videos Exclusive Press Archived GENERAL Perak Exco Meets Prime Minister Over Elephants Issue IPOH, May 5 (Bernama) -- Perak Housing and Local Government Committee chairman Sandrea Ng Shy Ching met the Prime Minister Datuk Seri Anwar Ibrahim yesterday to present the latest developments regarding the relocation of three elephants from Zoo Taiping & Night Safari to Tennoji Zoo in Japan. [ read more ] 16m ago MORE NEWS CRM Strengthens Malaysia's Clinical Trial Ecosystem, AstraZeneca Supports Research Investment 36m ago Heritage Dept Examines Age, Significance Of Ancient Perahu Found In Tanah Merah 1h ago Father Finds Solace As Surau Honouring Slain Son Thrives 2h ago Technical Issue: KT051 Haj Flight To Depart For Jeddah Early Wednesday 3h ago Prime Minister: Firefighters Are 'True Heroes', Play A Major Role In Minimising National Losses 12h ago mySUWa Launched For Easier Birth Registration Applications Abroad 12h ago Thunderstorms, Heavy Rain Forecast For Six States, Labuan Until 1 am 12h ago MH8110 Lands In Muscat Due To Technical Issue, All Pilgrims Safe - TH 12h ago 1 2 3 4 5 6 7 ... 94 95 VIDEOS More Agenda B",
+        "fetched_at": "2026-05-05T04:47:41+0000",
+        "candidate_type": "home",
+        "url_hash": "8667aeb6f49e8e4f"
+      }
+    ],
     "fitness": [],
     "stocks": []
   },
   "bot_blocked_sources": [
-    {
-      "name": "Meta AI Blog",
-      "url": "https://ai.meta.com/blog/",
-      "bucket": "ai",
-      "subcategory": "frontier_labs",
-      "weight": 5,
-      "status": 400,
-      "err": "HTTPError 400"
-    },
     {
       "name": "xAI News",
       "url": "https://x.ai/news",
@@ -68,6 +153,15 @@
       "weight": 4,
       "status": 403,
       "err": "HTTPError 403"
+    },
+    {
+      "name": "Meta AI Blog",
+      "url": "https://ai.meta.com/blog/",
+      "bucket": "ai",
+      "subcategory": "frontier_labs",
+      "weight": 5,
+      "status": 400,
+      "err": "HTTPError 400"
     },
     {
       "name": "Perplexity Blog",
@@ -79,20 +173,20 @@
       "err": "HTTPError 403"
     },
     {
-      "name": "Genspark",
-      "url": "https://www.genspark.ai/",
-      "bucket": "ai",
-      "subcategory": "search_assistants",
-      "weight": 3,
-      "status": 403,
-      "err": "HTTPError 403"
-    },
-    {
       "name": "Phind",
       "url": "https://www.phind.com/blog",
       "bucket": "ai",
       "subcategory": "search_assistants",
       "weight": 2,
+      "status": 403,
+      "err": "HTTPError 403"
+    },
+    {
+      "name": "Genspark",
+      "url": "https://www.genspark.ai/",
+      "bucket": "ai",
+      "subcategory": "search_assistants",
+      "weight": 3,
       "status": 403,
       "err": "HTTPError 403"
     },
@@ -142,15 +236,6 @@
       "err": "HTTPError 403"
     },
     {
-      "name": "Bernama · 国家通讯社",
-      "url": "https://www.bernama.com/en/general/index.php",
-      "bucket": "my-law",
-      "subcategory": "official",
-      "weight": 4,
-      "status": 0,
-      "err": "URLError <urlopen error [Errno 54] Connection reset by peer>"
-    },
-    {
       "name": "Bursa Malaysia · 公告页",
       "url": "https://www.bursamalaysia.com/market_information/announcements/company_announcement",
       "bucket": "stocks",
@@ -160,8 +245,8 @@
       "err": "HTTPError 403"
     },
     {
-      "name": "S&P Global Indices · News",
-      "url": "https://www.spglobal.com/spdji/en/index-news-and-announcements/",
+      "name": "Bursa IPO Calendar",
+      "url": "https://www.bursamalaysia.com/listing/listing_resources/ipo_summary",
       "bucket": "stocks",
       "subcategory": "exchange_regulator",
       "weight": 4,
@@ -169,8 +254,17 @@
       "err": "HTTPError 403"
     },
     {
-      "name": "Bursa IPO Calendar",
-      "url": "https://www.bursamalaysia.com/listing/listing_resources/ipo_summary",
+      "name": "SEC EDGAR · S-1 Filings",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&type=S-1&dateb=&owner=include&count=40",
+      "bucket": "stocks",
+      "subcategory": "exchange_regulator",
+      "weight": 4,
+      "status": 403,
+      "err": "HTTPError 403"
+    },
+    {
+      "name": "S&P Global Indices · News",
+      "url": "https://www.spglobal.com/spdji/en/index-news-and-announcements/",
       "bucket": "stocks",
       "subcategory": "exchange_regulator",
       "weight": 4,
@@ -185,15 +279,6 @@
       "weight": 5,
       "status": 0,
       "err": "URLError <urlopen error [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)>"
-    },
-    {
-      "name": "SEC EDGAR · S-1 Filings",
-      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&type=S-1&dateb=&owner=include&count=40",
-      "bucket": "stocks",
-      "subcategory": "exchange_regulator",
-      "weight": 4,
-      "status": 403,
-      "err": "HTTPError 403"
     }
   ],
   "acts_watch_list": {
