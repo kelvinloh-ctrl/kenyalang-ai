@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-05-05T04:47:54+0000",
+  "generated_at": "2026-05-05T16:23:16+0000",
   "fetch_summary": {
     "total_sources": 111,
-    "fetched_200": 96,
+    "fetched_200": 95,
     "fetched_4xx_5xx": 14,
-    "fetched_err": 1,
-    "deduped": 208,
+    "fetched_err": 2,
+    "deduped": 207,
     "candidates_count": 9,
     "rss_entries": 69,
-    "subpages_fetched": 70,
+    "subpages_fetched": 71,
     "by_bucket": {
-      "ai": 8,
-      "my-law": 1,
+      "ai": 7,
+      "my-law": 2,
       "fitness": 0,
       "stocks": 0
     }
@@ -20,125 +20,124 @@
     "ai": [
       {
         "bucket": "ai",
-        "subcategory": "frontier_labs",
-        "source_name": "OpenAI Blog (RSS entry)",
-        "url": "https://openai.com/index/openai-pwc-finance-collaboration",
-        "weight": 5,
-        "title": "OpenAI and PwC collaborate to reimagine the office of the CFO",
-        "content_excerpt": "OpenAI and PwC are partnering to help enterprises use AI agents to automate finance workflows, improve forecasting, strengthen controls, and modernize the CFO function.",
-        "fetched_at": "2026-05-05T04:47:33+0000",
-        "published": "Mon, 04 May 2026 21:00:00 GMT",
-        "candidate_type": "rss_entry",
-        "parent_feed": "https://openai.com/blog/rss.xml",
-        "url_hash": "2b843178b595da18"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "frontier_labs",
-        "source_name": "OpenAI Blog (RSS entry)",
-        "url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
-        "weight": 5,
-        "title": "How OpenAI delivers low-latency voice AI at scale",
-        "content_excerpt": "How OpenAI rebuilt its WebRTC stack to power real-time Voice AI with low latency, global scale, and seamless conversational turn-taking.",
-        "fetched_at": "2026-05-05T04:47:33+0000",
-        "published": "Mon, 04 May 2026 00:00:00 GMT",
-        "candidate_type": "rss_entry",
-        "parent_feed": "https://openai.com/blog/rss.xml",
-        "url_hash": "5c3d93bd7160f244"
-      },
-      {
-        "bucket": "ai",
         "subcategory": "news_analysis",
-        "source_name": "Latent Space (swyx) (RSS entry)",
-        "url": "https://www.latent.space/p/ainews-the-other-vs-the-utility",
+        "source_name": "Stratechery (Ben Thompson) (RSS entry)",
+        "url": "https://stratechery.com/2026/amazons-durability/",
         "weight": 5,
-        "title": "[AINews] The Other vs The Utility",
-        "content_excerpt": "a quiet day lets us reflect on the nature of AI \"character\" in the Clippy vs Anton debate",
-        "fetched_at": "2026-05-05T04:47:40+0000",
-        "published": "Mon, 04 May 2026 23:29:05 GMT",
+        "title": "Amazon’s Durability",
+        "content_excerpt": "Amazon looked behind in AI in the training era, but is well place in the inference era, thanks to its continued investment in the long-term.",
+        "fetched_at": "2026-05-05T16:22:45+0000",
+        "published": "Tue, 05 May 2026 10:01:14 +0000",
         "candidate_type": "rss_entry",
-        "parent_feed": "https://www.latent.space/feed",
-        "url_hash": "6f8c09997ee6da2b"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "coding_agents",
-        "source_name": "Cursor Changelog → May 4, 2026",
-        "url": "https://cursor.com/changelog/05-04-26",
-        "weight": 5,
-        "title": "Model controls, spend management, and usage analytics · Cursor",
-        "content_excerpt": "Model controls, spend management, and usage analytics · Cursor Skip to content Cursor Product ↓ Agents Code Review Cloud ↗ Tab CLI Marketplace ↗ Enterprise Pricing Resources ↓ Changelog Blog Docs Community Help ↗ Workshops Forum ↗ Careers Product → Enterprise Pricing Resources → Sign in Contact Contact sales Download May 4, 2026 · Changelog Changelog Model controls, spend management, and usage analytics This release introduces updates for Enterprise admins: a new system for model controls, updated spend management, and more detail for usage analytics. # Model access controls Admins can now set more granular allow or blocklists at the model and provider level. You can block entire providers or specific model configurations for speed and context window size. Enterprises also have the option to block new providers or model versions by default. Customers with existing blocklists will need to migrate to the new system by June 1st. Admins should go to their team model settings in the Cursor dashboard to get started. # Soft spend limits and intelligent alerts Admins can now set soft limits instead of hard limits to avoid blocking users. Cursor can also monitor usage and sends automatic alerts to users reaching 50%, 80%, and 100% of their soft or hard limits. This keeps users productive while giving admins and users visibility into consumption patterns. Go to the spend management settings in the Cursor dashboard to get started. # Updated usage analytics tab Admins can now filter usage by specific users, or break it down by product surface: clients, Cloud Agents, automations, Bugbot, and Security Review. Go to the usage analytics tab in the Cursor dashboard to get started. Next post → Team Marketplace Updates Product Agents Enterprise Pricing Code Review Tab CLI Cloud Agents Marketplace ↗ Resources Download Changelog Docs Learn ↗ Forum ↗ Help ↗ Workshops Status ↗ Company Careers Blog Community Students Brand Future Anysphere ↗ Legal Terms of Service Privacy Policy Data Use S",
-        "fetched_at": "2026-05-05T04:47:47+0000",
-        "candidate_type": "subpage",
-        "parent_url": "https://cursor.com/changelog",
-        "url_hash": "bd786e990d6acb13"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "news_analysis",
-        "source_name": "Import AI (Jack Clark) (RSS entry)",
-        "url": "https://importai.substack.com/p/import-ai-455-automating-ai-research",
-        "weight": 4,
-        "title": "Import AI 455: AI systems are about to start building themselves.",
-        "content_excerpt": "The first step towards recursive self improvement",
-        "fetched_at": "2026-05-05T04:47:40+0000",
-        "published": "Mon, 04 May 2026 12:32:09 GMT",
-        "candidate_type": "rss_entry",
-        "parent_feed": "https://importai.substack.com/feed",
-        "url_hash": "9d0d8e3d8780f69e"
+        "parent_feed": "https://stratechery.com/feed/",
+        "url_hash": "fe2f78c912c363aa"
       },
       {
         "bucket": "ai",
         "subcategory": "ma_funding",
-        "source_name": "36kr AI → 字节腾讯扎堆入局AI恋陪，女性向游戏要变天？",
-        "url": "https://36kr.com/p/3795122931817730",
+        "source_name": "36kr AI → 大型挂机现场：马斯克的55万英伟达GPU，利用率才11%",
+        "url": "https://36kr.com/p/3795874564250627",
         "weight": 4,
-        "title": "字节腾讯扎堆入局AI恋陪，女性向游戏要变天？-36氪",
-        "content_excerpt": "字节腾讯扎堆入局AI恋陪，女性向游戏要变天？-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 城市 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 字节腾讯扎堆入局AI恋陪，女性向游戏要变天？ Tech星球 · 2026年05月05日 08:55 大厂布局新赛道。 游戏界打开AI新市场，作为近年来异军突起的女性向游戏赛道同样也开始引入AI。 女性向游戏已经在大众视野中崭露头角。伽马数据发布的《女性向游戏调研报告》显示，女性向游戏近年来成为游戏产业增长最快的赛道，展现出显著的商业潜力与市场拉动作用。2024年中国女性向游戏市场规模达80亿元，同比提升124.1%，增速远超行业平均水平。 从去年起，腾讯、米哈游、网易等游戏巨头公司均开始投入AI游戏，对于近年来各个大厂加速布局的女性向游戏来说，拥抱AI也成了大势所趋。用户体验和个性化定制是女性向游戏的重中之重，AI的长期记忆和精准输出完美适配了这类游戏的需求。 因此，女性向游戏其实早已注意到了这个风口，在AI文游和AI陪聊方面耕耘已久。去年年底开始，更是掀起了一大批3D AI乙游的风潮，成为不少创业公司的新选择。大厂也加速布局AI女性向游戏。 女性向游戏，是否已经全面走向AI恋爱陪伴时代？ 01 大厂扎堆布局 在女性向游戏突飞猛进的几年中，大厂纷纷下场，基于自己的大模型优势，推出不少AI驱动的产品。这些游戏的受众，不仅包括了传统女性向游戏玩家，更是囊括了多种小众爱好群体，进一步拓展了市场。不过，几个大厂的产品虽然底层逻辑有共通之处，但都有所侧重。 关注该赛道最早的是字节的“猫箱”，于2024年3月12日上线，最初名为“话炉”，同年4月11日更名“猫箱”，由字节内部团队Flow开发，底层则是基于豆包大模型。“猫箱”的内容偏向于AI角色创造与互动，玩家可以通过关键词自定义创建AI角色，并与之对话。 猫箱的收费模式，是典型的免费下载 + “应用内购买”应用，通过“VIP订阅”和“虚拟货币”并行变现。其会员月卡为30元/月，与市面上的传统乙游月卡处在同一水平线，比如恋与深空月卡同样为30元/月。 猫箱上线后的数据，验证了字节布局这一赛道的先见性，七麦数据显示，截止2026年4月29日，累计下载量为2.46亿，2024下半年为其高速增长期 ，用户量曾一路高歌猛进，MAU（月活跃用户）从8月的307万骤增到12月的688万。 但从2025年1月到5月，用户数据曲线开始掉落，苹果端月下载量从1月的264万暴跌至5月的61万，DAU（日活跃用户）也从59万下滑至49万。 基于此现状，猫箱在不断升级用户体验。最开始的“猫箱”更像是一个单纯的AI陪聊软件，但随着大模型技术的不断完善，开创了更多玩法。从最初只有文字对话，升级为语音对话加电话聊天的方式，还上线了故事编辑器和视觉化生成器。 在此之后，2026年1月28日，由金山世游代理的“卿卿我我”App也正式上线，该App是海外产品LoveyDovey的中国版，与猫箱相似，“卿卿我我”也同样偏向人物创作，既有官方角色也有自创角色，主要通过口令创作记忆体。据玩家反馈，“卿卿我我”App在AI记忆力方面一骑绝尘。 与猫箱不同，“卿卿我我”的核心收费逻辑是按聊天的“句数”计费，消耗的虚拟货币叫 “果酱”，发送一条对话消息，需要花费5个果酱，当好感度足够时，查看角色的内心想法，也需要花费5个果酱。 其海外版appLoveyDovey是整个亚洲市场创收效率最高的AI陪伴产品之一，年化订阅收入约 1698万美元，所以“卿卿我我”此前已经积累了一大批粉丝，国内版上线后，初始玩家量相比其他App具有优势，但目前赛道竞争激烈，其商业化之路及能否复制海外版的成功，尚需时间和市场验证。 腾讯于2026年1月上线的“上头蛙”微信小程序，与上述两个产品不一样，它是以AI剧情创作为主，玩家可以通过AI的协作创造出专属的互动剧情，其创作模式包括自由模式、世界模式和CP模式等。 该游戏能够进行脑洞延伸和剧本杀创作，玩家能够制作专属的悬疑故事、无限流剧情等，AI能够为玩家生成随机灵感，也能",
-        "fetched_at": "2026-05-05T04:47:49+0000",
+        "title": "大型挂机现场：马斯克的55万英伟达GPU，利用率才11%-36氪",
+        "content_excerpt": "大型挂机现场：马斯克的55万英伟达GPU，利用率才11%-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 城市 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 大型挂机现场：马斯克的55万英伟达GPU，利用率才11% 机器之心 · 2026年05月05日 17:30 55万卡只能当6万卡用？ 编辑 | 泽南 AI 时代堆 GPU，原来是这么个堆法？ 马斯克旗下的 xAI 目前 GPU 资源利用率只有大概 11%。相关报告指出，其 AI 软件栈的优化效果不尽如人意。近日，《The Information》的报道引发了人们的关注。 目前，xAI 在其 Memphis 和 Colossus 数据中心集群中运营着约 55 万块英伟达 GPU，包括 H100 和 H200 两种型号，其中部分设备采用了液冷散热配置。尽管这些 GPU 属于上一代产品（早于最新的 Blackwell 系列），但其规模已经令人叹为观止。 拥有如此庞大的 GPU 存量，xAI 的模型算力利用率（MFU，Model FLOPs Utilization）却只有 11%。打个不恰当的比喻，在 xAI 服务器中已安装的这 50 万块 GPU 中，实际可用的算力仅相当于约 6 万块 GPU 的水平。究竟是什么原因导致了如此低的效率？ 首先，对于较小规模的部署环境（例如 1000-10000 块 GPU）而言，多节点之间的协调计算通常不成问题。但随着服务器规模的不断扩大，当需要集成数十万颗 GPU 时，设备的空闲时间便会迅速累积，导致整体利用率急剧下滑。由此引发的软件栈内部的一系列不一致性问题，目前正在 xAI 的实际运行中暴露无遗。 在超级集群中，GPU 芯片本身的计算速度相对很快，瓶颈在于高带宽内存（HBM）的数据读写速度和成千上万台服务器之间网络传输的通信开销。只要数据传输出现微小的延迟或网络拥堵，整个集群的 GPU 就会被迫 “原地挂机” 等待数据加载。 另一方面，AI 模型的训练通常是间歇性的。GPU 在实际计算时满载运转，但在研究人员分析训练结果、调整参数或处理数据管道时，大量设备就会处于闲置（Idle）状态。 虽然 11% 是一个显然偏低的数字，但 The Information 的报道也揭示了 AI 领域的一些行业潜规则：算力浪费是普遍的现象，有些大厂的研究人员为了避免被管理层批评，或者害怕闲置的 GPU 配额被其他团队抢走，甚至会故意重复运行一些无意义的训练任务来 “刷高” 利用率数据。 该说不说，这么做也是为了保住团队自己的 GPU 配额。 当然，这并非 xAI 独有的难题，它实际上是整个 AI 行业普遍存在的一种结构性问题 ——AI 基础设施要在如此庞大的规模下实现高效运行，是一项极其艰巨的挑战。 运行 AI 云基础设施所需的优化技能涵盖数据、算法、模型、计算、内核、交互（人类 - AI - 世界、智能体之间），以及全局优化，在工程上难度极高。 一些科技巨头着重优化了大规模基础设施堆栈，已经能够实现超过 40% 的利用率。Meta 和谷歌便是此类典范，其 GPU 的利用率分别高达 43% 和 46%。 xAI 遇到的困境证明了在当前的 AI 军备竞赛中，“买到 GPU” 只是第一步，用好才是关键。硬件规模已经超出了现有软件架构的调度能力。 不过，xAI 已在着手解决这一问题，并设定了利用率达到 50% 的目标。尽管目前尚无确切的时间表，但其核心改进将聚焦于基础设施与软件堆栈的优化。随着未来工作负载逐步迁移至那些专为驱动 “智能体 AI”（Agentic AI）需求而设计的硬件平台之上，xAI 极有可能将其庞大的 GPU 集群对外提供租赁服务。 马斯克也在寻求转变，押注于自研算力的 “TeraFab” 项目：一方面，他正在推动多款自研芯片，将其纳入 xAI 的 “AI 芯片家族” 之中；另一方面，马斯克也希望借助英特尔的 14A 制程技术，为未来的 xAI、SpaceX 及其它相关业务打造尖端解决方案。 xAI 的困境提醒了所有追赶者：AI 竞赛的下半场，",
+        "fetched_at": "2026-05-05T16:23:04+0000",
         "candidate_type": "subpage",
         "parent_url": "https://36kr.com/information/AI",
-        "url_hash": "a58bca1abfc4c559"
+        "url_hash": "d5c211b5c69ed58e"
       },
       {
         "bucket": "ai",
         "subcategory": "ma_funding",
-        "source_name": "36kr AI → 豆包为什么选择了 “最low”的变现方式？",
-        "url": "https://36kr.com/p/3794920946561542",
+        "source_name": "36kr AI → 多少打工人五一出游被景区AI拍成「犯罪嫌疑人」？“死亡角度配高糊画质，去水印还得收你20”",
+        "url": "https://36kr.com/p/3795878430759942",
         "weight": 4,
-        "title": "豆包为什么选择了 “最low”的变现方式？-36氪",
-        "content_excerpt": "豆包为什么选择了 “最low”的变现方式？-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 城市 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 豆包为什么选择了 “最low”的变现方式？ 超聚焦 · 2026年05月05日 12:05 AI圈总得有人站出来做“恶人” 国民级AI应用，也要收钱了？ 5月3日，据第一财经报道，字节跳动旗下AI应用“豆包”最快将于5月中下旬上线首款付费包月产品。App Store页面显示，付费订阅分为三档：标准版连续包月68元、加强版200元、专业版500元，年费最高达5088元。 针对付费会员，豆包官方回应称，豆包始终提供免费服务，在免费服务的基础上，豆包也在探索推出更多增值服务，相关方案细节目前还在测试阶段。 有接近豆包的人士透露，付费功能将主要专注在复杂任务和生产力场景，如PPT生成、数据分析、影视制作等。随着模型能力持续升级，产品已经能满足越来越多的复杂高价值任务。 但此类任务需消耗更多算力与推理时间，因此豆包计划上线付费服务，满足好这部分复杂场景需求，免费版本则继续面向用户的日常使用。 为何豆包会在这个时点选择试水付费？又能否在保障用户体验的同时，走通商业化的道路？ 01 免费的豆包，字节也养不起了 在互联网时代，月活人数越多代表着可变现的能力越强，大家也都信奉着一条铁律：流量即资产，规模即壁垒 。 一个App只要月活足够高，其边际成本就会随着规模效应无限趋近于零。随之而来的广告、电商、游戏联运等变现手段，足以让企业通过“羊毛出在猪身上”的模式赚得盆满钵满。 但在AI时代，月活人数越多，却可能意味着企业“破产”速度越快，其与移动互联网核心的差异在于“边际成本”。 传统的图文或短视频分发，多一个用户刷新信息流，服务器增加的成本微乎其微；但AI大模型是典型的“重资产、高消耗”模式，每一次对话交互、每一份长文本处理、每一张图片的生成，AI芯片的需求都是线性增长的。 而QuestMobile发布的《2026年3月人工智能洞察》数据显示，字节就是最“负重前行”的那个。 2026年第一季度，国内AI应用季度活跃用户排名里，豆包以3.4亿的绝对优势稳坐头把交椅。排在后面的DeepSeek是1.27亿，元宝5735万，Kimi只有834万。豆包一家的用户量，比后面九名加起来还多。 头部地位听起来风光，但3.4亿活跃用户背后，是每天数以亿计的对话请求。每一次问答、每一次生成，都是实打实的算力消耗。用户越多，烧钱也就越快。 但在AI时代，单纯看“月活用户数”其实已经是一种落后的估值维度了。 用户规模只是表象，真正代表算力消耗、能够衡量大模型运转压力的核心指标，是AI时代的“水电煤”Token。 2024年5月，豆包大模型的日均Token消耗量还只有0.12万亿；而在不到两年之后，这个数字已经狂飙到了惊人的120万亿。短短两年时间，消耗量实现了1000倍的暴涨。 放眼全球，日均Token消耗能够突破“百万亿”级别的，还只有OpenAI和谷歌这样的绝对头部玩家。 而字节凭借豆包成功跻身了全球大模型调用量的“第一梯队”，但也意味着它正在独自承受着堪比硅谷巨头的基础设施成本压力。这对于在国内AI基建有许多掣肘、只能购买相对落后的国产推理卡的字节来说，难度比只要有钱就能买到卡的OA和谷歌高上太多。 此外，这仅仅是国内业务跑出来的数据，完全不包含TikTok及其他海外业务部门的调用。这意味着，字节已经把算力需求拉到了一个极度夸张的水位。 支撑这日均120万亿Token吞吐的，是真金白银的重资产投入。 而到了2026年，大模型的竞争更是进一步从算法比拼，演变成了算力基础设施军备竞赛。 从BAT过去三年的Capex走势图可以看出，三家大厂在2023年的资本开支还相对克制；2024年，随着AI战略的全面铺开，三家的投入开始齐头并进地大幅增长；而到了2025年，字节的Capex就出现了明显超过另外两家友商的增长。 作为一家尚未上市的全球最大超级独角兽，字节跳动不需要像阿里、腾讯那样每个季度都要向公众股东交出利润答卷，也不必因为短",
-        "fetched_at": "2026-05-05T04:47:49+0000",
+        "title": "多少打工人五一出游被景区AI拍成「犯罪嫌疑人」？“死亡角度配高糊画质，去水印还得收你20”-36氪",
+        "content_excerpt": "多少打工人五一出游被景区AI拍成「犯罪嫌疑人」？“死亡角度配高糊画质，去水印还得收你20”-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 城市 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 多少打工人五一出游被景区AI拍成「犯罪嫌疑人」？“死亡角度配高糊画质，去水印还得收你20” Vista氢商业 · 2026年05月05日 15:00 想你的风吹到了AI 五一出游的你是不是也觉得，如今的景区越来越不对劲了？ 不仅挤满了人，还挤满了各种“科技与狠活”。 不知道从什么时候开始，每个热门景区的打卡点位上都摆上了一台 「AI旅拍写真机」，和“想你的风吹到了XX”以及“轰炸大鱿鱼”共同组成了景区标配三件套。 图源：小红书@爱摄影的程序猿猿、@小米唐 坐完缆车后扫二维码，不仅能收获一张丑到想报警的随机抓拍照，还附赠一段 AI自动剪辑的Vlog，喜提全程监控视角和大头特效，仿佛《今日说法》里被识别追踪的犯罪嫌疑人。 共享充电宝已经不新鲜了，现在 连无人机都能共享，“15分钟20块，芝麻分够免押金” ，随叫随飞，随你完成一场空中跟拍。 当你爬长城爬到累得站不稳时，还能 租一套外骨骼cos钢铁侠，体会一把什么叫做“命运的推背感”。 时代仿佛按下了快进键，景区里的“黑科技”，到底进化到什么地步了？ 01 AI赛博狗仔上线，你在旅游而它在“取证”？ 没想到有一天， 这年头去景区游山玩水，还能体验一把「犯罪嫌疑人同款待遇」。 有博主在江西明月山景区爬完山，通过人脸识别后，领到了一份AI自动剪辑的短视频： 画质高糊，仿佛用座机拍的；全程监视器视角，还会开大头特效圈出人脸，和《今日说法》锁定嫌疑人的画面不能说毫无关系，只能说一模一样。 小程序上还显示，额外花18.9元，就能“付费下载去水印”，获得专属高清视频。 “这是我今年看过最有配得感的一句话， 难道最值得收费的项目不是一键删除吗？” 图源：小红书@拥护菠菜反对带壳的蜗牛 景区已经不满足于靠“拍照片”赚钱了，现在流行的是拍“短视频”。 深圳甘坑古镇更是推出了“AI足迹”系统，在各个点位布设摄像头，从你进门回头那一刻，到你在古井边俯身，系统可以自动抓拍、拼接，一键生成属于你的“古风小生”短视频。 除了摄像头，无人机也来凑一脚。 被称为“国内景区审美天花板”的绍兴兰亭，推出了无人机自助旅拍服务，游客扫码支付后，即可“召唤”无人机飞来，帮助拍摄照片，并生成AI短视频，“不用开口求人，也不用忍受自拍的单一死亡角度”。 图源：绍兴网 为了让体验更“高端”，还有AI设备试图复刻格莱美红毯仪式感。 马蜂窝推出了格莱美旅拍机器人 ，通过机械臂搭配AI高速摄影机，再由AI配乐剪辑调色，试图让游客无需飞去洛杉矶，也能平价获得格莱美同款高速慢镜头。今年4月份，它正式落地西江千户苗寨，游客可以穿上苗族服饰，在吊脚楼之间拍出“国际大片”。 问题在于， 高速慢镜头连红毯明星都难逃翻车，有人被拍成“成功学讲师”，有人秒变“房产销冠”，普通素人站上去更是360度的高清无死角公开处刑。 “谢谢AI送我上去付费丢脸。” 更常见的，还是在故宫、天坛、玉渊潭、杭州西湖、青岛栈桥等景区铺开的「AI旅拍写真机」，号称“赚钱永动机” ：10秒出片，几十种模板任选，无需在大夏天换上热到中暑的汉服还担心上厕所踩到裙摆，也无需提前起床仨小时化妆贴假睫毛戴发髻， 试图实现“我在景区无痛当明星”。 然而现实常常是一眼假：缺乏与景区深度绑定的内容设计，这些模板高度同质化， 你在西湖拍出来的古风大片，和躺在家里用豆包生成的图片，几乎没啥区别。 上周，氢商业编辑在乌镇花9块9和朋友拍了一张纪念报纸， 结果AI一顿猛操作，不仅把背景换成了一个更“标准”的江南水乡，还直接P了两个“新造的人”出来。 最后，印好的报纸从机器里吐出来，掉在地上，脸先着地，谁都不想捡起来带回家。 氢商业摄 除了试图替代旅拍摄影师之外，AI还试图替代传统导游的角色。 今年年初，豆包和上海浦东美术馆联动，通过视频通话直接识别作品进行语音讲解。但也有游客体验后表示，馆里网络一塌糊涂，根本用不",
+        "fetched_at": "2026-05-05T16:23:04+0000",
         "candidate_type": "subpage",
         "parent_url": "https://36kr.com/information/AI",
-        "url_hash": "9ea549916529dac6"
+        "url_hash": "07ed5a3b8e8d532a"
       },
       {
         "bucket": "ai",
-        "subcategory": "hardware",
-        "source_name": "AMD Blog → AMD at Dell Technologies World 2026: Built for Enterprise AI",
-        "url": "https://www.amd.com/en/blogs/2026/amd-at-dell-technologies-world-2026-built-for-enterprise-ai.html",
+        "subcategory": "ma_funding",
+        "source_name": "36kr AI → 全球第二的机器狗公司，讲了一个不性感的故事",
+        "url": "https://36kr.com/p/3795876358347782",
+        "weight": 4,
+        "title": "全球第二的机器狗公司，讲了一个不性感的故事-36氪",
+        "content_excerpt": "全球第二的机器狗公司，讲了一个不性感的故事-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 城市 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 全球第二的机器狗公司，讲了一个不性感的故事 新眸 · 2026年05月05日 15:33 B端重场景这条路走通后，还能走更远。 五一当天，证监会官网IPO辅导公示系统更新了一条信息，杭州云深处科技股份有限公司及辅导券商中信建投，向浙江证监局提交了《辅导工作完成报告》。 辅导期不到5个月，在递交IPO申请的公司里，这个速度不算慢。云深处也由此成为继群核科技港股上市、宇树科技冲刺科创板之后，“杭州六小龙”中又一家走到上市门口的公司。 过去半年，云深处把日程拉得很满。去年底完成超5亿元C轮融资，招银国际和华夏基金联合领投，中国电信、中国联通旗下基金参与战略投资，同月提交辅导备案。今年先有联合华电电科院发布火力发电全场景巡检方案，后有携全系列产品亮相德国汉诺威工博会，且在杭州接待了比利时副首相普雷沃的参观访问。 一级市场给它的估值站上了百亿台阶。2025年全年融资超10亿元，国家队产业基金、中国电信、中国联通、京东悉数入局。 但打开招股书辅导报告，一些问题还是浮了上来。IDC数据显示，2024年云深处全球四足机器人销量份额18.9%，位列第二，仅次于宇树科技的32.4%。营收增速超过100%，2025年公司宣布扭亏为盈，但净利润体量还没有公开披露。B端电力场景扎得很深，客户集中度也高得让人捏把汗。 云深处冲刺IPO，要回答的其实不只有“值多少钱”，还有更底层的问题：在这条宇树跑在前面的机器狗赛道里，“第二名”准备讲一个什么样的故事。 01 赚钱的机器狗公司，不存在？ 在全球范围内，“四足机器人公司赚钱”这件事，长期是个伪命题。 波士顿动力的Spot，是全世界最出名的机器狗。但它每台7.5万美元的售价，让工业客户望而却步。2020年Spot上市当年只卖了几百台。2025年，Spot推出3.0版本，现代汽车终于把它塞进工厂做安全巡检，商业化算是走到了车间。但如果你问波士顿动力靠Spot赚没赚到钱，答案大概率是否定的。 瑞士的ANYbotics情况类似，去年9月拿了超1.5亿美元融资，计划今年推出新一代ANYmal X。但翻开行业报告会发现：整个全球四足移动机器人市场，2025年销售额23亿美元，预计到2032年超71亿美元，年复合增长率17%，这体量放在任何真正的大赛道里，都不算大。 所以，当云深处连续放出“出货量增长200%”“已经盈利”的消息时，整个机器人圈子先是不信，然后开始翻数据。 具体来看，2024年，云深处营收相比2023年增长超100%，2025年出货量同比增长超200%，全年出货近万台。按照四足机器人数万元的均价区间，行业机构测算其2025年营收在5-6亿元。公司创始人朱秋国在接受专访时给出了确认：2025年已经扭亏为盈，且90%以上营收来自四足机器人产品线。 换句话说，云深处可能真的成了全球第一家靠卖机器狗赚到钱的公司。 拿今年的汉诺威工博会来说，云深处展出的东西里，山猫M20、绝影X30、绝影Lite3三款产品，就是面向欧洲客户展示工业巡检和安防巡逻解决方案。展台旁边有一组数据：绝影X30在欧洲实际落地项目中，巡逻覆盖范围扩大3倍、事故响应时间缩短60%以上。 它的目标客户，很看重产品能不能替代一个人、三个人的排班。云深处踩中的就是这个判断。 过去两年，它把主要精力放在了一个关键词上：场景。电力巡检、应急消防、安防巡逻、工业运维，围绕这几条线持续往深处推。 比如在某换流站，绝影X30四足机器人在仿真环境中精准识别指针仪表、数字与状态仪表、红外温度及指示灯，自主判断电量、前往充电桩补能，实现无人值守持续运行。目前，云深处的电力巡检方案已落地国家电网、南方电网等超过100座变电站。国内做完，海外也开始同步推进。 朱秋国总结这打的是一场什么仗：“云深处希望机器人能够真正帮助人解决问题”，“我们很早就提出让机器人进入这种危险场景中巡检”。截至目前，云深处业务覆盖全球50个国家和地区，落",
+        "fetched_at": "2026-05-05T16:23:04+0000",
+        "candidate_type": "subpage",
+        "parent_url": "https://36kr.com/information/AI",
+        "url_hash": "88a601a4f5835ca2"
+      },
+      {
+        "bucket": "ai",
+        "subcategory": "news_analysis",
+        "source_name": "Last Week in AI (RSS entry)",
+        "url": "https://lastweekin.ai/p/last-week-in-ai-340-openai-vs-musk",
         "weight": 3,
-        "title": "AMD at Dell Technologies World 2026: Built for Enterprise AI",
-        "content_excerpt": "AMD at Dell Technologies World 2026: Built for Enterprise AI Skip to main content AMD Website Accessibility Statement Products Processors Accelerators Graphics Adaptive SoCs, FPGAs, & SOMs Software, Tools, & Apps Processors Server CPUs EPYC CPU Portfolio Data Center, Cloud & AI Small Business & Hosting Server CPU Specifications Business Systems Ryzen PRO Laptops Ryzen PRO Desktops Workstations PRO Technologies Ryzen AI for Business Personal & Gaming Ryzen Laptops Ryzen Desktops Advantage Gaming Laptops Advantage Gaming Desktops Ryzen Z Series Handhelds Ryzen AI for Consumer Embedded EPYC and Ryzen Partner Ecosystem Resources Product Specifications Enterprise Blogs & Insights Accelerators GPU Accelerators Instinct GPUs Documentation Cloud Graphics Adaptive Accelerators Alveo Data Center Accelerator Cards Telco Accelerator Cards DPU Accelerators Pensando Salina Ethernet Adapters Pensando Pollara 400 Alveo X3 Series Solarflare Adapters Graphics Workstations Radeon PRO Desktops AMD Advantage Premium Radeon RX Laptops AMD Advantage Premium Radeon Mobile Graphics Resources Product Specifications Documentation Adaptive SoCs, FPGAs, & SOMs Adaptive SoCs & FPGAs Versal Portfolio SoC Portfolio FPGA Portfolio Cost-Optimized Portfolio System-on-Modules (SOMs) SOM Overview Kria SOMs KD240 Drives Starter Kit KV260 Vision AI Starter Kit KR260 Robotics Starter Kit Technologies AI Engine Design Security Digital Signal Processing Functional Safety High Speed Serial Memory Solutions Power Efficiency Resources Intellectual Property Design Hubs Developer Hub Customer Training Evaluation Boards & Kits Evaluation Boards Boards & Kits Accessories Software, Tools, & Apps Processor Tools Ryzen Master Overclocking Utility PRO Technologies StoreMI Ryzen AI Software Zen Software Studio Graphics Tools & Apps AMD Software: Adrenalin Edition AMD Software: PRO Edition FidelityFX Radeon ProRender Adaptive SoC & FPGA Tools Design Tools Vivado Software Vitis Software Vitis Model Composer Vitis HLS Vit",
-        "fetched_at": "2026-05-05T04:47:49+0000",
+        "title": "Last Week in AI #340 - OpenAI vs Musk + Microsoft, DeepSeek v4, Vision Banana",
+        "content_excerpt": "First week of Musk v. Altman, OpenAI ends Microsoft legal peril over its $50B Amazon deal, DeepSeek previews new AI model that closes the gap with frontier models, and more!",
+        "fetched_at": "2026-05-05T16:22:46+0000",
+        "published": "Tue, 05 May 2026 08:30:35 GMT",
+        "candidate_type": "rss_entry",
+        "parent_feed": "https://lastweekin.ai/feed",
+        "url_hash": "c03cea9d1b46b585"
+      },
+      {
+        "bucket": "ai",
+        "subcategory": "image_gen",
+        "source_name": "Recraft → Recraft V4 Pro vs Midjourney V8: side-by-side comparison",
+        "url": "https://www.recraft.ai/blog/recraft-v4-pro-vs-midjourney-v8-side-by-side-comparison",
+        "weight": 3,
+        "title": "Recraft V4 Pro vs Midjourney V8: side-by-side comparison",
+        "content_excerpt": "Recraft V4 Pro vs Midjourney V8: side-by-side comparison Sign in Try Recraft Studio Recraft Studio Create Recraft Studio: All AI models in one design tool AI image generation AI vector generation Mockup generation Edit Vectorize image Upscale image Modify image Remove background Erase area Edit area Merge images Expand image Recolor image Editing templates Image format converter Available image models Recraft Nano Banana Flux Ideogram GPT Image HiDream Imagen Qwen Image Seedream Grok Image View all models... Available video models Grok Video Veo Kling Sora Seedance Pixverse Hailuo Wan Ray View all models... AI models Recraft&#x27;s models Available in Recraft Studio and via API Introducing Recraft V4 Recraft V4 documentation Recraft V3 documentation Recraft V2 documentation API Build automated visual workflows with Recraft API Recraft models API Documentation API pricing Connections Access Recraft across different platforms OpenClaw Use cases AI image generation Ads Stock images Icons Logos Characters Explore all... For professionals Graphic designers Print-on-demand sellers Visual artists Custom DPI and CMYK Gallery Photorealism Illustration Vector art Icons All images... API Recraft models API Documentation API pricing Resources Documentation Recraft Studio documentation Recraft models API MCP Blog Tutorials Case studies Announcements All posts Company About Recraft Careers News Request a feature Support Follow us X Instagram Linkedin Discord YouTube Pricing Enterprise Download app Download app Home Blog Recraft V4 Pro vs Midjourney V8: side-by-side comparison April 30, 2026 • min read Recraft V4 Pro vs Midjourney V8: side-by-side comparison Recraft V4 Pro vs Midjourney V8 tested across 8 prompts — portraits, logos, infographics, posters, and vector illustration. See where each model wins. Two of the most respected names in AI image generation approach creative briefs from very different starting points. Recraft V4 Pro — Recraft’s flagship model — leads with desig",
+        "fetched_at": "2026-05-05T16:22:59+0000",
         "candidate_type": "subpage",
-        "parent_url": "https://www.amd.com/en/blogs.html",
-        "url_hash": "a6c556338a22624b"
+        "parent_url": "https://www.recraft.ai/blog",
+        "url_hash": "930c0ed797ebf15a"
+      },
+      {
+        "bucket": "ai",
+        "subcategory": "video_gen",
+        "source_name": "Luma Dream Machine → Introducing the Uni-1.1 API: Intelligence You Can Direct. Ae",
+        "url": "https://lumalabs.ai/news/uni-1-1-api",
+        "weight": 3,
+        "title": "Introducing the Uni-1.1 API: Intelligence You Can Direct. Aesthetic You Can Ship. | Luma",
+        "content_excerpt": "Introducing the Uni-1.1 API: Intelligence You Can Direct. Aesthetic You Can Ship. | Luma Luma company logo Product Pricing API Enterprise News Join us Sign In Introducing the Uni-1.1 API: Intelligence You Can Direct. Aesthetic You Can Ship. May 5, 2026 Today we&#x27;re opening access to the Uni-1.1 API: a REST interface to our Unified Intelligence model for image generation and natural-language editing. Now, the power of Uni-1 is the hands of developers to not only transform creative workflows, but amplify creativity and expand productions at a scale not possible before. Built for builders shipping in production — and ranked top 3 lab in the Image Arena across Text-to-Image and Image Edit. Launched last month, Uni-1 takes a different approach to generative AI: reasoning and image generation run in the same model rather than in separate systems stitched together at inference time. The result is tighter adherence to multi-constraint briefs, cleaner reference grounding, and editing that responds to intent rather than to prompt syntax. It currently ranks #1 on Human Preference Elo across overall, style & editing, and reference-based generation, and leads RISEBench on both overall reasoning and spatial logic. Uni-1.1 API is already in production with commitments across Envato, Comfy, Runware, Flora, Krea, Magnific (formerly Freepik), Fal, and LovArt. This post covers what Unified Intelligence is, what it means under the hood, and what you can build with it. What Unified Intelligence is Luma’s Unified Intelligence model, Uni-1, was built on the idea that the accuracy of an AI-generated output isn&#x27;t enough. Great creative work requires knowing not just what&#x27;s correct, but what&#x27;s beautiful. The standard approach in generative AI is to train separate models for separate modalities, a language model here, an image model there, and stitch them together at inference time. The problem isn&#x27;t that these models are individually weak. It&#x27;s that stitching is ",
+        "fetched_at": "2026-05-05T16:22:59+0000",
+        "candidate_type": "subpage",
+        "parent_url": "https://lumalabs.ai/blog",
+        "url_hash": "00a9a7f4190fda6c"
       }
     ],
     "my-law": [
       {
         "bucket": "my-law",
         "subcategory": "official",
-        "source_name": "Bernama · 国家通讯社",
-        "url": "https://www.bernama.com/en/general/index.php",
+        "source_name": "Bernama · 国家通讯社 → 10,677 PDRM Personnel Receive Excellent Service Award 2025 -",
+        "url": "https://www.bernama.com/en/general/news.php?id=2553309",
         "weight": 4,
-        "title": "BERNAMA - Malaysian National News Agency",
-        "content_excerpt": "BERNAMA - Malaysian National News Agency BERNAMA.com | BERNAMA TV | BERNAMA Radio | BERNAMA Images | BLIS | NewsLink5 English Malay Arabic Espa&ntilde;ol General BernamaBiz Crime & Courts Politics Sports Lifestyle Region Central Northern Southern East Sabah Sarawak World Main Nam News Network (NNN) The Organization of Asia-Pacific News Agencies (OANA) Xinhua News Agency Microsite HAWANA 2026 CPI MAPO MCMC Fokus BERNAMA Thoughts MyCheck fotoBERNAMA Garasi More Infographics Videos Exclusive Press Archived English Malay Arabic Espa&ntilde;ol Home General BernamaBiz Crime & Courts Politics Sports Lifestyle Region Central Northern Southern East Sabah Sarawak World Main Nam News Network (NNN) The Organization of Asia-Pacific News Agencies (OANA) Xinhua News Agency Microsite HAWANA 2026 CPI MAPO MCMC Fokus BERNAMA Thoughts MyCheck fotoBERNAMA Garasi More Infographics Videos Exclusive Press Archived GENERAL Perak Exco Meets Prime Minister Over Elephants Issue IPOH, May 5 (Bernama) -- Perak Housing and Local Government Committee chairman Sandrea Ng Shy Ching met the Prime Minister Datuk Seri Anwar Ibrahim yesterday to present the latest developments regarding the relocation of three elephants from Zoo Taiping & Night Safari to Tennoji Zoo in Japan. [ read more ] 16m ago MORE NEWS CRM Strengthens Malaysia's Clinical Trial Ecosystem, AstraZeneca Supports Research Investment 36m ago Heritage Dept Examines Age, Significance Of Ancient Perahu Found In Tanah Merah 1h ago Father Finds Solace As Surau Honouring Slain Son Thrives 2h ago Technical Issue: KT051 Haj Flight To Depart For Jeddah Early Wednesday 3h ago Prime Minister: Firefighters Are 'True Heroes', Play A Major Role In Minimising National Losses 12h ago mySUWa Launched For Easier Birth Registration Applications Abroad 12h ago Thunderstorms, Heavy Rain Forecast For Six States, Labuan Until 1 am 12h ago MH8110 Lands In Muscat Due To Technical Issue, All Pilgrims Safe - TH 12h ago 1 2 3 4 5 6 7 ... 94 95 VIDEOS More Agenda B",
-        "fetched_at": "2026-05-05T04:47:41+0000",
-        "candidate_type": "home",
-        "url_hash": "8667aeb6f49e8e4f"
+        "title": "BERNAMA - 10,677 PDRM Personnel Receive Excellent Service Award 2025 - IGP",
+        "content_excerpt": "BERNAMA - 10,677 PDRM Personnel Receive Excellent Service Award 2025 - IGP BERNAMA.com | BERNAMA TV | BERNAMA Radio | BERNAMA Images | BLIS | NewsLink5 English Malay Arabic Espa&ntilde;ol General BernamaBiz Crime & Courts Politics Sports Lifestyle Region Central Northern Southern East Sabah Sarawak World Main Nam News Network (NNN) The Organization of Asia-Pacific News Agencies (OANA) Xinhua News Agency Microsite HAWANA 2026 CPI MAPO MCMC Fokus BERNAMA Thoughts MyCheck fotoBERNAMA Garasi More Infographics Videos Exclusive Press Archived English Malay Arabic Espa&ntilde;ol Home General BernamaBiz Crime & Courts Politics Sports Lifestyle Region Central Northern Southern East Sabah Sarawak World Main Nam News Network (NNN) The Organization of Asia-Pacific News Agencies (OANA) Xinhua News Agency Microsite HAWANA 2026 CPI MAPO MCMC Fokus BERNAMA Thoughts MyCheck fotoBERNAMA Garasi More Infographics Videos Exclusive Press Archived GENERAL > NEWS 10,677 PDRM Personnel Receive Excellent Service Award 2025 - IGP 06/05/2026 12:04 AM Credit: FB Polis Diraja Malaysia ( Royal Malaysia Police ) Credit: FB Polis Diraja Malaysia ( Royal Malaysia Police ) Credit: FB Polis Diraja Malaysia ( Royal Malaysia Police ) Credit: FB Polis Diraja Malaysia ( Royal Malaysia Police ) KUALA LUMPUR, May 5 (Bernama) -- A total of 10,677 personnel of the Royal Malaysia Police (PDRM) received the Excellent Service Award (APC) 2025, in recognition of their contributions, sacrifices and loyalty. Inspector-General of Police Datuk Seri Mohd Khalid Ismail said the recipients comprised senior officers, junior officers and civil staff from various departments. He said each recipient received an APC certificate and an incentive of RM1,000 in the form of a National Education Savings Scheme (SSPN) Prime account. According to him, the eight per cent quota set by the government for the award makes the selection process highly competitive. &ldquo;Based on the quota, 1,090 senior police officers, 8,612 junior poli",
+        "fetched_at": "2026-05-05T16:23:01+0000",
+        "candidate_type": "subpage",
+        "parent_url": "https://www.bernama.com/en/general/index.php",
+        "url_hash": "d19cb3bc0afac275"
+      },
+      {
+        "bucket": "my-law",
+        "subcategory": "official",
+        "source_name": "Bernama · 国家通讯社 → BATU PAHAT, May 5 (Bernama) -- An eight-year-old girl was ki",
+        "url": "https://www.bernama.com/en/general/news.php?id=2553314",
+        "weight": 4,
+        "title": "BERNAMA - Standard Two Student Killed In Van Accident Outside Batu Pahat School",
+        "content_excerpt": "BERNAMA - Standard Two Student Killed In Van Accident Outside Batu Pahat School BERNAMA.com | BERNAMA TV | BERNAMA Radio | BERNAMA Images | BLIS | NewsLink5 English Malay Arabic Espa&ntilde;ol General BernamaBiz Crime & Courts Politics Sports Lifestyle Region Central Northern Southern East Sabah Sarawak World Main Nam News Network (NNN) The Organization of Asia-Pacific News Agencies (OANA) Xinhua News Agency Microsite HAWANA 2026 CPI MAPO MCMC Fokus BERNAMA Thoughts MyCheck fotoBERNAMA Garasi More Infographics Videos Exclusive Press Archived English Malay Arabic Espa&ntilde;ol Home General BernamaBiz Crime & Courts Politics Sports Lifestyle Region Central Northern Southern East Sabah Sarawak World Main Nam News Network (NNN) The Organization of Asia-Pacific News Agencies (OANA) Xinhua News Agency Microsite HAWANA 2026 CPI MAPO MCMC Fokus BERNAMA Thoughts MyCheck fotoBERNAMA Garasi More Infographics Videos Exclusive Press Archived GENERAL > NEWS Standard Two Student Killed In Van Accident Outside Batu Pahat School 06/05/2026 12:16 AM BATU PAHAT, May 5 (Bernama) -- An eight-year-old girl was killed after she was hit by a van in front of Sekolah Kebangsaan (SK) Seri Maimon in Parit Sulong here this afternoon. Batu Pahat district police chief ACP Shahrulanuar Mushaddat Abdullah Sani said the accident is believed to have occurred at about 12.30 pm in front of the school&rsquo;s main gate. He said preliminary investigations by the district Traffic Investigation and Enforcement Division found that the accident occurred when a van, which had just delivered goods, was moving out of the school&rsquo;s main gate, heading towards Jalan Simpang Lima-Parit Sulong. &ldquo;The van struck the victim, who was on foot, in front of the school&rsquo;s main gate. The victim, a standard two student at the school, sustained severe head and internal injuries and was pronounced dead at the scene by an assistant medical officer from Klinik Kesihatan Parit Sulong,&rdquo; he said in a statement",
+        "fetched_at": "2026-05-05T16:23:01+0000",
+        "candidate_type": "subpage",
+        "parent_url": "https://www.bernama.com/en/general/index.php",
+        "url_hash": "d0f5eab648038db9"
       }
     ],
     "fitness": [],
@@ -173,20 +172,20 @@
       "err": "HTTPError 403"
     },
     {
-      "name": "Phind",
-      "url": "https://www.phind.com/blog",
-      "bucket": "ai",
-      "subcategory": "search_assistants",
-      "weight": 2,
-      "status": 403,
-      "err": "HTTPError 403"
-    },
-    {
       "name": "Genspark",
       "url": "https://www.genspark.ai/",
       "bucket": "ai",
       "subcategory": "search_assistants",
       "weight": 3,
+      "status": 403,
+      "err": "HTTPError 403"
+    },
+    {
+      "name": "Phind",
+      "url": "https://www.phind.com/blog",
+      "bucket": "ai",
+      "subcategory": "search_assistants",
+      "weight": 2,
       "status": 403,
       "err": "HTTPError 403"
     },
@@ -254,13 +253,13 @@
       "err": "HTTPError 403"
     },
     {
-      "name": "SEC EDGAR · S-1 Filings",
-      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&type=S-1&dateb=&owner=include&count=40",
+      "name": "YTL Power International",
+      "url": "https://www.ytlpowerinternational.com/",
       "bucket": "stocks",
-      "subcategory": "exchange_regulator",
-      "weight": 4,
-      "status": 403,
-      "err": "HTTPError 403"
+      "subcategory": "holdings_ir",
+      "weight": 5,
+      "status": 0,
+      "err": "URLError <urlopen error [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)>"
     },
     {
       "name": "S&P Global Indices · News",
@@ -272,13 +271,22 @@
       "err": "HTTPError 403"
     },
     {
-      "name": "YTL Power International",
-      "url": "https://www.ytlpowerinternational.com/",
+      "name": "SEC EDGAR · S-1 Filings",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&type=S-1&dateb=&owner=include&count=40",
       "bucket": "stocks",
-      "subcategory": "holdings_ir",
-      "weight": 5,
+      "subcategory": "exchange_regulator",
+      "weight": 4,
+      "status": 403,
+      "err": "HTTPError 403"
+    },
+    {
+      "name": "智谱 ChatGLM",
+      "url": "https://www.zhipuai.cn/",
+      "bucket": "ai",
+      "subcategory": "china_labs",
+      "weight": 4,
       "status": 0,
-      "err": "URLError <urlopen error [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)>"
+      "err": "URLError <urlopen error _ssl.c:1112: The handshake operation timed out>"
     }
   ],
   "acts_watch_list": {
