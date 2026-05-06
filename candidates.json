@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-05-05T16:23:16+0000",
+  "generated_at": "2026-05-06T05:34:38+0000",
   "fetch_summary": {
     "total_sources": 111,
     "fetched_200": 95,
     "fetched_4xx_5xx": 14,
     "fetched_err": 2,
     "deduped": 207,
-    "candidates_count": 9,
+    "candidates_count": 8,
     "rss_entries": 69,
-    "subpages_fetched": 71,
+    "subpages_fetched": 70,
     "by_bucket": {
-      "ai": 7,
-      "my-law": 2,
-      "fitness": 0,
+      "ai": 6,
+      "my-law": 1,
+      "fitness": 1,
       "stocks": 0
     }
   },
@@ -20,127 +20,116 @@
     "ai": [
       {
         "bucket": "ai",
-        "subcategory": "news_analysis",
-        "source_name": "Stratechery (Ben Thompson) (RSS entry)",
-        "url": "https://stratechery.com/2026/amazons-durability/",
+        "subcategory": "frontier_labs",
+        "source_name": "OpenAI Blog (RSS entry)",
+        "url": "https://openai.com/index/gpt-5-5-instant",
         "weight": 5,
-        "title": "Amazon’s Durability",
-        "content_excerpt": "Amazon looked behind in AI in the training era, but is well place in the inference era, thanks to its continued investment in the long-term.",
-        "fetched_at": "2026-05-05T16:22:45+0000",
-        "published": "Tue, 05 May 2026 10:01:14 +0000",
+        "title": "GPT-5.5 Instant: smarter, clearer, and more personalized",
+        "content_excerpt": "GPT-5.5 Instant updates ChatGPT’s default model with smarter, more accurate answers, reduced hallucinations, and improved personalization controls.",
+        "fetched_at": "2026-05-06T05:34:04+0000",
+        "published": "Tue, 05 May 2026 10:00:00 GMT",
         "candidate_type": "rss_entry",
-        "parent_feed": "https://stratechery.com/feed/",
-        "url_hash": "fe2f78c912c363aa"
+        "parent_feed": "https://openai.com/blog/rss.xml",
+        "url_hash": "01a8b52eee8198f5"
       },
       {
         "bucket": "ai",
-        "subcategory": "ma_funding",
-        "source_name": "36kr AI → 大型挂机现场：马斯克的55万英伟达GPU，利用率才11%",
-        "url": "https://36kr.com/p/3795874564250627",
-        "weight": 4,
-        "title": "大型挂机现场：马斯克的55万英伟达GPU，利用率才11%-36氪",
-        "content_excerpt": "大型挂机现场：马斯克的55万英伟达GPU，利用率才11%-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 城市 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 大型挂机现场：马斯克的55万英伟达GPU，利用率才11% 机器之心 · 2026年05月05日 17:30 55万卡只能当6万卡用？ 编辑 | 泽南 AI 时代堆 GPU，原来是这么个堆法？ 马斯克旗下的 xAI 目前 GPU 资源利用率只有大概 11%。相关报告指出，其 AI 软件栈的优化效果不尽如人意。近日，《The Information》的报道引发了人们的关注。 目前，xAI 在其 Memphis 和 Colossus 数据中心集群中运营着约 55 万块英伟达 GPU，包括 H100 和 H200 两种型号，其中部分设备采用了液冷散热配置。尽管这些 GPU 属于上一代产品（早于最新的 Blackwell 系列），但其规模已经令人叹为观止。 拥有如此庞大的 GPU 存量，xAI 的模型算力利用率（MFU，Model FLOPs Utilization）却只有 11%。打个不恰当的比喻，在 xAI 服务器中已安装的这 50 万块 GPU 中，实际可用的算力仅相当于约 6 万块 GPU 的水平。究竟是什么原因导致了如此低的效率？ 首先，对于较小规模的部署环境（例如 1000-10000 块 GPU）而言，多节点之间的协调计算通常不成问题。但随着服务器规模的不断扩大，当需要集成数十万颗 GPU 时，设备的空闲时间便会迅速累积，导致整体利用率急剧下滑。由此引发的软件栈内部的一系列不一致性问题，目前正在 xAI 的实际运行中暴露无遗。 在超级集群中，GPU 芯片本身的计算速度相对很快，瓶颈在于高带宽内存（HBM）的数据读写速度和成千上万台服务器之间网络传输的通信开销。只要数据传输出现微小的延迟或网络拥堵，整个集群的 GPU 就会被迫 “原地挂机” 等待数据加载。 另一方面，AI 模型的训练通常是间歇性的。GPU 在实际计算时满载运转，但在研究人员分析训练结果、调整参数或处理数据管道时，大量设备就会处于闲置（Idle）状态。 虽然 11% 是一个显然偏低的数字，但 The Information 的报道也揭示了 AI 领域的一些行业潜规则：算力浪费是普遍的现象，有些大厂的研究人员为了避免被管理层批评，或者害怕闲置的 GPU 配额被其他团队抢走，甚至会故意重复运行一些无意义的训练任务来 “刷高” 利用率数据。 该说不说，这么做也是为了保住团队自己的 GPU 配额。 当然，这并非 xAI 独有的难题，它实际上是整个 AI 行业普遍存在的一种结构性问题 ——AI 基础设施要在如此庞大的规模下实现高效运行，是一项极其艰巨的挑战。 运行 AI 云基础设施所需的优化技能涵盖数据、算法、模型、计算、内核、交互（人类 - AI - 世界、智能体之间），以及全局优化，在工程上难度极高。 一些科技巨头着重优化了大规模基础设施堆栈，已经能够实现超过 40% 的利用率。Meta 和谷歌便是此类典范，其 GPU 的利用率分别高达 43% 和 46%。 xAI 遇到的困境证明了在当前的 AI 军备竞赛中，“买到 GPU” 只是第一步，用好才是关键。硬件规模已经超出了现有软件架构的调度能力。 不过，xAI 已在着手解决这一问题，并设定了利用率达到 50% 的目标。尽管目前尚无确切的时间表，但其核心改进将聚焦于基础设施与软件堆栈的优化。随着未来工作负载逐步迁移至那些专为驱动 “智能体 AI”（Agentic AI）需求而设计的硬件平台之上，xAI 极有可能将其庞大的 GPU 集群对外提供租赁服务。 马斯克也在寻求转变，押注于自研算力的 “TeraFab” 项目：一方面，他正在推动多款自研芯片，将其纳入 xAI 的 “AI 芯片家族” 之中；另一方面，马斯克也希望借助英特尔的 14A 制程技术，为未来的 xAI、SpaceX 及其它相关业务打造尖端解决方案。 xAI 的困境提醒了所有追赶者：AI 竞赛的下半场，",
-        "fetched_at": "2026-05-05T16:23:04+0000",
-        "candidate_type": "subpage",
-        "parent_url": "https://36kr.com/information/AI",
-        "url_hash": "d5c211b5c69ed58e"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "ma_funding",
-        "source_name": "36kr AI → 多少打工人五一出游被景区AI拍成「犯罪嫌疑人」？“死亡角度配高糊画质，去水印还得收你20”",
-        "url": "https://36kr.com/p/3795878430759942",
-        "weight": 4,
-        "title": "多少打工人五一出游被景区AI拍成「犯罪嫌疑人」？“死亡角度配高糊画质，去水印还得收你20”-36氪",
-        "content_excerpt": "多少打工人五一出游被景区AI拍成「犯罪嫌疑人」？“死亡角度配高糊画质，去水印还得收你20”-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 城市 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 多少打工人五一出游被景区AI拍成「犯罪嫌疑人」？“死亡角度配高糊画质，去水印还得收你20” Vista氢商业 · 2026年05月05日 15:00 想你的风吹到了AI 五一出游的你是不是也觉得，如今的景区越来越不对劲了？ 不仅挤满了人，还挤满了各种“科技与狠活”。 不知道从什么时候开始，每个热门景区的打卡点位上都摆上了一台 「AI旅拍写真机」，和“想你的风吹到了XX”以及“轰炸大鱿鱼”共同组成了景区标配三件套。 图源：小红书@爱摄影的程序猿猿、@小米唐 坐完缆车后扫二维码，不仅能收获一张丑到想报警的随机抓拍照，还附赠一段 AI自动剪辑的Vlog，喜提全程监控视角和大头特效，仿佛《今日说法》里被识别追踪的犯罪嫌疑人。 共享充电宝已经不新鲜了，现在 连无人机都能共享，“15分钟20块，芝麻分够免押金” ，随叫随飞，随你完成一场空中跟拍。 当你爬长城爬到累得站不稳时，还能 租一套外骨骼cos钢铁侠，体会一把什么叫做“命运的推背感”。 时代仿佛按下了快进键，景区里的“黑科技”，到底进化到什么地步了？ 01 AI赛博狗仔上线，你在旅游而它在“取证”？ 没想到有一天， 这年头去景区游山玩水，还能体验一把「犯罪嫌疑人同款待遇」。 有博主在江西明月山景区爬完山，通过人脸识别后，领到了一份AI自动剪辑的短视频： 画质高糊，仿佛用座机拍的；全程监视器视角，还会开大头特效圈出人脸，和《今日说法》锁定嫌疑人的画面不能说毫无关系，只能说一模一样。 小程序上还显示，额外花18.9元，就能“付费下载去水印”，获得专属高清视频。 “这是我今年看过最有配得感的一句话， 难道最值得收费的项目不是一键删除吗？” 图源：小红书@拥护菠菜反对带壳的蜗牛 景区已经不满足于靠“拍照片”赚钱了，现在流行的是拍“短视频”。 深圳甘坑古镇更是推出了“AI足迹”系统，在各个点位布设摄像头，从你进门回头那一刻，到你在古井边俯身，系统可以自动抓拍、拼接，一键生成属于你的“古风小生”短视频。 除了摄像头，无人机也来凑一脚。 被称为“国内景区审美天花板”的绍兴兰亭，推出了无人机自助旅拍服务，游客扫码支付后，即可“召唤”无人机飞来，帮助拍摄照片，并生成AI短视频，“不用开口求人，也不用忍受自拍的单一死亡角度”。 图源：绍兴网 为了让体验更“高端”，还有AI设备试图复刻格莱美红毯仪式感。 马蜂窝推出了格莱美旅拍机器人 ，通过机械臂搭配AI高速摄影机，再由AI配乐剪辑调色，试图让游客无需飞去洛杉矶，也能平价获得格莱美同款高速慢镜头。今年4月份，它正式落地西江千户苗寨，游客可以穿上苗族服饰，在吊脚楼之间拍出“国际大片”。 问题在于， 高速慢镜头连红毯明星都难逃翻车，有人被拍成“成功学讲师”，有人秒变“房产销冠”，普通素人站上去更是360度的高清无死角公开处刑。 “谢谢AI送我上去付费丢脸。” 更常见的，还是在故宫、天坛、玉渊潭、杭州西湖、青岛栈桥等景区铺开的「AI旅拍写真机」，号称“赚钱永动机” ：10秒出片，几十种模板任选，无需在大夏天换上热到中暑的汉服还担心上厕所踩到裙摆，也无需提前起床仨小时化妆贴假睫毛戴发髻， 试图实现“我在景区无痛当明星”。 然而现实常常是一眼假：缺乏与景区深度绑定的内容设计，这些模板高度同质化， 你在西湖拍出来的古风大片，和躺在家里用豆包生成的图片，几乎没啥区别。 上周，氢商业编辑在乌镇花9块9和朋友拍了一张纪念报纸， 结果AI一顿猛操作，不仅把背景换成了一个更“标准”的江南水乡，还直接P了两个“新造的人”出来。 最后，印好的报纸从机器里吐出来，掉在地上，脸先着地，谁都不想捡起来带回家。 氢商业摄 除了试图替代旅拍摄影师之外，AI还试图替代传统导游的角色。 今年年初，豆包和上海浦东美术馆联动，通过视频通话直接识别作品进行语音讲解。但也有游客体验后表示，馆里网络一塌糊涂，根本用不",
-        "fetched_at": "2026-05-05T16:23:04+0000",
-        "candidate_type": "subpage",
-        "parent_url": "https://36kr.com/information/AI",
-        "url_hash": "07ed5a3b8e8d532a"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "ma_funding",
-        "source_name": "36kr AI → 全球第二的机器狗公司，讲了一个不性感的故事",
-        "url": "https://36kr.com/p/3795876358347782",
-        "weight": 4,
-        "title": "全球第二的机器狗公司，讲了一个不性感的故事-36氪",
-        "content_excerpt": "全球第二的机器狗公司，讲了一个不性感的故事-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 城市 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 全球第二的机器狗公司，讲了一个不性感的故事 新眸 · 2026年05月05日 15:33 B端重场景这条路走通后，还能走更远。 五一当天，证监会官网IPO辅导公示系统更新了一条信息，杭州云深处科技股份有限公司及辅导券商中信建投，向浙江证监局提交了《辅导工作完成报告》。 辅导期不到5个月，在递交IPO申请的公司里，这个速度不算慢。云深处也由此成为继群核科技港股上市、宇树科技冲刺科创板之后，“杭州六小龙”中又一家走到上市门口的公司。 过去半年，云深处把日程拉得很满。去年底完成超5亿元C轮融资，招银国际和华夏基金联合领投，中国电信、中国联通旗下基金参与战略投资，同月提交辅导备案。今年先有联合华电电科院发布火力发电全场景巡检方案，后有携全系列产品亮相德国汉诺威工博会，且在杭州接待了比利时副首相普雷沃的参观访问。 一级市场给它的估值站上了百亿台阶。2025年全年融资超10亿元，国家队产业基金、中国电信、中国联通、京东悉数入局。 但打开招股书辅导报告，一些问题还是浮了上来。IDC数据显示，2024年云深处全球四足机器人销量份额18.9%，位列第二，仅次于宇树科技的32.4%。营收增速超过100%，2025年公司宣布扭亏为盈，但净利润体量还没有公开披露。B端电力场景扎得很深，客户集中度也高得让人捏把汗。 云深处冲刺IPO，要回答的其实不只有“值多少钱”，还有更底层的问题：在这条宇树跑在前面的机器狗赛道里，“第二名”准备讲一个什么样的故事。 01 赚钱的机器狗公司，不存在？ 在全球范围内，“四足机器人公司赚钱”这件事，长期是个伪命题。 波士顿动力的Spot，是全世界最出名的机器狗。但它每台7.5万美元的售价，让工业客户望而却步。2020年Spot上市当年只卖了几百台。2025年，Spot推出3.0版本，现代汽车终于把它塞进工厂做安全巡检，商业化算是走到了车间。但如果你问波士顿动力靠Spot赚没赚到钱，答案大概率是否定的。 瑞士的ANYbotics情况类似，去年9月拿了超1.5亿美元融资，计划今年推出新一代ANYmal X。但翻开行业报告会发现：整个全球四足移动机器人市场，2025年销售额23亿美元，预计到2032年超71亿美元，年复合增长率17%，这体量放在任何真正的大赛道里，都不算大。 所以，当云深处连续放出“出货量增长200%”“已经盈利”的消息时，整个机器人圈子先是不信，然后开始翻数据。 具体来看，2024年，云深处营收相比2023年增长超100%，2025年出货量同比增长超200%，全年出货近万台。按照四足机器人数万元的均价区间，行业机构测算其2025年营收在5-6亿元。公司创始人朱秋国在接受专访时给出了确认：2025年已经扭亏为盈，且90%以上营收来自四足机器人产品线。 换句话说，云深处可能真的成了全球第一家靠卖机器狗赚到钱的公司。 拿今年的汉诺威工博会来说，云深处展出的东西里，山猫M20、绝影X30、绝影Lite3三款产品，就是面向欧洲客户展示工业巡检和安防巡逻解决方案。展台旁边有一组数据：绝影X30在欧洲实际落地项目中，巡逻覆盖范围扩大3倍、事故响应时间缩短60%以上。 它的目标客户，很看重产品能不能替代一个人、三个人的排班。云深处踩中的就是这个判断。 过去两年，它把主要精力放在了一个关键词上：场景。电力巡检、应急消防、安防巡逻、工业运维，围绕这几条线持续往深处推。 比如在某换流站，绝影X30四足机器人在仿真环境中精准识别指针仪表、数字与状态仪表、红外温度及指示灯，自主判断电量、前往充电桩补能，实现无人值守持续运行。目前，云深处的电力巡检方案已落地国家电网、南方电网等超过100座变电站。国内做完，海外也开始同步推进。 朱秋国总结这打的是一场什么仗：“云深处希望机器人能够真正帮助人解决问题”，“我们很早就提出让机器人进入这种危险场景中巡检”。截至目前，云深处业务覆盖全球50个国家和地区，落",
-        "fetched_at": "2026-05-05T16:23:04+0000",
-        "candidate_type": "subpage",
-        "parent_url": "https://36kr.com/information/AI",
-        "url_hash": "88a601a4f5835ca2"
+        "subcategory": "frontier_labs",
+        "source_name": "OpenAI Blog (RSS entry)",
+        "url": "https://openai.com/index/new-ways-to-buy-chatgpt-ads",
+        "weight": 5,
+        "title": "New ways to buy ChatGPT ads",
+        "content_excerpt": "OpenAI expands ChatGPT ads with a beta self-serve Ads Manager, CPC bidding, and enhanced measurement tools—built to protect privacy and keep conversations separate from ads.",
+        "fetched_at": "2026-05-06T05:34:04+0000",
+        "published": "Tue, 05 May 2026 00:00:00 GMT",
+        "candidate_type": "rss_entry",
+        "parent_feed": "https://openai.com/blog/rss.xml",
+        "url_hash": "08792e01b9a92ec8"
       },
       {
         "bucket": "ai",
         "subcategory": "news_analysis",
-        "source_name": "Last Week in AI (RSS entry)",
-        "url": "https://lastweekin.ai/p/last-week-in-ai-340-openai-vs-musk",
-        "weight": 3,
-        "title": "Last Week in AI #340 - OpenAI vs Musk + Microsoft, DeepSeek v4, Vision Banana",
-        "content_excerpt": "First week of Musk v. Altman, OpenAI ends Microsoft legal peril over its $50B Amazon deal, DeepSeek previews new AI model that closes the gap with frontier models, and more!",
-        "fetched_at": "2026-05-05T16:22:46+0000",
-        "published": "Tue, 05 May 2026 08:30:35 GMT",
+        "source_name": "Latent Space (swyx) (RSS entry)",
+        "url": "https://www.latent.space/p/lupsasca",
+        "weight": 5,
+        "title": "🔬Doing Vibe Physics — Alex Lupsasca, OpenAI",
+        "content_excerpt": "The full story of how GPT 5.x derived new results in theoretical physics and quantum gravity.",
+        "fetched_at": "2026-05-06T05:34:10+0000",
+        "published": "Tue, 05 May 2026 20:34:11 GMT",
         "candidate_type": "rss_entry",
-        "parent_feed": "https://lastweekin.ai/feed",
-        "url_hash": "c03cea9d1b46b585"
+        "parent_feed": "https://www.latent.space/feed",
+        "url_hash": "383ae57e1162c2b8"
       },
       {
         "bucket": "ai",
-        "subcategory": "image_gen",
-        "source_name": "Recraft → Recraft V4 Pro vs Midjourney V8: side-by-side comparison",
-        "url": "https://www.recraft.ai/blog/recraft-v4-pro-vs-midjourney-v8-side-by-side-comparison",
-        "weight": 3,
-        "title": "Recraft V4 Pro vs Midjourney V8: side-by-side comparison",
-        "content_excerpt": "Recraft V4 Pro vs Midjourney V8: side-by-side comparison Sign in Try Recraft Studio Recraft Studio Create Recraft Studio: All AI models in one design tool AI image generation AI vector generation Mockup generation Edit Vectorize image Upscale image Modify image Remove background Erase area Edit area Merge images Expand image Recolor image Editing templates Image format converter Available image models Recraft Nano Banana Flux Ideogram GPT Image HiDream Imagen Qwen Image Seedream Grok Image View all models... Available video models Grok Video Veo Kling Sora Seedance Pixverse Hailuo Wan Ray View all models... AI models Recraft&#x27;s models Available in Recraft Studio and via API Introducing Recraft V4 Recraft V4 documentation Recraft V3 documentation Recraft V2 documentation API Build automated visual workflows with Recraft API Recraft models API Documentation API pricing Connections Access Recraft across different platforms OpenClaw Use cases AI image generation Ads Stock images Icons Logos Characters Explore all... For professionals Graphic designers Print-on-demand sellers Visual artists Custom DPI and CMYK Gallery Photorealism Illustration Vector art Icons All images... API Recraft models API Documentation API pricing Resources Documentation Recraft Studio documentation Recraft models API MCP Blog Tutorials Case studies Announcements All posts Company About Recraft Careers News Request a feature Support Follow us X Instagram Linkedin Discord YouTube Pricing Enterprise Download app Download app Home Blog Recraft V4 Pro vs Midjourney V8: side-by-side comparison April 30, 2026 • min read Recraft V4 Pro vs Midjourney V8: side-by-side comparison Recraft V4 Pro vs Midjourney V8 tested across 8 prompts — portraits, logos, infographics, posters, and vector illustration. See where each model wins. Two of the most respected names in AI image generation approach creative briefs from very different starting points. Recraft V4 Pro — Recraft’s flagship model — leads with desig",
-        "fetched_at": "2026-05-05T16:22:59+0000",
+        "subcategory": "ma_funding",
+        "source_name": "36kr AI → 算不平的AI账：字节收网，阿里腾讯百度还在站岗",
+        "url": "https://36kr.com/p/3797196504751367",
+        "weight": 4,
+        "title": "算不平的AI账：字节收网，阿里腾讯百度还在站岗-36氪",
+        "content_excerpt": "算不平的AI账：字节收网，阿里腾讯百度还在站岗-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 城市 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 算不平的AI账：字节收网，阿里腾讯百度还在站岗 强调Next · 2026年05月06日 12:02 所有人都在盯着豆包68元。真正的钱，在别的地方流动。 字节跳动2025年全年资本开支超过1500亿元，其中约900亿用于AI算力采购。2026年这个数字还在涨，计划投入1600亿，AI芯片采购占850亿。这还是在净利润同比下滑超70%的背景下做出的决定。 抖音再能赚钱，账也有算不平的时候。 豆包每天消耗约120万亿token。这个数字背后是每一次对话的算力消耗，每一条回答的服务器成本。字节在技术上对推理效率做过大量优化，豆包2.0推理效率提升了43%，长上下文场景首包延迟比行业主流降低25%以上，万token推理成本是海外头部模型合规链路的38%。即便如此，3.45亿月活用户免费用下去，这个窟窿很难填。 5月4日，豆包在App Store悄悄更新了付费声明。三档定价：标准版68元/月、加强版200元/月、专业版500元/月，连续包年最高5088元。声明的措辞是“探索增值服务”，基础功能维持免费。 上周，谷歌微软亚马逊 Meta 等科技巨头发布财报，大家都已经在不同程度进入AI收获期。商业化压力开始向国内大厂传递。 2026年，AI商业化的主旋律之下，国内各家大厂加速AI商业化，豆包68元起的订阅模式只是其中一条路，云服务、广告增效、电商导流才是更大的战场。有的大厂甚至已经不打算靠订阅赚钱了。 01.谁有资格第一个收费 国内AI大模型三年来维持免费竞争，所有人都清楚迟早要结束、但谁都不敢先动。 先动的代价是失去用户，百度文心一言就曾因过早收费而错失了发展用户的最佳窗口。后动的代价是继续亏损，且用户越多烧的越狠。这个均衡的破法只有体量大到可以承受先手的短期损失。 豆包已经符合这个条件。QuestMobile数据显示，2026年3月豆包月活3.45亿，千问1.66亿，DeepSeek 1.27亿，豆包一家超过后两者之和。用户规模带来的议价空间，让它有资本在部分用户流失的情况下仍然维持商业可行性。 豆包宣布收费之后，其他免费产品将面临一个解释压力：为什么免费？是打算一直亏，还是将来要塞广告？ 在豆包收费之前，行业竞争的核心指标是月活和功能。从现在开始，商业模式成了更重要的评判标准。 02.豆包：订阅是验证，火山引擎才是正题 订阅收入在字节整体版图里，只是验证用户付费意愿的实验。字节AI商业化真正的重量级战场在火山引擎。 火山引擎在2025年已经把字节内部所有主力产品的AI能力对外开放：推荐算法、内容理解、多模态生成，全部以API形式卖给外部企业。这套能力在抖音、今日头条上锤炼了将近十年。把自己最核心的竞争力产品化，让每一个想做AI的企业成为付费客户，这是字节的B端逻辑。 数据层面，字节的B端布局比外界感知的要领先。根据IDC数据，2025年上半年中国公有云大模型Token调用市场，火山引擎以49.2%的份额位居第一，接近整个中国市场的半壁江山。模型调用量领先带动了基础云资源的消耗。火山引擎2025年全年收入突破200亿元，同比翻倍，2026年MaaS业务目标直指百亿规模。 豆包收费，同时给B端客户传递了一个信号：这套模型已经有3.45亿月活用户在用，而且愿意付费。对企业采购决策来说，这个验证比任何技术白皮书都有说服力。 不过可以预见，豆包的商业化并不会止步于此，电商、本地生活甚至其他内容生态产品都可能被AI改造而成为下一个更大的蓝海。 在这件事上，阿里更激进。 03.阿里：两头收钱，千问只是分流入口 阿里的AI商业化逻辑，在财报上写得明白。他有两个重点方向。 2025年阿里云季度增速：Q1 +18%，Q2 +26%，Q3 +34%，Q4 +36%。四个季度连续加速，创近三年最高。AI相关收入连续10个季度三位数增长。CEO吴泳铭在分析师电话会上立下目标：未来五年，AI+云商业化年收入破10",
+        "fetched_at": "2026-05-06T05:34:27+0000",
         "candidate_type": "subpage",
-        "parent_url": "https://www.recraft.ai/blog",
-        "url_hash": "930c0ed797ebf15a"
+        "parent_url": "https://36kr.com/information/AI",
+        "url_hash": "c83332946997d323"
       },
       {
         "bucket": "ai",
-        "subcategory": "video_gen",
-        "source_name": "Luma Dream Machine → Introducing the Uni-1.1 API: Intelligence You Can Direct. Ae",
-        "url": "https://lumalabs.ai/news/uni-1-1-api",
-        "weight": 3,
-        "title": "Introducing the Uni-1.1 API: Intelligence You Can Direct. Aesthetic You Can Ship. | Luma",
-        "content_excerpt": "Introducing the Uni-1.1 API: Intelligence You Can Direct. Aesthetic You Can Ship. | Luma Luma company logo Product Pricing API Enterprise News Join us Sign In Introducing the Uni-1.1 API: Intelligence You Can Direct. Aesthetic You Can Ship. May 5, 2026 Today we&#x27;re opening access to the Uni-1.1 API: a REST interface to our Unified Intelligence model for image generation and natural-language editing. Now, the power of Uni-1 is the hands of developers to not only transform creative workflows, but amplify creativity and expand productions at a scale not possible before. Built for builders shipping in production — and ranked top 3 lab in the Image Arena across Text-to-Image and Image Edit. Launched last month, Uni-1 takes a different approach to generative AI: reasoning and image generation run in the same model rather than in separate systems stitched together at inference time. The result is tighter adherence to multi-constraint briefs, cleaner reference grounding, and editing that responds to intent rather than to prompt syntax. It currently ranks #1 on Human Preference Elo across overall, style & editing, and reference-based generation, and leads RISEBench on both overall reasoning and spatial logic. Uni-1.1 API is already in production with commitments across Envato, Comfy, Runware, Flora, Krea, Magnific (formerly Freepik), Fal, and LovArt. This post covers what Unified Intelligence is, what it means under the hood, and what you can build with it. What Unified Intelligence is Luma’s Unified Intelligence model, Uni-1, was built on the idea that the accuracy of an AI-generated output isn&#x27;t enough. Great creative work requires knowing not just what&#x27;s correct, but what&#x27;s beautiful. The standard approach in generative AI is to train separate models for separate modalities, a language model here, an image model there, and stitch them together at inference time. The problem isn&#x27;t that these models are individually weak. It&#x27;s that stitching is ",
-        "fetched_at": "2026-05-05T16:22:59+0000",
+        "subcategory": "ma_funding",
+        "source_name": "36kr AI → 豆包开启付费模式：AI搞订阅，行得通吗？",
+        "url": "https://36kr.com/p/3797116268862473",
+        "weight": 4,
+        "title": "豆包开启付费模式：AI搞订阅，行得通吗？-36氪",
+        "content_excerpt": "豆包开启付费模式：AI搞订阅，行得通吗？-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 城市 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 豆包开启付费模式：AI搞订阅，行得通吗？ TopKlout克劳锐 · 2026年05月06日 11:34 这一天，来得不算早，但或许刚刚好 五一假期，国内AI圈来了一记惊雷。 豆包App Store页面悄然上线付费版本服务声明： “为更好地服务专业用户，豆包将在免费版基础上，推出包含更多增值服务的付费版本。” 标准版68元/月、加强版200元/月、专业版500元/月——三档价格清晰明了，并同步给出了包年优惠。 图源豆包App Store页面 虽然官方口径颇为克制，强调“仍提供免费服务，付费仅为增值探索，细节尚在测试中”，但在社交媒体上，却掀起了巨大的波澜， 大量网友涌入豆包抖音号评论区留言。 图源豆包抖音评论区 坐拥3.45亿月活，用户断层式领先的豆包，已经通过免费模式积累的海量用户，为付费转化提供了庞大基本盘。 虽然大家都在吐槽收费这一行为，但热议也印证了豆包的火热。毕竟，大量职场人、创作者、学生已形成使用习惯， 只要付费能解决更多难题，自然存在“免费转付费”的潜在空间。 但是，豆包的这一行为，也直接将国内AI行业的核心争议摆上了台面—— AI订阅，在国内真行得通吗？ 从“抢用户”到“赚利润”，AI行业不得不走的一步 过去两三年，国内AI大模型与应用深陷“跑马圈地”的逻辑： 谁免费、谁好用、谁更新快，用户就流向谁； 拼算力、拼参数、拼功能，主流AI大厂鲜少谈及盈利； 普通用户习惯“白嫖”，认为AI理应像搜索、社交工具一样永久免费。 然而，AI与其他互联网产品有着本质区别。 算力与Token消耗是真金白银的成本，且各大AI产品短期内很难像搜索引擎或短视频APP那样，通过广告、电商等靠流量变现。 复杂的文案、PPT、数据分析、视频生成，背后都是海量计算与推理开销。用户越多、场景越重，成本便呈指数级攀升。 就算字节跳动体量再大，也难以长期“用爱发电”。 据接近豆包人士透露，此次付费功能将集中在PPT生成、数据分析、影视制作等高算力消耗场景，本质上是将成本与价值重新挂钩。 免费版：守住基本盘，满足日常轻量需求。 付费版：聚焦高算力消耗的“重度生产力”场景。 逻辑很直白： 用免费守住基本盘，用付费提供高价值能力。 收费的合理性，先算三笔账 尽管舆论场上有质疑声，但抛开情绪看，豆包的付费探索在商业逻辑上是成立的。 成本账：AI不是慈善，算力每一秒都在烧钱 大模型运行至少要付出算力、研发、服务，还需要线上线下营销推广的费用。 价值账：既然成了生产力工具，用户就该为效率买单 十年前，视频会员、音乐会员、网盘会员曾被骂“吃相难看”；可现在年轻人几乎人手数个订阅。 这是为啥呢？ 一方面，版权收紧使得免费内容获取愈发困难；但更重要的是，大家想通了， 省时间、提效率、保体验，就值得花钱 。 如今AI已成为新一代生产力底座，虽然很多AI内容仍有问题，但在你我身边，AI的重度使用者比比皆是。 当AI可以产生实际价值，收费是必然的趋势。 竞争账：不收费，是对行业不负责任 国内AI尚处同质化阶段，用户迁移成本极低。一旦某家率先大规模收费，但体验未形成显著优势，用户便极易流失。 豆包敢在此时先行试水，确实需要很大的勇气，但也恰恰说明： 豆包的模型能力已能支撑一定的可感知的付费价值； 平台判断用户付费意愿已跨过临界点，愿意为确定性的效率提升买单。 尽管「克劳锐」不知道正式付费后，豆包将收获多少收入或流失多少用户，但国外的GhatGPT、Gemini，国内早期的文心一言、现在的Kimi都有会员模式，更不要说更垂直的MiniMax、可灵AI、即梦AI等。 从这个逻辑来看，豆包收费也是理所应当。 图源Kimi官网 困难与挑战 虽然收费有很强的合理性，但执行起来未必顺利。 豆包要面临的，是 用户心智、价值匹配、成本倒挂、竞争挤压 等核心困境，短期必然难以取得成效。 而且对绝大部分豆包用户而言，本次收费虽然并不会涉及到他们的使用，",
+        "fetched_at": "2026-05-06T05:34:27+0000",
         "candidate_type": "subpage",
-        "parent_url": "https://lumalabs.ai/blog",
-        "url_hash": "00a9a7f4190fda6c"
+        "parent_url": "https://36kr.com/information/AI",
+        "url_hash": "fb5d413b9bff7306"
+      },
+      {
+        "bucket": "ai",
+        "subcategory": "ma_funding",
+        "source_name": "36kr AI → 谷歌、英伟达押注，这家估值40亿美元的AI公司，想把科学家直接干掉",
+        "url": "https://36kr.com/p/3795880431049990",
+        "weight": 4,
+        "title": "谷歌、英伟达押注，这家估值40亿美元的AI公司，想把科学家直接干掉-36氪",
+        "content_excerpt": "谷歌、英伟达押注，这家估值40亿美元的AI公司，想把科学家直接干掉-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 城市 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 谷歌、英伟达押注，这家估值40亿美元的AI公司，想把科学家直接干掉 极客公园 · 2026年05月06日 10:39 自学习AI公司Recursive获5亿美元融资，估值40亿美元。 自学习 AI 的融资神话，正在告诉我们一件事——这场 AI 军备竞赛，连研究员本身都要被「卷」进去了。 1956 年，一批科学家聚在达特茅斯，第一次正式讨论「机器能否思考」。他们乐观地以为，用一个夏天就能解决这个问题。 七十年后，这个问题依然没有答案。但有一家公司，刚刚成立四个月， 就拿到了 5 亿美元融资，估值达到 40 亿美元 ——只因为它宣称，自己找到了一条路，让 AI 学会自己做研究、自己进化。 这家公司叫 Recursive Superintelligence。 Google 风投 GV 领投，英伟达跟投。两家公司在 AI 生态里的地位不需要赘述。它们同时出手，押注一家连产品都还没有公开的初创公司，背后的逻辑值得认真拆解。 01 「把人从循环里移走」 先说说 Recursive Superintelligence 到底在做什么。 公司由前 Salesforce 首席科学家 Richard Socher 创立，核心团队来自 Google DeepMind 和 OpenAI。这不是什么陌生的组合——过去两年，从顶级实验室出走创业的工程师和研究员，已经形成了一股明显的浪潮。 Richard Socher 的 X 个人主页，Altman 显然关注了这位人才｜图片来源：X Socher 并非硅谷常见的那种「大厂出来镀金」的创始人。他 1983 年生于德国，在斯坦福大学师从 AI 先驱 Andrew Ng 和 NLP 权威 Christopher Manning，2014 年完成博士论文，拿下当年斯坦福计算机系最佳博士论文奖。 Richard Socher 是将神经网络方法真正带入自然语言处理领域的关键人物之一——他早期关于词向量、上下文向量和提示工程的研究，直接奠定了今天 BERT、GPT 系列模型的技术基础，谷歌学术引用量已超 18 万次。 博士毕业当年，他创立了 AI 初创公司 MetaMind，两年后被 Salesforce 以战略并购的方式收入麾下。此后他以首席科学家兼执行副总裁的身份主导 Salesforce AI 战略长达数年，主导了 Einstein GPT 等企业级 AI 产品线的落地。 离开 Salesforce 后，他又在 2020 年创立了 AI 搜索引擎 You.com，2025 年完成 C 轮融资，估值达 15 亿美元。这一次，他把目光从搜索转向了更底层的命题。 Thinking Machines Lab、Safe Superintelligence、Ineffable Intelligence、Advanced Machine Intelligence Labs……每一家都拿着「前 XX 大模型核心团队」的标签出现，每一家都在讲一个「下一代 AI」的故事。 但 Recursive 的切入点，比大多数同行更激进。 它的核心命题是「自学习 AI」—— 不是让 AI 更聪明地回答问题，而是让 AI 自主完成科学研究的全流程 ：提出假设、设计实验、评估结果、迭代方向。换句话说，它想把人类研究员从这个循环里完整地移走。 这不是一个新鲜的方向，但 Recursive 把它放到了一个极其现实的商业逻辑里。现在顶级 AI 研究员的年薪动辄 1500 万到 2000 万美元，如果一套系统能以更低的成本、更快的速度完成同样的工作，前沿研究的经济模型就会彻底改写。 投资人显然看到了这个逻辑。融资轮据报道超额认购，最终规模可能达到 10 亿美元。 02 Google 和英伟达同时下注 GV 领投，英伟达跟投。这个投资人组合本身就是一个信号。 Google 的逻辑不难理解。Dee",
+        "fetched_at": "2026-05-06T05:34:27+0000",
+        "candidate_type": "subpage",
+        "parent_url": "https://36kr.com/information/AI",
+        "url_hash": "f3a0a38625809367"
       }
     ],
     "my-law": [
       {
         "bucket": "my-law",
         "subcategory": "official",
-        "source_name": "Bernama · 国家通讯社 → 10,677 PDRM Personnel Receive Excellent Service Award 2025 -",
-        "url": "https://www.bernama.com/en/general/news.php?id=2553309",
+        "source_name": "Bernama · 国家通讯社 → HAWANA 2026 Media Forum Set For Tomorrow To Discuss Industry",
+        "url": "https://www.bernama.com/en/general/news.php?id=2553338",
         "weight": 4,
-        "title": "BERNAMA - 10,677 PDRM Personnel Receive Excellent Service Award 2025 - IGP",
-        "content_excerpt": "BERNAMA - 10,677 PDRM Personnel Receive Excellent Service Award 2025 - IGP BERNAMA.com | BERNAMA TV | BERNAMA Radio | BERNAMA Images | BLIS | NewsLink5 English Malay Arabic Espa&ntilde;ol General BernamaBiz Crime & Courts Politics Sports Lifestyle Region Central Northern Southern East Sabah Sarawak World Main Nam News Network (NNN) The Organization of Asia-Pacific News Agencies (OANA) Xinhua News Agency Microsite HAWANA 2026 CPI MAPO MCMC Fokus BERNAMA Thoughts MyCheck fotoBERNAMA Garasi More Infographics Videos Exclusive Press Archived English Malay Arabic Espa&ntilde;ol Home General BernamaBiz Crime & Courts Politics Sports Lifestyle Region Central Northern Southern East Sabah Sarawak World Main Nam News Network (NNN) The Organization of Asia-Pacific News Agencies (OANA) Xinhua News Agency Microsite HAWANA 2026 CPI MAPO MCMC Fokus BERNAMA Thoughts MyCheck fotoBERNAMA Garasi More Infographics Videos Exclusive Press Archived GENERAL > NEWS 10,677 PDRM Personnel Receive Excellent Service Award 2025 - IGP 06/05/2026 12:04 AM Credit: FB Polis Diraja Malaysia ( Royal Malaysia Police ) Credit: FB Polis Diraja Malaysia ( Royal Malaysia Police ) Credit: FB Polis Diraja Malaysia ( Royal Malaysia Police ) Credit: FB Polis Diraja Malaysia ( Royal Malaysia Police ) KUALA LUMPUR, May 5 (Bernama) -- A total of 10,677 personnel of the Royal Malaysia Police (PDRM) received the Excellent Service Award (APC) 2025, in recognition of their contributions, sacrifices and loyalty. Inspector-General of Police Datuk Seri Mohd Khalid Ismail said the recipients comprised senior officers, junior officers and civil staff from various departments. He said each recipient received an APC certificate and an incentive of RM1,000 in the form of a National Education Savings Scheme (SSPN) Prime account. According to him, the eight per cent quota set by the government for the award makes the selection process highly competitive. &ldquo;Based on the quota, 1,090 senior police officers, 8,612 junior poli",
-        "fetched_at": "2026-05-05T16:23:01+0000",
+        "title": "BERNAMA - HAWANA 2026 Media Forum Set For Tomorrow To Discuss Industry Issues",
+        "content_excerpt": "BERNAMA - HAWANA 2026 Media Forum Set For Tomorrow To Discuss Industry Issues BERNAMA.com | BERNAMA TV | BERNAMA Radio | BERNAMA Images | BLIS | NewsLink5 English Malay Arabic Espa&ntilde;ol General BernamaBiz Crime & Courts Politics Sports Lifestyle Region Central Northern Southern East Sabah Sarawak World Main Nam News Network (NNN) The Organization of Asia-Pacific News Agencies (OANA) Xinhua News Agency Microsite HAWANA 2026 CPI MAPO MCMC Fokus BERNAMA Thoughts MyCheck fotoBERNAMA Garasi More Infographics Videos Exclusive Press Archived English Malay Arabic Espa&ntilde;ol Home General BernamaBiz Crime & Courts Politics Sports Lifestyle Region Central Northern Southern East Sabah Sarawak World Main Nam News Network (NNN) The Organization of Asia-Pacific News Agencies (OANA) Xinhua News Agency Microsite HAWANA 2026 CPI MAPO MCMC Fokus BERNAMA Thoughts MyCheck fotoBERNAMA Garasi More Infographics Videos Exclusive Press Archived GENERAL > NEWS HAWANA 2026 Media Forum Set For Tomorrow To Discuss Industry Issues 06/05/2026 09:39 AM The HAWANA 2026 Media Forum KUALA LUMPUR, May 6 (Bernama) -- The HAWANA 2026 Media Forum, hosted by the Malaysian National News Agency (Bernama), will be held tomorrow as a platform for stakeholders across the media industry to exchange views on key issues shaping the sector. The forum will gather media leaders, journalists, academics, public relations practitioners, as well as lecturers and students from public and private universities. The HAWANA 2026 Media Forum Secretariat, in a statement, said discussions will focus on sustaining media organisations amid tightening revenue conditions and the need for journalists to adapt to a fast-changing and increasingly complex media environment. The forum will also emphasise the importance of building a resilient, forward-looking Malaysian media ecosystem, particularly in the digital era and with the growing influence of artificial intelligence (AI). &ldquo;Several board members of the Malaysian Med",
+        "fetched_at": "2026-05-06T05:34:25+0000",
         "candidate_type": "subpage",
         "parent_url": "https://www.bernama.com/en/general/index.php",
-        "url_hash": "d19cb3bc0afac275"
-      },
-      {
-        "bucket": "my-law",
-        "subcategory": "official",
-        "source_name": "Bernama · 国家通讯社 → BATU PAHAT, May 5 (Bernama) -- An eight-year-old girl was ki",
-        "url": "https://www.bernama.com/en/general/news.php?id=2553314",
-        "weight": 4,
-        "title": "BERNAMA - Standard Two Student Killed In Van Accident Outside Batu Pahat School",
-        "content_excerpt": "BERNAMA - Standard Two Student Killed In Van Accident Outside Batu Pahat School BERNAMA.com | BERNAMA TV | BERNAMA Radio | BERNAMA Images | BLIS | NewsLink5 English Malay Arabic Espa&ntilde;ol General BernamaBiz Crime & Courts Politics Sports Lifestyle Region Central Northern Southern East Sabah Sarawak World Main Nam News Network (NNN) The Organization of Asia-Pacific News Agencies (OANA) Xinhua News Agency Microsite HAWANA 2026 CPI MAPO MCMC Fokus BERNAMA Thoughts MyCheck fotoBERNAMA Garasi More Infographics Videos Exclusive Press Archived English Malay Arabic Espa&ntilde;ol Home General BernamaBiz Crime & Courts Politics Sports Lifestyle Region Central Northern Southern East Sabah Sarawak World Main Nam News Network (NNN) The Organization of Asia-Pacific News Agencies (OANA) Xinhua News Agency Microsite HAWANA 2026 CPI MAPO MCMC Fokus BERNAMA Thoughts MyCheck fotoBERNAMA Garasi More Infographics Videos Exclusive Press Archived GENERAL > NEWS Standard Two Student Killed In Van Accident Outside Batu Pahat School 06/05/2026 12:16 AM BATU PAHAT, May 5 (Bernama) -- An eight-year-old girl was killed after she was hit by a van in front of Sekolah Kebangsaan (SK) Seri Maimon in Parit Sulong here this afternoon. Batu Pahat district police chief ACP Shahrulanuar Mushaddat Abdullah Sani said the accident is believed to have occurred at about 12.30 pm in front of the school&rsquo;s main gate. He said preliminary investigations by the district Traffic Investigation and Enforcement Division found that the accident occurred when a van, which had just delivered goods, was moving out of the school&rsquo;s main gate, heading towards Jalan Simpang Lima-Parit Sulong. &ldquo;The van struck the victim, who was on foot, in front of the school&rsquo;s main gate. The victim, a standard two student at the school, sustained severe head and internal injuries and was pronounced dead at the scene by an assistant medical officer from Klinik Kesihatan Parit Sulong,&rdquo; he said in a statement",
-        "fetched_at": "2026-05-05T16:23:01+0000",
-        "candidate_type": "subpage",
-        "parent_url": "https://www.bernama.com/en/general/index.php",
-        "url_hash": "d0f5eab648038db9"
+        "url_hash": "5c254cead0e0a5e4"
       }
     ],
-    "fitness": [],
+    "fitness": [
+      {
+        "bucket": "fitness",
+        "subcategory": "policy_government",
+        "source_name": "Sport Australia → AIS tech helping Wunsch chase the extra one per cent",
+        "url": "https://www.sportaus.gov.au/media-centre/news/ais-tech-helping-wunsch-chase-the-extra-one-per-cent",
+        "weight": 2,
+        "title": "AIS tech helping Wunsch chase the extra one per cent | ASC",
+        "content_excerpt": "AIS tech helping Wunsch chase the extra one per cent | ASC Skip to main content AIS shop Careers Sign In or register My account Search this website Search Menu Services Grants and funding Guidance and resources Visit AIS News Events About us Contact us Search Menu Services Grants and funding Guidance and resources Visit AIS News Events About us Contact us Home … Media centre News AIS tech helping Wunsch chase the extra one per cent (current page) AIS ASC 06 May 2026 AIS tech helping Wunsch chase the extra one per cent With national swim trials fast approaching, Olympic gold medallist and World Champion Olivia Wunsch has been at the Australian Institute of Sport chasing marginal gains that could shape her Commonwealth Games and Pan Pacs campaigns. Olympic and World Champion swimmer Olivia Wunsch views the results of wet plate testing at the Australian Institute of Sport. With national swim trials fast approaching, Olympic gold medallist and World Champion Olivia Wunsch has been at the Australian Institute of Sport (AIS) chasing marginal gains that could shape her Commonwealth Games and Pan Pacs campaigns. As one of 16 swimmers taking part in the New South Wales Institute of Sport camp, Wunsch was in Canberra for wet plate testing, a biomechanical analysis system designed to optimise starts, turns and relay turnovers. “We have six weeks till our trials in Sydney so it&#x27;s nice to just get a gauge of where we&#x27;re at and how things are tracking and progressing and then we can sort of have that last little push into trials,” Wunsch said. “We&#x27;re focusing on wet plate testing so we&#x27;re measuring how our dives and turns are tracking and seeing how little drills and changes we&#x27;ve made in training are helping us improve.” The testing uses force plates built into the pool environment to measure the power and efficiency generated through starts and turns, providing athletes and coaches with detailed biomechanical feedback on some of the most decisive moment",
+        "fetched_at": "2026-05-06T05:34:28+0000",
+        "candidate_type": "subpage",
+        "parent_url": "https://www.sportaus.gov.au/",
+        "url_hash": "5864367a0713372c"
+      }
+    ],
     "stocks": []
   },
   "bot_blocked_sources": [
@@ -172,20 +161,20 @@
       "err": "HTTPError 403"
     },
     {
-      "name": "Genspark",
-      "url": "https://www.genspark.ai/",
-      "bucket": "ai",
-      "subcategory": "search_assistants",
-      "weight": 3,
-      "status": 403,
-      "err": "HTTPError 403"
-    },
-    {
       "name": "Phind",
       "url": "https://www.phind.com/blog",
       "bucket": "ai",
       "subcategory": "search_assistants",
       "weight": 2,
+      "status": 403,
+      "err": "HTTPError 403"
+    },
+    {
+      "name": "Genspark",
+      "url": "https://www.genspark.ai/",
+      "bucket": "ai",
+      "subcategory": "search_assistants",
+      "weight": 3,
       "status": 403,
       "err": "HTTPError 403"
     },
@@ -253,15 +242,6 @@
       "err": "HTTPError 403"
     },
     {
-      "name": "YTL Power International",
-      "url": "https://www.ytlpowerinternational.com/",
-      "bucket": "stocks",
-      "subcategory": "holdings_ir",
-      "weight": 5,
-      "status": 0,
-      "err": "URLError <urlopen error [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)>"
-    },
-    {
       "name": "S&P Global Indices · News",
       "url": "https://www.spglobal.com/spdji/en/index-news-and-announcements/",
       "bucket": "stocks",
@@ -269,6 +249,15 @@
       "weight": 4,
       "status": 403,
       "err": "HTTPError 403"
+    },
+    {
+      "name": "YTL Power International",
+      "url": "https://www.ytlpowerinternational.com/",
+      "bucket": "stocks",
+      "subcategory": "holdings_ir",
+      "weight": 5,
+      "status": 0,
+      "err": "URLError <urlopen error [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)>"
     },
     {
       "name": "SEC EDGAR · S-1 Filings",
@@ -280,11 +269,11 @@
       "err": "HTTPError 403"
     },
     {
-      "name": "智谱 ChatGLM",
-      "url": "https://www.zhipuai.cn/",
+      "name": "StepFun 阶跃",
+      "url": "https://www.stepfun.com/",
       "bucket": "ai",
       "subcategory": "china_labs",
-      "weight": 4,
+      "weight": 3,
       "status": 0,
       "err": "URLError <urlopen error _ssl.c:1112: The handshake operation timed out>"
     }
