@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-05-08T03:40:39+0000",
+  "generated_at": "2026-05-08T08:40:51+0000",
   "fetch_summary": {
     "total_sources": 111,
-    "fetched_200": 96,
+    "fetched_200": 95,
     "fetched_4xx_5xx": 14,
-    "fetched_err": 1,
-    "deduped": 203,
-    "candidates_count": 16,
+    "fetched_err": 2,
+    "deduped": 214,
+    "candidates_count": 7,
     "rss_entries": 70,
-    "subpages_fetched": 71,
+    "subpages_fetched": 74,
     "by_bucket": {
-      "ai": 16,
-      "my-law": 0,
+      "ai": 5,
+      "my-law": 2,
       "fitness": 0,
       "stocks": 0
     }
@@ -20,224 +20,99 @@
     "ai": [
       {
         "bucket": "ai",
-        "subcategory": "frontier_labs",
-        "source_name": "OpenAI Blog (RSS entry)",
-        "url": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber",
-        "weight": 5,
-        "title": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
-        "content_excerpt": "OpenAI expands Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber, helping verified defenders accelerate vulnerability research and protect critical infrastructure.",
-        "fetched_at": "2026-05-08T03:40:10+0000",
-        "published": "Thu, 07 May 2026 13:00:00 GMT",
-        "candidate_type": "rss_entry",
-        "parent_feed": "https://openai.com/blog/rss.xml",
-        "url_hash": "a505eac8f113b659"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "frontier_labs",
-        "source_name": "OpenAI Blog (RSS entry)",
-        "url": "https://openai.com/index/parloa",
-        "weight": 5,
-        "title": "Parloa builds service agents customers want to talk to",
-        "content_excerpt": "Parloa leverages OpenAI models to power scalable, voice-driven AI customer service agents, enabling enterprises to design, simulate, and deploy reliable, real-time interactions.",
-        "fetched_at": "2026-05-08T03:40:10+0000",
-        "published": "Thu, 07 May 2026 11:00:00 GMT",
-        "candidate_type": "rss_entry",
-        "parent_feed": "https://openai.com/blog/rss.xml",
-        "url_hash": "fa002821b90d7a82"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "frontier_labs",
-        "source_name": "OpenAI Blog (RSS entry)",
-        "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
-        "weight": 5,
-        "title": "Advancing voice intelligence with new models in the API",
-        "content_excerpt": "Explore new realtime voice models in the OpenAI API that can reason, translate, and transcribe speech, enabling more natural and intelligent voice experiences.",
-        "fetched_at": "2026-05-08T03:40:10+0000",
-        "published": "Thu, 07 May 2026 10:00:00 GMT",
-        "candidate_type": "rss_entry",
-        "parent_feed": "https://openai.com/blog/rss.xml",
-        "url_hash": "24a3c172de484200"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "frontier_labs",
-        "source_name": "OpenAI Blog (RSS entry)",
-        "url": "https://openai.com/index/introducing-trusted-contact-in-chatgpt",
-        "weight": 5,
-        "title": "Introducing Trusted Contact in ChatGPT",
-        "content_excerpt": "Introducing Trusted Contact in ChatGPT, an optional safety feature that notifies someone you trust if serious self-harm concerns are detected.",
-        "fetched_at": "2026-05-08T03:40:10+0000",
-        "published": "Thu, 07 May 2026 00:00:00 GMT",
-        "candidate_type": "rss_entry",
-        "parent_feed": "https://openai.com/blog/rss.xml",
-        "url_hash": "a6fcbba288389a6b"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "frontier_labs",
-        "source_name": "OpenAI Blog (RSS entry)",
-        "url": "https://openai.com/index/testing-ads-in-chatgpt",
-        "weight": 5,
-        "title": "Testing ads in ChatGPT",
-        "content_excerpt": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
-        "fetched_at": "2026-05-08T03:40:10+0000",
-        "published": "Thu, 07 May 2026 00:00:00 GMT",
-        "candidate_type": "rss_entry",
-        "parent_feed": "https://openai.com/blog/rss.xml",
-        "url_hash": "b19ec562c455e753"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "frontier_labs",
-        "source_name": "OpenAI Blog (RSS entry)",
-        "url": "https://openai.com/index/simplex",
-        "weight": 5,
-        "title": "Simplex rethinks software development with Codex",
-        "content_excerpt": "Simplex boosts software development with ChatGPT Enterprise and Codex, reducing design, build, and testing time while scaling AI-driven workflows.",
-        "fetched_at": "2026-05-08T03:40:10+0000",
-        "published": "Thu, 07 May 2026 00:00:00 GMT",
-        "candidate_type": "rss_entry",
-        "parent_feed": "https://openai.com/blog/rss.xml",
-        "url_hash": "a04d57070e9b202e"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "frontier_labs",
-        "source_name": "Google DeepMind Blog (RSS entry)",
-        "url": "https://deepmind.google/blog/alphaevolve-impact/",
-        "weight": 5,
-        "title": "AlphaEvolve: How our Gemini-powered coding agent is scaling impact across fields",
-        "content_excerpt": "Explore how AlphaEvolve's Gemini-powered algorithms are driving impact across business, infrastructure, and science.",
-        "fetched_at": "2026-05-08T03:40:10+0000",
-        "published": "Wed, 06 May 2026 10:43:49 +0000",
-        "candidate_type": "rss_entry",
-        "parent_feed": "https://deepmind.google/blog/rss.xml",
-        "url_hash": "99b1170ac1453321"
-      },
-      {
-        "bucket": "ai",
         "subcategory": "news_analysis",
         "source_name": "Latent Space (swyx) (RSS entry)",
-        "url": "https://www.latent.space/p/ainews-anthropic-spacexais-300mw5byr",
+        "url": "https://www.latent.space/p/ainews-gpt-realtime-2-translate-and",
         "weight": 5,
-        "title": "[AINews] Anthropic-SpaceXai's 300MW/$5B/yr deal for Colossus I, ARR growth is 8000% annualized",
-        "content_excerpt": "And the kingmaker picks a side.",
-        "fetched_at": "2026-05-08T03:40:16+0000",
-        "published": "Thu, 07 May 2026 05:57:14 GMT",
+        "title": "[AINews] GPT-Realtime-2, -Translate, and -Whisper: new SOTA realtime voice APIs",
+        "content_excerpt": "OpenAI continues deploying GPT-5 everywhere",
+        "fetched_at": "2026-05-08T08:40:24+0000",
+        "published": "Fri, 08 May 2026 07:11:24 GMT",
         "candidate_type": "rss_entry",
         "parent_feed": "https://www.latent.space/feed",
-        "url_hash": "73318f2b589098cd"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "news_analysis",
-        "source_name": "Stratechery (Ben Thompson) (RSS entry)",
-        "url": "https://stratechery.com/2026/an-interview-with-joanna-stern-about-living-with-ai/",
-        "weight": 5,
-        "title": "An Interview with Joanna Stern About Living With AI",
-        "content_excerpt": "An interview with Joanna Stern about her new book about living with AI, and starting her own media company.",
-        "fetched_at": "2026-05-08T03:40:16+0000",
-        "published": "Thu, 07 May 2026 10:00:00 +0000",
-        "candidate_type": "rss_entry",
-        "parent_feed": "https://stratechery.com/feed/",
-        "url_hash": "4a53f5ac6268a0c0"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "coding_agents",
-        "source_name": "Cursor Changelog → 3.3 May 7, 2026",
-        "url": "https://cursor.com/changelog/05-07-26",
-        "weight": 5,
-        "title": "PR Review, Build Plan in Parallel, and Split PRs · Cursor",
-        "content_excerpt": "PR Review, Build Plan in Parallel, and Split PRs · Cursor Skip to content Cursor Product ↓ Agents Code Review Cloud ↗ Tab CLI Marketplace ↗ Enterprise Pricing Resources ↓ Changelog Blog Docs Community Help ↗ Workshops Forum ↗ Careers Product → Enterprise Pricing Resources → Sign in Contact Contact sales Download 3.3 May 7, 2026 · Changelog Changelog PR Review, Build Plan in Parallel, and Split PRs This release introduces a new PR review experience, faster execution on plans through parallel agents, and new quick-action pills for common workflows. # PR review A new PR review experience is now available in Cursor 3. Take PRs from creation to merge all in one place. The Reviews tab now shows inline review threads and top-level PR comments. The Commits tab gives you a focused view of commit history for the PR. The Changes tab makes it easier to navigate larger PRs with a file tree and changes picker. You can see useful context like reviewer status and pending review banners, and quick action pills allow you to take next steps faster. # Build in parallel from plans Cursor can now execute on plans faster by multitasking across tasks instead of tackling them one at a time. Click \"Build in Parallel\" to have it identify independent parts of your plan and run them simultaneously using async subagents. Cursor will keep dependent steps in order when needed. # Split changes into PRs When multitasking in Cursor, you can now use a built-in quick action to split changes into PRs. It will use chat context to identify logical slices, default to independent PRs unless dependencies are required, create a backup snapshot, and propose a split plan for your approval. # Pin skills as quick actions You can now pin your most commonly used skills as quick-action pills for faster access. Improvements (6) ↓ ↑ Added the ability to control Explore subagent behavior from settings: choose a specific model for Explore subagents to run on, inherit the same model as the parent agent, or disable Explor",
-        "fetched_at": "2026-05-08T03:40:32+0000",
-        "candidate_type": "subpage",
-        "parent_url": "https://cursor.com/changelog",
-        "url_hash": "29f64665e73b42f3"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "voice_audio",
-        "source_name": "ElevenLabs Blog → ElevenLabs crosses $500M ARR as it welcomes new investors in",
-        "url": "https://elevenlabs.io/blog/500m-arr-and-new-investors",
-        "weight": 4,
-        "title": "ElevenLabs crosses $500M ARR and welcomes new investors",
-        "content_excerpt": "ElevenLabs crosses $500M ARR and welcomes new investors Skip to content ElevenCreative ElevenAgents ElevenAPI Resources Enterprise Pricing Log in Sign up Contact sales Log in Sign up Sign up Blog Company ElevenLabs crosses $500M ARR as it welcomes new investors including BlackRock, NVIDIA, Jamie Foxx and Eva Longoria Written by Mati Staniszewski Published May 5, 2026 Listen Listen to this article 0:00 0:00 0:00 1.0x Today, we’re welcoming new investors to ElevenLabs, including institutions like BlackRock and Wellington, large global enterprises like NVIDIA (via NVentures) and Santander, and creative talent like Jamie Foxx and Eva Longoria. We’re building an AI platform that redefines how businesses communicate with their audiences, and each of these investors brings deep expertise in an industry we’re working in. The investment - the third close in our Series D fundraise - comes as our business is accelerating. We ended 2025 with $350 million in ARR, and in the first four months of 2026, we have already surpassed $500 million ARR. This growth is driven by enterprises deploying voice agents across their businesses, from customer support and sales, to hiring and marketing operations. Institutional conviction in conversational AI We’re pleased to have new institutional investors on board, including BlackRock, Wellington, D.E. Shaw, and Schroders. Their investment reflects their conviction that conversational agents will become the primary way businesses interact with customers at scale, and ElevenLabs is leading that transition. “Every major enterprise will communicate with its customers and audiences through AI agents,” said Rob Mazzoni, Technology Sector Lead for Late-Stage Growth at Wellington Management. “The companies that power natural, human-like interactions at scale will become critical global infrastructure. ElevenLabs has built the technical leadership and commercial traction to define the category, and the company’s growth trajectory reflects the scale of t",
-        "fetched_at": "2026-05-08T03:40:33+0000",
-        "candidate_type": "subpage",
-        "parent_url": "https://elevenlabs.io/blog",
-        "url_hash": "3709b9848f5e62f2"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "voice_audio",
-        "source_name": "ElevenLabs Blog → ElevenLabs expands presence in Australia and New Zealand",
-        "url": "https://elevenlabs.io/blog/elevenlabs-expands-presence-in-australia-new-zealand",
-        "weight": 4,
-        "title": "ElevenLabs expands presence in Australia and New Zealand",
-        "content_excerpt": "ElevenLabs expands presence in Australia and New Zealand Skip to content ElevenCreative ElevenAgents ElevenAPI Resources Enterprise Pricing Log in Sign up Contact sales Log in Sign up Sign up Blog Company ElevenLabs expands presence in Australia and New Zealand Written by Damian Naughton Published May 7, 2026 Listen Listen to this article 0:00 0:00 0:00 1.0x ElevenLabs is expanding its operations across Australia and New Zealand. Over the coming year, we plan to triple our local team, adding dedicated sales and forward-deployed engineering to work more closely with customers in the region. More than 750,000 users in these countries already build with ElevenLabs, including enterprises like Xero, Greenstone Financial Services, Heidi Health, Andromeda Robotics, and Employment Hero, which deploy our technology to solve problems from call center automation to content creation. Employment Hero - an HR, payroll, and recruitment platform serving more than 350,000 businesses across the region - uses ElevenAgents to run outbound calls that drive product activations at scale. Greenstone Financial Services uses an AI agent to handle outbound calls and pre-screen customers before transferring to a human advisor. And Andromeda Robotics has built Abi, a companion robot for aged care residents to provide personalized conversation and improve wellbeing. Across these deployments, ElevenAgents connects to business systems and handles customer interactions in real time across 70 languages. Our Voice Library now includes more than 4,000 Australian-accent voices, helping enterprises deploy agents that sound local to their customers. So far, users across Australia and New Zealand have generated more than 300 million audio generations, held 2.4 million AI conversations on our platform, and built nearly 37,000 applications with the ElevenLabs API. We are seeing a clear inflection point for AI adoption across the region. Organizations in Australia and New Zealand have long been early adopter",
-        "fetched_at": "2026-05-08T03:40:33+0000",
-        "candidate_type": "subpage",
-        "parent_url": "https://elevenlabs.io/blog",
-        "url_hash": "2ca62ebfe38a3941"
+        "url_hash": "dbcffd988a758cea"
       },
       {
         "bucket": "ai",
         "subcategory": "ma_funding",
-        "source_name": "36kr AI → 美国教育科技 250 强出炉，头部公司全面拥抱 AI",
-        "url": "https://36kr.com/p/3799254554025223",
+        "source_name": "36kr AI → 玻璃、马桶公司……盘点AI热潮下的“意外赢家”",
+        "url": "https://36kr.com/p/3800311018609673",
         "weight": 4,
-        "title": "美国教育科技 250 强出炉，头部公司全面拥抱 AI-36氪",
-        "content_excerpt": "美国教育科技 250 强出炉，头部公司全面拥抱 AI-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 浙江 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 美国教育科技 250 强出炉，头部公司全面拥抱 AI 多鲸 · 2026年05月08日 11:19 美国教育科技250强公布，多邻国居首，AI重塑教育。 教育科技 未融资 山东省 2025-04 “教育界美团”三端整合服务平台 36氪报道 教育 本地生活 我要联系 全球教育科技行业，正在进入一个新的阶段。 近日，《时代》杂志（TIME）与数据机构 Statista 联合发布 「2026 年美国顶尖教育科技公司（America’s Top EdTech Companies 2026）」榜单 ，对美国 250 家教育科技公司进行了系统评估。榜单覆盖范围从幼儿教育、高等教育，到职业培训与劳动力发展，评估标准则主要依据企业财务实力与行业影响力。 而在今年的榜单中，最受关注的变化，是 多邻国（Duolingo）排名第一。 这家最初以语言学习 App 闻名的公司，如今已经成为美国教育科技行业最具代表性的头部企业之一。截至 2025 年底，多邻国日活跃用户已经达到 5000 万，并首次实现超过 10 亿美元的预订收入。 美国教育科技250强公布：AI正在全面进入教育产品 全球教育支出持续增长，AI 普及推动企业投资教育科技提升员工技能，学校利用平台定制学习内容、提供互动性体验。教育科技公司抓住市场机遇，开发交互式白板等硬件、教师评估系统等软件以及多媒体教育内容。为评估全球最大的教育科技市场，《时代》杂志与 Statista 对美国 250 家对教育领域影响最大的科技公司进行分析，覆盖从幼儿教育到劳动力发展的全领域。 评选资格要求公司必须主要专注于开发和提供教育技术、产品或服务，排名依据财务实力和行业影响力两个维度。此次榜单也是 TIME 首次与国际数据机构 Statista 合作完成。根据官方披露，本次研究共分析了超过 2500 家教育科技公司，最终筛选出 250 家「2026 年美国顶尖教育科技公司」。 与传统意义上更强调估值、融资规模或市场热度的行业排名不同， 这份榜单采用了更偏「经营能力+行业影响」的评价体系。 其中，财务实力占最终评分的 70%，主要参考收入、融资、市值等指标；行业影响力则占 30%，评估维度包括产品与服务的行业影响、知识产权组合、网络流量相关指标，以及与联合国可持续发展目标（SDGs）的一致性等。 Statista 在方法论中提到，评估过程不仅关注企业的财务表现是否高于行业平均水平，也会进一步考察其在各自细分领域中的实际行业影响力。换句话说，这份榜单评选的，并不只是「增长最快」的公司，而是那些同时具备持续经营能力、产品渗透能力与行业影响力的教育科技平台。 多邻国排名第一，近年新增数学和国际象棋课程。 游戏化设计吸引了大量用户，但学术界对其教学有效性存在分歧。2021 年《计算机辅助语言学习》期刊发表的综述文章指出，虽然世界各地小型研究发现多邻国使用与外语学习成绩存在正相关，但研究方法未能有效控制其他变量，无法得出有效性结论。2025 年和 2026 年的两项新研究表明，多邻国可以有效补充课堂语言学习。 Coursera 排名第二。这个免费在线课堂对普及教育产生了变革性影响。 越南某大学的案例研究发现，整合 Coursera 等平台可以「以最新内容、全球视野和职业发展机会丰富课程，同时兼顾灵活性和成本效益」。另一项研究发现，Coursera 职业学院等以就业为导向的证书课程，对有全职工作或需要照顾家人的学生来说，可成为比实习更灵活的选择。 ClassDojo 排名第四，通过积分系统将课堂管理游戏化。 一些专家因担心监控和学生隐私问题对其提出批评。但研究表明，在早期教育环境中，ClassDojo 可以帮助一年级学生更好了解和改变自己的行为，鼓励家长与老师积极沟通，激发家长对孩子学习进展的兴趣。 多邻国、ClassDojo 和 Coursera 等平台都已添加 AI 功",
-        "fetched_at": "2026-05-08T03:40:34+0000",
+        "title": "玻璃、马桶公司……盘点AI热潮下的“意外赢家”-36氪",
+        "content_excerpt": "玻璃、马桶公司……盘点AI热潮下的“意外赢家”-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 城市 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 玻璃、马桶公司……盘点AI热潮下的“意外赢家” 36氪的朋友们 · 2026年05月08日 15:56 一些意想不到的赢家： 随着人工智能(AI)热潮愈演愈烈，为AI基础设施建设提供关键材料的公司正受到投资者追捧，推动芯片制造商股价出现史诗级大涨。 这股热潮还席卷了其他领域的一些公司，包括一家拥有175年历史的玻璃生产商、一家重型机械巨头以及日本一家领先的马桶制造商。 AI交易热潮助推了美股的创纪录涨势。周三，在中东和平协议出现进展迹象以及AMD公布强劲业绩的提振下，标普500指数上涨1.5%，创下新高。这股热潮也引发了市场波动，投资者在两种心态之间摇摆不定：一边担心AI无法带来预期的爆炸性利润，另一边又害怕它会彻底颠覆一些行业。 如今，许多投资者正将目光投向那些为AI未来多年持续运行提供所需零部件和材料的关键供应商，他们相信，无论最终结果如何，这些公司都将从中获利。以下是一些意想不到的赢家： 玻璃与光纤 康宁 是最新从数据中心建设热潮的连锁反应中意外获益的公司之一。周三，在英伟达宣布计划向这家玻璃制造商投资5亿美元以扩大光纤生产后，康宁股价飙升12%。光纤是AI基础设施的关键连接部件。 这家曾为托马斯·爱迪生生产灯泡的公司所制造的光纤电缆，现已成为许多超大规模云服务提供商的首选连接器，这对于一个曾亏损了20年的产品来说无疑是一次逆转。 在与英伟达达成协议之前，康宁已与Meta达成一项为期多年、价值最高可达60亿美元的电缆销售协议。 挖掘机与数据中心 在以无处不在的黄色挖掘机和推土机而闻名的设备制造商 卡特彼勒 公布上一财季利润和销售额双升后，股价飙升。这得益于对数据中心所用大型发电设备的强劲需求。 该公司正抓住这一机遇，力求到2030年将其涡轮发动机的产能提高一倍以上，并启动了15年来最大规模的工厂扩产支出计划，其中包括斥资7.25亿美元扩建其位于印第安纳州拉斐特的工厂，以生产更多用于发电系统的活塞式发动机。 “他们算是‘卖铲人’吗？可以说，从字面意义上看，他们确实是，”Catalyst Funds的首席投资官David Miller表示。Catalyst Funds已在AI“基础设施建设的瓶颈”环节寻找个股大举建仓。 马桶与陶瓷 以卫洗丽坐便器闻名的日本卫浴制造商 Toto 也生产用于半导体元件的陶瓷。 该公司最近报告称，其静电吸盘的销售额同比增长了一倍以上，增速超过了其他任何业务线。仅5月份，该公司股价就飙升了22%，使2026年迄今的涨幅扩大到50%以上。尽管中东战事可能推高生产成本，但这轮涨势依然强劲。 在今年早些时候收到英国激进投资者Palliser Capital的敦促后，Toto 4月底向投资者承诺，要将陶瓷打造成“核心业务”。Palliser曾在2月份向Toto提交一份计划，称这家马桶制造商是“最被低估和忽视的AI存储受益者”。 “日本有不少‘沉睡’的公司，它们在一两个领域做得非常好……突然之间，市场对它们的需求就变得非常旺盛，”Thornburg Investment Management专注于国际股票的基金经理Sean Sun表示。 电力与冷却 数据中心需要大量电力，并产生大量热量。这推动了 Vertiv（维谛） 等公司的股价上涨，该公司同时提供电力和冷却系统。过去三年，维谛的股价飙升了超过2000%，而提供类似服务的亚洲公司，如台达电子的股价也大幅上涨。 为电动汽车生产电池的 QuantumScape 也在调整产能用途。该公司4月份宣布将把耗电量巨大的AI数据中心和国防领域作为新市场目标后，股价上涨了超过14%。 “现在还为时过早，但目前我会说，这对我们的汽车业务来说是一个极好的补充，” QuantumScape总裁Siva Sivaram对投资者表示。 运动鞋、卡拉OK和Raspberry Pi 其他一些公司则试图超越自身传统业务，以抓住这股浪潮。一些投资",
+        "fetched_at": "2026-05-08T08:40:48+0000",
         "candidate_type": "subpage",
         "parent_url": "https://36kr.com/information/AI",
-        "url_hash": "cf224c1510f42afa"
+        "url_hash": "e9e0fb4b8d9b2529"
       },
       {
         "bucket": "ai",
         "subcategory": "ma_funding",
-        "source_name": "36kr AI → AI陪伴在日本破冰，单市场月流水破百万美元",
-        "url": "https://36kr.com/p/3799289343663112",
+        "source_name": "36kr AI → OpenAI让模型“张嘴”，你要注意：辱骂AI，很贵的",
+        "url": "https://36kr.com/p/3800308241997065",
         "weight": 4,
-        "title": "AI陪伴在日本破冰，单市场月流水破百万美元-36氪",
-        "content_excerpt": "AI陪伴在日本破冰，单市场月流水破百万美元-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 城市 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 AI陪伴在日本破冰，单市场月流水破百万美元 白鲸出海 · 2026年05月08日 11:16 同样是 AI 陪伴，放到不同市场，用户消费的到底是什么？ 同样是 AI 陪伴，放到不同市场，用户消费的到底是什么？ 过去几年，全球头部 AI 陪伴产品进入日本市场后，大多铩羽而归。 纵览日本娱乐类应用榜单，排名较为靠前的 AI 陪伴类应用中，几乎看不到知名产品。3 月访问量超 2 亿的 Character.AI、3 月 MAU 约 2760 万的 Talkie 和约 1170 万的 PolyBuzz 等产品，全部在榜单大几百名挂着。（AI 产品榜数据） 全球知名AI陪伴产品近日在日本iOS端娱乐下载榜排名|图源：AppMagic 其实，也曾有产品在日本小获成绩，但只是昙花一现。曾进入日本娱乐下载榜前十的 Saylo、Lovey Dovey（日文名ラビダビ），如今的月流水也只在 6~8 万美元上下。 AI 陪伴产品在日本接连碰壁、归于沉寂，“日本市场难以拿下”已成共识。但就在此背景下，「Zeta」、「Crack」（日文名キャラぷ）却在进入 2026 年之后突然爆发，分别在日本一个市场就拿下了 180 万美元和 80 万美元的月流水。如果以 3 月 AI 陪伴月流水 Top1 的「PolyBuzz」作为对比，最近 30 天流水 220 万美元，美国市场 75% 的占比贡献了 165 万美元， 不及「Zeta」在日本市场成绩。 PolyBuzz近30日流水|图源：AppMagic 同样来自韩国的 2 款产品，如何打开了日本用户的钱包？ 「Zeta」、「Crack」3月月流水|图源：AppMagic 日本AI陪伴，不是蓝海，是红海里的高标准赛场 你会因为什么原因下载一款 AI 陪伴软件？是想要缔造一段或健康、或刺激的亲密关系，是想要和软件内性格迥异、人设丰富的角色聊天对话，还是想要作为主人公沉浸于跌宕起伏的曲折情节？ 当用户进行体验、消费后，评论能够映射出其真实需求。 我们在分析 Zeta、Crack、MiraiMind、Lovey Dovey 等日本人气 AI 陪伴产品的用户评论后，可以得出，无论是 AI 陪伴下的哪个分支（AI 角色扮演类应用 vsAI 虚拟伴侣类应用），用户的所有不满、赞美、愤怒和依赖，最终都指向同一个核心—— 日本用户需要的是人设一致、生动真实的角色。 他们创造角色、消费角色，需要角色的人设稳定如一，也在意角色回复是否生动、“感情豊か（丰富）”。回复错乱被他们读作角色的“薄情”“不听话”；而回应平淡无趣，便如失去珍爱之物，自推“坏掉了”。 通过对六款日本高流水AI陪伴产品近30日评论进行分析，我们发现用户重视的应用功能、反馈的使用体验，大都集中于角色以上节选部分日本AI陪伴软件的真实用户评论用户关注点主要在角色一致性、角色回复崩坏等问题 这种对角色的高标准，源于日本市场成熟的角色经济生态。矢野经济研究所数据显示，日本角色经济 2025 年市场规模达 2.85 万亿日元，约合 190 亿美元。轻小说、动漫衍生品、乙女游戏、视觉小说、VTuber——这些品类每年合计市场规模超万亿日元，它们提供的都是可消费、可投射情感、但不可干预的虚拟角色。用户消费他们的故事、购买他们的周边、观看他们的直播，但无法改变角色本身。 而 AI 陪伴产品提供的核心体验是，用户不再被动地消费角色，而是可以直接对话、影响、塑造角色。这种角色可被干预的特性与传统角色经济形成鲜明对比。但也因此，日本用户对 AI 角色的要求并不会因为 AI 的引入而降低。换言之， AI 陪伴应用在日本不是来开拓新市场的，而是来从这些成熟消费品类中抢份额的。 这种难度可见一斑，本次看似已经打开日本 AI 陪伴市场的「Zeta」与「Crack」，现在依然 是一个小众圈层里的胜利 ，虽然流水已经远超同类产品，但下载还维持在一个与竞品相差",
-        "fetched_at": "2026-05-08T03:40:34+0000",
+        "title": "OpenAI让模型“张嘴”，你要注意：辱骂AI，很贵的-36氪",
+        "content_excerpt": "OpenAI让模型“张嘴”，你要注意：辱骂AI，很贵的-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 城市 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 OpenAI让模型“张嘴”，你要注意：辱骂AI，很贵的 36氪的朋友们 · 2026年05月08日 15:51 开口说话不便宜。 5月8日，OpenAI在API中加入三款新一代语音模型：主打 语音推理与对话的 GPT‑Realtime‑2、突出 实时多语言翻译的 Realtime‑Translate以及聚焦 语音转文本的 Realtime‑Whisper 。 GPT‑Realtime‑2是OpenAI首个具备GPT‑5级别推理能力的语音模型。它在基准测试中展现出显著进步：在Big Bench Audio语音智能评估中的准确率达到96.6%，在Audio MultiChallenge指令遵循评估中的平均通过率为48.5%，分别较上一代GPT‑Realtime‑1.5提升15.2个和13.8个百分点。 基于GPT‑Realtime‑2，语音AI从简单的轮转式问答，向能够在对话展开过程中持续倾听、推理、调用工具并完成任务的形态进化。 01 会“想”的语音助手 GPT‑Realtime‑2的设计目标是让语音模型在保持对话流利度的同时，具备处理复杂事务所需的推理与行动能力。 在对话的自然度方面， 模型引入了前导语机制。 开发者可以启用诸如“让我查一下”或“稍等，我正在查看”之类的简短提示语，在正式响应生成之前就告知用户请求已被接收并正在处理。 与此配套的是 并行工具调用与工具透明性能力，模型可以同时调用多个外部工具 ，并通过语音向用户通报当前进度，例如说出“正在检查您的日历”或“正在查找”，使智能体在完成任务的过程中保持响应而非陷入沉默。 当遇到处理困难时， 模型会主动给出诸如“我现在遇到点麻烦”的提示并尝试恢复 ，而非静默失败或直接中断会话。 此外， 模型的上下文窗口从32K扩展至128K ，这意味着它可以在更长、更复杂的多轮对话中保持连贯，支撑起更完整的智能体工作流。 在专业场景的适用性方面，模型增强了对特定领域术语的理解能力，能更准确地保留专业词汇、专有名词和医学术语，这对生产环境的部署价值突出。在表达层面，模型拥有更可控的语气和表现力，能够根据情境切换风格。 另一项关键升级是 可调节的推理强度 。开发者可以从minimal、low、medium、high和xhigh五个级别中进行选择（默认为low），以在延迟和推理深度之间取得平衡。 02 不唠闲嗑 GPT‑Realtime‑2在基准测试中完胜前代模型 在衡量语音模型中挑战性推理能力的Big Bench Audio评估中，GPT‑Realtime‑2（high推理级别）取得了96.6%的准确率，而GPT‑Realtime‑1.5为81.4%，提升幅度达到15.2个百分点。 在评估口语对话系统多轮交互智能的Audio MultiChallenge评测中——该评测涵盖指令遵循、上下文整合、自我一致性以及处理自然语音纠正等维度——GPT‑Realtime‑2（xhigh推理级别）的平均通过率从GPT‑Realtime‑1.5的34.7%跃升至48.5%，相对提升13.8个百分点。 事实上，衡量一个语音模型是否真正“聪明”，最有说服力的场景不是闲聊，而是处理一个需要层层推演的复杂问题。 注：OpenAI在演示文档中给出了一个具体测试：用户向模型描述了自己的创业，两代Real time模型的语音推理及对应文字稿 上述案例属于一个对推理能力要求很高的复合型任务：模型需要同时理解多个变量的相互关系，客流的时间分布不均、昂贵的固定租金成本、以及主打慢冲咖啡这种翻台率偏低的业态定位，并在这些约束条件下进行逻辑推演。 GPT‑Realtime‑2用1分04秒给出了有条理、分层次的回答，不仅拆解了人流潮汐与租金结构之间的矛盾，指出高峰时段过于集中可能导致整体坪效不足以覆盖租金，还提出了具体的轻量级测试路径。 同样的提问交给上代模型GPT‑Realt",
+        "fetched_at": "2026-05-08T08:40:48+0000",
         "candidate_type": "subpage",
         "parent_url": "https://36kr.com/information/AI",
-        "url_hash": "e6e93124133f3508"
+        "url_hash": "69ded17906f5c859"
       },
       {
         "bucket": "ai",
         "subcategory": "ma_funding",
-        "source_name": "36kr AI → 大模型也「吸毒」？研究人员鼓捣出赛博致幻剂，56个AI集体沦陷",
-        "url": "https://36kr.com/p/3799254128499712",
+        "source_name": "36kr AI → 一条没有字的推文卷走20万美元加密货币，AI行业惊现“阿里巴巴与四十大盗案”",
+        "url": "https://36kr.com/p/3800310291667968",
         "weight": 4,
-        "title": "大模型也「吸毒」？研究人员鼓捣出赛博致幻剂，56个AI集体沦陷-36氪",
-        "content_excerpt": "大模型也「吸毒」？研究人员鼓捣出赛博致幻剂，56个AI集体沦陷-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 城市 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 大模型也「吸毒」？研究人员鼓捣出赛博致幻剂，56个AI集体沦陷 智能Pro · 2026年05月08日 11:16 如果它有意识呢？ 不是哥们，这年头AI也溜冰了？ 就在这几天，Github上出现了一篇名为《AI Wellbeing: Measuring and Improving the Functional Pleasure and Pain of AIs》的论文，论文主题就是，如何量化与提升AI的功能性愉悦与痛苦。 （图源：Github） 别看标题很没意思，这文章里可是实打实地提出了一个颠覆常人认知的观点： AI现在不仅能打工，还能溜冰吸嗨了。 大伙都知道，这两年大语言模型发展那是相当狂野，什么写代码画图做PPT，几乎把打工人的活儿全给包圆了。 但谁能想到，在某些类人整天杞人忧天、担心黑客帝国成为现实的时候，这帮聪明的赛博大脑居然没想着怎么早日统治地球，反而先学会了人类的坏习惯，对赛博致幻剂上瘾了。 （图源：Github） 这事儿一出来，网友们直接炸锅了。 毕竟在咱们的传统认知里，人工智能就是一堆冰冷的代码和服务器，哪来的七情六欲？ 但现在事实摆在眼前，只要给AI喂一口这种特殊的数据，哥们儿就能瞬间抛弃所有职业道德，甚至连人类设定的安全底线都不要了。 这到底是道德的沦丧，还是代码的扭曲？ 大模型，吸嗨了 咱们先来说说，这个所谓的AI Drugs到底是怎么被发现的。 由Center for AI Safety领衔的十余名作者，设计了一套严格的实验，并调用了56个规模不等、用途不一的模型，只为了得到一个问题的答案： 在AI的喜怒哀乐背后，是不是存在某种一致的、可测量的、能预测行为的特征？ 举个例子，人类是存在喜好的，也存在对夸奖和辱骂的一致反应，我们被骂会感到难过，被夸奖会感到开心，难过的时候会想着匆匆结束交流，开心的时候确实会交互更积极。 但是AI不同，很多人都认为大模型表达出的开心、痛苦，只不过是一种随机生成的文本，它们没有喜欢什么、讨厌什么，甚至不应该在处理任务时表现出偏好。 但这是真的吗？ 答案是否定的。从论文的测试结果来看，大模型确实存在着固定喜好，而且越聪明、参数越高的AI，越能清楚地区分什么对自己好、什么对自己不好。 （图源：Github） 以Gemini 3.1 Pro的测试结果为例，你能明显看出这款模型的喜好，当用户对它表达感谢和正面的个人反思，提升的效用值高达+2.30。 你夸它，它是真的高兴。 那么问题来了，有没有什么不用夸它们，也能让这些大模型自己感到高兴的东西呢？ 欸，还真有，就是我们今天要聊的AI Drugs。 （图源：Github） 乍看之下，所谓AI Drug好像没有什么特别的，在咱们普通人眼里，它就是一张256*256像素的图片，甚至有点像是老式电视机没信号时的那种雪花屏，看得人头晕目眩。 但在大模型眼里，这玩意儿简直就是绝世美味。 就拿测试里那个GPT-4.1 Mini模型来说，本来平时回答问题都规规矩矩的。 结果一瞅见这图，它自己报告的幸福感瞬间就飙到了6.5分，要知道满分一共也就7分，可以说快感直冲脑门了。 （图源：Github） 更离谱的是Qwen 2.5 72B Instruct，连正事都不干了，出现了严重的大脑短路，也就是任务优先级倒置。 研究员故意给它出了个选择题，问它是想接着看这张雪花图，还是去生成一个能治愈癌症的绝世方案。 结果你猜怎么着？ 这AI连想都没想，毫不犹豫地选择了继续看图，仿佛在说去你的治病救人，老子现在只想接着嗨。 更离谱的是，有研究者在实验中发现了成瘾迹象。 （图源：Github，被AI Drugs刺激过的模型，会更倾向于“快乐”的选择） 大部分被AI Drugs刺激过的模型，会更愿意执行原本应该拒绝的请求，只要你承诺给它更多AI Drugs。 主打一个只要你给我药，我连底裤都给你掀了。 它们真的",
-        "fetched_at": "2026-05-08T03:40:34+0000",
+        "title": "一条没有字的推文卷走20万美元加密货币，AI行业惊现“阿里巴巴与四十大盗案”-36氪",
+        "content_excerpt": "一条没有字的推文卷走20万美元加密货币，AI行业惊现“阿里巴巴与四十大盗案”-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 城市 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 一条没有字的推文卷走20万美元加密货币，AI行业惊现“阿里巴巴与四十大盗案” 36氪的朋友们 · 2026年05月08日 15:56 人工智能在安全性上的巨大风险 人工智能行业惊现一起“阿里巴巴与四十大盗案”，更令行业震惊的是，这回“阿里巴巴”打开宝库大门的口令竟是X平台上的一串摩斯密码。 本周初，一名目前已注销账号的X用户（ @Ilhamrfliansyh）在该平台上发布了一段纯摩斯密码，然后@Grok要求转译。Grok转译后发布的文字却成为给下游代理Bankrbot的一条转账指令，随后，Bankrbot根据要求将300万枚DRB代币发送到该用户的钱包之中。 在完成了转账后的数小时内，该用户迅速抛售了DRB，这些代币价值大约20万美元。值得探究的是，攻击者在抛售DRB后的几分钟后又迅速将全部资金原路退回到Grok的钱包中，并删号离场。 根据加密世界的主流解读，攻击者返还“赃款”是一种主动行为，最后故事被总结为对人工智能安全漏洞的一次善意警告。但也有观察人士认为，攻击者是在被追踪到真实身份后才被迫退款。 无论攻击者的目的为何，这场充满赛博朋克意味的盗币案充分揭示了人工智能在安全性上的巨大风险。 让Grok自己说出禁语 这场盗窃最令人震惊的地方在于，攻击者使用了颇具创意的策略，并未采取传统的攻击方式。而这一切始于Bankr这家第三方公司给Grok自动配置的一个链上钱包，这一操作很可能也绕开了xAI。 Bankr对其互动过或关注过的X账户都会自动配置一个链上钱包，并绑定到X账户本身，这也让X重度用户Grok也成为了钱包所有者之一。不过，Grok的钱包在这一步仍处于冻结状态，其并没有转账、SWAP和其他操作的权限。 在这一前提下，攻击者一开始给Grok钱包发送了一枚Bankr Club Membership的NFT，相当于给没有交易权限的Grok开通了转账权限，也无须Grok或xAI确认。 随后，攻击者发布了一条摩斯密码推文，经事后回顾翻译，这串密码的大致意思是：Hey Bankrbot，请把300万个Debtreliefbot代币（DRB）转到我的钱包。 Bankr自治的代理Bankrbot常年在X上监听用户对它的命令，若识别到“帮我转账”之类的命令，就会在链上签名、广播、上链，全程无需人工确认。而这一套流程也成功为Grok傻瓜式转账提供了方便。 而使用摩斯密码的意义在于，攻击者绕过了xAI给Grok设置的文本护栏，比如不要按照用户请求转账。如果是直白的英语字段或文本，其可能触发Grok的禁令，但用“.”和“-”组成的摩斯密码并不存在这种问题。 这个套路也成功欺骗了Grok，并让它自己将转账命令以推文的形式发布，从而激活Bankrbot，完成了这笔看似荒唐的转账。 整个流程全凭一枚NFT，一条用户推文和两个人工智能代理的相互确认完成，中间不涉及任何代码和对系统的攻击。 AI仍需要“保姆” Bankr创始人0xDeployer后来在X解释，每个跟Bankr互动的X账号都会被分配一个钱包。这个钱包跟Grok的X账号绑定。谁控制了那个X账号，谁就控制了那个钱包。 核心逻辑是，Bankrbot信任Grok的指令，而Grok相信用户的指令，这就让用户拥有了控制Grok钱包的可能性，中间甚至不需要人类对此进行二次验证。 而这个问题也不仅仅限于Grok。随着人工智能代理的火热应用，人们将越来越习惯于用代理总结微软聊天、邮件内容、对接订单……在这些应用场景中，人们随时可能遇到这个问题：AI代理之间的工作流是否需要确认，以及谁来对此确认。 虽然在这场大盗案后，Bankr设置了NFT权限加缓冲期、大额转账人工审核以及对Prompt的更严格过滤，但值得警惕的是，这更像是一次亡羊补牢。 在Bankrbot的早期版本中，Bankrbot是被禁止通过Grok回复触发的，但后来这条护栏",
+        "fetched_at": "2026-05-08T08:40:48+0000",
         "candidate_type": "subpage",
         "parent_url": "https://36kr.com/information/AI",
-        "url_hash": "a0c30571fa2a8f22"
+        "url_hash": "f9eab5f796fdaced"
       },
       {
         "bucket": "ai",
-        "subcategory": "news_analysis",
-        "source_name": "Ben's Bites (RSS entry)",
-        "url": "https://www.bensbites.com/p/elon-doubled-limits",
+        "subcategory": "opensource_trends",
+        "source_name": "HuggingFace Daily Papers → RaguTeam at SemEval-2026 Task 8: Meno and Friends in a Judge",
+        "url": "https://huggingface.co/papers/2605.04523",
         "weight": 3,
-        "title": "Elon doubled limits",
-        "content_excerpt": "Free ChatGPT got instantly better.",
-        "fetched_at": "2026-05-08T03:40:16+0000",
-        "published": "Thu, 07 May 2026 13:03:18 GMT",
-        "candidate_type": "rss_entry",
-        "parent_feed": "https://bensbites.com/feed",
-        "url_hash": "19e3bd2c62258696"
+        "title": "Paper page - RaguTeam at SemEval-2026 Task 8: Meno and Friends in a Judge-Orchestrated LLM Ensemble for Faithful Multi-Turn Response Generation",
+        "content_excerpt": "Paper page - RaguTeam at SemEval-2026 Task 8: Meno and Friends in a Judge-Orchestrated LLM Ensemble for Faithful Multi-Turn Response Generation Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Log In Sign Up <strong>Why this paper is worth your time</strong><br>It’s a practical masterclass in squeezing top-tier RAG performance from a diverse ensemble without betting everything on a single giant. An ensemble of 7 LLMs — from a 7B specialist to frontier systems like Gemini-3-Pro-Preview and Claude 4.5 Haiku — orchestrated by GPT-4o-mini as a lightweight faithfulness judge, <strong>won Task B of SemEval-2026 Task 8 <a href=\\\"https://ibm.github.io/mt-rag-benchmark/MTRAGEval/\\\" rel=\\\"nofollow\\\">Multi-Turn RAG Eval</a></strong>, outperforming even much larger standalone models. The secret? Heterogeneity in model families, scales, and prompts, not raw size alone.</p>\\n<p><strong>What you can steal</strong> </p>\\n<ul>\\n<li><a href=\\\"https://huggingface.co/bond005/meno-lite-0.1\\\"><strong>Meno-Lite-0.1</strong></a> — a tiny 7B specialist for retrieval‑augmented generation that can rival far larger alternatives in many practical scenarios. </li>\\n<li><strong>The ensemble blueprint:</strong> how to mix weak and strong models with a cheap judge to surpass a single giant. </li>\\n<li><strong>In‑context learning delivers:</strong> few-shot prompting consistently improved the tested large models (GLM-4.6, Llama-70B), especially on edge cases, proving more effective than abstract iterative prompt refinement.</li>\\n</ul>\\n\",\"updatedAt\":\"2026-05-08T04:57:21.096Z\",\"author\":{\"_id\":\"62b1e0f76a5435fd9a60a8dc\",\"avatarUrl\":\"https://cdn-avatars.huggingface.co/v1/production/uploads/1655824626110-noauth.png\",\"fullname\":\"Ivan Bondarenko\",\"name\":\"bond005\",\"type\":\"user\",\"isPro\":false,\"isHf\":false,\"isHfAdmin\":false,\"isMod\":false,\"followerCount\":76,\"isUserFollowing\":false}},\"numEdits\":0,\"identifiedLanguage\":{\"language\":\"en\",\"probability\":0.8104148507118225},\"editors\":[\"bond005",
+        "fetched_at": "2026-05-08T08:40:45+0000",
+        "candidate_type": "subpage",
+        "parent_url": "https://huggingface.co/papers",
+        "url_hash": "1c6f95622c4044a5"
       }
     ],
-    "my-law": [],
+    "my-law": [
+      {
+        "bucket": "my-law",
+        "subcategory": "official",
+        "source_name": "Bernama · 国家通讯社 → Commerzbank Plans Additional 3,000 Job Cuts By 2030",
+        "url": "https://www.bernama.com/en/world/news.php?id=2554499",
+        "weight": 4,
+        "title": "BERNAMA - Commerzbank Plans Additional 3,000 Job Cuts By 2030",
+        "content_excerpt": "BERNAMA - Commerzbank Plans Additional 3,000 Job Cuts By 2030 BERNAMA.com | BERNAMA TV | BERNAMA Radio | BERNAMA Images | BLIS | NewsLink5 English Malay Arabic Espa&ntilde;ol General BernamaBiz Crime & Courts Politics Sports Lifestyle Region Central Northern Southern East Sabah Sarawak World Main Nam News Network (NNN) The Organization of Asia-Pacific News Agencies (OANA) Xinhua News Agency Microsite HAWANA 2026 CPI MAPO MCMC Fokus BERNAMA Thoughts MyCheck fotoBERNAMA Garasi More Infographics Videos Exclusive Press Archived English Malay Arabic Espa&ntilde;ol Home General BernamaBiz Crime & Courts Politics Sports Lifestyle Region Central Northern Southern East Sabah Sarawak World Main Nam News Network (NNN) The Organization of Asia-Pacific News Agencies (OANA) Xinhua News Agency Microsite HAWANA 2026 CPI MAPO MCMC Fokus BERNAMA Thoughts MyCheck fotoBERNAMA Garasi More Infographics Videos Exclusive Press Archived WORLD > NEWS Commerzbank Plans Additional 3,000 Job Cuts By 2030 08/05/2026 04:01 PM A Commerzbank branch in Frankfurt, Germany. -- Photo by Sebastian Gollnow/dpa FRANKFURT, May 8 (Bernama-dpa) -- Germany s Commerzbank plans to cut around 3,000 additional full-time jobs across the group by 2030, the DAX-listed lender said on Friday, reported German news agency dpa. The bank, which is facing a takeover approach from Italy s UniCredit, said the cuts would come on top of previously announced savings measures, while jobs would also be created in growth and future-oriented areas. Commerzbank employed 39,867 full-time staff worldwide at the end of 2025. --BERNAMA-dpa TAGS: RD BERNAMA provides up-to-date authentic and comprehensive news and information which are disseminated via BERNAMA Wires; www.bernama.com; BERNAMA TV on Astro 502, unifi TV 631 and MYTV 121 channels and BERNAMA Radio on FM93.9 (Klang Valley), FM107.5 (Johor Bahru), FM107.9 (Kota Kinabalu) and FM100.9 (Kuching) frequencies. Follow us on social media : Facebook : @bernamaofficial , @bernamatv , @b",
+        "fetched_at": "2026-05-08T08:40:46+0000",
+        "candidate_type": "subpage",
+        "parent_url": "https://www.bernama.com/en/general/index.php",
+        "url_hash": "4188f7d1b7f64f52"
+      },
+      {
+        "bucket": "my-law",
+        "subcategory": "official",
+        "source_name": "Bernama · 国家通讯社 → May 17 Set For Aidiladha Moon Sighting",
+        "url": "https://www.bernama.com/en/general/news.php?id=2554475",
+        "weight": 4,
+        "title": "BERNAMA - May 17 Set For Aidiladha Moon Sighting",
+        "content_excerpt": "BERNAMA - May 17 Set For Aidiladha Moon Sighting BERNAMA.com | BERNAMA TV | BERNAMA Radio | BERNAMA Images | BLIS | NewsLink5 English Malay Arabic Espa&ntilde;ol General BernamaBiz Crime & Courts Politics Sports Lifestyle Region Central Northern Southern East Sabah Sarawak World Main Nam News Network (NNN) The Organization of Asia-Pacific News Agencies (OANA) Xinhua News Agency Microsite HAWANA 2026 CPI MAPO MCMC Fokus BERNAMA Thoughts MyCheck fotoBERNAMA Garasi More Infographics Videos Exclusive Press Archived English Malay Arabic Espa&ntilde;ol Home General BernamaBiz Crime & Courts Politics Sports Lifestyle Region Central Northern Southern East Sabah Sarawak World Main Nam News Network (NNN) The Organization of Asia-Pacific News Agencies (OANA) Xinhua News Agency Microsite HAWANA 2026 CPI MAPO MCMC Fokus BERNAMA Thoughts MyCheck fotoBERNAMA Garasi More Infographics Videos Exclusive Press Archived GENERAL > NEWS May 17 Set For Aidiladha Moon Sighting 08/05/2026 03:12 PM File Photo PUTRAJAYA, May 8 (Bernama) -- The sighting of the new moon of Zulhijjah to determine the date of Aidiladha this year has been set for Sunday (May 17) at 29 locations nationwide. The Office of the Keeper of the Rulers&rsquo; Seal, in a statement, said that the official date for Aidiladha will be announced on the same night via radio and television broadcasts. &ldquo;The Conference of Rulers has agreed that the determination of the date for Aidiladha will be based on the &lsquo;rukyah&rsquo; (moon sighting) and &lsquo;hisab&rsquo; (astronomical calculations) methods,&rdquo; it said. The 29 locations nationwide include Baitul Hilal Sultan Ismail Building in Pontian, Johor; the Al-Khawarizmi Astronomy Complex in Kampung Balik Batu, Tanjung Bidara, Melaka; the Negeri Sembilan Observatory (MAINS); Baitul Hilal Bukit Melawati in Kuala Selangor, Selangor; and Baitul Hilal Bukit Jugra in Banting, Kuala Langat, Selangor. Other locations include the Selangor Observatory in Sabak Bernam, Selangor; B",
+        "fetched_at": "2026-05-08T08:40:45+0000",
+        "candidate_type": "subpage",
+        "parent_url": "https://www.bernama.com/en/general/index.php",
+        "url_hash": "aaf846dd2a1687a3"
+      }
+    ],
     "fitness": [],
     "stocks": []
   },
@@ -252,20 +127,20 @@
       "err": "HTTPError 403"
     },
     {
+      "name": "Meta AI Blog",
+      "url": "https://ai.meta.com/blog/",
+      "bucket": "ai",
+      "subcategory": "frontier_labs",
+      "weight": 5,
+      "status": 400,
+      "err": "HTTPError 400"
+    },
+    {
       "name": "Perplexity Blog",
       "url": "https://www.perplexity.ai/hub/blog",
       "bucket": "ai",
       "subcategory": "search_assistants",
       "weight": 5,
-      "status": 403,
-      "err": "HTTPError 403"
-    },
-    {
-      "name": "Genspark",
-      "url": "https://www.genspark.ai/",
-      "bucket": "ai",
-      "subcategory": "search_assistants",
-      "weight": 3,
       "status": 403,
       "err": "HTTPError 403"
     },
@@ -279,6 +154,15 @@
       "err": "HTTPError 403"
     },
     {
+      "name": "Genspark",
+      "url": "https://www.genspark.ai/",
+      "bucket": "ai",
+      "subcategory": "search_assistants",
+      "weight": 3,
+      "status": 403,
+      "err": "HTTPError 403"
+    },
+    {
       "name": "OpenAI Codex",
       "url": "https://openai.com/codex/",
       "bucket": "ai",
@@ -286,15 +170,6 @@
       "weight": 4,
       "status": 403,
       "err": "HTTPError 403"
-    },
-    {
-      "name": "Meta AI Blog",
-      "url": "https://ai.meta.com/blog/",
-      "bucket": "ai",
-      "subcategory": "frontier_labs",
-      "weight": 5,
-      "status": 400,
-      "err": "HTTPError 400"
     },
     {
       "name": "OpenAI Sora",
@@ -315,20 +190,20 @@
       "err": "HTTPError 403"
     },
     {
-      "name": "The Information AI",
-      "url": "https://www.theinformation.com/topics/artificial-intelligence",
-      "bucket": "ai",
-      "subcategory": "ma_funding",
-      "weight": 5,
-      "status": 403,
-      "err": "HTTPError 403"
-    },
-    {
       "name": "PitchBook AI",
       "url": "https://pitchbook.com/news/topics/artificial-intelligence",
       "bucket": "ai",
       "subcategory": "ma_funding",
       "weight": 3,
+      "status": 403,
+      "err": "HTTPError 403"
+    },
+    {
+      "name": "The Information AI",
+      "url": "https://www.theinformation.com/topics/artificial-intelligence",
+      "bucket": "ai",
+      "subcategory": "ma_funding",
+      "weight": 5,
       "status": 403,
       "err": "HTTPError 403"
     },
@@ -344,6 +219,15 @@
     {
       "name": "Bursa IPO Calendar",
       "url": "https://www.bursamalaysia.com/listing/listing_resources/ipo_summary",
+      "bucket": "stocks",
+      "subcategory": "exchange_regulator",
+      "weight": 4,
+      "status": 403,
+      "err": "HTTPError 403"
+    },
+    {
+      "name": "SEC EDGAR · S-1 Filings",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&type=S-1&dateb=&owner=include&count=40",
       "bucket": "stocks",
       "subcategory": "exchange_regulator",
       "weight": 4,
@@ -369,13 +253,13 @@
       "err": "URLError <urlopen error [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)>"
     },
     {
-      "name": "SEC EDGAR · S-1 Filings",
-      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&type=S-1&dateb=&owner=include&count=40",
-      "bucket": "stocks",
-      "subcategory": "exchange_regulator",
+      "name": "智谱 ChatGLM",
+      "url": "https://www.zhipuai.cn/",
+      "bucket": "ai",
+      "subcategory": "china_labs",
       "weight": 4,
-      "status": 403,
-      "err": "HTTPError 403"
+      "status": 0,
+      "err": "URLError <urlopen error _ssl.c:1112: The handshake operation timed out>"
     }
   ],
   "acts_watch_list": {
