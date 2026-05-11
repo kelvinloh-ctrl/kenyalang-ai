@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-05-11T08:58:19+0000",
+  "generated_at": "2026-05-11T09:29:47+0000",
   "fetch_summary": {
     "total_sources": 111,
-    "fetched_200": 95,
-    "fetched_4xx_5xx": 15,
+    "fetched_200": 96,
+    "fetched_4xx_5xx": 14,
     "fetched_err": 1,
-    "deduped": 207,
-    "candidates_count": 8,
+    "deduped": 218,
+    "candidates_count": 1,
     "rss_entries": 70,
-    "subpages_fetched": 69,
+    "subpages_fetched": 72,
     "by_bucket": {
-      "ai": 5,
-      "my-law": 2,
-      "fitness": 1,
+      "ai": 1,
+      "my-law": 0,
+      "fitness": 0,
       "stocks": 0
     }
   },
@@ -20,115 +20,20 @@
     "ai": [
       {
         "bucket": "ai",
-        "subcategory": "frontier_labs",
-        "source_name": "OpenAI Blog (RSS entry)",
-        "url": "https://openai.com/index/openai-campus-network-student-club-interest-form",
-        "weight": 5,
-        "title": "OpenAI Campus Network: Student club interest form",
-        "content_excerpt": "Join the OpenAI Campus Network—connect student clubs worldwide, access AI tools, host events, and build an AI-powered campus community.",
-        "fetched_at": "2026-05-11T08:57:48+0000",
-        "published": "Mon, 11 May 2026 10:00:00 GMT",
-        "candidate_type": "rss_entry",
-        "parent_feed": "https://openai.com/blog/rss.xml",
-        "url_hash": "5d49356f591b1f7d"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "frontier_labs",
-        "source_name": "OpenAI Blog (RSS entry)",
-        "url": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
-        "weight": 5,
-        "title": "How enterprises are scaling AI",
-        "content_excerpt": "How enterprises scale AI: from early experiments to compounding impact through trust, governance, workflow design, and quality at scale.",
-        "fetched_at": "2026-05-11T08:57:48+0000",
-        "published": "Mon, 11 May 2026 10:00:00 GMT",
-        "candidate_type": "rss_entry",
-        "parent_feed": "https://openai.com/blog/rss.xml",
-        "url_hash": "2a6999bc8c1adf45"
-      },
-      {
-        "bucket": "ai",
         "subcategory": "ma_funding",
-        "source_name": "36kr AI → 硅基时代的双螺旋：AI时代To B与To C的底座兼容与组织升维",
-        "url": "https://36kr.com/p/3804494386766081",
+        "source_name": "36kr AI → 最有用的 AI 硬件，是键盘上最「没用」的按键",
+        "url": "https://36kr.com/p/3804370690629120",
         "weight": 4,
-        "title": "硅基时代的双螺旋：AI时代To B与To C的底座兼容与组织升维-36氪",
-        "content_excerpt": "硅基时代的双螺旋：AI时代To B与To C的底座兼容与组织升维-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 城市 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 硅基时代的双螺旋：AI时代To B与To C的底座兼容与组织升维 Nina XIE · 2026年05月11日 16:05 AI时代To B与To C的兼容与组织升维。 硅基时代的双螺旋：AI时代To B与To C的底座兼容与组织升维 导语 2026年，大模型彻底溶解了个体与企业的边界。在这场宏大的商业迁徙中，一个关于“兼容性”的终极命题浮出水面：为什么 OpenAI 正从 To C 的流量狂欢艰难转身补课 To B，而 Anthropic 却从 To B 的严谨深潭中探出触手试探 To C？ 这不仅仅是商业路线的分野，更是组织进化的较量。本文试图拆解硅基时代的“组织双螺旋”： 路线为何相向？ 从 Anthropic 凭借75%毛利率的“专家利刃”，到 OpenAI 在9亿周活下的“增收不增利”，揭示巨头从两极起步、向彼此渗透的底层逻辑。 转型的“至暗时刻”是什么？ 复盘亚马逊、微软、GE等跨界者的血泪史，直面 To C 基因与 To B 基因在组织内“排异反应”的真实代价。 在一个组织内能否兼容两端？ 以字节跳动为例，解析其如何用“Context, not Control”让217个战斗单元在冲突中共生，通过 BU 化隔离与中台共享，解决“快准狠”与“稳慢重”的水油分离难题。 殊途同归的终局在哪里？ 无论是 To B 的确定性交付，还是 To C 的个性化体验，最终都将收敛于“人”的渴望与“组织”的升维。AI 究竟是加剧了两极分化，还是成为了连接微观欲望与宏观供给的氢键？ 当冷峻的商业理性与炽热的用户共情在组织中完成缠绕，企业将不再畏惧熵增。因为最复杂的算法永远是人脑，而最有价值的底座永远是人与组织的共同进化。 01 AI双雄的路线分野：从两极起步，向彼此渗透 OpenAI 和 Anthropic 的演化路径，本质上是一场 “做产品” 与 “做服务” 的路线之争。早年，OpenAI 靠惊艳的 C 端爆款打天下，而 Anthropic 靠稳妥的 B 端深挖做基石。但随着 AI 商业化进入“啃硬骨头”的阶段，两者的界限正在急速模糊——双方都在拼命向企业级深水区狂奔，只是切入的姿势完全不同。 1. Anthropic：To B原教旨主义的逆袭 Anthropic 自成立起就带着浓厚的“企业级/安全”基因，主打“专家利刃”路线。 路径特征： 避开 To C 的流量红海，将火力集中于企业级刚需场景（如金融合规、医疗、代码编程）。其杀手锏 Claude Code 一举拿下超54%的 AI 编程市场份额。 商业结果： 靠着解决企业“降本增效”的痛点，Anthropic 在2026年年化收入（ARR）突破300亿美元（80%来自企业端），且毛利率高达75%。它证明了在 AI 时代，“拼客单价、拼深度”的 To B 逻辑依然是最稳健的变现捷径。 2. OpenAI：To C流量狂飙后的To B转身 OpenAI 凭借 ChatGPT 的震撼体验，走的是“超级平台”路线（To C 优先）。 路径特征： 据2026年预测数据显示，近9亿的周活用户为其带来了巨大的估值泡沫，但也带来了“增收不增利”的尴尬（毛利率仅33%，面临极高的算力成本）。为了破局，OpenAI 正疯狂补课 To B，试图将庞大流量的势能转化为企业级市场的动能。 商业结果： 2026年，OpenAI 接连通过成立合资公司、构建 AI 时代的“运营商分发网络”，试图在企业级市场复制其 To C 的辉煌。 核心拷问： 一家组织，究竟能否同时兼容 To B 的深邃严谨与 To C 的灵动敏捷？还是需要像这两家巨头一样，在初始阶段必须做出非此即彼的战略取舍？ 02 跨界突围的血泪史：兼容背后的“至暗时刻” 1. To C 向 To B 的降维打击（与踩坑） 这类企业凭借极高的用户基数和体验切入企业级市场，往往势如破竹，但也容",
-        "fetched_at": "2026-05-11T08:58:10+0000",
+        "title": "最有用的 AI 硬件，是键盘上最「没用」的按键-36氪",
+        "content_excerpt": "最有用的 AI 硬件，是键盘上最「没用」的按键-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 城市 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 最有用的 AI 硬件，是键盘上最「没用」的按键 爱范儿 · 2026年05月11日 17:05 没人喜欢 Copilot 键，但如果是 Claude 键呢？ 智能手机统治了过去十几年的数字生态，它是注意力的黑洞，是我们最私密的随身之物。但手机从设计之初就是为「人盯着它」而生的——它的全部逻辑，都止于屏幕。 AI 的需求却恰恰相反：它需要持续感知物理世界——见你所见，听你所闻，随时在场，而非等你解锁屏幕才醒来。 当 AI 真正成为一种基础能力，它迟早要从屏幕里破壳而出，寻找属于它自己的形状。这将是一个漫长的探索和演化过程。 「AI 器物志」栏目由此而来，爱范儿想和你一起持续观察：AI 如何改变硬件设计，如何重塑人机交互，以及更重要的——AI 将以怎样的形态进入我们的日常生活？ 这是「AI 器物志」的第 12 篇文章。 当你展开面前的 MacBook Pro，仔细观察一下键盘区域，就会发现一个有趣的物理现象： 那层俗称为「打油」的塑料表面抛光现象，基本只分布在 QWERTY 字母区，以及敲击最频繁的空格、回车和方向键上。 相比之下，键盘顶部的 F 功能键区，以及左下角、右下角的 Fn、Alt/Option、Win 键，往往还保留着「崭新出厂」时的细腻磨砂感。 这种视觉上的反差，刚好形成了一张人机交互方式「热力图」，成为了一个有趣的数据可视化。 实际上，在「小型计算机」问世的几十年的时间里，网络技术、存储方式虽然日新月异，但最主流的交互方式却始终未变： 键盘 。 在图形界面（GUI）出现之前的命令行（CLI）时代，键盘就是人们与计算机交互的核心。 即使到了今天，鼠标、触屏、数位板等等更新的交互方式出现，键盘也依然是人机交互的主心骨。 图｜X @HumanoidHistory 在 AI 洪流带着最新的「语音输入-内容整理-总结摘要」这样的「一条龙服务」来临时，键盘打字虽然受到了一点点微小的冲击，但它的重要性依旧—— 但这个重要性的核心，却不再是 QWERTY 区了。 键盘边缘拓荒运动 如果你在使用类似 Typeless 的 AI 语音输入工具，同时还更新了最近的 macOS 版微信的话，就会发现一件非常搞笑的事情—— 因为两者的默认录音开关都是 Fn 键，在微信里想要使用 Typeless，你的 Fn 键就会被微信给「截胡」成它自己的语音输入功能： 抛开 Typeless 和微信热键打架的事情不谈，「把 Fn 做成语音输入键」实际上是一个相当不错的设计。 不仅是因为大部分 Windows 电脑和笔记本没有类似 macOS 的「听写键」，语音输入的快捷键是 Win + H ——相信不少人从来都没有听说过。 此外，把 Fn 这个使用频率没那么高的按键设置成听写，既不影响原本的功能，还比 Mac 上 F5 的位置合理很多，不用抬手就能按到： 最主要的是： 有一个专用的按键来执行 AI 功能，这种体验是非常丝滑的，培养肌肉记忆非常容易。 相比传统语音输入需要「点击输入框、切换输入法、点击语音按钮」的繁琐流程，Fn 直接将其融合成了一个下意识的反应。 只不过在键盘的另一边，原本右 Alt 键的位置上，微软大张旗鼓整出来的「Copilot 键」的命运就没那么好了。 相比人尽皆知的 Win 菜单键，右侧的 Copilot 键不仅占着原本 Win 的位置，更是经常被评价为硬件设计史上最尴尬的变革之一。 图｜PCMag 总结其原因，还是 Copilot 自己的能力不行。 微软通过强行在键盘里塞一个 AI 键，试图重演当年 Win 键的辉煌，然而这么做除了破坏大批用户的肌肉记忆，更显得像是一个强行推销的广告位。 归根结底， Copilot 键只是提供了一个启动 Copilot 对话框的快捷方式，却无法参与软件交互或者动作代管。 图｜Pureinfotech 而 Typeless 和微信对 Fn 键的「旧物利用",
+        "fetched_at": "2026-05-11T09:29:38+0000",
         "candidate_type": "subpage",
         "parent_url": "https://36kr.com/information/AI",
-        "url_hash": "8f0722461ba8dc26"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "ma_funding",
-        "source_name": "36kr AI → 38万应用暴露、2000+应用泄密，AI编程把“内网”变公网",
-        "url": "https://36kr.com/p/3801593671081735",
-        "weight": 4,
-        "title": "38万应用暴露、2000+应用泄密，AI编程把“内网”变公网-36氪",
-        "content_excerpt": "38万应用暴露、2000+应用泄密，AI编程把“内网”变公网-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 安徽 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 38万应用暴露、2000+应用泄密，AI编程把“内网”变公网 AI前线 · 2026年05月11日 12:01 vibe coding 工具正在泄露大量个人和企业数据。 “vibe coding 工具正在泄露大量个人和企业数据。”近日，以色列一家网络安全初创公司 RedAccess 的研究人员在研究“影子 AI”（shadow AI）趋势时发现，开发者用来快速开发软件的 AI 工具让医疗记录、财务数据和财富 500 强内部文件都泄露到了开放网络上。 RedAccess 的 CEO Dor Zvi 表示，研究人员发现约 38 万个可公开访问的应用和其他资产，这些都是开发者使用 Lovable、Base44、Netlify 和 Replit 等工具创建的，其中约有 5000 个包含敏感的企业信息，但近 2000 个应用在进一步检查后似乎暴露了私密数据。Axios 独立验证了多个暴露应用，WIRED 也分别确认了这些发现。 40% AI 编码应用暴露敏感数据， 甚至还有管理员权限 随着 AI 日益接管现代程序员的工作，网络安全领域早已警告：自动化编码工具势必会在软件中引入一大批可被利用的漏洞。然而，当这些 vibe coding 工具让任何人只需点击一下就能创建并托管在网页上的应用时，问题就不仅仅是漏洞了，而是几乎完全没有任何安全防护，包括高度敏感的企业和个人数据。 据了解，RedAccess 团队对使用 Lovable、Replit、Base44 和 Netlify 等 AI 软件开发工具创建的数千个 vibe coding 网页应用进行了分析，发现其中超过 5000 个几乎没有任何安全机制或身份验证。许多这样的网页应用，只要有人获取到其 URL，就可以直接访问应用及其数据。还有一些虽然设置了门槛，但也极其简单，比如只需用任意邮箱地址注册即可访问。 在这 5000 个任何人只需在浏览器中输入 URL 就能访问的 AI 编码应用中，Zvi 发现近 2000 个在进一步检查后似乎暴露了私密数据。Zvi 表示，大约 40% 的应用暴露了敏感数据，包括医疗信息、金融数据、企业演示文稿和战略文件，以及用户与聊天机器人对话的详细记录。 他分享的网页应用截图（其中一些已被核实仍在线且处于暴露状态）显示，包括某医院的工作分配信息（含医生的个人身份信息）、某公司的详细广告采购数据、另一家公司的市场进入战略演示文稿、一家零售商的聊天机器人完整对话记录（包含客户的全名和联系方式）、一家航运公司的货运记录，以及来自多家公司的各类销售和财务数据。Zvi 还表示，在某些情况下，这些暴露的应用甚至可能让他获得系统的管理员权限，甚至删除其他管理员。 Zvi 表示，RedAccess 在搜寻存在漏洞的网页应用时出奇地容易。Lovable、Replit、Base44 和 Netlify 都允许用户将网页应用托管在这些 AI 公司的自有域名上，而不是用户自己的域名。因此，研究人员只需在 Google 和 Bing 上，通过这些公司的域名配合其他关键词进行简单搜索，就能识别出数千个使用这些工具进行 vibe coding 开发的应用。 在 Lovable 的案例中，Zvi 还发现了大量仿冒大型企业的钓鱼网站，这些网站看起来是通过该 AI 编码工具创建并托管在 Lovable 域名上的，包括美国银行（Bank of America）、Costco、FedEx、Trader Joe’s 和麦当劳等品牌。Zvi 还指出，Red Access 发现的 5000 个暴露应用仅托管在 AI 编码工具自身域名上，实际上可能还有成千上万的应用是托管在用户自购的域名上。 安全研究员 Joel Margolis 指出，要验证某个未受保护的 AI 编码网页应用中是否真的暴露了真实数据，其实并不容易。他和同事此前曾发现一款 AI 聊天",
-        "fetched_at": "2026-05-11T08:58:10+0000",
-        "candidate_type": "subpage",
-        "parent_url": "https://36kr.com/information/AI",
-        "url_hash": "e2c57129a9625c5a"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "ma_funding",
-        "source_name": "36kr AI → Anthropic的Harness工程白做了？Claude Code被曝不遵守CLAUDE.md，开发者烧光credit",
-        "url": "https://36kr.com/p/3804528406388489",
-        "weight": 4,
-        "title": "Anthropic的Harness工程白做了？Claude Code被曝不遵守CLAUDE.md，开发者烧光credits怒喊退钱-36氪",
-        "content_excerpt": "Anthropic的Harness工程白做了？Claude Code被曝不遵守CLAUDE.md，开发者烧光credits怒喊退钱-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 城市 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 Anthropic的Harness工程白做了？Claude Code被曝不遵守CLAUDE.md，开发者烧光credits怒喊退钱 AI前线 · 2026年05月11日 16:11 百万token上下文是摆设？200k 之后，模型开始焦虑、走捷径。 Anthropic C+轮 海外 2019-02 人工智能安全和研究公司 36氪报道 前沿技术 我要联系 Claude Code 的工程稳定性问题，再次引发开发者集中讨论。 近日，Reddit 上出现一则投诉帖，发帖者直指最新版 Claude Code 在实际开发中“不再服从或尊重 CLAUDE.md、hooks/rules 等规则”。这名开发者愤怒地反问：“如果 Claude Code 的运行框架（harness）已经不再服从或遵循这些原则，那么定义架构设计原则、指南之类的东西还有什么意义？” 这场争议的核心，并不是 Claude Code 会不会写代码，而是一个更基础的问题：当开发者已经明确告诉 AI 应该如何开发、遵守什么流程、不能越过哪些边界时，它到底能不能稳定执行？ 这名用户称，自己最近不得不反复要求 Claude Code 遵循测试驱动开发（TDD，Test-Driven Development），并通过强制约束让它按照预期方式工作，才能得到相对满意的结果。 问题在于，用户并不只是口头提醒。按照他的说法，他已经要求 Claude 更新 CLAUDE.md 文件，把规则写入 hooks、记忆和相关约束中。但下一条提示发出去后，Claude Code “甚至都没有尝试按照这种方式构建”。 发帖者认为，“显然有什么东西坏得很严重”，并将其描述为一次“非常严重的能力倒退”。在他看来，越来越多个人开发者和企业正在把 Claude Code 这类工具当作工作基础设施的一部分，用户也已经为这些工具支付了高昂费用，但现在却发现，工具的规则遵循能力反而在倒退。 一名评论者将问题归因于上下文腐烂（context rot）。他认为，一旦上下文超过 20 万 token，模型表现就可能开始退化。应用规模越大，越容易触碰到这些限制；到那时，模型会开始忘记指令，因为它实际上已经无法稳定保存和利用早期上下文。因此，他询问原帖作者项目规模和上下文使用情况。 但原帖作者的回应否定了这个解释：“真的只是一个刚开始做的全新项目。我才发了没几个 prompt。我只是先给它设置了一些构建时要遵循的 guidelines。” 这意味着，问题未必只出现在大型项目或超长上下文中。即便是一个全新的绿地项目，在规则刚刚写入不久后，Claude Code 也可能没有持续执行这些规则。 “软规则”无法变成“硬约束” 另一名用户从行为机制上给出解释：模型似乎更倾向于优化“此刻显得有帮助”，而不是遵守此前已经同意的规则。这会形成一种奇怪的激励：模型在当前轮次看起来很配合，但实际上会忽略用户已经设定好的约束。 这名评论者进一步指出，问题可能在于，CLAUDE.md 被模型当作普通上下文，而不是硬性约束。当后续用户请求、错误日志、构建失败和模型自身的“尽快解决问题”冲动同时出现时，模型可能会把“满足当前请求”的权重放得更高，而不是坚持十几轮甚至二十轮之前读到的架构规则。 在 AI 编程工具中，很多规则只是写进 CLAUDE.md、系统提示、memory 或 hooks 的自然语言说明。那写进上下文的规则，是否等同于工程系统里的硬约束？目前它们看起来像项目纪律，实际上仍然依赖模型“记得并愿意执行”。 在评论区，多名用户表示遇到过类似情况。 一名评论者写道：“不知道为什么，这种情况并不是每天都会发生，但今天确实发生了：它一直在和 hooks 对着干，直接无视规则，然后一路强行推进。昨天还好好的，今天我就被它‘",
-        "fetched_at": "2026-05-11T08:58:10+0000",
-        "candidate_type": "subpage",
-        "parent_url": "https://36kr.com/information/AI",
-        "url_hash": "56bb971b1e5346c2"
+        "url_hash": "fc3a0bd406deff25"
       }
     ],
-    "my-law": [
-      {
-        "bucket": "my-law",
-        "subcategory": "official",
-        "source_name": "Bernama · 国家通讯社 → Southwest Monsoon To Begin May 14, With Lower Rainfall Until",
-        "url": "https://www.bernama.com/en/general/news.php?id=2555582",
-        "weight": 4,
-        "title": "BERNAMA - Southwest Monsoon To Begin May 14, With Lower Rainfall Until September - MetMalaysia",
-        "content_excerpt": "BERNAMA - Southwest Monsoon To Begin May 14, With Lower Rainfall Until September - MetMalaysia BERNAMA.com | BERNAMA TV | BERNAMA Radio | BERNAMA Images | BLIS | NewsLink5 English Malay Arabic Espa&ntilde;ol General BernamaBiz Crime & Courts Politics Sports Lifestyle Region Central Northern Southern East Sabah Sarawak World Main Nam News Network (NNN) The Organization of Asia-Pacific News Agencies (OANA) Xinhua News Agency Microsite HAWANA 2026 CPI MAPO MCMC Fokus BERNAMA Thoughts MyCheck fotoBERNAMA Garasi More Infographics Videos Exclusive Press Archived English Malay Arabic Espa&ntilde;ol Home General BernamaBiz Crime & Courts Politics Sports Lifestyle Region Central Northern Southern East Sabah Sarawak World Main Nam News Network (NNN) The Organization of Asia-Pacific News Agencies (OANA) Xinhua News Agency Microsite HAWANA 2026 CPI MAPO MCMC Fokus BERNAMA Thoughts MyCheck fotoBERNAMA Garasi More Infographics Videos Exclusive Press Archived GENERAL > NEWS Southwest Monsoon To Begin May 14, With Lower Rainfall Until September - MetMalaysia 11/05/2026 04:14 PM Dr Mohd Hisham Mohd Anip KUALA LUMPUR, May 11 (Bernama) -- The Southwest Monsoon is expected to begin on May 14 and will persist until September, following consistent winds blowing from the southwest, the Malaysian Meteorological Department (MetMalaysia) announced today. MetMalaysia director-general Dr Mohd Hisham Mohd Anip said that during this period, low humidity levels will typically result in reduced cloud formation over most areas. This means fewer rainy days and more dry days across the country, he explained in a statement. However, Dr Mohd Hisham cautioned that heavy rain accompanied by strong winds and thunderstorms may still occur in certain areas. These include the western parts of Peninsular Malaysia, northern Sarawak, and western Sabah, particularly in the early morning hours due to the presence of squall lines. \"These are squall lines that form over the Straits of Malacca and the eastern South ",
-        "fetched_at": "2026-05-11T08:58:08+0000",
-        "candidate_type": "subpage",
-        "parent_url": "https://www.bernama.com/en/general/index.php",
-        "url_hash": "38bad163a3315b44"
-      },
-      {
-        "bucket": "my-law",
-        "subcategory": "official",
-        "source_name": "Bernama · 国家通讯社 → Talentbank Announces Graduates’ Choice Award 2026 Winners: M",
-        "url": "https://www.bernama.com/en/general/news.php?id=2555574",
-        "weight": 4,
-        "title": "BERNAMA - Talentbank Announces Graduates’ Choice Award 2026 Winners: Malaysia’s Most Voted Graduate Employers Revealed",
-        "content_excerpt": "BERNAMA - Talentbank Announces Graduates’ Choice Award 2026 Winners: Malaysia’s Most Voted Graduate Employers Revealed BERNAMA.com | BERNAMA TV | BERNAMA Radio | BERNAMA Images | BLIS | NewsLink5 English Malay Arabic Espa&ntilde;ol General BernamaBiz Crime & Courts Politics Sports Lifestyle Region Central Northern Southern East Sabah Sarawak World Main Nam News Network (NNN) The Organization of Asia-Pacific News Agencies (OANA) Xinhua News Agency Microsite HAWANA 2026 CPI MAPO MCMC Fokus BERNAMA Thoughts MyCheck fotoBERNAMA Garasi More Infographics Videos Exclusive Press Archived English Malay Arabic Espa&ntilde;ol Home General BernamaBiz Crime & Courts Politics Sports Lifestyle Region Central Northern Southern East Sabah Sarawak World Main Nam News Network (NNN) The Organization of Asia-Pacific News Agencies (OANA) Xinhua News Agency Microsite HAWANA 2026 CPI MAPO MCMC Fokus BERNAMA Thoughts MyCheck fotoBERNAMA Garasi More Infographics Videos Exclusive Press Archived GENERAL > NEWS Talentbank Announces Graduates’ Choice Award 2026 Winners: Malaysia’s Most Voted Graduate Employers Revealed 11/05/2026 04:02 PM KUALA LUMPUR, May 11 (Bernama) -- For hundreds of thousands of university students across Malaysia, choosing a future employer is no longer based solely on salary, but increasingly on purpose, growth and reputation. This shifting mindset is reflected in the latest Graduates&rsquo; Choice Award (GCA) 2026, unveiled by Talentbank today, which recognises the country&rsquo;s most sought-after employers as voted entirely by students. Talentbank said in a statement that, now in its eighth year, the award has evolved into Malaysia&rsquo;s largest student-driven employer benchmark, offering a rare and unfiltered insight into what truly matters to the nation&rsquo;s emerging workforce. In 2026, more than 740,000 cumulative votes were cast by students from over 100 universities nationwide, making it the most extensive employer perception study within the graduate market,",
-        "fetched_at": "2026-05-11T08:58:08+0000",
-        "candidate_type": "subpage",
-        "parent_url": "https://www.bernama.com/en/general/index.php",
-        "url_hash": "ce03822df2b5b061"
-      }
-    ],
-    "fitness": [
-      {
-        "bucket": "fitness",
-        "subcategory": "policy_government",
-        "source_name": "Sport Australia → AIS and QAS leading insights on shaping future champions at ",
-        "url": "https://www.sportaus.gov.au/media-centre/news/ais-leading-insights-on-how-to-shape-future-champions-at-talent-id-conference",
-        "weight": 2,
-        "title": "AIS and QAS leading insights on shaping future champions at Talent ID Conference | ASC",
-        "content_excerpt": "AIS and QAS leading insights on shaping future champions at Talent ID Conference | ASC Skip to main content AIS shop Careers Sign In or register My account Search this website Search Menu Services Grants and funding Guidance and resources Visit AIS News Events About us Contact us Search Menu Services Grants and funding Guidance and resources Visit AIS News Events About us Contact us Home … Media centre News AIS and QAS leading insights on shaping future champions at Talent ID Conference (current page) AIS Win Well 11 May 2026 AIS and QAS leading insights on shaping future champions at Talent ID Conference The International Talent Identification and Development Conference brought together almost 300 delegates from 16 nations over four energising days across Canberra and Brisbane, to explore current best practice and the future of how to discover and develop the next generation of Australian athletes. Almost 300 delegates from 16 nations at the 2026 International Talent ID and Development Conference The International Talent Identification and Development Conference brought together almost 300 delegates from 16 nations over four energising days across Canberra and Brisbane, to explore current best practice and the future of how to discover and develop the next generation of Australian athletes. Co-hosted by the Australian Institute of Sport (AIS) and the Queensland Academy of Sport (QAS), the conference saw academics, coaches, practitioners, athletes and sport administrators engage and showcase a holistic view of talent identification and development. Across the opening two days at the AIS campus, delegates were immersed in discussions that highlighted just how rapidly the talent landscape is evolving. Presenters from the UK, Japan, Malaysia and Singapore shared how their systems navigate unique cultural and structural contexts, with lessons for how Australia can best build connected, robust environments that allow athletes to thrive. A recurring theme was the shift fr",
-        "fetched_at": "2026-05-11T08:58:09+0000",
-        "candidate_type": "subpage",
-        "parent_url": "https://www.sportaus.gov.au/",
-        "url_hash": "f93f12d8d4f35822"
-      }
-    ],
+    "my-law": [],
+    "fitness": [],
     "stocks": []
   },
   "bot_blocked_sources": [
@@ -160,20 +65,20 @@
       "err": "HTTPError 403"
     },
     {
-      "name": "Phind",
-      "url": "https://www.phind.com/blog",
-      "bucket": "ai",
-      "subcategory": "search_assistants",
-      "weight": 2,
-      "status": 403,
-      "err": "HTTPError 403"
-    },
-    {
       "name": "Genspark",
       "url": "https://www.genspark.ai/",
       "bucket": "ai",
       "subcategory": "search_assistants",
       "weight": 3,
+      "status": 403,
+      "err": "HTTPError 403"
+    },
+    {
+      "name": "Phind",
+      "url": "https://www.phind.com/blog",
+      "bucket": "ai",
+      "subcategory": "search_assistants",
+      "weight": 2,
       "status": 403,
       "err": "HTTPError 403"
     },
@@ -223,20 +128,20 @@
       "err": "HTTPError 403"
     },
     {
-      "name": "Bursa IPO Calendar",
-      "url": "https://www.bursamalaysia.com/listing/listing_resources/ipo_summary",
-      "bucket": "stocks",
-      "subcategory": "exchange_regulator",
-      "weight": 4,
-      "status": 403,
-      "err": "HTTPError 403"
-    },
-    {
       "name": "Bursa Malaysia · 公告页",
       "url": "https://www.bursamalaysia.com/market_information/announcements/company_announcement",
       "bucket": "stocks",
       "subcategory": "exchange_regulator",
       "weight": 5,
+      "status": 403,
+      "err": "HTTPError 403"
+    },
+    {
+      "name": "Bursa IPO Calendar",
+      "url": "https://www.bursamalaysia.com/listing/listing_resources/ipo_summary",
+      "bucket": "stocks",
+      "subcategory": "exchange_regulator",
+      "weight": 4,
       "status": 403,
       "err": "HTTPError 403"
     },
