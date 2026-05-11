@@ -415,7 +415,8 @@ ai:
       type: web
       url: https://36kr.com/information/AI
       weight: 4
-      tags: [news, china, funding]
+      aggregator: true
+      tags: [news, china, funding, aggregator]
     - name: PitchBook AI
       type: web
       url: https://pitchbook.com/news/topics/artificial-intelligence
@@ -442,22 +443,26 @@ ai:
       type: rss
       url: https://bensbites.com/feed
       weight: 3
-      tags: [news, daily]
+      aggregator: true
+      tags: [news, daily, aggregator]
     - name: TLDR AI
       type: web
       url: https://tldr.tech/ai
       weight: 3
-      tags: [news, daily]
+      aggregator: true
+      tags: [news, daily, aggregator]
     - name: Smol AI Daily
       type: web
       url: https://news.smol.ai/
       weight: 4
-      tags: [news, daily, dev]
+      aggregator: true
+      tags: [news, daily, dev, aggregator]
     - name: Last Week in AI
       type: rss
       url: https://lastweekin.ai/feed
       weight: 3
-      tags: [news, weekly]
+      aggregator: true
+      tags: [news, weekly, aggregator]
 
   opensource_trends:
     - name: HuggingFace Trending
