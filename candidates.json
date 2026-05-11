@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-05-10T10:07:21+0000",
+  "generated_at": "2026-05-11T08:58:19+0000",
   "fetch_summary": {
     "total_sources": 111,
-    "fetched_200": 93,
-    "fetched_4xx_5xx": 14,
-    "fetched_err": 4,
-    "deduped": 206,
-    "candidates_count": 7,
+    "fetched_200": 95,
+    "fetched_4xx_5xx": 15,
+    "fetched_err": 1,
+    "deduped": 207,
+    "candidates_count": 8,
     "rss_entries": 70,
     "subpages_fetched": 69,
     "by_bucket": {
-      "ai": 7,
-      "my-law": 0,
-      "fitness": 0,
+      "ai": 5,
+      "my-law": 2,
+      "fitness": 1,
       "stocks": 0
     }
   },
@@ -22,100 +22,113 @@
         "bucket": "ai",
         "subcategory": "frontier_labs",
         "source_name": "OpenAI Blog (RSS entry)",
-        "url": "https://openai.com/index/running-codex-safely",
+        "url": "https://openai.com/index/openai-campus-network-student-club-interest-form",
         "weight": 5,
-        "title": "Running Codex safely at OpenAI",
-        "content_excerpt": "How OpenAI runs Codex securely with sandboxing, approvals, network policies, and agent-native telemetry to support safe and compliant coding agent adoption.",
-        "fetched_at": "2026-05-10T10:06:41+0000",
-        "published": "Fri, 08 May 2026 12:30:00 GMT",
+        "title": "OpenAI Campus Network: Student club interest form",
+        "content_excerpt": "Join the OpenAI Campus Network—connect student clubs worldwide, access AI tools, host events, and build an AI-powered campus community.",
+        "fetched_at": "2026-05-11T08:57:48+0000",
+        "published": "Mon, 11 May 2026 10:00:00 GMT",
         "candidate_type": "rss_entry",
         "parent_feed": "https://openai.com/blog/rss.xml",
-        "url_hash": "66be1220771465af"
+        "url_hash": "5d49356f591b1f7d"
       },
       {
         "bucket": "ai",
         "subcategory": "frontier_labs",
         "source_name": "OpenAI Blog (RSS entry)",
-        "url": "https://openai.com/index/how-chatgpt-protects-privacy",
+        "url": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
         "weight": 5,
-        "title": "How ChatGPT learns about the world while protecting privacy",
-        "content_excerpt": "Learn how ChatGPT safeguards your privacy, reduces personal data in training, and gives you control over whether your conversations improve AI models.",
-        "fetched_at": "2026-05-10T10:06:41+0000",
-        "published": "Wed, 06 May 2026 08:00:00 GMT",
+        "title": "How enterprises are scaling AI",
+        "content_excerpt": "How enterprises scale AI: from early experiments to compounding impact through trust, governance, workflow design, and quality at scale.",
+        "fetched_at": "2026-05-11T08:57:48+0000",
+        "published": "Mon, 11 May 2026 10:00:00 GMT",
         "candidate_type": "rss_entry",
         "parent_feed": "https://openai.com/blog/rss.xml",
-        "url_hash": "ca7758ca2a2c3977"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "news_analysis",
-        "source_name": "Stratechery (Ben Thompson) (RSS entry)",
-        "url": "https://stratechery.com/2026/earning-spending/",
-        "weight": 5,
-        "title": "2026.19: Earning & Spending",
-        "content_excerpt": "The best Stratechery content from the week of May 4, 2026, including what we learned from Big Tech's first quarter, a conversation with Joanna Stern, and asking what's next for the Boston Celtics.",
-        "fetched_at": "2026-05-10T10:06:49+0000",
-        "published": "Fri, 08 May 2026 17:00:00 +0000",
-        "candidate_type": "rss_entry",
-        "parent_feed": "https://stratechery.com/feed/",
-        "url_hash": "6306dbf70f8d9186"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "news_analysis",
-        "source_name": "Latent Space (swyx) (RSS entry)",
-        "url": "https://www.latent.space/p/ainews-anthropic-growing-10xyear",
-        "weight": 5,
-        "title": "[AINews] Anthropic growing 10x/year while everyone else is laying off >10% of their workforce",
-        "content_excerpt": "A quiet day lets us reflect on an interesting dichotomy in the economy.",
-        "fetched_at": "2026-05-10T10:06:49+0000",
-        "published": "Sat, 09 May 2026 01:08:28 GMT",
-        "candidate_type": "rss_entry",
-        "parent_feed": "https://www.latent.space/feed",
-        "url_hash": "1548e559386f98ff"
+        "url_hash": "2a6999bc8c1adf45"
       },
       {
         "bucket": "ai",
         "subcategory": "ma_funding",
-        "source_name": "36kr AI → DeepSeek塞进苹果本儿，分币不花实现“龙虾自由”",
-        "url": "https://36kr.com/p/3803167337783561",
+        "source_name": "36kr AI → 硅基时代的双螺旋：AI时代To B与To C的底座兼容与组织升维",
+        "url": "https://36kr.com/p/3804494386766081",
         "weight": 4,
-        "title": "DeepSeek塞进苹果本儿，分币不花实现“龙虾自由”-36氪",
-        "content_excerpt": "DeepSeek塞进苹果本儿，分币不花实现“龙虾自由”-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 城市 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 DeepSeek塞进苹果本儿，分币不花实现“龙虾自由” 字母AI · 2026年05月10日 15:44 谢谢这位意大利黑客。 在agent时代最贵的是什么？是token。 一些重度agent使用者，一个月用掉几亿token，账单小几万块钱也是常有的事。 然而现在开始，有这么一个开发者他开源了一个本地方案，一台苹果笔记本就能部署，也就是说，你从此实现了“龙虾自由”，跑再多任务，也不会再为token付出一分钱了。最关键的是，他用的还是DeeSeek V4 Falsh。 几天前，antirez在GitHub上发布了一个项目，叫ds4。 这是一个专门为DeepSeek V4 Flash写的推理引擎。一共几千行C代码，可以让DeepSeek V4 Flash这个模型在128G内存的苹果电脑上跑起来。 开发者antirez，本名Salvatore Sanfilippo，是意大利程序员，同时他也是开源数据库Redis的原作者。Redis后来成为全球互联网基础设施里最常用的内存数据库之一。 往好的方面去想，DeepSeek影响力足够大，吸引到了圈内顶流的程序员，但是坏的方面是， DeepSeek这回真的免费了。 任何开发者都可以用ds4，去把DeepSeek V4 Flash装进自己的MacBook Pro里，本地跑代码、本地读上下文、本地做agent任务，而这一切的一切，不需要给DeepSeek付1分钱。 虽然DeepSeek V4 Flash本身开源，可FP16精度的原始模型要吃掉284G内存，显存需求更是高达160G。 因此，想运行它，你至少得有两张英伟达A100 80GB、一条512GB DDR5 ECC内存，以及一个4TB NVMe SSD。总成本50万人民币。 而现在，一台3万块钱的MacBook Pro就能跑。 那antirez为什么偏偏选中DeepSeek V4 Flash呢？ 原因是DeepSeek最适合被“塞进本地电脑”。 它有284B总参数，足够大；但每次推理只激活13B参数，又不像传统大模型那样沉重。 它支持100万token上下文，适合编程助手这种长任务；同时KV cache压缩得足够狠，给本地内存和SSD留下了操作空间。 DeepSeek V4 Flash刚好站在了这样一个神奇的平衡点上，既大到值得折腾，又小到能被塞进苹果笔记本里。 YC的CEO Garry Tan在X上转了这条消息，只打了一行字：正在下载……100万token上下文窗口，可用的编程助手能力，全在一台128GB的MacBook Pro上，太疯狂了。 01 ds4究竟是什么？ 先说结论，ds4不是一个模型，它是一台“专用发动机”。DeepSeek V4 Flash是车，苹果电脑是路，ds4负责把这辆原本更适合跑在云端的大车，改到本地机器上能跑、能接API、还能被coding agent调用。 过去大家想在自己电脑上跑大模型，普遍用的都是llama.cpp这个工具。它的好处是什么模型都能跑，Llama、Qwen、DeepSeek全都支持。 可问题就是，什么都能跑，就意味着什么都跑不到最快。为了照顾所有模型，llama.cpp必须做很多妥协，性能上不可能做到极致。 antirez的想法正好相反，他才不管别的模型死活，他就专门伺候DeepSeek V4 Flash这一个，把它优化到极限。 他一共做了3件事。 第一件事，是不对称的2-bit量化。 DeepSeek V4 Flash的架构是MoE（Mixture of Experts），284B总参数里，每次推理只激活13B，这13B是路由挑出来的若干个专家子网络。 就像一个工具箱里有284把工具，每次只拿出13把来用。这284B里面，有一大堆“备选专家”占了90%以上的空间，但它们不是每次都用，只是候补。 antirez的做法是，只对这批routed ",
-        "fetched_at": "2026-05-10T10:07:09+0000",
+        "title": "硅基时代的双螺旋：AI时代To B与To C的底座兼容与组织升维-36氪",
+        "content_excerpt": "硅基时代的双螺旋：AI时代To B与To C的底座兼容与组织升维-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 城市 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 硅基时代的双螺旋：AI时代To B与To C的底座兼容与组织升维 Nina XIE · 2026年05月11日 16:05 AI时代To B与To C的兼容与组织升维。 硅基时代的双螺旋：AI时代To B与To C的底座兼容与组织升维 导语 2026年，大模型彻底溶解了个体与企业的边界。在这场宏大的商业迁徙中，一个关于“兼容性”的终极命题浮出水面：为什么 OpenAI 正从 To C 的流量狂欢艰难转身补课 To B，而 Anthropic 却从 To B 的严谨深潭中探出触手试探 To C？ 这不仅仅是商业路线的分野，更是组织进化的较量。本文试图拆解硅基时代的“组织双螺旋”： 路线为何相向？ 从 Anthropic 凭借75%毛利率的“专家利刃”，到 OpenAI 在9亿周活下的“增收不增利”，揭示巨头从两极起步、向彼此渗透的底层逻辑。 转型的“至暗时刻”是什么？ 复盘亚马逊、微软、GE等跨界者的血泪史，直面 To C 基因与 To B 基因在组织内“排异反应”的真实代价。 在一个组织内能否兼容两端？ 以字节跳动为例，解析其如何用“Context, not Control”让217个战斗单元在冲突中共生，通过 BU 化隔离与中台共享，解决“快准狠”与“稳慢重”的水油分离难题。 殊途同归的终局在哪里？ 无论是 To B 的确定性交付，还是 To C 的个性化体验，最终都将收敛于“人”的渴望与“组织”的升维。AI 究竟是加剧了两极分化，还是成为了连接微观欲望与宏观供给的氢键？ 当冷峻的商业理性与炽热的用户共情在组织中完成缠绕，企业将不再畏惧熵增。因为最复杂的算法永远是人脑，而最有价值的底座永远是人与组织的共同进化。 01 AI双雄的路线分野：从两极起步，向彼此渗透 OpenAI 和 Anthropic 的演化路径，本质上是一场 “做产品” 与 “做服务” 的路线之争。早年，OpenAI 靠惊艳的 C 端爆款打天下，而 Anthropic 靠稳妥的 B 端深挖做基石。但随着 AI 商业化进入“啃硬骨头”的阶段，两者的界限正在急速模糊——双方都在拼命向企业级深水区狂奔，只是切入的姿势完全不同。 1. Anthropic：To B原教旨主义的逆袭 Anthropic 自成立起就带着浓厚的“企业级/安全”基因，主打“专家利刃”路线。 路径特征： 避开 To C 的流量红海，将火力集中于企业级刚需场景（如金融合规、医疗、代码编程）。其杀手锏 Claude Code 一举拿下超54%的 AI 编程市场份额。 商业结果： 靠着解决企业“降本增效”的痛点，Anthropic 在2026年年化收入（ARR）突破300亿美元（80%来自企业端），且毛利率高达75%。它证明了在 AI 时代，“拼客单价、拼深度”的 To B 逻辑依然是最稳健的变现捷径。 2. OpenAI：To C流量狂飙后的To B转身 OpenAI 凭借 ChatGPT 的震撼体验，走的是“超级平台”路线（To C 优先）。 路径特征： 据2026年预测数据显示，近9亿的周活用户为其带来了巨大的估值泡沫，但也带来了“增收不增利”的尴尬（毛利率仅33%，面临极高的算力成本）。为了破局，OpenAI 正疯狂补课 To B，试图将庞大流量的势能转化为企业级市场的动能。 商业结果： 2026年，OpenAI 接连通过成立合资公司、构建 AI 时代的“运营商分发网络”，试图在企业级市场复制其 To C 的辉煌。 核心拷问： 一家组织，究竟能否同时兼容 To B 的深邃严谨与 To C 的灵动敏捷？还是需要像这两家巨头一样，在初始阶段必须做出非此即彼的战略取舍？ 02 跨界突围的血泪史：兼容背后的“至暗时刻” 1. To C 向 To B 的降维打击（与踩坑） 这类企业凭借极高的用户基数和体验切入企业级市场，往往势如破竹，但也容",
+        "fetched_at": "2026-05-11T08:58:10+0000",
         "candidate_type": "subpage",
         "parent_url": "https://36kr.com/information/AI",
-        "url_hash": "e914e6171a2112d6"
+        "url_hash": "8f0722461ba8dc26"
       },
       {
         "bucket": "ai",
         "subcategory": "ma_funding",
-        "source_name": "36kr AI → Agent 时代需要怎样的分布式基础设施",
-        "url": "https://36kr.com/p/3802850619809288",
+        "source_name": "36kr AI → 38万应用暴露、2000+应用泄密，AI编程把“内网”变公网",
+        "url": "https://36kr.com/p/3801593671081735",
         "weight": 4,
-        "title": "Agent 时代需要怎样的分布式基础设施-36氪",
-        "content_excerpt": "Agent 时代需要怎样的分布式基础设施-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 城市 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 Agent 时代需要怎样的分布式基础设施 极客邦科技InfoQ · 2026年05月10日 10:53 自本轮大模型技术爆发以来，Agent得到了广泛关注。进入2026年后，伴随OpenClaw的现象级爆火，Agent更是彻底破圈，进入了更广阔的大众视野。 Agent 应用时代已呼之欲出 自本轮大模型技术爆发以来，Agent 得到了广泛关注。进入 2026 年后，伴随 OpenClaw 的现象级爆火，Agent 更是彻底破圈，进入了更广阔的大众视野。同时，如果说以往的 Agent 更多用于 Demo 或一些相对定制的场景，那么经过最近一年 Agent Skills 等技术的出现和逐渐成熟，如今的 Agent 已经可以处理更多的实际场景，可以认为 Agent 应用形态的时代可能即将到来。 Agent 应用的断代性差异——非确定性 在 Agent 应用出现前，无论是最早的单机应用，还是如今广泛使用的云原生微服务应用，真正面向应用的计算机程序本质上都是由人面向一些特定应用场景开发的，程序的逻辑因为是开发者人工编写的，有很强的确定性。但到了 Agent 的时代，Agent 运行的具体逻辑已经从由人编程控制换成了由大模型生成，而大模型的输出无论是业务的 Owner 还是应用的开发运维人员、甚至 Agent 框架和大模型自身的研发人员都无法准确预测，因而完全是非确定性的。 然而现有的大量基础设施仍然是面向云原生以及更早时代的确定性应用打造的，并不能很好地满足 Agent 应用的运行要求。这很可能是接下来制约 Agent 真正走向企业级大规模应用的一个巨大障碍，但同时也是基础设施领域研发创新人员在 Agent 时代面临的一个很好的技术创新机会。 Agent 的非确定性带来的独特运行特征和挑战 高动态——Agent 逻辑完全动态不确定无法事先预知 传统应用一般是人面向特定业务场景开发的，因而在绝大多数情况下都是静态不变的。应用的开发运维人员只要足够了解程序代码逻辑，基本上就可以准确预判应用可能的执行情况，并且这些程序无论是在何时何地运行，其执行逻辑在本质上可以认为也是相同不变的。以云原生微服务为例，每个微服务实例对每个请求的处理逻辑几乎都是一样的，开发运维人员对此都非常清楚，因此通过将微服务逻辑打包在一个统一的镜像内，即可通过 K8s 部署多个相同规格的容器实例，支持大规模的企业级应用。 然而到了 Agent 时代，情况完全变了。如下图所示，Agent 的执行逻辑是大模型驱动的，面对的是用户千奇百怪的自然语言提问，大模型相应地可能每次给出完全不一样的输出，进而又驱动 Agent 去调用各种各样不同的外部工具，甚至去执行一些由大模型根据本次请求输入动态生成的代码，如此不断循环直至大模型认为用户问题已经得到了解决为止，导致 Agent 实际上对每个请求的处理过程可能都是完全不一样的。 比如，有些简单请求可能很快就执行完，也不需要太多资源。而有些复杂请求则可能需要多轮交互 / 工具调用 / 执行 AI 生成代码等等，有些最新的 Agent 技术甚至需要在运行中拉起新的子 Agent，这些都需要更长时间和更多的计算资源。在此情况下，Agent 应用的运维人员事先完全无法预计一个请求的具体执行过程会有多复杂，比如不知道它会有多少次的大模型来回交互才能搞定，也不知道会需要调用哪些外部工具、是否会动态执行某些 AI 生成代码等等。 简言之，以往的应用是简单静态的，而 Agent 应用是复杂动态的。 由此首先带来一个很现实的问题，该如何分配 Agent 应用的资源？以往在容器微服务时代，开发运维人员可以凭借对代码运行逻辑的了解结合一些实际经验，就可以给每个容器微服务配置相同的资源。但到了 Agent 应用时代，光 Agent 需要多少运行资源就成了一个不好估计的问题，给少了可能运行出错或影响服务质量，拍脑袋给每个实例都",
-        "fetched_at": "2026-05-10T10:07:10+0000",
+        "title": "38万应用暴露、2000+应用泄密，AI编程把“内网”变公网-36氪",
+        "content_excerpt": "38万应用暴露、2000+应用泄密，AI编程把“内网”变公网-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 安徽 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 38万应用暴露、2000+应用泄密，AI编程把“内网”变公网 AI前线 · 2026年05月11日 12:01 vibe coding 工具正在泄露大量个人和企业数据。 “vibe coding 工具正在泄露大量个人和企业数据。”近日，以色列一家网络安全初创公司 RedAccess 的研究人员在研究“影子 AI”（shadow AI）趋势时发现，开发者用来快速开发软件的 AI 工具让医疗记录、财务数据和财富 500 强内部文件都泄露到了开放网络上。 RedAccess 的 CEO Dor Zvi 表示，研究人员发现约 38 万个可公开访问的应用和其他资产，这些都是开发者使用 Lovable、Base44、Netlify 和 Replit 等工具创建的，其中约有 5000 个包含敏感的企业信息，但近 2000 个应用在进一步检查后似乎暴露了私密数据。Axios 独立验证了多个暴露应用，WIRED 也分别确认了这些发现。 40% AI 编码应用暴露敏感数据， 甚至还有管理员权限 随着 AI 日益接管现代程序员的工作，网络安全领域早已警告：自动化编码工具势必会在软件中引入一大批可被利用的漏洞。然而，当这些 vibe coding 工具让任何人只需点击一下就能创建并托管在网页上的应用时，问题就不仅仅是漏洞了，而是几乎完全没有任何安全防护，包括高度敏感的企业和个人数据。 据了解，RedAccess 团队对使用 Lovable、Replit、Base44 和 Netlify 等 AI 软件开发工具创建的数千个 vibe coding 网页应用进行了分析，发现其中超过 5000 个几乎没有任何安全机制或身份验证。许多这样的网页应用，只要有人获取到其 URL，就可以直接访问应用及其数据。还有一些虽然设置了门槛，但也极其简单，比如只需用任意邮箱地址注册即可访问。 在这 5000 个任何人只需在浏览器中输入 URL 就能访问的 AI 编码应用中，Zvi 发现近 2000 个在进一步检查后似乎暴露了私密数据。Zvi 表示，大约 40% 的应用暴露了敏感数据，包括医疗信息、金融数据、企业演示文稿和战略文件，以及用户与聊天机器人对话的详细记录。 他分享的网页应用截图（其中一些已被核实仍在线且处于暴露状态）显示，包括某医院的工作分配信息（含医生的个人身份信息）、某公司的详细广告采购数据、另一家公司的市场进入战略演示文稿、一家零售商的聊天机器人完整对话记录（包含客户的全名和联系方式）、一家航运公司的货运记录，以及来自多家公司的各类销售和财务数据。Zvi 还表示，在某些情况下，这些暴露的应用甚至可能让他获得系统的管理员权限，甚至删除其他管理员。 Zvi 表示，RedAccess 在搜寻存在漏洞的网页应用时出奇地容易。Lovable、Replit、Base44 和 Netlify 都允许用户将网页应用托管在这些 AI 公司的自有域名上，而不是用户自己的域名。因此，研究人员只需在 Google 和 Bing 上，通过这些公司的域名配合其他关键词进行简单搜索，就能识别出数千个使用这些工具进行 vibe coding 开发的应用。 在 Lovable 的案例中，Zvi 还发现了大量仿冒大型企业的钓鱼网站，这些网站看起来是通过该 AI 编码工具创建并托管在 Lovable 域名上的，包括美国银行（Bank of America）、Costco、FedEx、Trader Joe’s 和麦当劳等品牌。Zvi 还指出，Red Access 发现的 5000 个暴露应用仅托管在 AI 编码工具自身域名上，实际上可能还有成千上万的应用是托管在用户自购的域名上。 安全研究员 Joel Margolis 指出，要验证某个未受保护的 AI 编码网页应用中是否真的暴露了真实数据，其实并不容易。他和同事此前曾发现一款 AI 聊天",
+        "fetched_at": "2026-05-11T08:58:10+0000",
         "candidate_type": "subpage",
         "parent_url": "https://36kr.com/information/AI",
-        "url_hash": "d75f2fcf8e2364d1"
+        "url_hash": "e2c57129a9625c5a"
       },
       {
         "bucket": "ai",
         "subcategory": "ma_funding",
-        "source_name": "36kr AI → 图灵奖得主Sutton新作：用一个1967年的公式，解决流式强化学习一大缺陷",
-        "url": "https://36kr.com/p/3803073505369865",
+        "source_name": "36kr AI → Anthropic的Harness工程白做了？Claude Code被曝不遵守CLAUDE.md，开发者烧光credit",
+        "url": "https://36kr.com/p/3804528406388489",
         "weight": 4,
-        "title": "图灵奖得主Sutton新作：用一个1967年的公式，解决流式强化学习一大缺陷-36氪",
-        "content_excerpt": "图灵奖得主Sutton新作：用一个1967年的公式，解决流式强化学习一大缺陷-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 城市 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 图灵奖得主Sutton新作：用一个1967年的公式，解决流式强化学习一大缺陷 机器之心 · 2026年05月10日 14:12 用于流式强化学习的意图更新 2024 年底，一篇题为「流式深度强化学习终于跑通了」的论文（arXiv:2410.14606）在学界引发广泛讨论。作者来自阿尔伯塔大学的 Mahmood 团队，他们花了大量篇幅描述一个令人尴尬的现实：强化学习作为一种天生应该「边走边学」的方法，在深度神经网络时代却几乎无法做到这一点。只要去掉回放缓冲区、只要把批量大小设为 1，训练就会崩溃。他们称之为 「流式壁垒」（stream barrier） 。 那篇论文提出的 StreamX 系列算法，靠着精细调配的超参数、稀疏初始化和各种稳定化技巧，勉强越过了这堵墙。 然而不到一年半后，同一课题组的一位成员，连同来自 Openmind 研究院的合作者，给出了一个截然不同的答案： 流式壁垒的根源不是「数据不够多」，而是「步长选错了单位」 。 论文标题：Intentional Updates for Streaming Reinforcement Learning 论文地址：https://arxiv.org/pdf/2604.19033v1 代码库：https://github.com/sharifnassab/Intentional_RL 一脚油门，开出了多大的坑 想象你正在驾车学习停车入库。教练告诉你每次「踩油门 0.1 秒」。问题在于，同样踩 0.1 秒，上坡、下坡、空载、满载，车子前进的距离可能天差地别。有时候差一厘米恰好入库，有时候差 30 厘米直接撞墙。 传统梯度学习的步长，做的正是这件事：它规定参数每次移动多大，但对函数输出到底改变了多少，则完全没有控制。在批量训练时，成百上千个样本的误差平均下来，极端情况被稀释掉了，问题并不明显。但在「流式」环境下，每一步只有一个样本，没有平均可言。一旦梯度方向不稳定，更新幅度就会忽大忽小 —— 今天前进 30 厘米，明天后退 50 厘米，学习过程在剧烈震荡中崩溃。 这种 「过冲与欠冲」（overshooting and undershooting）现象 在强化学习里尤为严重，因为每个时间步的梯度不仅幅度各异，方向也在高速变化。 重新定义「一步该做多少」 来自 Openmind 研究院的 Arsalan Sharifnassab 与阿尔伯塔大学的 Mohamed Elsayed、A. Rupam Mahmood 和 Richard Sutton 等人，近日发表的论文中提出了一个换一个角度思考的方案： 与其指定参数移动多少，不如直接指定函数输出该改变多少。 这个想法并不是凭空而来的。1967 年，日本学者 Nagumo 和 Noda 在论文《 A learning method for system identification 》中就在自适应滤波领域提出了「归一化最小均方差」（NLMS）算法；本质上也是用期望的输出变化来反推步长，而不是反过来。只不过那个算法只适用于简单的线性场景。 研究者们将这一思路推广到了深度强化学习。他们称之为 「意图更新」（Intentional Updates） ：每次更新之前，先明确「我希望这一步实现什么」，然后反推出应该用多大的步长。 对于价值学习（即预测未来奖励），他们定义的意图是：每次更新后，当前状态的价值预测误差应该缩小一个固定比例 —— 例如缩小 5%，不多也不少。对于策略学习（即优化决策行为），他们定义的意图是： 当前动作的选择概率，每一步只允许改变一个「适度」的量 。 用驾车的比喻来说：这就好比司机在每次操作前先决定「我要让车向前移动 20 厘米」，然后根据当前路况（坡度、载重）自动计算该踩多深的油门，而不是每次都踩同样的深度听天由命。 图灵奖得主与他的拼图 论文的署",
-        "fetched_at": "2026-05-10T10:07:09+0000",
+        "title": "Anthropic的Harness工程白做了？Claude Code被曝不遵守CLAUDE.md，开发者烧光credits怒喊退钱-36氪",
+        "content_excerpt": "Anthropic的Harness工程白做了？Claude Code被曝不遵守CLAUDE.md，开发者烧光credits怒喊退钱-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 城市 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 Anthropic的Harness工程白做了？Claude Code被曝不遵守CLAUDE.md，开发者烧光credits怒喊退钱 AI前线 · 2026年05月11日 16:11 百万token上下文是摆设？200k 之后，模型开始焦虑、走捷径。 Anthropic C+轮 海外 2019-02 人工智能安全和研究公司 36氪报道 前沿技术 我要联系 Claude Code 的工程稳定性问题，再次引发开发者集中讨论。 近日，Reddit 上出现一则投诉帖，发帖者直指最新版 Claude Code 在实际开发中“不再服从或尊重 CLAUDE.md、hooks/rules 等规则”。这名开发者愤怒地反问：“如果 Claude Code 的运行框架（harness）已经不再服从或遵循这些原则，那么定义架构设计原则、指南之类的东西还有什么意义？” 这场争议的核心，并不是 Claude Code 会不会写代码，而是一个更基础的问题：当开发者已经明确告诉 AI 应该如何开发、遵守什么流程、不能越过哪些边界时，它到底能不能稳定执行？ 这名用户称，自己最近不得不反复要求 Claude Code 遵循测试驱动开发（TDD，Test-Driven Development），并通过强制约束让它按照预期方式工作，才能得到相对满意的结果。 问题在于，用户并不只是口头提醒。按照他的说法，他已经要求 Claude 更新 CLAUDE.md 文件，把规则写入 hooks、记忆和相关约束中。但下一条提示发出去后，Claude Code “甚至都没有尝试按照这种方式构建”。 发帖者认为，“显然有什么东西坏得很严重”，并将其描述为一次“非常严重的能力倒退”。在他看来，越来越多个人开发者和企业正在把 Claude Code 这类工具当作工作基础设施的一部分，用户也已经为这些工具支付了高昂费用，但现在却发现，工具的规则遵循能力反而在倒退。 一名评论者将问题归因于上下文腐烂（context rot）。他认为，一旦上下文超过 20 万 token，模型表现就可能开始退化。应用规模越大，越容易触碰到这些限制；到那时，模型会开始忘记指令，因为它实际上已经无法稳定保存和利用早期上下文。因此，他询问原帖作者项目规模和上下文使用情况。 但原帖作者的回应否定了这个解释：“真的只是一个刚开始做的全新项目。我才发了没几个 prompt。我只是先给它设置了一些构建时要遵循的 guidelines。” 这意味着，问题未必只出现在大型项目或超长上下文中。即便是一个全新的绿地项目，在规则刚刚写入不久后，Claude Code 也可能没有持续执行这些规则。 “软规则”无法变成“硬约束” 另一名用户从行为机制上给出解释：模型似乎更倾向于优化“此刻显得有帮助”，而不是遵守此前已经同意的规则。这会形成一种奇怪的激励：模型在当前轮次看起来很配合，但实际上会忽略用户已经设定好的约束。 这名评论者进一步指出，问题可能在于，CLAUDE.md 被模型当作普通上下文，而不是硬性约束。当后续用户请求、错误日志、构建失败和模型自身的“尽快解决问题”冲动同时出现时，模型可能会把“满足当前请求”的权重放得更高，而不是坚持十几轮甚至二十轮之前读到的架构规则。 在 AI 编程工具中，很多规则只是写进 CLAUDE.md、系统提示、memory 或 hooks 的自然语言说明。那写进上下文的规则，是否等同于工程系统里的硬约束？目前它们看起来像项目纪律，实际上仍然依赖模型“记得并愿意执行”。 在评论区，多名用户表示遇到过类似情况。 一名评论者写道：“不知道为什么，这种情况并不是每天都会发生，但今天确实发生了：它一直在和 hooks 对着干，直接无视规则，然后一路强行推进。昨天还好好的，今天我就被它‘",
+        "fetched_at": "2026-05-11T08:58:10+0000",
         "candidate_type": "subpage",
         "parent_url": "https://36kr.com/information/AI",
-        "url_hash": "00a7c52c3e684ff7"
+        "url_hash": "56bb971b1e5346c2"
       }
     ],
-    "my-law": [],
-    "fitness": [],
+    "my-law": [
+      {
+        "bucket": "my-law",
+        "subcategory": "official",
+        "source_name": "Bernama · 国家通讯社 → Southwest Monsoon To Begin May 14, With Lower Rainfall Until",
+        "url": "https://www.bernama.com/en/general/news.php?id=2555582",
+        "weight": 4,
+        "title": "BERNAMA - Southwest Monsoon To Begin May 14, With Lower Rainfall Until September - MetMalaysia",
+        "content_excerpt": "BERNAMA - Southwest Monsoon To Begin May 14, With Lower Rainfall Until September - MetMalaysia BERNAMA.com | BERNAMA TV | BERNAMA Radio | BERNAMA Images | BLIS | NewsLink5 English Malay Arabic Espa&ntilde;ol General BernamaBiz Crime & Courts Politics Sports Lifestyle Region Central Northern Southern East Sabah Sarawak World Main Nam News Network (NNN) The Organization of Asia-Pacific News Agencies (OANA) Xinhua News Agency Microsite HAWANA 2026 CPI MAPO MCMC Fokus BERNAMA Thoughts MyCheck fotoBERNAMA Garasi More Infographics Videos Exclusive Press Archived English Malay Arabic Espa&ntilde;ol Home General BernamaBiz Crime & Courts Politics Sports Lifestyle Region Central Northern Southern East Sabah Sarawak World Main Nam News Network (NNN) The Organization of Asia-Pacific News Agencies (OANA) Xinhua News Agency Microsite HAWANA 2026 CPI MAPO MCMC Fokus BERNAMA Thoughts MyCheck fotoBERNAMA Garasi More Infographics Videos Exclusive Press Archived GENERAL > NEWS Southwest Monsoon To Begin May 14, With Lower Rainfall Until September - MetMalaysia 11/05/2026 04:14 PM Dr Mohd Hisham Mohd Anip KUALA LUMPUR, May 11 (Bernama) -- The Southwest Monsoon is expected to begin on May 14 and will persist until September, following consistent winds blowing from the southwest, the Malaysian Meteorological Department (MetMalaysia) announced today. MetMalaysia director-general Dr Mohd Hisham Mohd Anip said that during this period, low humidity levels will typically result in reduced cloud formation over most areas. This means fewer rainy days and more dry days across the country, he explained in a statement. However, Dr Mohd Hisham cautioned that heavy rain accompanied by strong winds and thunderstorms may still occur in certain areas. These include the western parts of Peninsular Malaysia, northern Sarawak, and western Sabah, particularly in the early morning hours due to the presence of squall lines. \"These are squall lines that form over the Straits of Malacca and the eastern South ",
+        "fetched_at": "2026-05-11T08:58:08+0000",
+        "candidate_type": "subpage",
+        "parent_url": "https://www.bernama.com/en/general/index.php",
+        "url_hash": "38bad163a3315b44"
+      },
+      {
+        "bucket": "my-law",
+        "subcategory": "official",
+        "source_name": "Bernama · 国家通讯社 → Talentbank Announces Graduates’ Choice Award 2026 Winners: M",
+        "url": "https://www.bernama.com/en/general/news.php?id=2555574",
+        "weight": 4,
+        "title": "BERNAMA - Talentbank Announces Graduates’ Choice Award 2026 Winners: Malaysia’s Most Voted Graduate Employers Revealed",
+        "content_excerpt": "BERNAMA - Talentbank Announces Graduates’ Choice Award 2026 Winners: Malaysia’s Most Voted Graduate Employers Revealed BERNAMA.com | BERNAMA TV | BERNAMA Radio | BERNAMA Images | BLIS | NewsLink5 English Malay Arabic Espa&ntilde;ol General BernamaBiz Crime & Courts Politics Sports Lifestyle Region Central Northern Southern East Sabah Sarawak World Main Nam News Network (NNN) The Organization of Asia-Pacific News Agencies (OANA) Xinhua News Agency Microsite HAWANA 2026 CPI MAPO MCMC Fokus BERNAMA Thoughts MyCheck fotoBERNAMA Garasi More Infographics Videos Exclusive Press Archived English Malay Arabic Espa&ntilde;ol Home General BernamaBiz Crime & Courts Politics Sports Lifestyle Region Central Northern Southern East Sabah Sarawak World Main Nam News Network (NNN) The Organization of Asia-Pacific News Agencies (OANA) Xinhua News Agency Microsite HAWANA 2026 CPI MAPO MCMC Fokus BERNAMA Thoughts MyCheck fotoBERNAMA Garasi More Infographics Videos Exclusive Press Archived GENERAL > NEWS Talentbank Announces Graduates’ Choice Award 2026 Winners: Malaysia’s Most Voted Graduate Employers Revealed 11/05/2026 04:02 PM KUALA LUMPUR, May 11 (Bernama) -- For hundreds of thousands of university students across Malaysia, choosing a future employer is no longer based solely on salary, but increasingly on purpose, growth and reputation. This shifting mindset is reflected in the latest Graduates&rsquo; Choice Award (GCA) 2026, unveiled by Talentbank today, which recognises the country&rsquo;s most sought-after employers as voted entirely by students. Talentbank said in a statement that, now in its eighth year, the award has evolved into Malaysia&rsquo;s largest student-driven employer benchmark, offering a rare and unfiltered insight into what truly matters to the nation&rsquo;s emerging workforce. In 2026, more than 740,000 cumulative votes were cast by students from over 100 universities nationwide, making it the most extensive employer perception study within the graduate market,",
+        "fetched_at": "2026-05-11T08:58:08+0000",
+        "candidate_type": "subpage",
+        "parent_url": "https://www.bernama.com/en/general/index.php",
+        "url_hash": "ce03822df2b5b061"
+      }
+    ],
+    "fitness": [
+      {
+        "bucket": "fitness",
+        "subcategory": "policy_government",
+        "source_name": "Sport Australia → AIS and QAS leading insights on shaping future champions at ",
+        "url": "https://www.sportaus.gov.au/media-centre/news/ais-leading-insights-on-how-to-shape-future-champions-at-talent-id-conference",
+        "weight": 2,
+        "title": "AIS and QAS leading insights on shaping future champions at Talent ID Conference | ASC",
+        "content_excerpt": "AIS and QAS leading insights on shaping future champions at Talent ID Conference | ASC Skip to main content AIS shop Careers Sign In or register My account Search this website Search Menu Services Grants and funding Guidance and resources Visit AIS News Events About us Contact us Search Menu Services Grants and funding Guidance and resources Visit AIS News Events About us Contact us Home … Media centre News AIS and QAS leading insights on shaping future champions at Talent ID Conference (current page) AIS Win Well 11 May 2026 AIS and QAS leading insights on shaping future champions at Talent ID Conference The International Talent Identification and Development Conference brought together almost 300 delegates from 16 nations over four energising days across Canberra and Brisbane, to explore current best practice and the future of how to discover and develop the next generation of Australian athletes. Almost 300 delegates from 16 nations at the 2026 International Talent ID and Development Conference The International Talent Identification and Development Conference brought together almost 300 delegates from 16 nations over four energising days across Canberra and Brisbane, to explore current best practice and the future of how to discover and develop the next generation of Australian athletes. Co-hosted by the Australian Institute of Sport (AIS) and the Queensland Academy of Sport (QAS), the conference saw academics, coaches, practitioners, athletes and sport administrators engage and showcase a holistic view of talent identification and development. Across the opening two days at the AIS campus, delegates were immersed in discussions that highlighted just how rapidly the talent landscape is evolving. Presenters from the UK, Japan, Malaysia and Singapore shared how their systems navigate unique cultural and structural contexts, with lessons for how Australia can best build connected, robust environments that allow athletes to thrive. A recurring theme was the shift fr",
+        "fetched_at": "2026-05-11T08:58:09+0000",
+        "candidate_type": "subpage",
+        "parent_url": "https://www.sportaus.gov.au/",
+        "url_hash": "f93f12d8d4f35822"
+      }
+    ],
     "stocks": []
   },
   "bot_blocked_sources": [
@@ -147,20 +160,20 @@
       "err": "HTTPError 403"
     },
     {
-      "name": "Genspark",
-      "url": "https://www.genspark.ai/",
-      "bucket": "ai",
-      "subcategory": "search_assistants",
-      "weight": 3,
-      "status": 403,
-      "err": "HTTPError 403"
-    },
-    {
       "name": "Phind",
       "url": "https://www.phind.com/blog",
       "bucket": "ai",
       "subcategory": "search_assistants",
       "weight": 2,
+      "status": 403,
+      "err": "HTTPError 403"
+    },
+    {
+      "name": "Genspark",
+      "url": "https://www.genspark.ai/",
+      "bucket": "ai",
+      "subcategory": "search_assistants",
+      "weight": 3,
       "status": 403,
       "err": "HTTPError 403"
     },
@@ -210,13 +223,13 @@
       "err": "HTTPError 403"
     },
     {
-      "name": "Bernama · 国家通讯社",
-      "url": "https://www.bernama.com/en/general/index.php",
-      "bucket": "my-law",
-      "subcategory": "official",
+      "name": "Bursa IPO Calendar",
+      "url": "https://www.bursamalaysia.com/listing/listing_resources/ipo_summary",
+      "bucket": "stocks",
+      "subcategory": "exchange_regulator",
       "weight": 4,
-      "status": 0,
-      "err": "URLError <urlopen error [Errno 54] Connection reset by peer>"
+      "status": 403,
+      "err": "HTTPError 403"
     },
     {
       "name": "Bursa Malaysia · 公告页",
@@ -228,26 +241,8 @@
       "err": "HTTPError 403"
     },
     {
-      "name": "Bursa IPO Calendar",
-      "url": "https://www.bursamalaysia.com/listing/listing_resources/ipo_summary",
-      "bucket": "stocks",
-      "subcategory": "exchange_regulator",
-      "weight": 4,
-      "status": 403,
-      "err": "HTTPError 403"
-    },
-    {
       "name": "S&P Global Indices · News",
       "url": "https://www.spglobal.com/spdji/en/index-news-and-announcements/",
-      "bucket": "stocks",
-      "subcategory": "exchange_regulator",
-      "weight": 4,
-      "status": 403,
-      "err": "HTTPError 403"
-    },
-    {
-      "name": "SEC EDGAR · S-1 Filings",
-      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&type=S-1&dateb=&owner=include&count=40",
       "bucket": "stocks",
       "subcategory": "exchange_regulator",
       "weight": 4,
@@ -264,22 +259,13 @@
       "err": "URLError <urlopen error [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)>"
     },
     {
-      "name": "智谱 ChatGLM",
-      "url": "https://www.zhipuai.cn/",
-      "bucket": "ai",
-      "subcategory": "china_labs",
+      "name": "SEC EDGAR · S-1 Filings",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&type=S-1&dateb=&owner=include&count=40",
+      "bucket": "stocks",
+      "subcategory": "exchange_regulator",
       "weight": 4,
-      "status": 0,
-      "err": "URLError <urlopen error _ssl.c:1112: The handshake operation timed out>"
-    },
-    {
-      "name": "StepFun 阶跃",
-      "url": "https://www.stepfun.com/",
-      "bucket": "ai",
-      "subcategory": "china_labs",
-      "weight": 3,
-      "status": 0,
-      "err": "URLError <urlopen error _ssl.c:1112: The handshake operation timed out>"
+      "status": 403,
+      "err": "HTTPError 403"
     }
   ],
   "acts_watch_list": {
