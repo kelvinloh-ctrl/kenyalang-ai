@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-18T16:50:18+0000",
+  "generated_at": "2026-05-18T17:23:39+0000",
   "fetch_summary": {
     "total_sources": 111,
-    "fetched_200": 95,
+    "fetched_200": 96,
     "fetched_4xx_5xx": 14,
-    "fetched_err": 2,
-    "deduped": 206,
-    "candidates_count": 8,
+    "fetched_err": 1,
+    "deduped": 214,
+    "candidates_count": 1,
     "rss_entries": 69,
     "subpages_fetched": 69,
     "by_bucket": {
-      "ai": 8,
+      "ai": 1,
       "my-law": 0,
       "fitness": 0,
       "stocks": 0
@@ -20,118 +20,18 @@
     "ai": [
       {
         "bucket": "ai",
-        "subcategory": "news_analysis",
-        "source_name": "Latent Space (swyx) (RSS entry)",
-        "url": "https://www.latent.space/p/the-fourth-law",
+        "subcategory": "frontier_labs",
+        "source_name": "OpenAI Blog (RSS entry)",
+        "url": "https://openai.com/index/dell-codex-enterprise-partnership",
         "weight": 5,
         "is_aggregator": false,
-        "title": "The Next War Is Already Here. The West Isn't Ready. — Yaroslav Azhnyuk, The Fourth Law & Guest Host Noah Smith, Noahpinion",
-        "content_excerpt": "Ukrainian drone founder Yaroslav Azhnyuk went from pet cameras to AI-guided weapons. He and guest host Noah Smith make the case that the West is asleep at the wheel.",
-        "fetched_at": "2026-05-18T16:49:33+0000",
-        "published": "Mon, 18 May 2026 13:45:32 GMT",
+        "title": "OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments",
+        "content_excerpt": "OpenAI and Dell partner to bring Codex to hybrid and on-premise environments, helping enterprises deploy AI coding agents securely across data and workflows.",
+        "fetched_at": "2026-05-18T17:23:15+0000",
+        "published": "Mon, 18 May 2026 10:00:00 GMT",
         "candidate_type": "rss_entry",
-        "parent_feed": "https://www.latent.space/feed",
-        "url_hash": "632fa85e55b115b0"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "news_analysis",
-        "source_name": "Stratechery (Ben Thompson) (RSS entry)",
-        "url": "https://stratechery.com/2026/data-center-discontent-understanding-the-opposition-fixing-the-problem/",
-        "weight": 5,
-        "is_aggregator": false,
-        "title": "Data Center Discontent, Understanding the Opposition, Fixing the Problem",
-        "content_excerpt": "There are understandable reasons for people to oppose data centers; the only solution that will work is simply paying them off.",
-        "fetched_at": "2026-05-18T16:49:32+0000",
-        "published": "Mon, 18 May 2026 10:00:00 +0000",
-        "candidate_type": "rss_entry",
-        "parent_feed": "https://stratechery.com/feed/",
-        "url_hash": "650ee40d1f51ba75"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "coding_agents",
-        "source_name": "Cursor Changelog → May 18, 2026",
-        "url": "https://cursor.com/changelog/composer-2-5",
-        "weight": 5,
-        "is_aggregator": false,
-        "title": "Composer 2.5 · Cursor",
-        "content_excerpt": "Skip to content Cursor Product ↓ Agents Code Review Cloud Tab CLI Marketplace ↗ Enterprise Pricing Resources ↓ Changelog Blog Docs Community Help ↗ Workshops Forum ↗ Careers Product → Enterprise Pricing Resources → Sign in Contact Contact sales Download May 18, 2026 · Changelog Changelog Composer 2.5 Composer 2.5 is now available in Cursor. It&#x27;s a substantial improvement in intelligence and behavior over Composer 2 . It is better at sustained work on long-running tasks, follows complex instructions more reliably, and is more pleasant to collaborate with. Standard: $0.50/M input, $2.50/M output tokens Fast (default): $3.00/M input, $15.00/M output tokens Composer 2.5 includes double usage for the first week. See our model docs for full details. Read more in our announcement . Next post → Development environments for cloud agents Product Agents Enterprise Pricing Code Review Tab CLI Cloud Agents Marketplace ↗ Resources Download Changelog Docs Learn ↗ Forum ↗ Help ↗ Workshops Status ↗ Company Careers Blog Community Students Brand Future Anysphere ↗ Legal Terms of Service Privacy Policy Data Use Security Connect X ↗ LinkedIn ↗ YouTube ↗ © 2026 Anysphere, Inc. 🛡 SOC 2 Certified 🌐 English ↓ English ✓ 简体中文 日本語 繁體中文 Español Français Português 한국어 Deutsch हिन्दी Skip to content Cursor Product ↓ Agents Code Review Cloud Tab CLI Marketplace ↗ Enterprise Pricing Resources ↓ Changelog Blog Docs Community Help ↗ Workshops Forum ↗ Careers Product → Enterprise Pricing Resources → Sign in Contact Contact sales Download May 18, 2026 · Changelog Changelog Composer 2.5 Composer 2.5 is now available in Cursor. It&#x27;s a substantial improvement in intelligence and behavior over Composer 2 . It is better at sustained work on long-running tasks, follows complex instructions more reliably, and is more pleasant to collaborate with. Standard: $0.50/M input, $2.50/M output tokens Fast (default): $3.00/M input, $15.00/M output tokens Composer 2.5 includes double usage for the first week.",
-        "fetched_at": "2026-05-18T16:50:07+0000",
-        "candidate_type": "subpage",
-        "parent_url": "https://cursor.com/changelog",
-        "url_hash": "d1bea9a6b2679cc3"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "news_analysis",
-        "source_name": "Import AI (Jack Clark) (RSS entry)",
-        "url": "https://importai.substack.com/p/import-ai-457-ai-stuxnet-cursed-muon",
-        "weight": 4,
-        "is_aggregator": false,
-        "title": "Import AI 457: AI stuxnet; cursed Muon optimizer; and positive alignment",
-        "content_excerpt": "Welcome to Import AI, a newsletter about AI research.",
-        "fetched_at": "2026-05-18T16:49:33+0000",
-        "published": "Mon, 18 May 2026 13:31:17 GMT",
-        "candidate_type": "rss_entry",
-        "parent_feed": "https://importai.substack.com/feed",
-        "url_hash": "42dbb220f4488665"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "ma_funding",
-        "source_name": "36kr AI → AI进入「结果交付时代」，百度率先跨过造血门槛",
-        "url": "https://36kr.com/p/3814847324200707",
-        "weight": 4,
-        "is_aggregator": true,
-        "title": "AI进入「结果交付时代」，百度率先跨过造血门槛-36氪",
-        "content_excerpt": "AI进入「结果交付时代」，百度率先跨过造血门槛-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 城市 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 AI进入「结果交付时代」，百度率先跨过造血门槛 晓曦 · 2026年05月18日 21:45 “芯云模体”构筑壁垒，DAA锚定价值，百度领跑AI下半场。 5 月18日港股盘后，百度发布了2026年第一季度的财务报告。数据显示，2026Q1，百度实现总营收321亿元，百度一般性业务收入260亿元，同比增长2%，超出市场预期。 其中，业务结构层面的变化尤为亮眼，本季度，百度AI业务营收达到136亿元，同比大幅增长49%，占百度一般性业务收入的比例达到52%，已连续多个季度维持增长。 整体来看，在企业需求激增及差异化全栈AI能力的加持下，本季度百度交出了一份业绩稳健向好、AI商业化进程加速的亮眼答卷。更重要的是，AI业务结构过半的巨变，不仅彰显了百度扎实稳健的经营基本面，更清晰地向市场传递出一个信号：AI不再是百度叙事逻辑里点缀前景的“花边”，而真正成为稳定产出价值的“核心增长引擎”。 当下，AI行业竞争正式步入2.0时代，巨头间的比拼也从“算力堆砌”转向了“真实创收”，这种背景下，率先完成价值兑现的百度，有望迎来资本市场重估的黄金窗口期。 01 AI竞争进入下半场，行业需要新尺子 过去三年，AI的竞争本质上是一场关于大模型能力的军备竞赛。彼时，参数量、Benchmark跑分以及DAU（日活跃用户数），被视为衡量企业竞争力的绝对标准。 但进入2026年后，随着资本褪去狂热，市场不再为虚无的AGI梦想盲目买单，而是转向能落地、能盈利、能构建壁垒的商业价值。这直接导致了传统度量标尺的集体失灵。最典型的案例便是，Anthropic的月活跃用户量只有OpenAI的15%，却凭借在B端产业服务上的深耕，实现了年化收入的首次反超。这直观印证了，在AI 2.0时代，单纯的流量红利并不等同于长期的商业价值。 为了守住话语权，OpenAI推出TPD（每日Token消耗量），试图用工业时代的“发电量”逻辑，来衡量智能时代的生产力。但该指标存在天然缺陷，Token仅能统计算力投入成本，却无法衡量实际产出价值，变相掩盖了行业普遍存在的GPU空转、无效交互与资源浪费等现实问题，本质上并未跳出“烧钱卷规模”的粗放思维。 这也从另一个角度说明，当下的AI竞争中，行业缺的并不是更好的模型，而是一把能量出“AI到底干了多少活”的尺子。在百度Create 2026大会上，李彦宏提出DAA（Daily Active Agents）指标，将AI的衡量标准从“消耗多少算力”，转向了“交付多少结果”。 DAA的本质，是把行业的核心考题从模型“知道什么”，拉回了AI代理（Agent）在无需人类干预的情况下，能够独自“搞定什么”。 其背后依托严谨的三角模型：DAA规模（干了多少活）× 任务完成率（活干得怎么样）× 单任务价值（干这活值多少钱），三者联动精准量化AI真实的有效产出，剔除无效数据水分，直击产业服务本质。相较于Token的成本视角，DAA直接锚定收益，精准匹配产业落地的诉求。 几乎在同一时间，这套逻辑在资本市场得到了事实层面的印证。百度2026年Q1财报显示，其AI业务收入占比已显著提升至52%，成为少数能够用财务数据验证AI产出的公司之一。 值得关注的是，这份收入并非云端算力租赁注水的虚高产值，而是由千行百业的Agent真正帮客户“解决问题、提升效率”后，按照DAA三角模型结算出的技术产出。 02 能干活的智能体，给百度带来收入 根据财报信息，2026年第一季度，百度核心AI新业务营收达到136亿元，占百度一般性业务收入的52%，已连续多个季度增长。其中，百度AI云录得营收88亿元，同比增长79%；百度AI应用录得营收25亿元；AI原生营销服务录得营收23亿元，同比增长36%。 收入稳步扩张的背后，离不开AI进入具体业务场景并持续运行所释放的商业价值和技术溢价。 例如，在全球领先的自动化码头场景中，即便原有管控体系已完成极",
-        "fetched_at": "2026-05-18T16:50:13+0000",
-        "candidate_type": "subpage",
-        "parent_url": "https://36kr.com/information/AI",
-        "url_hash": "faa40f2395c9af86"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "ma_funding",
-        "source_name": "36kr AI → 跟着英伟达买，才是AI时代最“暴利”的赚钱策略",
-        "url": "https://36kr.com/p/3814702837571329",
-        "weight": 4,
-        "is_aggregator": true,
-        "title": "跟着英伟达买，才是AI时代最“暴利”的赚钱策略-36氪",
-        "content_excerpt": "跟着英伟达买，才是AI时代最“暴利”的赚钱策略-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 城市 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 跟着英伟达买，才是AI时代最“暴利”的赚钱策略 硅基观察Pro · 2026年05月18日 21:15 英伟达比伯克希尔更懂AI投资！ 一直以来，巴菲特的伯克希尔都被视为投资界的“圣 经”。 但到了 AI 时代，这个门面，可能真的该换人了。 去年年底，英伟达一口气重仓了 Intel、Synopsys、Nokia、CoreWeave 和 Nebius。 结果今年，这几个持仓几乎集体涨疯。 Intel 年内暴涨 195% ，Nebius 涨了 162.6% ，Nokia 涨了 115.6% ；即便涨得“最少”的 CoreWeave，今年也涨了约 50% 。 这意味着，如果你当时简单粗暴地把这5家公司各买 20%，截至目前，组合收益已经高达 106% ，远远跑赢纳斯达克。 而这还只是最近半年。 如果把时间继续往前拉，自 2024 年以来，英伟达已经完成了 7 笔投资退出，其中5笔赚钱，3笔直接翻倍。 这种胜率和赚钱速度，已经不是普通产业投资能解释的了。某种程度上，现在的英伟达越来越像 AI 世界里的“超级庄家”。 在AI时代，再没有比跟投黄仁勋，更好的策略了。 01 7笔退出，3家翻倍 细数英伟达过去两年在二级市场的投资，你会发现一件很离谱的事： 它不仅自己涨，甚至连它投过的股票，也开始集体暴涨。 自 2024 年以来，英伟达累计持有过 12 家美股上市公司，其中 7 家已经完成退出。 而在这些退出案例里， 5家实现盈利，3 家收益率甚至直接翻倍以上 。 最夸张的三个案例，分别是 SoundHound AI、Serve Robotics 和 Applied Digital。 其中最离谱的，是Serve Robotics。 这家公司做的，其实是“人行道送货机器人”——一个听起来甚至有点小众的方向。但英伟达早早就埋伏进去了。 值得一提的是，这笔投资还不是英伟达在二级市场买入的，而是来自更早期的 SPAC、私募和可转债。 2024 年二季度，当它第一次出现在英伟达 13F 文件时，英伟达持有约 372.7 万股，市值只有 726.8 万美元，对应股价约 1.95 美元。 结果仅仅半年后，到 2024 年底英伟达退出时，Serve Robotics 股价已经涨到 14.37 美元。 也就是说，这笔最初不到 800 万美元的持仓，退出时价值已经膨胀到约 5356 万美元。 半年时间，账面直接赚了 6倍 多。 如果你只是一个普通散户，从2024 年三季度买入，到2024年底卖出，同样也能赚至少1倍左右。 另一家更经典的是 Applied Digital。 2024 年 9 月，英伟达参与了它 1.6 亿美元的私募融资，成本价只有 3.24 美元/股。 随后一直持有到 2025 年三季度，并在四季度完成清仓。 按退出窗口计算，英伟达最初约 2500 万美元的投资，最后膨胀到了约 1.77 亿美元。 一笔投资，浮盈约 1.52 亿美元 ，又是一个收益接近 6倍 的神话！ 至于 SoundHound AI，则更像“英伟达概念股”最经典的一次情绪演绎。 截至 2024Q1，英伟达持有约 173 万股 SoundHound AI，当时股价为5.89美元，季度末市值约 1019.5 万美元。 到2024年底，英伟达完成退出时，SoundHound AI 股价已经涨到 19.84 美元。按持仓成本算，英伟达又赚了 2 倍 多。 除此之外，英伟达甚至还在ARM的IPO上狠狠赚了一笔。 ARM IPO 发行价是51美元，英伟达持有196万股。按这个价格估算，英伟达初始持仓成本约1亿美元。 后来虽然中途减持了一部分，但仅剩余仓位，到最后披露时市值也已经达到约 1.56 亿美元。 保守估计，英伟达在 ARM 上至少也赚了 1倍 。 当然，英伟达也不是“百发百中”。 比如它在 2023 年向 Recursion Pharm",
-        "fetched_at": "2026-05-18T16:50:13+0000",
-        "candidate_type": "subpage",
-        "parent_url": "https://36kr.com/information/AI",
-        "url_hash": "95d04ced4a53cd0b"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "ma_funding",
-        "source_name": "36kr AI → 全球首个全民免费用ChatGPT Plus的国家，OpenAI官宣了",
-        "url": "https://36kr.com/p/3814704284475143",
-        "weight": 4,
-        "is_aggregator": true,
-        "title": "全球首个全民免费用ChatGPT Plus的国家，OpenAI官宣了-36氪",
-        "content_excerpt": "全球首个全民免费用ChatGPT Plus的国家，OpenAI官宣了-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 城市 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 全球首个全民免费用ChatGPT Plus的国家，OpenAI官宣了 新智元 · 2026年05月18日 21:41 一场大型社会实验。 OpenAI 与马耳他政府达成全球首个国家级合作：全体公民完成 AI 素养课程后，可免费使用 ChatGPT Plus 一年。一个人口不足 55 万的欧洲小国，正在把「全民普及 AI」从口号变成可执行的政策样本——而 OpenAI 的野心远不止多卖几个订阅。 OpenAI 官宣与马耳他政府达成合作，向全体马耳他公民提供 ChatGPT Plus 访问权限，为期一年，费用由国家承担！ https://openai.com/index/malta-chatgpt-plus-partnership/ 这是全球首个以国家为单位、覆盖全体公民的 AI 工具普及计划。 先上课，再用 AI 马耳他的方案有一个门槛设计： 公民要先完成一门由马耳他大学开发的 AI 素养课程，内容覆盖 AI 的基本原理、能力边界，以及在家庭和工作场景中的负责任使用方法。 完成课程后，公民才能获得 ChatGPT Plus 的一年免费使用资格。 首批用户将在 5 月开始接入，由马耳他数字创新管理局负责分发，后续逐步覆盖海外马耳他公民。 这个「先教育、后工具」的路径值得注意。 多数国家的 AI 政策停留在监管层面——出台法案、设立伦理委员会、限制数据使用。 马耳他直接把工具交到公民手中，但在此之前确保他们知道怎么用。 OpenAI 到底图什么 表面上看，这是一笔订阅收入。 马耳他 57.43 万人口，即便全员开通 ChatGPT Plus（月费 20 美元），年度总成本约 1.3 亿美元——对 OpenAI 来说算不上大数目。真正的回报在别处。 其一，用户规模。 Sam Altman 反复将智能类比为电力，OpenAI 官方博客也在这次声明中再次使用了「全球公用事业」的表述。 公用事业的商业逻辑是规模决定一切。 ChatGPT 目前周活跃用户超过 9 亿，但 Claude、Gemini、Grok 这些旗舰闭源模型以及各类开源模型正在快速分流市场。 通过政府渠道批量获客，是抢占用户心智的高效方式。 一个从未用过 AI 的人，第一个接触的工具大概率会成为他的长期选择。 其二，数据飞轮。 更多用户意味着更多真实世界的交互数据，直接反哺模型训练和产品迭代。 用户在 ChatGPT 上提出的每一个问题、每一次纠错、每一种使用场景，都在帮助 OpenAI 理解人类需求的分布。 对于一家以实现 AGI 乃至 ASI 为长期目标的公司，数据多样性的价值极高。 来自马耳他教师、渔民、公务员的提问模式，和硅谷工程师的提问模式截然不同——这正是模型走向通用所需要的训练信号。 其三，示范效应。 当 OpenAI 需要向更多国家推介合作方案时，「我们已经帮助多个国家实现了全民普及 AI」是最有说服力的参照。 马耳他是样板间，真正的目标客户是那些仍在观望的中等规模国家。 英国前财政大臣、现任 OpenAI for Countries 负责人 George Osborne 在声明中说：「智能正在成为一种国家公用事业……马耳他带了头，希望其他国家也能跟上。」 什么规模的国家能复制 马耳他方案的财政可行性高度依赖人口规模。 粗算一笔账：按 ChatGPT Plus 每人每年 240 美元计算，100 万人口的国家全覆盖成本约 2.4 亿美元，500 万人口约 12 亿美元，1000 万人口则逼近 24 亿美元。 现实中不会全员都完成课程并激活账号。 假设实际激活率在 30%-50%，500 万人口以下的国家——如爱沙尼亚（136.3 万）、新加坡（611 万）、卢森堡（68.2 万）、冰岛（39.2 万）——财政上可以消化这笔支出。 OpenAI 目前已在爱沙尼亚和希腊推进教育系统合作，这些国家是",
-        "fetched_at": "2026-05-18T16:50:13+0000",
-        "candidate_type": "subpage",
-        "parent_url": "https://36kr.com/information/AI",
-        "url_hash": "c1275730eab39e24"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "robotics",
-        "source_name": "Boston Dynamics → Read Blog",
-        "url": "https://bostondynamics.com/blog/training-a-humanoid-robot-for-hard-work/",
-        "weight": 2,
-        "is_aggregator": false,
-        "title": "Training a Humanoid Robot for Hard Work | Boston Dynamics",
-        "content_excerpt": "Training a Humanoid Robot for Hard Work | Boston Dynamics Products Explore All Products Back Spot Spot Spot Our agile mobile robot for dynamic sensing and industrial inspection Read More Arm An integrated arm to enable mobile manipulation Read More Payload Additional sensors and hardware to expand Spot’s functionality Read More Extras Add-ons and accessories to keep Spot ready for work Read More Atlas Stretch Orbit Solutions Explore All Solutions Back Inspection Inspection Inspection Automate industrial inspection Read More Thermal Detect hotspots and thermal anomalies Read More Visual Perform visual inspections and integrate computer vision Read More Acoustic Listen for air leaks and other noise anomalies Read More Perimeter Automate routine health and safety checks Read More Back Safety Response Safety Response Safety Response Remotely investigate and de-escalate hazardous situations Read More Remote Investigation Reduce risk to personnel and provide situational awareness Read More Nuclear Decommissioning Protect workers during nuclear decommissioning Read More CBRNE Identify chemical, biological, or radiological hazards Read More EOD Assess and render safe potentially explosive threats Read More Back Digital Twin Digital Twin Digital Twin Capture data for work sites planning and maintenance Read More Laser Scanning Capture reliable 3D scans Read More Site Documentation Monitor and document construction progress Read More Back Warehouse Automation Warehouse Automation Warehouse Automation Automate case handling to keep goods moving Read More Container Unloading Speed inbound operations with automated unloading Read More Case Picking Build every order with power and precision Read More Research Development Industries Back Industry Industry Industries Overview Manufacturing Ensure reliable manufacturing operations Read More Energy Natural Resources Reduce downtime with automated inspections Read More Academia Education Explore innovations and opportunities for robot",
-        "fetched_at": "2026-05-18T16:50:09+0000",
-        "candidate_type": "subpage",
-        "parent_url": "https://bostondynamics.com/blog/",
-        "url_hash": "0aaacc6a9b3e5198"
+        "parent_feed": "https://openai.com/blog/rss.xml",
+        "url_hash": "6f1209c6c0e07aba"
       }
     ],
     "my-law": [],
@@ -140,6 +40,15 @@
   },
   "bot_blocked_sources": [
     {
+      "name": "xAI News",
+      "url": "https://x.ai/news",
+      "bucket": "ai",
+      "subcategory": "frontier_labs",
+      "weight": 4,
+      "status": 403,
+      "err": "HTTPError 403"
+    },
+    {
       "name": "Meta AI Blog",
       "url": "https://ai.meta.com/blog/",
       "bucket": "ai",
@@ -147,6 +56,15 @@
       "weight": 5,
       "status": 400,
       "err": "HTTPError 400"
+    },
+    {
+      "name": "Perplexity Blog",
+      "url": "https://www.perplexity.ai/hub/blog",
+      "bucket": "ai",
+      "subcategory": "search_assistants",
+      "weight": 5,
+      "status": 403,
+      "err": "HTTPError 403"
     },
     {
       "name": "Phind",
@@ -172,24 +90,6 @@
       "bucket": "ai",
       "subcategory": "coding_agents",
       "weight": 4,
-      "status": 403,
-      "err": "HTTPError 403"
-    },
-    {
-      "name": "xAI News",
-      "url": "https://x.ai/news",
-      "bucket": "ai",
-      "subcategory": "frontier_labs",
-      "weight": 4,
-      "status": 403,
-      "err": "HTTPError 403"
-    },
-    {
-      "name": "Perplexity Blog",
-      "url": "https://www.perplexity.ai/hub/blog",
-      "bucket": "ai",
-      "subcategory": "search_assistants",
-      "weight": 5,
       "status": 403,
       "err": "HTTPError 403"
     },
@@ -273,15 +173,6 @@
       "weight": 4,
       "status": 403,
       "err": "HTTPError 403"
-    },
-    {
-      "name": "Bernama · 国家通讯社",
-      "url": "https://www.bernama.com/en/general/index.php",
-      "bucket": "my-law",
-      "subcategory": "official",
-      "weight": 4,
-      "status": 0,
-      "err": "URLError The read operation timed out"
     }
   ],
   "acts_watch_list": {
