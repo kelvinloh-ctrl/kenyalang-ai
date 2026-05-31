@@ -1,24 +1,53 @@
 {
-  "generated_at": "2026-05-31T09:22:43+0000",
+  "generated_at": "2026-05-31T23:01:02+0000",
   "fetch_summary": {
     "total_sources": 111,
-    "fetched_200": 95,
+    "fetched_200": 91,
     "fetched_4xx_5xx": 15,
-    "fetched_err": 1,
-    "deduped": 221,
-    "candidates_count": 0,
+    "fetched_err": 5,
+    "deduped": 202,
+    "candidates_count": 2,
     "rss_entries": 70,
-    "subpages_fetched": 76,
+    "subpages_fetched": 63,
     "by_bucket": {
       "ai": 0,
-      "my-law": 0,
+      "my-law": 2,
       "fitness": 0,
       "stocks": 0
     }
   },
   "candidates_by_bucket": {
     "ai": [],
-    "my-law": [],
+    "my-law": [
+      {
+        "bucket": "my-law",
+        "subcategory": "official",
+        "source_name": "Bernama · 国家通讯社 → Papar District's Gelvia Vanessa Crowned 2026 Unduk Ngadau Ka",
+        "url": "https://www.bernama.com/en/general/news.php?id=2563407",
+        "weight": 4,
+        "is_aggregator": false,
+        "title": "BERNAMA - Papar District's Gelvia Vanessa Crowned 2026 Unduk Ngadau Kaamatan",
+        "content_excerpt": "BERNAMA - Papar District's Gelvia Vanessa Crowned 2026 Unduk Ngadau Kaamatan BERNAMA.com | BERNAMA TV | BERNAMA Radio | BERNAMA Images | BLIS | NewsLink5 English Malay Arabic Espa&ntilde;ol General BernamaBiz Crime & Courts Politics Sports Lifestyle Region Central Northern Southern East Sabah Sarawak World Main Nam News Network (NNN) The Organization of Asia-Pacific News Agencies (OANA) Xinhua News Agency Microsite HAWANA 2026 CPI MAPO MCMC Fokus BERNAMA Thoughts MyCheck fotoBERNAMA Garasi More Infographics Videos Exclusive Press Archived English Malay Arabic Espa&ntilde;ol Home General BernamaBiz Crime & Courts Politics Sports Lifestyle Region Central Northern Southern East Sabah Sarawak World Main Nam News Network (NNN) The Organization of Asia-Pacific News Agencies (OANA) Xinhua News Agency Microsite HAWANA 2026 CPI MAPO MCMC Fokus BERNAMA Thoughts MyCheck fotoBERNAMA Garasi More Infographics Videos Exclusive Press Archived GENERAL > NEWS Papar District's Gelvia Vanessa Crowned 2026 Unduk Ngadau Kaamatan 31/05/2026 11:15 PM Unduk Ngadau Kaamatan Papar 2026 fb PENAMPANG, May 31 (Bernama) -- Papar district representative, Gelvia Vanessa Jenny, 24, was crowned 2026 Unduk Ngadau Kaamatan on the during the highlight of the state-level Kaamatan Festival celebration at Kadazandusun Cultural Association (KDCA) s Hongkod Koisaan here tonight. She proved lucky when she was announced as the winner, successfully surpassing 52 other contestants after being selected among the final seven finalists in the competition. Gelvia Vanessa received a trophy, RM15,000 in cash and various prizes presented by Toh Puan Faridah Tussin, wife of the Yang di-Pertua Negeri of Sabah, witnessed by Datin Seri Julia Salag, the Chief Minister&rsquo;s wife, and Datin Seri Linda Ewit, wife of the Deputy Chief Minister I. Speaking to reporters, Gelvia Vanessa said she had begun training in February in preparation for the competition. The third of eight siblings said this was the second time she joined",
+        "fetched_at": "2026-05-31T22:44:57+0000",
+        "candidate_type": "subpage",
+        "parent_url": "https://www.bernama.com/en/general/index.php",
+        "url_hash": "5d02a5bead5f3273"
+      },
+      {
+        "bucket": "my-law",
+        "subcategory": "official",
+        "source_name": "Bernama · 国家通讯社 → Parents, Community Crucial To Success Of RPM 2026-2035 - Fad",
+        "url": "https://www.bernama.com/en/general/news.php?id=2563410",
+        "weight": 4,
+        "is_aggregator": false,
+        "title": "BERNAMA - Parents, Community Crucial To Success Of RPM 2026-2035 - Fadhlina",
+        "content_excerpt": "BERNAMA - Parents, Community Crucial To Success Of RPM 2026-2035 - Fadhlina BERNAMA.com | BERNAMA TV | BERNAMA Radio | BERNAMA Images | BLIS | NewsLink5 English Malay Arabic Espa&ntilde;ol General BernamaBiz Crime & Courts Politics Sports Lifestyle Region Central Northern Southern East Sabah Sarawak World Main Nam News Network (NNN) The Organization of Asia-Pacific News Agencies (OANA) Xinhua News Agency Microsite HAWANA 2026 CPI MAPO MCMC Fokus BERNAMA Thoughts MyCheck fotoBERNAMA Garasi More Infographics Videos Exclusive Press Archived English Malay Arabic Espa&ntilde;ol Home General BernamaBiz Crime & Courts Politics Sports Lifestyle Region Central Northern Southern East Sabah Sarawak World Main Nam News Network (NNN) The Organization of Asia-Pacific News Agencies (OANA) Xinhua News Agency Microsite HAWANA 2026 CPI MAPO MCMC Fokus BERNAMA Thoughts MyCheck fotoBERNAMA Garasi More Infographics Videos Exclusive Press Archived GENERAL > NEWS Parents, Community Crucial To Success Of RPM 2026-2035 - Fadhlina 31/05/2026 11:25 PM Fadhlina Sidek﻿ fb Fadhlina Sidek﻿ fb KUALA LUMPUR, May 31 (Bernama) -- The involvement of all parties, including parents and the community, is one of the main factors in ensuring the success of the country&rsquo;s education direction over the next decade through the Malaysian Education Blueprint (RPM) 2026-2035, said Education Minister Fadhlina Sidek. She said there is a need for strong commitment and support from all parties, especially in the implementation of the new preschool and school curricula next year. &ldquo;The implementation of the new preschool curriculum has already begun and the expansion of preschool classes is being actively carried out nationwide. Next year, we will begin implementing a new school curriculum involving Year One and Form One children. &ldquo;All of this will only be successful with the strong commitment and support from all parties, including parents and the wider community. For example, the reading sessions int",
+        "fetched_at": "2026-05-31T22:44:57+0000",
+        "candidate_type": "subpage",
+        "parent_url": "https://www.bernama.com/en/general/index.php",
+        "url_hash": "a854b653a84bb620"
+      }
+    ],
     "fitness": [],
     "stocks": []
   },
@@ -51,20 +80,20 @@
       "err": "HTTPError 403"
     },
     {
-      "name": "Genspark",
-      "url": "https://www.genspark.ai/",
-      "bucket": "ai",
-      "subcategory": "search_assistants",
-      "weight": 3,
-      "status": 403,
-      "err": "HTTPError 403"
-    },
-    {
       "name": "Phind",
       "url": "https://www.phind.com/blog",
       "bucket": "ai",
       "subcategory": "search_assistants",
       "weight": 2,
+      "status": 403,
+      "err": "HTTPError 403"
+    },
+    {
+      "name": "Genspark",
+      "url": "https://www.genspark.ai/",
+      "bucket": "ai",
+      "subcategory": "search_assistants",
+      "weight": 3,
       "status": 403,
       "err": "HTTPError 403"
     },
@@ -96,20 +125,20 @@
       "err": "HTTPError 403"
     },
     {
-      "name": "PitchBook AI",
-      "url": "https://pitchbook.com/news/topics/artificial-intelligence",
-      "bucket": "ai",
-      "subcategory": "ma_funding",
-      "weight": 3,
-      "status": 403,
-      "err": "HTTPError 403"
-    },
-    {
       "name": "The Information AI",
       "url": "https://www.theinformation.com/topics/artificial-intelligence",
       "bucket": "ai",
       "subcategory": "ma_funding",
       "weight": 5,
+      "status": 403,
+      "err": "HTTPError 403"
+    },
+    {
+      "name": "PitchBook AI",
+      "url": "https://pitchbook.com/news/topics/artificial-intelligence",
+      "bucket": "ai",
+      "subcategory": "ma_funding",
+      "weight": 3,
       "status": 403,
       "err": "HTTPError 403"
     },
@@ -141,6 +170,15 @@
       "err": "HTTPError 403"
     },
     {
+      "name": "YTL Power International",
+      "url": "https://www.ytlpowerinternational.com/",
+      "bucket": "stocks",
+      "subcategory": "holdings_ir",
+      "weight": 5,
+      "status": 0,
+      "err": "URLError <urlopen error [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)>"
+    },
+    {
       "name": "SEC EDGAR · S-1 Filings",
       "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&type=S-1&dateb=&owner=include&count=40",
       "bucket": "stocks",
@@ -150,13 +188,40 @@
       "err": "HTTPError 403"
     },
     {
-      "name": "YTL Power International",
-      "url": "https://www.ytlpowerinternational.com/",
-      "bucket": "stocks",
-      "subcategory": "holdings_ir",
-      "weight": 5,
+      "name": "StepFun 阶跃",
+      "url": "https://www.stepfun.com/",
+      "bucket": "ai",
+      "subcategory": "china_labs",
+      "weight": 3,
       "status": 0,
-      "err": "URLError <urlopen error [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)>"
+      "err": "URLError <urlopen error _ssl.c:1112: The handshake operation timed out>"
+    },
+    {
+      "name": "Suno",
+      "url": "https://suno.com/blog",
+      "bucket": "ai",
+      "subcategory": "voice_audio",
+      "weight": 3,
+      "status": 0,
+      "err": "URLError The read operation timed out"
+    },
+    {
+      "name": "Krea",
+      "url": "https://www.krea.ai/blog",
+      "bucket": "ai",
+      "subcategory": "image_gen",
+      "weight": 3,
+      "status": 0,
+      "err": "URLError The read operation timed out"
+    },
+    {
+      "name": "WHO · Physical Activity",
+      "url": "https://www.who.int/health-topics/physical-activity",
+      "bucket": "fitness",
+      "subcategory": "policy_government",
+      "weight": 4,
+      "status": 0,
+      "err": "URLError The read operation timed out"
     }
   ],
   "acts_watch_list": {
