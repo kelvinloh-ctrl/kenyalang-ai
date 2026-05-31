@@ -14,7 +14,7 @@
     <string>/Users/kelvin/Library/Application Support/kenyalang-ai/_routine/run-auto-local.sh</string>
   </array>
 
-  <!-- MYT 6:30am · 本机时区 Asia/Kuala_Lumpur · 配 pmset 定时唤醒 6:25 -->
+  <!-- MYT 6:30am 定时（Mac 那时开着就准点跑）· 本机时区 Asia/Kuala_Lumpur -->
   <key>StartCalendarInterval</key>
   <dict>
     <key>Hour</key>
@@ -23,8 +23,9 @@
     <integer>30</integer>
   </dict>
 
+  <!-- M4 关机无法定时开机 → 登录/开机即跑 · 配脚本「当日守卫」防重复 -->
   <key>RunAtLoad</key>
-  <false/>
+  <true/>
 
   <key>WorkingDirectory</key>
   <string>/Users/kelvin/Library/Application Support/kenyalang-ai</string>

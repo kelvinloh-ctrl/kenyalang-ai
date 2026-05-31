@@ -21,8 +21,21 @@ log(){ echo "[$(TZ=Asia/Kuala_Lumpur date '+%Y-%m-%d %H:%M:%S')] $*" >>"$LOG"; }
 
 log "============ auto-local kickoff @ $REPO ============"
 
+# 0. 等网络就绪（开机/登录触发时 WiFi 可能还没起）
+for n in 1 2 3 4 5 6; do
+  curl -sf -o /dev/null --max-time 5 https://api.github.com && break
+  log "等网络就绪… ($n/6)"; sleep 5
+done
+
 # 1. sync
 git pull --quiet origin main >>"$LOG" 2>&1 || log "WARN git pull failed, 用本地状态继续"
+
+# 1.5 当日守卫 —— 今天 brief 已出（6:30 跑过 / 别处 push 过）就不重复
+DATE=$(TZ=Asia/Kuala_Lumpur date +%Y-%m-%d)
+if [ -f "daily/${DATE}.md" ]; then
+  log "今日 brief daily/${DATE}.md 已存在 · 跳过（防重复）"
+  exit 0
+fi
 
 # 2. deps
 /usr/bin/env python3 -c "import yaml, feedparser" 2>/dev/null || {
@@ -34,9 +47,7 @@ git pull --quiet origin main >>"$LOG" 2>&1 || log "WARN git pull failed, 用本�
 log "running fetcher.py"
 /usr/bin/env python3 fetcher.py >>"$LOG" 2>&1 || { log "FATAL fetcher.py 失败"; exit 1; }
 
-DATE=$(TZ=Asia/Kuala_Lumpur date +%Y-%m-%d)
 OUT="daily/${DATE}.md"
-[ -f "$OUT" ] && OUT="daily/${DATE}_v2.md"
 
 # 4. headless claude 写 brief（candidates.json 内嵌进 prompt · 只要 stdout markdown · 无需工具）
 log "writing brief via headless claude → $OUT"
