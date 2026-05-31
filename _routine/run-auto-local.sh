@@ -70,8 +70,8 @@ fi
 printf '%s\n' "$BRIEF" > "$OUT"
 log "brief written: $OUT ($(wc -l <"$OUT") 行)"
 
-# 6. push（本地 keychain 凭证 · 无 PAT）
-git add "$OUT" >>"$LOG" 2>&1
+# 6. push（本地 keychain 凭证 · 无 PAT）· 连状态文件一起提交（持久化去重状态 + 保持工作区干净）
+git add "$OUT" candidates.json fetch-log.json seen.json >>"$LOG" 2>&1
 git -c user.email="kenyalang-auto@kelvinloh.my" -c user.name="Kenyalang Auto-Local" \
     commit -m "auto-local brief: ${DATE}" >>"$LOG" 2>&1 || { log "no changes to commit"; }
 git push --quiet origin main >>"$LOG" 2>&1 || { log "ERR git push 失败"; exit 1; }

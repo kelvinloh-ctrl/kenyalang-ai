@@ -1,213 +1,23 @@
 {
-  "generated_at": "2026-05-31T04:23:02+0000",
+  "generated_at": "2026-05-31T09:22:43+0000",
   "fetch_summary": {
     "total_sources": 111,
     "fetched_200": 95,
     "fetched_4xx_5xx": 15,
     "fetched_err": 1,
-    "deduped": 206,
-    "candidates_count": 13,
+    "deduped": 221,
+    "candidates_count": 0,
     "rss_entries": 70,
-    "subpages_fetched": 74,
+    "subpages_fetched": 76,
     "by_bucket": {
-      "ai": 13,
+      "ai": 0,
       "my-law": 0,
       "fitness": 0,
       "stocks": 0
     }
   },
   "candidates_by_bucket": {
-    "ai": [
-      {
-        "bucket": "ai",
-        "subcategory": "frontier_labs",
-        "source_name": "OpenAI Blog (RSS entry)",
-        "url": "https://openai.com/index/boston-childrens-hospital",
-        "weight": 5,
-        "is_aggregator": false,
-        "title": "Boston Children’s uses AI to unlock new diagnoses",
-        "content_excerpt": "Boston Children’s Hospital uses OpenAI technology to improve patient care, reduce operational burden, and help diagnose more than 40 rare disease cases.",
-        "fetched_at": "2026-05-31T04:22:38+0000",
-        "published": "Fri, 29 May 2026 12:00:00 GMT",
-        "candidate_type": "rss_entry",
-        "parent_feed": "https://openai.com/blog/rss.xml",
-        "url_hash": "e62972f402e43362"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "frontier_labs",
-        "source_name": "OpenAI Blog (RSS entry)",
-        "url": "https://openai.com/index/braintrust",
-        "weight": 5,
-        "is_aggregator": false,
-        "title": "How Braintrust turns customer requests into code with Codex",
-        "content_excerpt": "How Braintrust engineers use Codex with GPT-5.5 to run experiments and code faster.",
-        "fetched_at": "2026-05-31T04:22:38+0000",
-        "published": "Fri, 29 May 2026 12:00:00 GMT",
-        "candidate_type": "rss_entry",
-        "parent_feed": "https://openai.com/blog/rss.xml",
-        "url_hash": "880638aa77e3a8ee"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "frontier_labs",
-        "source_name": "OpenAI Blog (RSS entry)",
-        "url": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
-        "weight": 5,
-        "is_aggregator": false,
-        "title": "Strengthening societal resilience with Rosalind Biodefense",
-        "content_excerpt": "OpenAI launches Rosalind Biodefense, expanding trusted access to GPT-Rosalind for vetted developers and U.S. government partners advancing biodefense, public health, and pandemic preparedness through frontier AI.",
-        "fetched_at": "2026-05-31T04:22:38+0000",
-        "published": "Fri, 29 May 2026 03:00:00 GMT",
-        "candidate_type": "rss_entry",
-        "parent_feed": "https://openai.com/blog/rss.xml",
-        "url_hash": "1c9b44953320e0b2"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "frontier_labs",
-        "source_name": "OpenAI Blog (RSS entry)",
-        "url": "https://openai.com/index/trustworthy-third-party-evaluations-foundations",
-        "weight": 5,
-        "is_aggregator": false,
-        "title": "A shared playbook for trustworthy third party evaluations",
-        "content_excerpt": "OpenAI shares guidance on third-party AI evaluations, covering how to assess model capabilities, safeguards, and validity for frontier systems.",
-        "fetched_at": "2026-05-31T04:22:38+0000",
-        "published": "Fri, 29 May 2026 00:00:00 GMT",
-        "candidate_type": "rss_entry",
-        "parent_feed": "https://openai.com/blog/rss.xml",
-        "url_hash": "8c84b8422093501f"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "frontier_labs",
-        "source_name": "OpenAI Blog (RSS entry)",
-        "url": "https://openai.com/index/mufg",
-        "weight": 5,
-        "is_aggregator": false,
-        "title": "MUFG aims to become AI-native with OpenAI",
-        "content_excerpt": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
-        "fetched_at": "2026-05-31T04:22:38+0000",
-        "published": "Thu, 28 May 2026 00:00:00 GMT",
-        "candidate_type": "rss_entry",
-        "parent_feed": "https://openai.com/blog/rss.xml",
-        "url_hash": "b7195bbec0581aa4"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "news_analysis",
-        "source_name": "Stratechery (Ben Thompson) (RSS entry)",
-        "url": "https://stratechery.com/2026/luceing-their-mind/",
-        "weight": 5,
-        "is_aggregator": false,
-        "title": "2026.22: Luceing Their Mind",
-        "content_excerpt": "The best Stratechery content from the week of May 25, 2026, including why everyone hates Luce, how to monetize AI answers, and social mobility in China.",
-        "fetched_at": "2026-05-31T04:22:46+0000",
-        "published": "Fri, 29 May 2026 17:00:00 +0000",
-        "candidate_type": "rss_entry",
-        "parent_feed": "https://stratechery.com/feed/",
-        "url_hash": "71b92cb371baecf3"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "news_analysis",
-        "source_name": "Latent Space (swyx) (RSS entry)",
-        "url": "https://www.latent.space/p/ainews-founders-and-forward-deployed",
-        "weight": 5,
-        "is_aggregator": false,
-        "title": "[AINews] Founders and Forward Deployed Engineers",
-        "content_excerpt": "a quiet day lets us highlight the new AIE WF focuses",
-        "fetched_at": "2026-05-31T04:22:46+0000",
-        "published": "Sat, 30 May 2026 01:57:15 GMT",
-        "candidate_type": "rss_entry",
-        "parent_feed": "https://www.latent.space/feed",
-        "url_hash": "ccd75c50dafebfb0"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "coding_agents",
-        "source_name": "Cursor Changelog → 3.6 May 29, 2026",
-        "url": "https://cursor.com/changelog/auto-review",
-        "weight": 5,
-        "is_aggregator": false,
-        "title": "Auto-review Run Mode · Cursor",
-        "content_excerpt": "Skip to content Cursor Product ↓ Agents Cloud CLI Review Tab Marketplace ↗ Enterprise Pricing Resources ↓ Changelog Blog Docs Community Help ↗ Workshops Forum ↗ Careers Product → Enterprise Pricing Resources → Sign in Contact Contact sales Download 3.6 May 29, 2026 · Changelog Changelog Auto-review Run Mode Auto-review is a new run mode that allows Cursor to work for longer with fewer approval prompts and safer execution. Auto-review applies to Shell, MCP, and Fetch tool calls. Allowlisted calls run immediately, and calls that can be sandboxed run in the sandbox. All other agent actions go to a classifier subagent that decides whether to allow the call, try a different approach, or ask for your approval. Configure your run mode in Settings > Cursor Settings > Agents > Run Mode . You can also steer the classifier agent by giving it custom instructions. Learn more in our docs . Next post → Shared Canvases and /loop Skill Product Agents Teams Enterprise Pricing Code Review Tab CLI Cloud Agents Marketplace ↗ Resources Download Changelog Docs Learn ↗ Forum ↗ Help ↗ Workshops Status ↗ Company Careers Blog Community Students Brand Future Anysphere ↗ Legal Terms of Service Privacy Policy Data Use Security Connect X ↗ LinkedIn ↗ YouTube ↗ © 2026 Anysphere, Inc. 🛡 SOC 2 Certified 🌐 English ↓ English ✓ 简体中文 日本語 繁體中文 Español Français Português 한국어 Deutsch हिन्दी Skip to content Cursor Product ↓ Agents Cloud CLI Review Tab Marketplace ↗ Enterprise Pricing Resources ↓ Changelog Blog Docs Community Help ↗ Workshops Forum ↗ Careers Product → Enterprise Pricing Resources → Sign in Contact Contact sales Download 3.6 May 29, 2026 · Changelog Changelog Auto-review Run Mode Auto-review is a new run mode that allows Cursor to work for longer with fewer approval prompts and safer execution. Auto-review applies to Shell, MCP, and Fetch tool calls. Allowlisted calls run immediately, and calls that can be sandboxed run in the sandbox. All other agent actions go to a classifier subagent that ",
-        "fetched_at": "2026-05-31T04:22:54+0000",
-        "candidate_type": "subpage",
-        "parent_url": "https://cursor.com/changelog",
-        "url_hash": "35d35ce35bb52bf9"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "ma_funding",
-        "source_name": "36kr AI → 王小川和李开复，领着六小虎“AI的迫降”",
-        "url": "https://36kr.com/p/3831204618477824",
-        "weight": 4,
-        "is_aggregator": true,
-        "title": "王小川和李开复，领着六小虎“AI的迫降”-36氪",
-        "content_excerpt": "王小川和李开复，领着六小虎“AI的迫降”-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 安徽 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 王小川和李开复，领着六小虎“AI的迫降” 超聚焦 · 2026年05月30日 12:28 AI创业者们该落地了 如果你在两年前问中国的科技投资者，六家AI大模型创业公司中，哪一家最有“王者相”，答案很可能会集中在两家身上：李开复的零一万物，王小川的百川智能。 一个自带硅谷光环与顶级资本号召力，一个手握搜索时代的实战经验与技术信仰。外界惯于把零一万物称作“最像中国OpenAI的那一家”，而王小川在搜狗时期就证明了自己能把技术转化为产品的韧性。 在2023年那场轰轰烈烈的百模大战中，这两位是中国AI叙事里的旗帜性人物。然而到2026年，旗帜的方向变了。 5月26日，王小川在接受采访时展现出一种低落情绪：公司快成立两年的时候，他突然不知道自己在干嘛、在创造什么价值。这种迷茫，最终催生了百川智能的战略收缩与聚焦，5月宣布将核心资源全面投入医疗这一垂直战场。 两天后，零一万物三周年内部信流出。李开复在信里谈的不再是AGI和Scaling Law，而是应用、Agent、商业化、以及如何真金白银地生存。甚至宣布2026年成为中国第一家盈利的AI 2.0公司，2027年IPO。 MiniMax、Kimi、DeepSeek陆续爆出融资消息，整个中国大模型正集体从云端的技术叙事“迫降”。而那些曾经站在最前沿的理想主义者，正在以最坦诚的方式，告诉所有人：AI创业的第一阶段，结束了。 01“金钱豹”和“家庭医生”入场 2025年1月，零一万物宣布将大部分预训练与AI Infra团队并入阿里云，放弃继续追逐超大模型。 在当时的大模型行业中，这个决定几乎等同于“缴枪”。行业内的主流叙事仍然是继续烧GPU、继续卷参数、继续信仰“更大就是更强”，零一万物的工位一度空了三分之一。 一年之后，这个决策被证明是远见。 随着DeepSeek-R1推理模型推出、“基模小虎”集体承压，率先完成战略收缩的零一万物反而获得了更大的回旋空间。 2025年全年，零一万物实现5亿元订单及2.5亿元收入；截至2026年5月，订单总额已突破15亿元，正向20亿元目标冲刺。更关键的是，这15亿元订单中有近一半是可重复验证的年度经常性收入（ARR），而年运营成本仅2亿多元——由于放弃了耗资巨大的预训练，公司的人力开支成为主要成本，算力投入极低。 换句话说，这家公司已经从一个需要源源不断资本输血的基建项目，变成了一个具备自我造血能力的商业实体。 李开复本人也随之完成了角色转换。他开始频繁亲自见客户、谈订单，甚至研究企业财报，测算AI究竟能提升哪一个收入指标。 2025年，他跑去哈萨克斯坦和中东、非洲等国家，上门敲企业一号位的门。他在内部信里甚至递出了一个新标签：别叫我们六小虎，该叫金钱豹。这个标签的含义开始变清晰：不参与谁的排位竞赛，只追求真正的商业盈利。 如果说零一万物的转型是一条从技术导向到服务导向的平移路径，那么百川智能的变化则更像一次彻底的重构。 王小川在采访中坦承，2024年公司快成立两周年的时候，他陷入了前所未有的迷茫“继续卷通用模型，走主流道路，那是一种选择，即使上市了很风光，但焦虑也不会减少半分”。倒不是公司缺钱，百川账上至今仍有30亿元现金储备，而是他觉得自己在做的事情没有真正创造价值。 答案最终落在了医疗垂直领域。2026年5月26日，百川智能在清华大学发布了新一代医疗大模型Baichuan-M4和AI家庭医生产品“百小医”。 M4在HealthBench、HealthBench Hard、HealthBench Professional三大医疗榜单中同时位列世界第一，超越了GPT-5.5、Opus 4.7、DeepSeek-V4-Pro等通用顶尖模型。 更重要的是，依托原创的事实性感知强化学习算法，M4将医疗问诊场景中的事实性幻觉率压至3.3%，创下全球新低。 这个数字在医疗场景中的分量，普通人可能很难完全理解。王小川在论坛上给",
-        "fetched_at": "2026-05-31T04:22:57+0000",
-        "candidate_type": "subpage",
-        "parent_url": "https://36kr.com/information/AI",
-        "url_hash": "ca0015362f1d291f"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "ma_funding",
-        "source_name": "36kr AI → 讯飞AI眼镜亮相BEYOND Expo 2026，拓展AI终端走向真实场景新路径",
-        "url": "https://36kr.com/p/3830205689357954",
-        "weight": 4,
-        "is_aggregator": true,
-        "title": "讯飞AI眼镜亮相BEYOND Expo 2026，拓展AI终端走向真实场景新路径-36氪",
-        "content_excerpt": "讯飞AI眼镜亮相BEYOND Expo 2026，拓展AI终端走向真实场景新路径-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 安徽 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 讯飞AI眼镜亮相BEYOND Expo 2026，拓展AI终端走向真实场景新路径 未来一氪 · 2026年05月29日 18:11 5月28日，科大讯飞在澳门发布全新讯飞AI眼镜 5月28日上午，科大讯飞在BEYOND Expo 2026启源舞台举办“沟通无边界 世界在眼前——讯飞AI眼镜新品发布会”，正式发布全新讯飞AI眼镜。 在BEYOND Expo 2026新品发布环节中，科大讯飞将AI能力进入可穿戴终端后的使用体验带到现场。讯飞AI眼镜由科大讯飞自主设计、研发和生产，以“眼前的超级AI助理”为产品定位，面向跨语言沟通、商务办公、会议协作和出行交流等需求，集中展示AI翻译、智能穿戴和多模态交互在真实使用中的具体形态。 科大讯飞穿戴设备业务部总经理林会杰在发布会现场介绍，智能眼镜行业经历多年探索后，关键问题已经从“它是主机还是配件”转向“它能为用户解决什么核心问题”。他谈到，眼镜是人体天然入口和全模态传感器，当它与多模态理解、推理和长时间任务执行能力结合，便不再只是手机的延伸，而是可以在用户眼前持续提供协助的AI终端。 围绕讯飞AI眼镜的产品设计，林会杰重点介绍了40克超轻机身、全场景翻译、多模态降噪和GlassClaw AI助理四项能力。讯飞AI眼镜采用全贴合树脂衍射光波导镜片、航空级镁铝合金镜架和定制化微型光机模组，将整机重量控制在40克左右，并在佩戴舒适度、续航方式和日常外观上面向长时间使用进行设计。现场模特分别以商务和休闲造型佩戴产品亮相，展示其在正式会议、日常通勤和出行交流中的佩戴适配度。 翻译能力方面，讯飞AI眼镜构建了覆盖同声传译、面对面翻译、线上同传、通话翻译和视觉翻译的全场景翻译体系，支持122种语言实时互译。发布会现场，林会杰通过眼镜与身处展区的西班牙语同事完成跨语言通话演示，眼镜同步完成语音采集、识别、翻译和字幕显示，并在通话结束后生成双语记录和结构化总结。 针对展会、会议、商圈等复杂开放声场，讯飞AI眼镜搭载多模态降噪系统，采用5颗气导麦克风与1颗骨传导麦克风组合，并引入唇动识别能力。在现场多人同时说话的演示中，眼镜通过声源定位和视觉识别辅助锁定目标发言人，展示“看谁、听谁、翻谁”的交互方式。与此同时，产品还面向登台演讲、商务汇报和采访提问等需求提供智能提词功能，提词内容可根据发言者语速自动滚动，配套智能充电胶囊也可作为实体遥控器使用。 在AI助理能力上，GlassClaw进一步将讯飞AI眼镜从翻译工具延伸至信息记录、内容整理和任务处理。现场演示中，眼镜识别BEYOND Expo活动海报后提取关键信息，并根据语音指令调取相关资料、生成合作提案和邮件内容，展示可穿戴终端在办公流程中的任务处理能力。 产品发布后，科大讯飞智能眼镜产品总监葛畅介绍，讯飞AI眼镜历经一年多开发，并在此前开启先锋体验计划，从超过万名线上预约用户中筛选出200位先锋体验官，共同打磨核心功能和产品细节。发布会现场，来自汽车媒体、AI眼镜测评和企业办公等不同使用场景的先锋体验官分享了试用感受，重点谈到跨语言采访、嘈杂环境翻译、会议记录、方言识别和长时间佩戴等高频需求。科大讯飞也在现场向体验官代表交付首发正式版产品。 科大讯飞同步公布了讯飞AI眼镜的售价和首发权益。讯飞AI眼镜标准款售价4299元，续航款售价4699元。5月28日起，产品在线上全平台开启“1元预约抵299元”活动，6月15日起开启618首发全款预售。同时，讯飞AI眼镜全国1000家门店同步启动销售和体验，覆盖3C数码渠道及专业连锁眼镜渠道，为用户提供试戴、购买和验光配镜服务。 随后，发布会现场举行渠道合作伙伴“千店同开”启动仪式和讯飞AI眼镜生态联盟发布仪式。科大讯飞与眼镜渠道、光学显示、镜片适配、算法能力、制造供应链和互联网应用生态等伙伴共同亮相。 围绕AI眼镜产业链协同，讯飞AI眼镜生",
-        "fetched_at": "2026-05-31T04:22:57+0000",
-        "candidate_type": "subpage",
-        "parent_url": "https://36kr.com/information/AI",
-        "url_hash": "1f1b684b29263fee"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "ma_funding",
-        "source_name": "36kr AI → 史上最大IPO，一个横跨天地的物理世界操作系统，还是一场前无古人的资本套利 ？",
-        "url": "https://36kr.com/p/3831272431593093",
-        "weight": 4,
-        "is_aggregator": true,
-        "title": "马斯克「夸下的海口」，值2万亿美元吗？-36氪",
-        "content_excerpt": "马斯克「夸下的海口」，值2万亿美元吗？-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 安徽 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 马斯克「夸下的海口」，值2万亿美元吗？ 豹变 · 2026年05月30日 17:18 史上最大IPO，一个横跨天地的物理世界操作系统，还是一场前无古人的资本套利 ？ 2026年5月，SpaceX正式公开S-1招股书，计划募资约750亿美元。若顺利，它将超越沙特阿美2019年294亿美元的纪录，成为全球史上最大规模的IPO。 这场IPO不仅惊人在募资额，更 描绘了一个“物理世界操作系统” ：火箭提供进入太空的能力，太空探索带来普惠信号与巨量能源，能源支撑算力配置，算力喂养AI，AI最终赋能自动驾驶、人形机器人和各种形式的社会生产。 这张蓝图目前估值2万亿美元，但它需要的不仅是天上的技术突破，还有健康的财务报表。 01 史诗级IPO的事前布局 SpaceX的IPO并不是平地惊雷，而是马斯克二十余年商业布局中的后续拼图。这一切开始于他把火箭先送上了天。 2002年，马斯克创立SpaceX。在2008年9月，经过前三次失败，火箭发射成功，SpaceX得到了NASA 16亿美元的订单。2012年龙飞船成为首个造访国际空间站的私人飞船。 2015年12月，猎鹰9号首次成功回收一级火箭，实现垂直着陆，将发射成本压缩至传统航天的十分之一。SpaceX虽然不是商业航天的开创者，但它 开创了“低成本+高频次+可复用”的商业航天模式 ，真正把“商业航天”从“政府项目的分包商”变成了“独立可持续的生意”。 马斯克的初衷据说是降低火星移民的成本，直接效果则是卫星发射拥有了高性价比的运力保障。 马斯克的精力不止在天上。在地面上，特斯拉的完全自动驾驶（FSD）系统和人形机器人Optimus构成了AI在物理世界的执行终端。2016年，马斯克宣布所有新出厂车辆将配备支持完全自动驾驶的硬件，并着手组建自研芯片团队。 此后FSD经历了从辅助驾驶到端到端神经网络的多次迭代。2025年底，特斯拉推送FSD V14，将xAI的Grok大模型能力整合进导航和决策系统，使决策系统获得了一层语言理解能力。 人形机器人Optimus则于2021年8月首次以概念形式亮相，2022年9月原型机实体登场。第三代Optimus是首款面向大规模量产设计的版本，计划2026年底启动生产，长期规划产能为100万台，单台成本控制在2万美元以内。 机器人和智驾系统属于马斯克的另一家公司特斯拉，但特斯拉在SpaceX的招股书中频繁出现，可见马斯克下了一盘大棋。 机器人和智驾需要芯片。2026年3月，SpaceX与特斯拉宣布成立合资企业Terafab，整合半导体生产，针对两种芯片类型进行研发：一种为特斯拉FSD、Optimus和Robotaxi车队优化的边缘推理处理器，另一种为适应太空环境的高功率版本，用于支持SpaceX卫星、轨道数据中心和xAI计划。 汽车和机器人能解决物理数据的问题，但这还不够。2022年10月，马斯克以440亿美元收购Twitter（后更名为X）。名义上，马斯克宣称“要让推特的言论更自由”。但回过头来看，这笔收购为他的商业帝国补上了关键的用户数据层。 用户数据有了，然后就是着手训练自己的大模型。2023年3月，马斯克创立xAI，并在同年11月发布Grok。Grok的核心差异化在于实时数据访问和独特的个性表达——它直接接入X平台的实时信息流，能够即时捕捉热点事件、社交媒体趋势和公众情绪，并以幽默、大胆甚至略带讽刺的风格回应用户。 值得注意的是，马斯克与OpenAI的渊源更早。2015年，马斯克作为最大捐赠方参与创立OpenAI，分批投入3800万美元。2018年，面对谷歌DeepMind的技术压力，马斯克曾提议将OpenAI并入特斯拉并由自己担任CEO，以此整合资源对抗谷歌，但被董事会拒绝。双方谈崩后，马斯克退出董事会并中断资金支持，最终于2023年创立xAI，与OpenAI正面竞争。 在AI应用层面，2026年4月，SpaceX与AI编程",
-        "fetched_at": "2026-05-31T04:22:57+0000",
-        "candidate_type": "subpage",
-        "parent_url": "https://36kr.com/information/AI",
-        "url_hash": "90771c531b6d1694"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "coding_agents",
-        "source_name": "Cline (GitHub releases) → CLI v3.0.15",
-        "url": "https://github.com/cline/cline/releases/tag/cli-v3.0.15",
-        "weight": 3,
-        "is_aggregator": false,
-        "title": "Release CLI v3.0.15 · cline/cline · GitHub",
-        "content_excerpt": "Release CLI v3.0.15 · cline/cline · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search or jump to... Search code, repositories, users, issues, pull requests... Search Clear Search syntax tips Provide feedback We read every piece of feedback, and take your input very seriously. Include my email address so I can be contacted Cancel Submit feedback Saved searches Use sa",
-        "fetched_at": "2026-05-31T04:22:54+0000",
-        "candidate_type": "subpage",
-        "parent_url": "https://github.com/cline/cline/releases",
-        "url_hash": "c3e3d7e9fc545935"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "image_gen",
-        "source_name": "Krea → Product",
-        "url": "https://www.krea.ai/news/product",
-        "weight": 3,
-        "is_aggregator": false,
-        "title": "Product - Krea",
-        "content_excerpt": "Product - Krea App Features Image Video Upscaling Pricing svg]:px-3 rounded-full hover:bg-primary-900 dark:hover:bg-primary-100 gap-0 border-[0.5px] border-white/20 bg-black text-white! lg:block dark:border-black/20 dark:bg-white dark:text-black!\" type=\"button\"> Sign up for free Generate AI Image Generation Text to Image Realtime Image Generation AI Video Generation Text to Video Motion Transfer AI 3D Generation Text to 3D Object Image to 3D Object Edit AI Image Enhancements Upscaling Generative Image Editing AI Video Enhancements Frame Interpolation Video Style Transfer Video Upscaling Customize AI Finetuning Image LoRA Finetuning Video LoRA Finetuning LoRA Sharing File Management Krea Asset Manager 2 Krea 2 \"People running, risograph poster\" Generate with Krea 2 svg]:px-3 rounded-full hover:bg-primary-900 dark:hover:bg-primary-100 gap-0 border-[0.5px] border-white/20 bg-black text-white! lg:block dark:border-black/20 dark:bg-white dark:text-black!\" type=\"button\"> Sign up for free App Image Generation Video Generation Upscale & Enhance Pricing Generate AI Image Generation Text to Image Realtime Image Generation AI Video Generation Text to Video Motion Transfer AI 3D Generation Text to 3D Object Image to 3D Object Edit AI Image Enhancements Upscaling Generative Image Editing AI Video Enhancements Frame Interpolation Video Style Transfer Video Upscaling Customize AI Finetuning Image LoRA Finetuning Video LoRA Finetuning LoRA Sharing File Management Krea Asset Manager Product All Company Product Open Source Research Release Notes Articles Use Cases Customer Stories Product Moodboard Gallery in Krea 2 + Preview of Random and Auto Moodboard Gallery now includes thousands of moodboards in Krea 2, with new Random and Auto moodboard selection modes in preview. May 28, 2026 Product Krea 2 API Krea 2 is our first foundation image model, trained completely from scratch to give users full control over the look, feel, and creative direction. May 27, 2026 Product Made with Krea ",
-        "fetched_at": "2026-05-31T04:22:55+0000",
-        "candidate_type": "subpage",
-        "parent_url": "https://www.krea.ai/blog",
-        "url_hash": "e9119305e047b5a0"
-      }
-    ],
+    "ai": [],
     "my-law": [],
     "fitness": [],
     "stocks": []
@@ -241,20 +51,20 @@
       "err": "HTTPError 403"
     },
     {
-      "name": "Phind",
-      "url": "https://www.phind.com/blog",
-      "bucket": "ai",
-      "subcategory": "search_assistants",
-      "weight": 2,
-      "status": 403,
-      "err": "HTTPError 403"
-    },
-    {
       "name": "Genspark",
       "url": "https://www.genspark.ai/",
       "bucket": "ai",
       "subcategory": "search_assistants",
       "weight": 3,
+      "status": 403,
+      "err": "HTTPError 403"
+    },
+    {
+      "name": "Phind",
+      "url": "https://www.phind.com/blog",
+      "bucket": "ai",
+      "subcategory": "search_assistants",
+      "weight": 2,
       "status": 403,
       "err": "HTTPError 403"
     },
@@ -286,20 +96,20 @@
       "err": "HTTPError 403"
     },
     {
-      "name": "The Information AI",
-      "url": "https://www.theinformation.com/topics/artificial-intelligence",
-      "bucket": "ai",
-      "subcategory": "ma_funding",
-      "weight": 5,
-      "status": 403,
-      "err": "HTTPError 403"
-    },
-    {
       "name": "PitchBook AI",
       "url": "https://pitchbook.com/news/topics/artificial-intelligence",
       "bucket": "ai",
       "subcategory": "ma_funding",
       "weight": 3,
+      "status": 403,
+      "err": "HTTPError 403"
+    },
+    {
+      "name": "The Information AI",
+      "url": "https://www.theinformation.com/topics/artificial-intelligence",
+      "bucket": "ai",
+      "subcategory": "ma_funding",
+      "weight": 5,
       "status": 403,
       "err": "HTTPError 403"
     },
@@ -322,15 +132,6 @@
       "err": "HTTPError 403"
     },
     {
-      "name": "YTL Power International",
-      "url": "https://www.ytlpowerinternational.com/",
-      "bucket": "stocks",
-      "subcategory": "holdings_ir",
-      "weight": 5,
-      "status": 0,
-      "err": "URLError <urlopen error [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)>"
-    },
-    {
       "name": "S&P Global Indices · News",
       "url": "https://www.spglobal.com/spdji/en/index-news-and-announcements/",
       "bucket": "stocks",
@@ -347,6 +148,15 @@
       "weight": 4,
       "status": 403,
       "err": "HTTPError 403"
+    },
+    {
+      "name": "YTL Power International",
+      "url": "https://www.ytlpowerinternational.com/",
+      "bucket": "stocks",
+      "subcategory": "holdings_ir",
+      "weight": 5,
+      "status": 0,
+      "err": "URLError <urlopen error [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)>"
     }
   ],
   "acts_watch_list": {
