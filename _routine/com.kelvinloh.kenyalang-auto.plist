@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <!-- Kenyalang.AI · 全本地自动 brief（B 方案）· 跑在非 TCC 保护目录
+       为什么这里：~/Desktop 被 macOS TCC 挡 launchd · ~/Library/Application Support 不挡 -->
+
+  <key>Label</key>
+  <string>com.kelvinloh.kenyalang-auto</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>/Users/kelvin/Library/Application Support/kenyalang-ai/_routine/run-auto-local.sh</string>
+  </array>
+
+  <!-- MYT 6:30am · 本机时区 Asia/Kuala_Lumpur · 配 pmset 定时唤醒 6:25 -->
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Hour</key>
+    <integer>6</integer>
+    <key>Minute</key>
+    <integer>30</integer>
+  </dict>
+
+  <key>RunAtLoad</key>
+  <false/>
+
+  <key>WorkingDirectory</key>
+  <string>/Users/kelvin/Library/Application Support/kenyalang-ai</string>
+
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key>
+    <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
+    <key>HOME</key>
+    <string>/Users/kelvin</string>
+  </dict>
+
+  <key>StandardOutPath</key>
+  <string>/Users/kelvin/Library/Logs/kenyalang-auto.stdout.log</string>
+
+  <key>StandardErrorPath</key>
+  <string>/Users/kelvin/Library/Logs/kenyalang-auto.stderr.log</string>
+</dict>
+</plist>
