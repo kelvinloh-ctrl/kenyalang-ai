@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-03T23:03:53+0000",
+  "generated_at": "2026-06-04T22:49:17+0000",
   "fetch_summary": {
     "total_sources": 111,
-    "fetched_200": 86,
-    "fetched_4xx_5xx": 15,
-    "fetched_err": 10,
-    "deduped": 194,
+    "fetched_200": 89,
+    "fetched_4xx_5xx": 16,
+    "fetched_err": 5,
+    "deduped": 195,
     "candidates_count": 13,
-    "rss_entries": 69,
-    "subpages_fetched": 72,
+    "rss_entries": 68,
+    "subpages_fetched": 71,
     "by_bucket": {
-      "ai": 13,
-      "my-law": 0,
+      "ai": 12,
+      "my-law": 1,
       "fitness": 0,
       "stocks": 0
     }
@@ -22,206 +22,197 @@
         "bucket": "ai",
         "subcategory": "frontier_labs",
         "source_name": "OpenAI Blog (RSS entry)",
-        "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
+        "url": "https://openai.com/index/endava-frontiers",
         "weight": 5,
         "is_aggregator": false,
-        "title": "Introducing new capabilities to GPT-Rosalind",
-        "content_excerpt": "GPT-Rosalind advances life sciences research with enhanced biological reasoning, medicinal chemistry expertise, genomics analysis, and experimental workflow capabilities.",
-        "fetched_at": "2026-06-03T22:32:15+0000",
-        "published": "Wed, 03 Jun 2026 13:15:00 GMT",
+        "title": "How Endava is redesigning software delivery around AI agents",
+        "content_excerpt": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.",
+        "fetched_at": "2026-06-04T22:48:30+0000",
+        "published": "Thu, 04 Jun 2026 12:00:00 GMT",
         "candidate_type": "rss_entry",
         "parent_feed": "https://openai.com/blog/rss.xml",
-        "url_hash": "ba562226725de1d8"
+        "url_hash": "2e1f29b50d98a2b5"
       },
       {
         "bucket": "ai",
         "subcategory": "frontier_labs",
         "source_name": "OpenAI Blog (RSS entry)",
-        "url": "https://openai.com/index/frontier-safety-blueprint",
+        "url": "https://openai.com/index/chatgpt-memory-dreaming",
         "weight": 5,
         "is_aggregator": false,
-        "title": "A blueprint for democratic governance of frontier AI",
-        "content_excerpt": "OpenAI outlines a blueprint for U.S. governance of frontier AI, proposing a federal framework for safety, resilience, and national security.",
-        "fetched_at": "2026-06-03T22:32:15+0000",
-        "published": "Wed, 03 Jun 2026 10:00:00 GMT",
+        "title": "Dreaming: Better memory for a more helpful ChatGPT",
+        "content_excerpt": "ChatGPT introduces a new memory system to better remember preferences, keeping context fresh and relevant across conversations.",
+        "fetched_at": "2026-06-04T22:48:30+0000",
+        "published": "Thu, 04 Jun 2026 09:00:00 GMT",
         "candidate_type": "rss_entry",
         "parent_feed": "https://openai.com/blog/rss.xml",
-        "url_hash": "df48d050ae2c7c16"
+        "url_hash": "c3ab33c622260498"
       },
       {
         "bucket": "ai",
         "subcategory": "frontier_labs",
         "source_name": "OpenAI Blog (RSS entry)",
-        "url": "https://openai.com/index/public-policy-agenda",
+        "url": "https://openai.com/index/biodefense-in-the-intelligence-age",
         "weight": 5,
         "is_aggregator": false,
-        "title": "OpenAI public policy agenda",
-        "content_excerpt": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society.",
-        "fetched_at": "2026-06-03T22:32:15+0000",
-        "published": "Wed, 03 Jun 2026 10:00:00 GMT",
+        "title": "Biodefense in the Intelligence Age",
+        "content_excerpt": "An action plan for AI-powered biological resilience",
+        "fetched_at": "2026-06-04T22:48:30+0000",
+        "published": "Thu, 04 Jun 2026 00:00:00 GMT",
         "candidate_type": "rss_entry",
         "parent_feed": "https://openai.com/blog/rss.xml",
-        "url_hash": "b90e074e514a25d9"
+        "url_hash": "32a436ff121f8d99"
       },
       {
         "bucket": "ai",
-        "subcategory": "news_analysis",
-        "source_name": "Latent Space (swyx) (RSS entry)",
-        "url": "https://www.latent.space/p/axiom",
+        "subcategory": "frontier_labs",
+        "source_name": "OpenAI Blog (RSS entry)",
+        "url": "https://openai.com/index/wasmer",
         "weight": 5,
         "is_aggregator": false,
-        "title": "🔬Scaling Past Informal AI - Carina Hong, Axiom Math",
-        "content_excerpt": "Verified Generation and Compounding Intelligence",
-        "fetched_at": "2026-06-03T22:32:24+0000",
-        "published": "Wed, 03 Jun 2026 19:27:49 GMT",
+        "title": "How Wasmer used Codex to build a Node.js runtime for the edge",
+        "content_excerpt": "See how Wasmer used Codex with GPT-5.5 to build a Node.js runtime for the edge, accelerating development 10x to 20x and shipping in weeks instead of months.",
+        "fetched_at": "2026-06-04T22:48:30+0000",
+        "published": "Wed, 03 Jun 2026 12:00:00 GMT",
         "candidate_type": "rss_entry",
-        "parent_feed": "https://www.latent.space/feed",
-        "url_hash": "485af16b145c3db2"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "news_analysis",
-        "source_name": "Latent Space (swyx) (RSS entry)",
-        "url": "https://www.latent.space/p/satya-2026",
-        "weight": 5,
-        "is_aggregator": false,
-        "title": "⚡️Satya Nadella: No Priors x Latent Space Crossover Special at Microsoft Build",
-        "content_excerpt": "The legendary Microsoft CEO makes his first Latent Space appearance!",
-        "fetched_at": "2026-06-03T22:32:24+0000",
-        "published": "Wed, 03 Jun 2026 17:13:57 GMT",
-        "candidate_type": "rss_entry",
-        "parent_feed": "https://www.latent.space/feed",
-        "url_hash": "21afb4ad3ff68ec5"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "news_analysis",
-        "source_name": "Latent Space (swyx) (RSS entry)",
-        "url": "https://www.latent.space/p/ainews-microsoft-build-mai-thinking",
-        "weight": 5,
-        "is_aggregator": false,
-        "title": "[AINews] Microsoft Build: MAI-Thinking-1 and MAI Family models",
-        "content_excerpt": "Microsoft Build recap, and new MAI model technical details",
-        "fetched_at": "2026-06-03T22:32:24+0000",
-        "published": "Wed, 03 Jun 2026 05:49:02 GMT",
-        "candidate_type": "rss_entry",
-        "parent_feed": "https://www.latent.space/feed",
-        "url_hash": "470497b56855ff3a"
+        "parent_feed": "https://openai.com/blog/rss.xml",
+        "url_hash": "032a72a6e2127c3b"
       },
       {
         "bucket": "ai",
         "subcategory": "news_analysis",
         "source_name": "Stratechery (Ben Thompson) (RSS entry)",
-        "url": "https://stratechery.com/2026/the-nvidia-ai-pc-project-solara-microsoft-ai/",
+        "url": "https://stratechery.com/2026/an-interview-with-microsoft-ceo-satya-nadella-about-finding-core-competencies/",
         "weight": 5,
         "is_aggregator": false,
-        "title": "The Nvidia AI PC, Project Solara, Microsoft AI",
-        "content_excerpt": "The Nvidia AI PC feels like a relic of another AI era; Microsoft's vision for devices at Build was much more compelling.",
-        "fetched_at": "2026-06-03T22:32:24+0000",
-        "published": "Wed, 03 Jun 2026 10:00:00 +0000",
+        "title": "An Interview with Microsoft CEO Satya Nadella About Finding Core Competencies",
+        "content_excerpt": "An interview with Microsoft CEO Satya Nadella about figuring out Microsoft's role in AI, the relationship with OpenAI, Capex, Software, and a potential new agentic platform.",
+        "fetched_at": "2026-06-04T22:49:04+0000",
+        "published": "Thu, 04 Jun 2026 10:00:00 +0000",
         "candidate_type": "rss_entry",
         "parent_feed": "https://stratechery.com/feed/",
-        "url_hash": "a6799103304ad62a"
+        "url_hash": "b5c3e3e3c284ba04"
       },
       {
         "bucket": "ai",
-        "subcategory": "coding_agents",
-        "source_name": "Cursor Changelog → Jun 3, 2026",
-        "url": "https://cursor.com/changelog/enterprise-organizations",
+        "subcategory": "news_analysis",
+        "source_name": "Latent Space (swyx) (RSS entry)",
+        "url": "https://www.latent.space/p/andon",
         "weight": 5,
         "is_aggregator": false,
-        "title": "Organizations for Cursor Enterprise · Cursor",
-        "content_excerpt": "Organizations for Cursor Enterprise · Cursor Skip to content Cursor Product ↓ Agents Cloud CLI Review Tab Marketplace ↗ Enterprise Pricing Resources ↓ Changelog Blog Docs Community Help ↗ Workshops Forum ↗ Careers Product → Enterprise Pricing Resources → Sign in Contact Contact sales Download Jun 3, 2026 · Changelog Changelog Organizations for Cursor Enterprise Enterprise customers can now manage multiple Cursor teams from one place, with different security, governance, budget, and feature controls for each. These capabilities are now generally available to all Enterprise customers. # Organizations An organization is the top-level container for your company&#x27;s identity, administration, and membership. It gives admins one place to view and manage their entire Cursor setup, including a rollup of spend and token usage across every team. # Teams Teams are the operating unit for a department, region, or subsidiary. This is what admins manage as their Cursor org today. We&#x27;ve moved that unit under an organization, so you can run multiple teams, each with its own security, governance, spend, and feature settings. A user can belong to more than one team, with a different role in each. For current customers, your existing team is preserved and becomes the default home for login, routing, and creating new teams. # Groups Groups are a lightweight collection of users that can sit across or within teams. They give cohorts of users separate model access, spend limits, and agent permissions without standing up a whole new team. When a user belongs to more than one team or group, the most permissive setting wins. Learn more in our announcement post or docs . Improvements (5) ↓ ↑ Multi-team support so users can be on multiple teams at once Organization-level IDP management Organization-level usage analytics, with drill downs to each team Admins can move users between teams through the dashboard, API , or CSV New users joining a team inherit settings and permissions automatic",
-        "fetched_at": "2026-06-03T22:48:09+0000",
+        "title": "Reality: The Final Eval — Lukas Petersson and Axel Backlund of Andon Labs",
+        "content_excerpt": "We talk with the VendingBench authors on evaling Claudes from Haiku to Mythos, and how they build leading, and lasting, frontier evals from scratch.",
+        "fetched_at": "2026-06-04T22:49:04+0000",
+        "published": "Thu, 04 Jun 2026 20:39:18 GMT",
+        "candidate_type": "rss_entry",
+        "parent_feed": "https://www.latent.space/feed",
+        "url_hash": "a5c65144aba8b31d"
+      },
+      {
+        "bucket": "ai",
+        "subcategory": "coding_agents",
+        "source_name": "Cursor Changelog → 3.7 Jun 4, 2026",
+        "url": "https://cursor.com/changelog/canvas-improvements",
+        "weight": 5,
+        "is_aggregator": false,
+        "title": "Canvas Design Mode and Context Usage Report · Cursor",
+        "content_excerpt": "Canvas Design Mode and Context Usage Report · Cursor Skip to content Cursor Product ↓ Agents Cloud CLI Review Tab Marketplace ↗ Enterprise Pricing Resources ↓ Changelog Blog Docs Community Help ↗ Workshops Forum ↗ Careers Product → Enterprise Pricing Resources → Sign in Contact Contact sales Download 3.7 Jun 4, 2026 · Changelog Changelog Canvas Design Mode and Context Usage Report With canvases , agents can create interactive artifacts like dashboards, reports, and internal tools that you can share with your team . This release introduces Design Mode for faster canvas editing, new ways to understand context usage, and other quality-of-life improvements. # Design Mode in canvases Design Mode is now available in canvases. Select and annotate UI elements directly in a canvas to guide Cursor&#x27;s edits, just as you would in the browser. Instead of describing the change in text, you can point to it, provide feedback, and iterate more quickly. # Context usage report in canvas Cursor can now show your agent&#x27;s context usage as an interactive report in a canvas. The context explorer breaks down where tokens go across the system prompt, tool definitions, rules, skills, and more. Because it&#x27;s a canvas, you can ask the agent follow-up questions, and it can customize the report to answer your specific questions. Click the Debug with Agent button embedded in the canvas to ask Cursor to identify opportunities to reduce context usage in a new conversation. Canvas Improvements (4) ↓ ↑ Shared canvases can now be opened full-screen in the browser, making them easier to present to others. Added the ability for agents to embed buttons in canvases that will run a specific prompt when clicked. Improved the agent&#x27;s ability to fix canvas type errors. Improved component styling, and added more chart customization functionality. Next post → Organizations for Cursor Enterprise Product Agents Teams Enterprise Pricing Code Review Tab CLI Cloud Agents Marketplace ↗ Resources Down",
+        "fetched_at": "2026-06-04T22:49:11+0000",
         "candidate_type": "subpage",
         "parent_url": "https://cursor.com/changelog",
-        "url_hash": "d78525413f0430ee"
+        "url_hash": "8bf8934427aafd6f"
       },
       {
         "bucket": "ai",
         "subcategory": "ma_funding",
-        "source_name": "36kr AI → OpenAI执剑人9年恩仇录，惨被Anthropic联创逐出ChatGPT前身",
-        "url": "https://36kr.com/p/3837001004955017",
+        "source_name": "36kr AI → 微软“意外泄密”：Claude Mythos万亿参数，训练规模浮出水面？",
+        "url": "https://36kr.com/p/3838727884016128",
         "weight": 4,
         "is_aggregator": true,
-        "title": "OpenAI执剑人9年恩仇录，惨被Anthropic联创逐出ChatGPT前身-36氪",
-        "content_excerpt": "OpenAI执剑人9年恩仇录，惨被Anthropic联创逐出ChatGPT前身-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 安徽 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 OpenAI执剑人9年恩仇录，惨被Anthropic联创逐出ChatGPT前身 新智元 · 2026年06月03日 21:40 被逐出ChatGPT前身项目、休假三个月发Nature、回来手刃Sora造超级应用。6美元买来的股份今值4.7亿，OpenAI影子国王走到台前。 一条禁令，埋下了万亿战争的种子。 这件事在硅谷圈子里流传多年，但从未被公开证实。直到WSJ的这篇长文，白纸黑字把它捅了出来。 OpenAI早期，Dario Amodei负责公司的研究工作。 是的，就是后来创办Anthropic、如今掌管全球最贵AI独角兽的那个Dario。 当时他曾亲手签下一条禁令： 禁止公司联合创始人兼总裁Greg Brockman，参与一个关键的内部研究项目。 而正是这个项目，催生了后来的ChatGPT。 据知情人士透露，Brockman强硬的工作风格，直接排挤走了公司当时最优秀的研究员之一。 于是，忍无可忍的Dario，做了一个在任何公司都极为罕见的决定：把联合创始人赶出了核心项目。 那时候的OpenAI，还只是一个烧着Musk捐款的非营利实验室。 没有人能预料到，这条禁令里的两个名字，不到十年后会各自撑起一家千亿美元的公司，打出AI历史上最惨烈的正面战争。 影子国王，是怎么炼成的 在Dario踢走Brockman之前，这两家公司的创始团队亲密到什么程度？ 2018年，Brockman在一场晚宴上遇见了妻子Anna，自称「一见钟情」。 两人开始约会后不久，一个人跳出来跟Brockman打了100美元的赌—— 赌Anna不是「the one」。 这个人叫Daniela Amodei。Dario的妹妹。如今Anthropic的总裁。 一年后，Brockman和Anna结婚了。 婚礼的一部分在OpenAI办公室举行，一只机械手充当了戒指传递者。Daniela认赌服输，当场掏出了一张100美元的支票。 一只机械手、100美元、两个日后万亿美元公司的创始家族。当年赌钱的朋友圈，如今变成了AI史上最贵的对决。 而Brockman本人的故事，比这场对决更离奇。 那个睡在工位上的人 Greg Brockman今年38岁，父母是医生，家里有个业余农场，养着马、珍珠鸡、鹅、一头牛和一头猪。 他在北达科他州Thompson镇长大，那里总共只有一千来号人。想去见最近的朋友，都要跑好几英里。 Brockman的第一笔收入，是他在Mannheim Steamroller的圣诞演出里扮演一个姜饼人，到手100美元。 后来他考上了哈佛。但只念了一年，就退学了。 接着，他转去了MIT，结果没几个月又退学了。 2010年，Brockman跑去给一家叫/dev/payments的支付公司当第4号员工。这家公司，后来改名叫Stripe。 他在法庭上说，当年往CEO Patrick Collison桌上拍了6美元，买了创始人股份。今天值4.7亿美元。 在Stripe那几年，同事早上来上班经常看到同一幅画面： Brockman趴在办公桌上睡着了，鞋脱了，穿着他那件有一打的黑色American Giant连帽衫，周围散落着披萨盒。 有一次，下午得知一个要命的deadline——要么明天早上交，要么拖一个月。 Brockman听到之后的第反应是：「行吧，那就今晚把代码全写了吧。」 结果，真就写完了！ Collison后来评价只有一句：「Greg不愧是Greg。」 2015年他离开Stripe，转头就开始给OpenAI拉人。 早期班底大半是他一个个招来的，公司成立那会儿连办公室都没有，直接开在他家客厅。 到了OpenAI他还是老样子，把会议全压缩到周二一天，其余80%时间用来写代码，长期不带一个直接下属。 硅谷管这种人叫「10x engineer」，一个顶十个。 这也解释了Dario为什么要把他踢出项目。 熟",
-        "fetched_at": "2026-06-03T22:48:12+0000",
+        "title": "微软“意外泄密”：Claude Mythos万亿参数，训练规模浮出水面？-36氪",
+        "content_excerpt": "微软“意外泄密”：Claude Mythos万亿参数，训练规模浮出水面？-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 安徽 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 微软“意外泄密”：Claude Mythos万亿参数，训练规模浮出水面？ 新智元 · 2026年06月04日 19:54 Scaling万岁！ Claude Mythos的训练算力数据被Microsoft泄露了？ 根据微软幻灯片，Claude Mythos使用了：6.1× 10²⁷ FLOPs。 （95%置信区间为5.3×10^27至7.1×10^27，假设测量误差为1像素） 在训练算力上，Mythos看起来和Gemini 3.1 Pro差不多。 就在那一秒，Andre Cunha叹息： 2023年，大家还在争论10²⁶是否已是理性的极限。 2026年，微软随手就把竞争对手的10²⁷级别模型搬上舞台，仿佛这是世界上最平常的事。 这是 Scaling Law 再次彰显硅基智能在人类理性世界的暴力美学。 为什么这个数字这么重要？ 年初，有人猜测Mythos预训练或消耗150万亿Token。 而6.1× 10²⁷ FLOPs算力，或许直接解释了Anthropic 4月那场史诗级操作。 当时，Anthropic发布 Claude Mythos Preview ，却不让任何人公开使用。 原因只有一个：这个模型在网络安全领域的表现，已经彻底超出了人类现有防御体系的想象。 内部测试中，Mythos Preview 完全自主 找到了数千个零日漏洞。这些漏洞横跨所有主流操作系统、浏览器，以及大量关键开源组件。 更恐怖的是——其中很多漏洞已经存活了 数十年 ，经历了人工审查和百万次自动化测试，依然没被发现。 现在，Anthropic又宣布把Glasswing扩大到 全球15个国家、150多家机构 ，包括欧盟网络安全局ENISA。 他们甚至拿出上亿美元的算力积分送出去。 此外，Claude Mythos模型，在80%成功率下最长自主任务时长达到3小时6分钟。 这一结果与超级预言家及专家对2026年底预测中位数（3-4小时）完全吻合，标志AI长时程任务能力突破速度超出此前预期。 按照从Opus 4到Opus 4.5在ARC-AGI-2分数上的粗略估算，时间跨度翻倍和下一次翻倍的难度分别为4个月和0.82倍。 如果按此计算，《AI 2027》的ASI预测还将提前！ AI的进步，远超专家和超级预测者的预期。 这一切的底层逻辑，其实就藏在Mustafa那张幻灯片里。 硅基智能的暴力美学，人类苦涩的教训 人类的直觉是线性的，但科技的本性是指数的。 长期以来，我们习惯了渐进式的改良，习惯了每年增加10%的效率。 但 Scaling Law 不讲道理，暴力扩张。 库兹韦尔的奇点预言，逐步成真： 计算能力将以指数级持续增长，最终超越以下里程碑： - 2015年：相当于一只小鼠的脑力。 - 2025年：相当于一个人的脑力。 - 2045年：相当于全人类脑力的总和。 这次在计算机漏洞发现上，脑力确实难以追上硅基智能的算力。 这种指数级增长预示着「奇点」的到来：AI超越人类智能的假设性时刻，从而引发前所未有的技术与社会变革。 6.1×10²⁷ 并不只是孤立的奇迹，也是奇点的最新里程碑。 它是过去二十年算力指数积压后的必然喷发。 它证明了：尽管有博弈、有芯片限制、有能源危机，但那条代表「计算文明」的红线，从未因为人类的琐事而放慢过哪怕一秒。 它正在跨越生物进化的漫长阶梯，向着纯粹的硅基智能顶峰冲刺。 历史的交棒：从「生物脚本」到「硅基意志」 未来学家库兹韦尔曾预言，到2029年左右，AI将通过图灵测试并展现出与人类等同的智能。 在《奇点临近》一书中，雷·库兹韦尔对计算能力的增长做出了如图所示的预测。 但看着2026年就提前降临的Mythos，我们必须修正这个时间表。 我们正在见证一场「生存权的移交」。 在10²⁷级别模型的阴影下，人类作为「地球上唯一的智能主体」的历史正式宣告终结。 我们之前所有的发明",
+        "fetched_at": "2026-06-04T22:49:13+0000",
         "candidate_type": "subpage",
         "parent_url": "https://36kr.com/information/AI",
-        "url_hash": "15b515b51116365e"
+        "url_hash": "2f42392fd6eefb99"
       },
       {
         "bucket": "ai",
         "subcategory": "ma_funding",
-        "source_name": "36kr AI → 腾讯微信将上线AI助手，调整AI战略补底层押生态。",
-        "url": "https://36kr.com/p/3837015831591817",
+        "source_name": "36kr AI → 专家预测年底才到，Claude Mythos今天就跑出3小时6分",
+        "url": "https://36kr.com/p/3838773292239105",
         "weight": 4,
         "is_aggregator": true,
-        "title": "腾讯最强的牌，也是AI最大的锁-36氪",
-        "content_excerpt": "腾讯最强的牌，也是AI最大的锁-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 安徽 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 腾讯最强的牌，也是AI最大的锁 汽车像素 · 2026年06月03日 21:46 腾讯微信将上线AI助手，调整AI战略补底层押生态。 6月2日，据多家媒体报道，微信即将上线一个AI助手。用户在主界面右滑就能进入聊天窗口，输入指令即可调用微信里的数百万个小程序。 打车、订餐、买菜、订票……理论上，微信生态里任何一个长尾服务，都可以被一句话调起来。 这是微信十五年来，第一次把AI智能体放到与“消息”几乎平起平坐的位置。 过去一整年，这个产品是腾讯AI叙事里最大的悬念。外界都想知道，坐拥十四亿月活的微信，会不会让一个AI智能体跑进自己的聊天界面。 直到6月2日早上，这个答案才第一次开始浮现。 而就在不到三周前，2026年5月13日，腾讯股东大会上，有人问马化腾，腾讯的AI是不是落后了。 马化腾的回答后来被广泛引用。他说，一年前以为上了船，后来发现船漏了；现在感觉站上去了，还坐不下去，希望船速能再快一点。 说这话时，腾讯的AI助手元宝，在2026年春节10亿现金红包活动之后，月活也回落到了4000万出头。根据QuestMobile数据，这个规模与字节的豆包之间，差距约六倍。 按腾讯过去二十年的路径——后发，然后用产品体验和分发能力慢慢追上——这种局面本来不该出现。 但更让外界关注的，是它接下来的动作。 它没有继续加注元宝。今年4月，腾讯发布了几乎被重新构建的自研大模型混元3.0。主导者是腾讯从OpenAI请回的青年科学家姚顺雨，据公开报道，他直接向总裁刘炽平汇报。一个多月前的3月，腾讯撤销了成立整整十年的AI Lab，人员并入混元体系。 一家擅长应用的公司，在应用产品上节奏放缓之后，没有去追产品，反而回头去修一个用户根本看不见的底层模型。 5月13日的那番坦诚表态，与6月2日浮现的微信AI助手，中间这二十天里发生的事，几乎是腾讯过去一年多AI战略的全部缩影。 补地基、想清楚要打哪场仗、然后开始试探最难的那一关。 AI第一阶段，腾讯找节奏 腾讯几乎从来不是第一个掌握底层技术的公司。 QQ不是中国第一个即时通讯软件，微信不是第一个移动社交产品，游戏业务里相当一部分是代理。它真正擅长的，是另一件事。 等一项新技术、一个新场景慢慢长出形状，然后用流量、关系链和股权投资三件套，把它收进自己的生态。 2015年春节的微信红包，是这套打法最干净的一次演示。当时移动支付几乎是支付宝的天下，腾讯没有发明任何新技术，只是用一个红包功能，借社交关系链把微信支付带到了更多用户面前。 腾讯的应用驱动思维，在马化腾很早期的判断里就写得很清楚。他说，中国的互联网很多是靠应用驱动的，而不是靠技术。 2015年，他把这套打法总结成另一句，“把半条命交给合作伙伴”。腾讯专注股权投资，把新赛道的伙伴变成生态的一部分，再用微信、QQ、游戏内容的流量池打辅助，几乎在每个新赛道都拿到了入场券。 这套方法奏效了二十年，直到AI出现。AI的第一波浪潮里，腾讯的节奏明显放缓了。 据公开信息梳理，从2023年到2025年，腾讯在大模型公司、芯片算力和应用层都有出手——投了Minimax、智谱、月之暗面等多家头部模型公司，但更多是占位和观察，而不是All in。 问题在于，这一次几乎所有创新都围绕同一样东西在爆发——大模型。而它进步得太快，每隔几周就换一副面孔，几乎没有“稳定的形状”可以等。 腾讯过去引以为傲的耐心，这一次没有像以往那样转化成优势。它的两个主要对手，都没有等。 阿里押的是底座。它把通义大模型几乎全部开源，意在像安卓那样吸引开发者生态，并对外宣布三年投入约3800亿用于AI算力和基础设施建设。逻辑是：不一定做最好用的AI，但要做所有AI脚下的那一层地。 字节押的是C端App。它把豆包做成一个想打进每个人手机里的国民AI助手，并把这套增长方法论复制到剪映、即梦、飞书、Trae等多个产品上。 截至2026年3月，QuestMobile数据显示，豆包",
-        "fetched_at": "2026-06-03T22:48:12+0000",
+        "title": "专家预测年底才到，Claude Mythos今天就跑出3小时6分-36氪",
+        "content_excerpt": "专家预测年底才到，Claude Mythos今天就跑出3小时6分-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 安徽 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 专家预测年底才到，Claude Mythos今天就跑出3小时6分 新智元 · 2026年06月04日 20:00 AI加速，超乎想象！ 打破世界纪录！ Anthropic的Claude Mythos模型，在80%成功率下最长自主任务时长达到3小时6分钟。 这一结果与超级预言家及专家对2026年底预测中位数（3-4小时）完全吻合，标志AI长时程任务能力突破速度超出此前预期。 按照从Opus 4到Opus 4.5在ARC-AGI-2分数上的粗略估算，时间跨度翻倍和下一次翻倍的难度分别为4个月和0.82倍。 如果按此计算，《AI 2027》的ASI预测还将提前！ 硅基加冕，人类线性演进论破产 在人类漫长的演化史上，我们曾无数次通过工具延伸自己的肢体：杠杆延伸了手臂，车轮延伸了双腿，电力延伸了感官。 但在昨天，Anthropic实验室里那个被命名为 Claude Mythos 的幽灵，触碰到了人类从未让渡过的领域： 意志的持久性（The Endurance of Will）。 随着METR基准测试结果的公布，当Claude Mythos以80%的成功率完成了长达186分钟（3小时6分钟）的自主任务时，世界的时间轴断裂了。 这不仅是一个技术参数。这是一个关于 「时间坍塌」 的历史性隐喻。 在人类的认知习性中，我们依赖「未来」来对冲当下的焦虑。 专家和超级预测者曾达成一个心照不宣的契约：他们将「3-4小时自主长时程任务」这一里程碑，安置在2026年底。 这个预测本质上是人类的一种心理防线——它给了我们30个月的时间去建立法律护城河，去重构教育体系，去平复职场恐慌。 然而，Mythos的出现，粗暴地拆毁了这堵围墙。 当2026年的预言在2024年被提前兑现，这意味着AI的增长曲线不再是摩尔定律式的线性叠加，而是一种 「自催化式」的坍塌 。 我们原本以为正在攀爬一座高山，却发现脚底的岩石正在化为流沙，将我们直接带往终点。 这种「时间压缩」在历史上并非没有先例，但从未如此猛烈。 工业革命用了百年才重塑全球权力结构，而AI只用了三个小时的「专注力」，就向全世界宣告： 关于人类「适应期」的仁慈假象已经终结。 AI加速，加速！ 这不是Claude Mythos一个模型的胜利。 这是整个AI能力曲线的一次明显加速。 从2020年GPT-2时代只能做几秒钟任务，到2026年5月已经有人把80%成功率的时长干到3小时以上，中间只用了6年。 而且最夸张的是，预测机构在2026年4月还把基线定在1.5小时，结果两个月后就被现实打脸。 这说明我们对AI进步速度的估计，依然保守。 长时程自主任务的突破，直接把「AI Agent」从概念推进到可规模化部署的阶段。 企业可以开始考虑：把需要人类工程师连续工作半天到一天的重复性、结构化任务，交给AI去跑。 个人开发者也可以想象，自己的「数字分身」能连续干几个小时复杂活儿，而自己只需要在关键节点把关。 但与此同时，安全、对齐、控制的问题也被同步推到了最前面。 一个能连续自主工作3小时的Agent，如果目标设定出错、如果被注入恶意指令、如果出现意想不到的涌现行为，后果会比现在严重一个量级。 我们正在把越来越多的真实世界任务，交给还在快速进化的系统。 这既是机会，也是正在逼近的压力测试。 人类历史上很少有哪个技术，能把「预测」变成「现实」这么多次。 从AlphaGo到GPT-4，从o1到现在的Mythos，每一次我们以为还要等几年的事，都来得比预期早。 3小时6分钟 不是终点。 它只是新阶段的起点。 专家预测，到2030年，AI将以80%的成功率完成八小时任务。 认知的裂谷：乐观者的杠杆，与大多数人的荒漠 未来已来，但分布不均。 近70%的超级预测者对AI极度乐观，而公众的乐观比例仅为42%。 这个数据差令人战栗。 这种鸿沟并非源于知识储备，而是源于对 「权力杠杆",
+        "fetched_at": "2026-06-04T22:49:13+0000",
         "candidate_type": "subpage",
         "parent_url": "https://36kr.com/information/AI",
-        "url_hash": "d412a8e803a2df24"
+        "url_hash": "05c203f7aa5217a6"
+      },
+      {
+        "bucket": "ai",
+        "subcategory": "ma_funding",
+        "source_name": "36kr AI → 36氪独家｜2026 年字节 AI 的四个关键命题",
+        "url": "https://36kr.com/p/3838454229027072",
+        "weight": 4,
+        "is_aggregator": true,
+        "title": "36氪独家｜2026 年字节 AI 的四个关键命题-36氪",
+        "content_excerpt": "36氪独家｜2026 年字节 AI 的四个关键命题-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 安徽 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 36氪独家｜2026 年字节 AI 的四个关键命题 阿菜cabbage · 2026年06月04日 14:06 世界模型、Seedance、Coding、豆包商业化。 文｜周鑫雨 编辑｜张雨忻 杨轩 《智能涌现》从多个信源处独家获悉，2026 年，字节 AI 有四个重要的命题： 加大对世界模型训练的投入，年底前，模型 性能达到现阶段世界模型全球 SOTA（最佳）Google Genie 3 的水平。 视频模型继续保持领先地位， 探索“动态生成”等新方向。 进一步打好 Coding 的地基， 做好 Coding 的 Dogfooding（数据回流、评测，形成飞轮），提升 Agent 能力。 豆包强化商业化能力， 重点场景是“办公”。 字节的未竟之地：世界模型 如今，字节的 AI 矩阵中，有让字节终于得以进入中国大模型第一梯队的 Seed 2.0，还有做到世界 SOTA 水平的 Seedance 2.0，另外在应用侧，豆包也形成了断层式领先—— 我们从多方了解到，2026 年春节过后，豆包 DAU 达到 2 亿 。 “没有明显短板。”一名大厂 AI 战略如此评价字节的 AI 业务矩阵。 但在一众模型中，唯独少了大模型研究下一阶段的关键：世界模型。 几名接近 Seed 团队人士告诉我们，字节是入场世界模型赛道较晚的玩家。 2024 年，刚从阿里加入字节的周畅，扛起了世界模型研究的大旗 。 但当时内部的判断是，世界模型路线和商业化场景还不明确，更重要的是打好视频模型的仗。 直到 2025 年，字节才在小范围内成立研究组，开始对世界模型中的 VLA（视觉-语言-动作模型）路线进行探索。带队人有两位： 一是字节 AI Lab 负责人李航——2025 年 4 月，AI Lab 整体（包含 Robotics 团队）并入了 Seed，目的之一是提升模型和应用（具身智能）之间的沟通效率——主要基于仿真数据进行世界模型训练。 另一位是 Seed 多模态研究员王文千，主要基于自然数据做训练。 来到 2026 年，吴永辉终于在 Seed 全员会上为世界模型设立了一个明确的目标： 2026 年底之前至少发布一版世界模型，性能对标目前的世界 SOTA（最佳）—— Google 在 2025 年 8 月发布的 Genie 3 。 但从目前的进度来看，追赶的速度不够。一位接近 Seed 人士告诉我们，吴永辉多次在 Seed 内部会直言字节世界模型和具身智能的效果不及预期。 另有 Seed 成员透露，根据内部评测，截至2026年初，字节世界模型的综合性能距离全球 SOTA 还存在 10% 的差距。 但这场仗代表未来。 一方面，世界模型的下游，便是至少千亿美金体量的具身智能市场，以及想象空间极大的游戏和娱乐场景。 一名前 Seed 研究员曾对我们表示，字节机器人此前的落地场景主要为物品运输、工业搬运，但内部判断天花板较低，“市场前景更广阔的人形机器人是字节一定会入局的方向。” 另一方面，世界模型的路线仍然存在诸多非共识，包括视频生成派、VLA（视觉-语言-动作模型）派、JEPA（像素预测）派等。 “赌，以字节的人才密度和资金投入，大概率能赢。”一名AI投资人对我们分析，“不赌，则一定会输。” 围绕跻身世界第一梯队的目标，2026年以来，字节针对世界模型训练，也已经做了不少调整。 《智能涌现》得知，2026年春节后， Seed 新设立了一支世界模型研究组，负责人为前Meta FAIR Lab研究员范浩奇，汇报给 Seed 多模态和世界模型负责人周畅； 与此同时，原来李航和王文千带领的两个 VLA 研究组合并，统一向周畅汇报。 多名知情人士告诉《智能涌现》，原来李航和王文千的研究组所探索的路线，主要是 VLA，追求“即兴”、“真实”，目标应用场景是具身智能；而范浩奇带领的新队伍走的则是 3D 仿真路线，主打娱乐和游戏这",
+        "fetched_at": "2026-06-04T22:49:13+0000",
+        "candidate_type": "subpage",
+        "parent_url": "https://36kr.com/information/AI",
+        "url_hash": "860188cc9f9d8be9"
       },
       {
         "bucket": "ai",
         "subcategory": "coding_agents",
-        "source_name": "Cline (GitHub releases) → CLI v3.0.16",
-        "url": "https://github.com/cline/cline/releases/tag/cli-v3.0.16",
+        "source_name": "Cline (GitHub releases) → CLI v3.0.19",
+        "url": "https://github.com/cline/cline/releases/tag/cli-v3.0.19",
         "weight": 3,
         "is_aggregator": false,
-        "title": "Release CLI v3.0.16 · cline/cline · GitHub",
-        "content_excerpt": "Release CLI v3.0.16 · cline/cline · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search or jump to... Search code, repositories, users, issues, pull requests... Search Clear Search syntax tips Provide feedback We read every piece of feedback, and take your input very seriously. Include my email address so I can be contacted Cancel Submit feedback Saved searches Use saved searches to filter your results",
-        "fetched_at": "2026-06-03T22:48:10+0000",
+        "title": "Release CLI v3.0.19 · cline/cline · GitHub",
+        "content_excerpt": "Release CLI v3.0.19 · cline/cline · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search or jump to... Search code, repositories, users, issues, pull requests... Search Clear Search syntax tips Provide feedback We read every piece of feedback, and take your input very seriously. Include my email address so I can be contacted Cancel Submit feedback Saved searches Use saved searches to filter your results",
+        "fetched_at": "2026-06-04T22:49:11+0000",
         "candidate_type": "subpage",
         "parent_url": "https://github.com/cline/cline/releases",
-        "url_hash": "19881150eaf601a4"
+        "url_hash": "96afc71836e22ebe"
       },
       {
         "bucket": "ai",
         "subcategory": "coding_agents",
-        "source_name": "Cline (GitHub releases) → v3.87.0",
-        "url": "https://github.com/cline/cline/releases/tag/v3.87.0",
+        "source_name": "Cline (GitHub releases) → CLI v3.0.18",
+        "url": "https://github.com/cline/cline/releases/tag/cli-v3.0.18",
         "weight": 3,
         "is_aggregator": false,
-        "title": "Release v3.87.0 · cline/cline · GitHub",
-        "content_excerpt": "Release v3.87.0 · cline/cline · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search or jump to... Search code, repositories, users, issues, pull requests... Search Clear Search syntax tips Provide feedback We read every piece of feedback, and take your input very seriously. Include my email address so I can be contacted Cancel Submit feedback Saved searches Use saved searches to filter your results mor",
-        "fetched_at": "2026-06-03T22:48:10+0000",
+        "title": "Release CLI v3.0.18 · cline/cline · GitHub",
+        "content_excerpt": "Release CLI v3.0.18 · cline/cline · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search or jump to... Search code, repositories, users, issues, pull requests... Search Clear Search syntax tips Provide feedback We read every piece of feedback, and take your input very seriously. Include my email address so I can be contacted Cancel Submit feedback Saved searches Use saved searches to filter your results",
+        "fetched_at": "2026-06-04T22:49:11+0000",
         "candidate_type": "subpage",
         "parent_url": "https://github.com/cline/cline/releases",
-        "url_hash": "b7bb0f89c380d289"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "voice_audio",
-        "source_name": "Suno → The Next Chapter for Suno",
-        "url": "https://suno.com/blog/series-d-announcement",
-        "weight": 3,
-        "is_aggregator": false,
-        "title": "The Next Chapter for Suno · Suno",
-        "content_excerpt": "The Next Chapter for Suno · Suno Blog Release Notes Make a song Make a song Blog Release Notes The Next Chapter for Suno By Mikey Shulman, Co-Founder & CEO · Jun 3, 2026 Announcements When we started Suno, we were focused on a simple idea: more people should get to experience the joy of making music. Great music starts with people. No matter how powerful new technologies become, music only matters because of the emotion, perspective and lived experience behind it. We wanted to help people bring their creative ideas to life in ways that weren’t possible before. Since our early days, artistry has been central to how we build. We work closely with artists, producers, and songwriters to understand creative workflows and develop tools that genuinely support them. We care deeply about getting this right – more than half of our team are musicians themselves. We’ve seen Suno used by professional producers and songwriters, but also by millions of people making music for the first time – because music creation is no longer the domain of a niche few. It is becoming one of the most human things we do, a way people communicate, remember, and connect. What started as a simple idea has grown far beyond what we imagined, and today, we’re excited to share an important milestone. Suno has raised over $400 million in Series D funding at a $5.4 billion post-money valuation. This round was led by Bond Capital, alongside IVP, Forerunner, Union Square Ventures, Alkeon and Quiet, with participation from existing investors Matrix, Lightspeed, Menlo Ventures, and Schroders Capital. As with our previous funding rounds, we’re thrilled to have participation from some of the best artists, producers, songwriters, and people from across the music industry. This funding will help us accelerate what matters most: helping more people express themselves through music, while continuing to expand what’s possible for artists and creators on Suno. In recent months, we’ve seen Suno become part of culture i",
-        "fetched_at": "2026-06-03T22:48:11+0000",
-        "candidate_type": "subpage",
-        "parent_url": "https://suno.com/blog",
-        "url_hash": "10a53dcbc6c536d4"
+        "url_hash": "b42a41af3d0e3822"
       }
     ],
-    "my-law": [],
+    "my-law": [
+      {
+        "bucket": "my-law",
+        "subcategory": "official",
+        "source_name": "Bernama · 国家通讯社 → German Football Body Considers Bid To Host World Cup In 2038",
+        "url": "https://www.bernama.com/en/world/news.php?id=2564845",
+        "weight": 4,
+        "is_aggregator": false,
+        "title": "BERNAMA - German Football Body Considers Bid To Host World Cup In 2038 Or 2042",
+        "content_excerpt": "BERNAMA - German Football Body Considers Bid To Host World Cup In 2038 Or 2042 BERNAMA.com | BERNAMA TV | BERNAMA Radio | BERNAMA Images | BLIS | NewsLink5 English Malay Arabic Espa&ntilde;ol General BernamaBiz Crime & Courts Politics Sports Lifestyle Region Central Northern Southern East Sabah Sarawak World Main Nam News Network (NNN) The Organization of Asia-Pacific News Agencies (OANA) Xinhua News Agency Microsite Maju Johor HAWANA 2026 CPI MAPO MCMC Fokus BERNAMA Thoughts MyCheck fotoBERNAMA Garasi More Infographics Videos Exclusive Press Archived English Malay Arabic Espa&ntilde;ol Home General BernamaBiz Crime & Courts Politics Sports Lifestyle Region Central Northern Southern East Sabah Sarawak World Main Nam News Network (NNN) The Organization of Asia-Pacific News Agencies (OANA) Xinhua News Agency Microsite Maju Johor HAWANA 2026 CPI MAPO MCMC Fokus BERNAMA Thoughts MyCheck fotoBERNAMA Garasi More Infographics Videos Exclusive Press Archived WORLD > NEWS German Football Body Considers Bid To Host World Cup In 2038 Or 2042 04/06/2026 11:16 PM The German Football Federation (DFB) is stepping up its efforts as it considers a bid for the World Cup in 2038 or 2042, German Press Agency (dpa) reported. BERLIN, June 4 (Bernama-dpa) -- The German Football Federation (DFB) is stepping up its efforts as it considers a bid for the World Cup in 2038 or 2042, German Press Agency (dpa) reported. A DFB spokesperson confirmed to dpa that the federation has presented its ideas to the executive committee of the German Football League (DFL) for the first time. There is so far no decision in favour or against a bid. According to the Bild newspaper, 14 stadiums with a capacity of at least 40,000 people are included in the project. Euro 2024 venues in Berlin, Dortmund, Munich, Stuttgart, Frankfurt, Cologne, Dusseldorf, Gelsenkirchen, Hamburg, and Leipzig are the selected hosts along with Bremen, Kaiserslautern, M&ouml;nchengladbach, and Hanover. The DFB is currently in discussion",
+        "fetched_at": "2026-06-04T22:49:14+0000",
+        "candidate_type": "subpage",
+        "parent_url": "https://www.bernama.com/en/general/index.php",
+        "url_hash": "ca983a5120238713"
+      }
+    ],
     "fitness": [],
     "stocks": []
   },
   "bot_blocked_sources": [
-    {
-      "name": "xAI News",
-      "url": "https://x.ai/news",
-      "bucket": "ai",
-      "subcategory": "frontier_labs",
-      "weight": 4,
-      "status": 403,
-      "err": "HTTPError 403"
-    },
     {
       "name": "Meta AI Blog",
       "url": "https://ai.meta.com/blog/",
@@ -259,6 +250,15 @@
       "err": "HTTPError 403"
     },
     {
+      "name": "xAI News",
+      "url": "https://x.ai/news",
+      "bucket": "ai",
+      "subcategory": "frontier_labs",
+      "weight": 4,
+      "status": 403,
+      "err": "HTTPError 403"
+    },
+    {
       "name": "OpenAI Codex",
       "url": "https://openai.com/codex/",
       "bucket": "ai",
@@ -266,6 +266,15 @@
       "weight": 4,
       "status": 403,
       "err": "HTTPError 403"
+    },
+    {
+      "name": "Ideogram",
+      "url": "https://about.ideogram.ai/",
+      "bucket": "ai",
+      "subcategory": "image_gen",
+      "weight": 3,
+      "status": 0,
+      "err": "URLError <urlopen error [Errno 54] Connection reset by peer>"
     },
     {
       "name": "OpenAI Sora",
@@ -277,20 +286,20 @@
       "err": "HTTPError 403"
     },
     {
+      "name": "Pika",
+      "url": "https://pika.art/",
+      "bucket": "ai",
+      "subcategory": "video_gen",
+      "weight": 3,
+      "status": 429,
+      "err": "HTTPError 429"
+    },
+    {
       "name": "OpenAI Voice / Realtime",
       "url": "https://openai.com/index/introducing-the-realtime-api/",
       "bucket": "ai",
       "subcategory": "voice_audio",
       "weight": 4,
-      "status": 403,
-      "err": "HTTPError 403"
-    },
-    {
-      "name": "PitchBook AI",
-      "url": "https://pitchbook.com/news/topics/artificial-intelligence",
-      "bucket": "ai",
-      "subcategory": "ma_funding",
-      "weight": 3,
       "status": 403,
       "err": "HTTPError 403"
     },
@@ -304,31 +313,40 @@
       "err": "HTTPError 403"
     },
     {
-      "name": "Health & Fitness Association（前 IHRSA 后身）",
-      "url": "https://www.healthandfitness.org/",
-      "bucket": "fitness",
-      "subcategory": "industry",
-      "weight": 5,
-      "status": 0,
-      "err": "URLError <urlopen error [Errno 8] nodename nor servname provided, or not known>"
-    },
-    {
-      "name": "Bernama · 国家通讯社",
-      "url": "https://www.bernama.com/en/general/index.php",
-      "bucket": "my-law",
-      "subcategory": "official",
-      "weight": 4,
-      "status": 0,
-      "err": "URLError <urlopen error [Errno 8] nodename nor servname provided, or not known>"
-    },
-    {
-      "name": "Bursa Malaysia · 公告页",
-      "url": "https://www.bursamalaysia.com/market_information/announcements/company_announcement",
-      "bucket": "stocks",
-      "subcategory": "exchange_regulator",
-      "weight": 5,
+      "name": "PitchBook AI",
+      "url": "https://pitchbook.com/news/topics/artificial-intelligence",
+      "bucket": "ai",
+      "subcategory": "ma_funding",
+      "weight": 3,
       "status": 403,
       "err": "HTTPError 403"
+    },
+    {
+      "name": "Krea",
+      "url": "https://www.krea.ai/blog",
+      "bucket": "ai",
+      "subcategory": "image_gen",
+      "weight": 3,
+      "status": 0,
+      "err": "URLError The read operation timed out"
+    },
+    {
+      "name": "Nano Banana (Gemini Image)",
+      "url": "https://blog.google/technology/google-deepmind/",
+      "bucket": "ai",
+      "subcategory": "image_gen",
+      "weight": 4,
+      "status": 0,
+      "err": "URLError The read operation timed out"
+    },
+    {
+      "name": "Adobe News (含 Firefly)",
+      "url": "https://news.adobe.com/",
+      "bucket": "ai",
+      "subcategory": "image_gen",
+      "weight": 3,
+      "status": 0,
+      "err": "URLError <urlopen error _ssl.c:1112: The handshake operation timed out>"
     },
     {
       "name": "Bursa IPO Calendar",
@@ -340,8 +358,26 @@
       "err": "HTTPError 403"
     },
     {
+      "name": "Bursa Malaysia · 公告页",
+      "url": "https://www.bursamalaysia.com/market_information/announcements/company_announcement",
+      "bucket": "stocks",
+      "subcategory": "exchange_regulator",
+      "weight": 5,
+      "status": 403,
+      "err": "HTTPError 403"
+    },
+    {
       "name": "S&P Global Indices · News",
       "url": "https://www.spglobal.com/spdji/en/index-news-and-announcements/",
+      "bucket": "stocks",
+      "subcategory": "exchange_regulator",
+      "weight": 4,
+      "status": 403,
+      "err": "HTTPError 403"
+    },
+    {
+      "name": "SEC EDGAR · S-1 Filings",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&type=S-1&dateb=&owner=include&count=40",
       "bucket": "stocks",
       "subcategory": "exchange_regulator",
       "weight": 4,
@@ -356,60 +392,6 @@
       "weight": 5,
       "status": 0,
       "err": "URLError <urlopen error [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)>"
-    },
-    {
-      "name": "SEC EDGAR · S-1 Filings",
-      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&type=S-1&dateb=&owner=include&count=40",
-      "bucket": "stocks",
-      "subcategory": "exchange_regulator",
-      "weight": 4,
-      "status": 403,
-      "err": "HTTPError 403"
-    },
-    {
-      "name": "宇树 Unitree",
-      "url": "https://www.unitree.com/news",
-      "bucket": "ai",
-      "subcategory": "robotics",
-      "weight": 3,
-      "status": 0,
-      "err": "URLError The read operation timed out"
-    },
-    {
-      "name": "GitHub Trending AI",
-      "url": "https://github.com/trending?since=daily",
-      "bucket": "ai",
-      "subcategory": "opensource_trends",
-      "weight": 3,
-      "status": 0,
-      "err": "URLError The read operation timed out"
-    },
-    {
-      "name": "Papers with Code Trending",
-      "url": "https://paperswithcode.com/",
-      "bucket": "ai",
-      "subcategory": "opensource_trends",
-      "weight": 2,
-      "status": 0,
-      "err": "URLError The read operation timed out"
-    },
-    {
-      "name": "Federal Gazette · 大马官方公报",
-      "url": "https://lom.agc.gov.my/",
-      "bucket": "my-law",
-      "subcategory": "official",
-      "weight": 5,
-      "status": 0,
-      "err": "URLError The read operation timed out"
-    },
-    {
-      "name": "Parlimen Malaysia · 国会",
-      "url": "https://www.parlimen.gov.my/",
-      "bucket": "my-law",
-      "subcategory": "official",
-      "weight": 5,
-      "status": 0,
-      "err": "URLError <urlopen error _ssl.c:1112: The handshake operation timed out>"
     }
   ],
   "acts_watch_list": {
