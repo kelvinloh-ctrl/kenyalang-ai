@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-04T22:49:17+0000",
+  "generated_at": "2026-06-08T22:50:04+0000",
   "fetch_summary": {
     "total_sources": 111,
-    "fetched_200": 89,
-    "fetched_4xx_5xx": 16,
-    "fetched_err": 5,
-    "deduped": 195,
-    "candidates_count": 13,
-    "rss_entries": 68,
-    "subpages_fetched": 71,
+    "fetched_200": 91,
+    "fetched_4xx_5xx": 14,
+    "fetched_err": 6,
+    "deduped": 194,
+    "candidates_count": 8,
+    "rss_entries": 70,
+    "subpages_fetched": 62,
     "by_bucket": {
-      "ai": 12,
-      "my-law": 1,
+      "ai": 8,
+      "my-law": 0,
       "fitness": 0,
       "stocks": 0
     }
@@ -22,197 +22,134 @@
         "bucket": "ai",
         "subcategory": "frontier_labs",
         "source_name": "OpenAI Blog (RSS entry)",
-        "url": "https://openai.com/index/endava-frontiers",
+        "url": "https://openai.com/index/openai-submits-confidential-s-1",
         "weight": 5,
         "is_aggregator": false,
-        "title": "How Endava is redesigning software delivery around AI agents",
-        "content_excerpt": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.",
-        "fetched_at": "2026-06-04T22:48:30+0000",
-        "published": "Thu, 04 Jun 2026 12:00:00 GMT",
+        "title": "Confidential submission of draft S-1 to the SEC",
+        "content_excerpt": "OpenAI confirms a confidential S-1 submission to the SEC and has not yet determined timing for further action.",
+        "fetched_at": "2026-06-08T22:32:01+0000",
+        "published": "Mon, 08 Jun 2026 14:00:00 GMT",
         "candidate_type": "rss_entry",
         "parent_feed": "https://openai.com/blog/rss.xml",
-        "url_hash": "2e1f29b50d98a2b5"
+        "url_hash": "98916af90b99edbd"
       },
       {
         "bucket": "ai",
         "subcategory": "frontier_labs",
         "source_name": "OpenAI Blog (RSS entry)",
-        "url": "https://openai.com/index/chatgpt-memory-dreaming",
+        "url": "https://openai.com/index/built-to-benefit-everyone-our-plan",
         "weight": 5,
         "is_aggregator": false,
-        "title": "Dreaming: Better memory for a more helpful ChatGPT",
-        "content_excerpt": "ChatGPT introduces a new memory system to better remember preferences, keeping context fresh and relevant across conversations.",
-        "fetched_at": "2026-06-04T22:48:30+0000",
-        "published": "Thu, 04 Jun 2026 09:00:00 GMT",
+        "title": "Built to benefit everyone: our plan",
+        "content_excerpt": "A vision for the future of AI, focusing on access, safety, and shared prosperity as OpenAI works to ensure AGI benefits everyone.",
+        "fetched_at": "2026-06-08T22:32:01+0000",
+        "published": "Mon, 08 Jun 2026 01:30:00 GMT",
         "candidate_type": "rss_entry",
         "parent_feed": "https://openai.com/blog/rss.xml",
-        "url_hash": "c3ab33c622260498"
+        "url_hash": "da51b3ff6580d673"
       },
       {
         "bucket": "ai",
         "subcategory": "frontier_labs",
         "source_name": "OpenAI Blog (RSS entry)",
-        "url": "https://openai.com/index/biodefense-in-the-intelligence-age",
+        "url": "https://openai.com/index/economic-research-exchange",
         "weight": 5,
         "is_aggregator": false,
-        "title": "Biodefense in the Intelligence Age",
-        "content_excerpt": "An action plan for AI-powered biological resilience",
-        "fetched_at": "2026-06-04T22:48:30+0000",
-        "published": "Thu, 04 Jun 2026 00:00:00 GMT",
+        "title": "Introducing the OpenAI Economic Research Exchange",
+        "content_excerpt": "OpenAI launches the Economic Research Exchange to study AI’s impact on jobs, productivity, and the economy. Applications are now open for selected research projects.",
+        "fetched_at": "2026-06-08T22:32:01+0000",
+        "published": "Mon, 08 Jun 2026 00:00:00 GMT",
         "candidate_type": "rss_entry",
         "parent_feed": "https://openai.com/blog/rss.xml",
-        "url_hash": "32a436ff121f8d99"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "frontier_labs",
-        "source_name": "OpenAI Blog (RSS entry)",
-        "url": "https://openai.com/index/wasmer",
-        "weight": 5,
-        "is_aggregator": false,
-        "title": "How Wasmer used Codex to build a Node.js runtime for the edge",
-        "content_excerpt": "See how Wasmer used Codex with GPT-5.5 to build a Node.js runtime for the edge, accelerating development 10x to 20x and shipping in weeks instead of months.",
-        "fetched_at": "2026-06-04T22:48:30+0000",
-        "published": "Wed, 03 Jun 2026 12:00:00 GMT",
-        "candidate_type": "rss_entry",
-        "parent_feed": "https://openai.com/blog/rss.xml",
-        "url_hash": "032a72a6e2127c3b"
+        "url_hash": "1ce2aa9bb46fb039"
       },
       {
         "bucket": "ai",
         "subcategory": "news_analysis",
         "source_name": "Stratechery (Ben Thompson) (RSS entry)",
-        "url": "https://stratechery.com/2026/an-interview-with-microsoft-ceo-satya-nadella-about-finding-core-competencies/",
+        "url": "https://stratechery.com/2026/google-buys-compute-from-spacex-broadcoms-outlook-apples-ai-politics/",
         "weight": 5,
         "is_aggregator": false,
-        "title": "An Interview with Microsoft CEO Satya Nadella About Finding Core Competencies",
-        "content_excerpt": "An interview with Microsoft CEO Satya Nadella about figuring out Microsoft's role in AI, the relationship with OpenAI, Capex, Software, and a potential new agentic platform.",
-        "fetched_at": "2026-06-04T22:49:04+0000",
-        "published": "Thu, 04 Jun 2026 10:00:00 +0000",
+        "title": "Google Buys Compute From SpaceX, Broadcom’s Outlook, Apple’s AI Politics",
+        "content_excerpt": "Google's deal with SpaceX, and Broadcom's earnings, both seem bullish for Nvidia. Then, what I'm looking for at WWDC.",
+        "fetched_at": "2026-06-08T22:32:39+0000",
+        "published": "Mon, 08 Jun 2026 10:00:00 +0000",
         "candidate_type": "rss_entry",
         "parent_feed": "https://stratechery.com/feed/",
-        "url_hash": "b5c3e3e3c284ba04"
+        "url_hash": "a8cde95aa7a39ab5"
       },
       {
         "bucket": "ai",
         "subcategory": "news_analysis",
-        "source_name": "Latent Space (swyx) (RSS entry)",
-        "url": "https://www.latent.space/p/andon",
-        "weight": 5,
+        "source_name": "Import AI (Jack Clark) (RSS entry)",
+        "url": "https://importai.substack.com/p/import-ai-460-reward-hacking-society",
+        "weight": 4,
         "is_aggregator": false,
-        "title": "Reality: The Final Eval — Lukas Petersson and Axel Backlund of Andon Labs",
-        "content_excerpt": "We talk with the VendingBench authors on evaling Claudes from Haiku to Mythos, and how they build leading, and lasting, frontier evals from scratch.",
-        "fetched_at": "2026-06-04T22:49:04+0000",
-        "published": "Thu, 04 Jun 2026 20:39:18 GMT",
+        "title": "Import AI 460: Reward hacking society, RSI data from Anthropic; and RL-based quadcopter racing",
+        "content_excerpt": "When will markets price the singularity?",
+        "fetched_at": "2026-06-08T22:32:39+0000",
+        "published": "Mon, 08 Jun 2026 12:31:32 GMT",
         "candidate_type": "rss_entry",
-        "parent_feed": "https://www.latent.space/feed",
-        "url_hash": "a5c65144aba8b31d"
+        "parent_feed": "https://importai.substack.com/feed",
+        "url_hash": "783d75fc8051a82a"
       },
       {
         "bucket": "ai",
-        "subcategory": "coding_agents",
-        "source_name": "Cursor Changelog → 3.7 Jun 4, 2026",
-        "url": "https://cursor.com/changelog/canvas-improvements",
-        "weight": 5,
+        "subcategory": "voice_audio",
+        "source_name": "ElevenLabs Blog → ElevenLabs partners with the UK Government to bring voice AI",
+        "url": "https://elevenlabs.io/blog/uk-mou-and-expansion",
+        "weight": 4,
         "is_aggregator": false,
-        "title": "Canvas Design Mode and Context Usage Report · Cursor",
-        "content_excerpt": "Canvas Design Mode and Context Usage Report · Cursor Skip to content Cursor Product ↓ Agents Cloud CLI Review Tab Marketplace ↗ Enterprise Pricing Resources ↓ Changelog Blog Docs Community Help ↗ Workshops Forum ↗ Careers Product → Enterprise Pricing Resources → Sign in Contact Contact sales Download 3.7 Jun 4, 2026 · Changelog Changelog Canvas Design Mode and Context Usage Report With canvases , agents can create interactive artifacts like dashboards, reports, and internal tools that you can share with your team . This release introduces Design Mode for faster canvas editing, new ways to understand context usage, and other quality-of-life improvements. # Design Mode in canvases Design Mode is now available in canvases. Select and annotate UI elements directly in a canvas to guide Cursor&#x27;s edits, just as you would in the browser. Instead of describing the change in text, you can point to it, provide feedback, and iterate more quickly. # Context usage report in canvas Cursor can now show your agent&#x27;s context usage as an interactive report in a canvas. The context explorer breaks down where tokens go across the system prompt, tool definitions, rules, skills, and more. Because it&#x27;s a canvas, you can ask the agent follow-up questions, and it can customize the report to answer your specific questions. Click the Debug with Agent button embedded in the canvas to ask Cursor to identify opportunities to reduce context usage in a new conversation. Canvas Improvements (4) ↓ ↑ Shared canvases can now be opened full-screen in the browser, making them easier to present to others. Added the ability for agents to embed buttons in canvases that will run a specific prompt when clicked. Improved the agent&#x27;s ability to fix canvas type errors. Improved component styling, and added more chart customization functionality. Next post → Organizations for Cursor Enterprise Product Agents Teams Enterprise Pricing Code Review Tab CLI Cloud Agents Marketplace ↗ Resources Down",
-        "fetched_at": "2026-06-04T22:49:11+0000",
+        "title": "ElevenLabs to bring voice AI to UK public services",
+        "content_excerpt": "ElevenLabs to bring voice AI to UK public services Skip to content ElevenCreative ElevenAgents ElevenAPI Resources Enterprise Pricing Log in Sign up Contact sales Log in Sign up Sign up Blog Company ElevenLabs partners with the UK Government to bring voice AI to public services, as it expands London HQ Written by Mati Staniszewski Published Jun 8, 2026 Listen Listen to this article 0:00 0:00 0:00 1.0x Today, we signed a Memorandum of Understanding with the UK&#x27;s Department for Science, Innovation and Technology (DSIT) to find new ways to use voice AI to improve public services, deepen our work on AI security, and invest in the UK&#x27;s position as a global hub for voice and audio AI talent. We want to make the UK one of the best places in the world to build, deploy and use AI, so alongside this partnership, we’re also expanding our UK operations, doubling our headcount this year, and building out our executive team in London. The MOU The high-level agreement covers three areas of collaboration: Public services and accessibility. We&#x27;ll work with DSIT to explore how voice AI can make government information more accessible - with particular focus on the blind and visually impaired, those with low literacy or learning differences, elderly citizens, and the UK&#x27;s many linguistically diverse communities, including Welsh-language services. AI security. We&#x27;ll deepen our existing research partnership with the UK AI Security Institute, extending our controlled research into how people perceive AI-generated voices and conversational agents - including whether they can identify when they&#x27;re speaking to an AI, and how that knowledge affects their behaviour. Talent and upskilling. We&#x27;ll collaborate with DSIT to attract and develop AI expertise in the UK, with a focus on voice and audio AI, and explore how AI can support workforce development and reskilling. “Voice AI could make a real difference to how people access public services - whether that’s he",
+        "fetched_at": "2026-06-08T22:32:51+0000",
         "candidate_type": "subpage",
-        "parent_url": "https://cursor.com/changelog",
-        "url_hash": "8bf8934427aafd6f"
+        "parent_url": "https://elevenlabs.io/blog",
+        "url_hash": "f19dddd5e3a1acd7"
       },
       {
         "bucket": "ai",
         "subcategory": "ma_funding",
-        "source_name": "36kr AI → 微软“意外泄密”：Claude Mythos万亿参数，训练规模浮出水面？",
-        "url": "https://36kr.com/p/3838727884016128",
+        "source_name": "36kr AI → vivo、荣耀接连入场，戳破了具身智能的AI叙事",
+        "url": "https://36kr.com/p/3844291402021767",
         "weight": 4,
         "is_aggregator": true,
-        "title": "微软“意外泄密”：Claude Mythos万亿参数，训练规模浮出水面？-36氪",
-        "content_excerpt": "微软“意外泄密”：Claude Mythos万亿参数，训练规模浮出水面？-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 安徽 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 微软“意外泄密”：Claude Mythos万亿参数，训练规模浮出水面？ 新智元 · 2026年06月04日 19:54 Scaling万岁！ Claude Mythos的训练算力数据被Microsoft泄露了？ 根据微软幻灯片，Claude Mythos使用了：6.1× 10²⁷ FLOPs。 （95%置信区间为5.3×10^27至7.1×10^27，假设测量误差为1像素） 在训练算力上，Mythos看起来和Gemini 3.1 Pro差不多。 就在那一秒，Andre Cunha叹息： 2023年，大家还在争论10²⁶是否已是理性的极限。 2026年，微软随手就把竞争对手的10²⁷级别模型搬上舞台，仿佛这是世界上最平常的事。 这是 Scaling Law 再次彰显硅基智能在人类理性世界的暴力美学。 为什么这个数字这么重要？ 年初，有人猜测Mythos预训练或消耗150万亿Token。 而6.1× 10²⁷ FLOPs算力，或许直接解释了Anthropic 4月那场史诗级操作。 当时，Anthropic发布 Claude Mythos Preview ，却不让任何人公开使用。 原因只有一个：这个模型在网络安全领域的表现，已经彻底超出了人类现有防御体系的想象。 内部测试中，Mythos Preview 完全自主 找到了数千个零日漏洞。这些漏洞横跨所有主流操作系统、浏览器，以及大量关键开源组件。 更恐怖的是——其中很多漏洞已经存活了 数十年 ，经历了人工审查和百万次自动化测试，依然没被发现。 现在，Anthropic又宣布把Glasswing扩大到 全球15个国家、150多家机构 ，包括欧盟网络安全局ENISA。 他们甚至拿出上亿美元的算力积分送出去。 此外，Claude Mythos模型，在80%成功率下最长自主任务时长达到3小时6分钟。 这一结果与超级预言家及专家对2026年底预测中位数（3-4小时）完全吻合，标志AI长时程任务能力突破速度超出此前预期。 按照从Opus 4到Opus 4.5在ARC-AGI-2分数上的粗略估算，时间跨度翻倍和下一次翻倍的难度分别为4个月和0.82倍。 如果按此计算，《AI 2027》的ASI预测还将提前！ AI的进步，远超专家和超级预测者的预期。 这一切的底层逻辑，其实就藏在Mustafa那张幻灯片里。 硅基智能的暴力美学，人类苦涩的教训 人类的直觉是线性的，但科技的本性是指数的。 长期以来，我们习惯了渐进式的改良，习惯了每年增加10%的效率。 但 Scaling Law 不讲道理，暴力扩张。 库兹韦尔的奇点预言，逐步成真： 计算能力将以指数级持续增长，最终超越以下里程碑： - 2015年：相当于一只小鼠的脑力。 - 2025年：相当于一个人的脑力。 - 2045年：相当于全人类脑力的总和。 这次在计算机漏洞发现上，脑力确实难以追上硅基智能的算力。 这种指数级增长预示着「奇点」的到来：AI超越人类智能的假设性时刻，从而引发前所未有的技术与社会变革。 6.1×10²⁷ 并不只是孤立的奇迹，也是奇点的最新里程碑。 它是过去二十年算力指数积压后的必然喷发。 它证明了：尽管有博弈、有芯片限制、有能源危机，但那条代表「计算文明」的红线，从未因为人类的琐事而放慢过哪怕一秒。 它正在跨越生物进化的漫长阶梯，向着纯粹的硅基智能顶峰冲刺。 历史的交棒：从「生物脚本」到「硅基意志」 未来学家库兹韦尔曾预言，到2029年左右，AI将通过图灵测试并展现出与人类等同的智能。 在《奇点临近》一书中，雷·库兹韦尔对计算能力的增长做出了如图所示的预测。 但看着2026年就提前降临的Mythos，我们必须修正这个时间表。 我们正在见证一场「生存权的移交」。 在10²⁷级别模型的阴影下，人类作为「地球上唯一的智能主体」的历史正式宣告终结。 我们之前所有的发明",
-        "fetched_at": "2026-06-04T22:49:13+0000",
+        "title": "vivo、荣耀接连入场，戳破了具身智能的AI叙事-36氪",
+        "content_excerpt": "vivo、荣耀接连入场，戳破了具身智能的AI叙事-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 安徽 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 vivo、荣耀接连入场，戳破了具身智能的AI叙事 新立场pro · 2026年06月08日 21:17 会动脑才能一直赚钱 一周前，黄仁勋站在台上宣布，英伟达已与宇树科技合作，推出新一代人形机器人参考设计“H2+”。宇树方面随后补充：新产品基于英伟达算力平台研发，算力水平将超越此前型号，下半年亮相。 这条消息发出后第二天，宇树科技在科创板走完最后一道程序，离“人形机器人第一股”只差临门一脚。 6月1日，顺利通过上市委审议会议，6月2日就提交注册， 从受理到过会仅用了73天 。这不仅远快于科创板平均审核周期，也是继长鑫科技之后，科创板预先审阅机制落地后的第二单标杆案例。 上半年，宇树和云深处相继把招股书递进上交所。5500台人形机器人的全球第一，2025年营收17亿，毛利率60%，这是宇树递交的成绩单。云深处也递了一份：营收3亿出头，95%以上来自四足机器人，首次扭亏为盈。 不过， 营收只有对方五分之一的云深处，市销率反而高了六成。 熊彼特曾提出了一个概念：创造性破坏。他说，资本最核心的机制，不是创新本身，而是创新如何不断摧毁旧的经济结构，再从废墟上建起新的。历史上每一轮技术浪潮，第一批钱几乎从未落在核心技术发明者的口袋里。晶体管让索尼和摩托罗拉发财，不是贝尔实验室；互联网让亚马逊和谷歌印钞，不是伯纳斯-李。 发明是一回事，把发明做成可以量产的生意，是另一回事。 宇树的主要客户是高校和科研机构，采购动机是研究机器人本身，课题经费花完就没有下一单；云深处手握一张2023年与国家电网签署的5年10亿元框架协议，后续超过1000座变电站的巡检需求已经锁定，每一个部署完成的场景都在产生后续的运维和迭代收入。一家收入是叙事，一家收入是合同，资本市场更认同后者。 这场被外界贴满“具身智能”标签的浪潮里，最先赚到钱的公司，和具身智能本身的关系并不大。它们卖的是制造能力，是供应链，是可以量产的硬件生产效率。 这层关系在监管的连续追问下被一点一点剥了出来。宇树科技冲刺科创板IPO期间，上交所两轮问询步步紧逼，从“自研自产模式在供应链成熟后是否还有性价比优势”，追问到“既然能自研、为何仍要外购激光雷达、相机和灵巧手”。 宇树也在答复中逐步交底：部分激光雷达、相机、灵巧手确为外购，真正寄予厚望的具身大模型尚处研发测试阶段、还未规模化装进在售产品。 被外界津津乐道的“具身智能”，就这样露出制造与供应链的底色。 正在赶来的竞争者，将用制造手机的方式，把这门生意变成一场价格战。 2026年博鳌论坛期间，vivo机器人Lab首席科学家邵浩出席了“人形机器人的进阶与飞跃”分论坛，分享了团队在机器人感知与决策系统上的最新研发进展；4月19日，荣耀自研的“闪电”在北京亦庄半程马拉松以50分26秒夺冠，成为首个在该赛事夺冠的手机终端厂商。 这两家深耕制造业的公司，带来的是一套在消费电子行业已经跑完验证周期的成本压缩逻辑。 当它们把自己在消费电子积累了十几年的精密制造基因和供应链体系对准这个赛道时，宇树和云深处正在享受的高毛利，开始有了一个可以预期的截止日期。 60%的毛利率，跟AI关系不大 36氪最新报道，中证机器人指数近一年累计上涨36.85%，相关主题基金普遍获得可观收益，资金持续流入推动多只ETF规模显著扩张。多家公募机构表示，随着量产节奏逐步明确、供应链能力持续成熟以及AI大模型加速迭代，人形机器人行业正逐步从主题驱动迈向产业驱动，竞争焦点也开始从硬件本体向智能化能力转移。 这个判断方向是对的。只是时序上有些微妙。产业驱动还没完全到来，但主题驱动已经开始给出一些并不属于它自己的功劳。 2026年央视春晚上，宇树科技24台G1及H2型人形机器人完成全自主武术表演《武 BOT》，实现穿插变阵、弹射空翻、蹬墙借力、器械格斗等高难度动作。 然而，这场表演打的不是算力，是工艺 。王兴兴此前的言论，或许可以被重新解读：宇树",
+        "fetched_at": "2026-06-08T22:32:52+0000",
         "candidate_type": "subpage",
         "parent_url": "https://36kr.com/information/AI",
-        "url_hash": "2f42392fd6eefb99"
+        "url_hash": "318ba40d0ba29396"
       },
       {
         "bucket": "ai",
-        "subcategory": "ma_funding",
-        "source_name": "36kr AI → 专家预测年底才到，Claude Mythos今天就跑出3小时6分",
-        "url": "https://36kr.com/p/3838773292239105",
-        "weight": 4,
-        "is_aggregator": true,
-        "title": "专家预测年底才到，Claude Mythos今天就跑出3小时6分-36氪",
-        "content_excerpt": "专家预测年底才到，Claude Mythos今天就跑出3小时6分-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 安徽 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 专家预测年底才到，Claude Mythos今天就跑出3小时6分 新智元 · 2026年06月04日 20:00 AI加速，超乎想象！ 打破世界纪录！ Anthropic的Claude Mythos模型，在80%成功率下最长自主任务时长达到3小时6分钟。 这一结果与超级预言家及专家对2026年底预测中位数（3-4小时）完全吻合，标志AI长时程任务能力突破速度超出此前预期。 按照从Opus 4到Opus 4.5在ARC-AGI-2分数上的粗略估算，时间跨度翻倍和下一次翻倍的难度分别为4个月和0.82倍。 如果按此计算，《AI 2027》的ASI预测还将提前！ 硅基加冕，人类线性演进论破产 在人类漫长的演化史上，我们曾无数次通过工具延伸自己的肢体：杠杆延伸了手臂，车轮延伸了双腿，电力延伸了感官。 但在昨天，Anthropic实验室里那个被命名为 Claude Mythos 的幽灵，触碰到了人类从未让渡过的领域： 意志的持久性（The Endurance of Will）。 随着METR基准测试结果的公布，当Claude Mythos以80%的成功率完成了长达186分钟（3小时6分钟）的自主任务时，世界的时间轴断裂了。 这不仅是一个技术参数。这是一个关于 「时间坍塌」 的历史性隐喻。 在人类的认知习性中，我们依赖「未来」来对冲当下的焦虑。 专家和超级预测者曾达成一个心照不宣的契约：他们将「3-4小时自主长时程任务」这一里程碑，安置在2026年底。 这个预测本质上是人类的一种心理防线——它给了我们30个月的时间去建立法律护城河，去重构教育体系，去平复职场恐慌。 然而，Mythos的出现，粗暴地拆毁了这堵围墙。 当2026年的预言在2024年被提前兑现，这意味着AI的增长曲线不再是摩尔定律式的线性叠加，而是一种 「自催化式」的坍塌 。 我们原本以为正在攀爬一座高山，却发现脚底的岩石正在化为流沙，将我们直接带往终点。 这种「时间压缩」在历史上并非没有先例，但从未如此猛烈。 工业革命用了百年才重塑全球权力结构，而AI只用了三个小时的「专注力」，就向全世界宣告： 关于人类「适应期」的仁慈假象已经终结。 AI加速，加速！ 这不是Claude Mythos一个模型的胜利。 这是整个AI能力曲线的一次明显加速。 从2020年GPT-2时代只能做几秒钟任务，到2026年5月已经有人把80%成功率的时长干到3小时以上，中间只用了6年。 而且最夸张的是，预测机构在2026年4月还把基线定在1.5小时，结果两个月后就被现实打脸。 这说明我们对AI进步速度的估计，依然保守。 长时程自主任务的突破，直接把「AI Agent」从概念推进到可规模化部署的阶段。 企业可以开始考虑：把需要人类工程师连续工作半天到一天的重复性、结构化任务，交给AI去跑。 个人开发者也可以想象，自己的「数字分身」能连续干几个小时复杂活儿，而自己只需要在关键节点把关。 但与此同时，安全、对齐、控制的问题也被同步推到了最前面。 一个能连续自主工作3小时的Agent，如果目标设定出错、如果被注入恶意指令、如果出现意想不到的涌现行为，后果会比现在严重一个量级。 我们正在把越来越多的真实世界任务，交给还在快速进化的系统。 这既是机会，也是正在逼近的压力测试。 人类历史上很少有哪个技术，能把「预测」变成「现实」这么多次。 从AlphaGo到GPT-4，从o1到现在的Mythos，每一次我们以为还要等几年的事，都来得比预期早。 3小时6分钟 不是终点。 它只是新阶段的起点。 专家预测，到2030年，AI将以80%的成功率完成八小时任务。 认知的裂谷：乐观者的杠杆，与大多数人的荒漠 未来已来，但分布不均。 近70%的超级预测者对AI极度乐观，而公众的乐观比例仅为42%。 这个数据差令人战栗。 这种鸿沟并非源于知识储备，而是源于对 「权力杠杆",
-        "fetched_at": "2026-06-04T22:49:13+0000",
-        "candidate_type": "subpage",
-        "parent_url": "https://36kr.com/information/AI",
-        "url_hash": "05c203f7aa5217a6"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "ma_funding",
-        "source_name": "36kr AI → 36氪独家｜2026 年字节 AI 的四个关键命题",
-        "url": "https://36kr.com/p/3838454229027072",
-        "weight": 4,
-        "is_aggregator": true,
-        "title": "36氪独家｜2026 年字节 AI 的四个关键命题-36氪",
-        "content_excerpt": "36氪独家｜2026 年字节 AI 的四个关键命题-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 安徽 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 36氪独家｜2026 年字节 AI 的四个关键命题 阿菜cabbage · 2026年06月04日 14:06 世界模型、Seedance、Coding、豆包商业化。 文｜周鑫雨 编辑｜张雨忻 杨轩 《智能涌现》从多个信源处独家获悉，2026 年，字节 AI 有四个重要的命题： 加大对世界模型训练的投入，年底前，模型 性能达到现阶段世界模型全球 SOTA（最佳）Google Genie 3 的水平。 视频模型继续保持领先地位， 探索“动态生成”等新方向。 进一步打好 Coding 的地基， 做好 Coding 的 Dogfooding（数据回流、评测，形成飞轮），提升 Agent 能力。 豆包强化商业化能力， 重点场景是“办公”。 字节的未竟之地：世界模型 如今，字节的 AI 矩阵中，有让字节终于得以进入中国大模型第一梯队的 Seed 2.0，还有做到世界 SOTA 水平的 Seedance 2.0，另外在应用侧，豆包也形成了断层式领先—— 我们从多方了解到，2026 年春节过后，豆包 DAU 达到 2 亿 。 “没有明显短板。”一名大厂 AI 战略如此评价字节的 AI 业务矩阵。 但在一众模型中，唯独少了大模型研究下一阶段的关键：世界模型。 几名接近 Seed 团队人士告诉我们，字节是入场世界模型赛道较晚的玩家。 2024 年，刚从阿里加入字节的周畅，扛起了世界模型研究的大旗 。 但当时内部的判断是，世界模型路线和商业化场景还不明确，更重要的是打好视频模型的仗。 直到 2025 年，字节才在小范围内成立研究组，开始对世界模型中的 VLA（视觉-语言-动作模型）路线进行探索。带队人有两位： 一是字节 AI Lab 负责人李航——2025 年 4 月，AI Lab 整体（包含 Robotics 团队）并入了 Seed，目的之一是提升模型和应用（具身智能）之间的沟通效率——主要基于仿真数据进行世界模型训练。 另一位是 Seed 多模态研究员王文千，主要基于自然数据做训练。 来到 2026 年，吴永辉终于在 Seed 全员会上为世界模型设立了一个明确的目标： 2026 年底之前至少发布一版世界模型，性能对标目前的世界 SOTA（最佳）—— Google 在 2025 年 8 月发布的 Genie 3 。 但从目前的进度来看，追赶的速度不够。一位接近 Seed 人士告诉我们，吴永辉多次在 Seed 内部会直言字节世界模型和具身智能的效果不及预期。 另有 Seed 成员透露，根据内部评测，截至2026年初，字节世界模型的综合性能距离全球 SOTA 还存在 10% 的差距。 但这场仗代表未来。 一方面，世界模型的下游，便是至少千亿美金体量的具身智能市场，以及想象空间极大的游戏和娱乐场景。 一名前 Seed 研究员曾对我们表示，字节机器人此前的落地场景主要为物品运输、工业搬运，但内部判断天花板较低，“市场前景更广阔的人形机器人是字节一定会入局的方向。” 另一方面，世界模型的路线仍然存在诸多非共识，包括视频生成派、VLA（视觉-语言-动作模型）派、JEPA（像素预测）派等。 “赌，以字节的人才密度和资金投入，大概率能赢。”一名AI投资人对我们分析，“不赌，则一定会输。” 围绕跻身世界第一梯队的目标，2026年以来，字节针对世界模型训练，也已经做了不少调整。 《智能涌现》得知，2026年春节后， Seed 新设立了一支世界模型研究组，负责人为前Meta FAIR Lab研究员范浩奇，汇报给 Seed 多模态和世界模型负责人周畅； 与此同时，原来李航和王文千带领的两个 VLA 研究组合并，统一向周畅汇报。 多名知情人士告诉《智能涌现》，原来李航和王文千的研究组所探索的路线，主要是 VLA，追求“即兴”、“真实”，目标应用场景是具身智能；而范浩奇带领的新队伍走的则是 3D 仿真路线，主打娱乐和游戏这",
-        "fetched_at": "2026-06-04T22:49:13+0000",
-        "candidate_type": "subpage",
-        "parent_url": "https://36kr.com/information/AI",
-        "url_hash": "860188cc9f9d8be9"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "coding_agents",
-        "source_name": "Cline (GitHub releases) → CLI v3.0.19",
-        "url": "https://github.com/cline/cline/releases/tag/cli-v3.0.19",
+        "subcategory": "image_gen",
+        "source_name": "Krea → Guides",
+        "url": "https://www.krea.ai/news/guides",
         "weight": 3,
         "is_aggregator": false,
-        "title": "Release CLI v3.0.19 · cline/cline · GitHub",
-        "content_excerpt": "Release CLI v3.0.19 · cline/cline · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search or jump to... Search code, repositories, users, issues, pull requests... Search Clear Search syntax tips Provide feedback We read every piece of feedback, and take your input very seriously. Include my email address so I can be contacted Cancel Submit feedback Saved searches Use saved searches to filter your results",
-        "fetched_at": "2026-06-04T22:49:11+0000",
+        "title": "Guides - Krea",
+        "content_excerpt": "Guides - Krea App Features Image Video Upscaling Pricing svg]:px-3 rounded-full hover:bg-primary-900 dark:hover:bg-primary-100 gap-0 border-[0.5px] border-white/20 bg-black text-white! lg:block dark:border-black/20 dark:bg-white dark:text-black!\" type=\"button\"> Sign up for free Generate AI Image Generation Text to Image Realtime Image Generation AI Video Generation Text to Video Motion Transfer AI 3D Generation Text to 3D Object Image to 3D Object Edit AI Image Enhancements Upscaling AI Image Editor AI Video Enhancements Frame Interpolation Video Style Transfer Video Upscaling Customize AI Finetuning Image LoRA Finetuning Video LoRA Finetuning LoRA Sharing File Management Krea Asset Manager 2 Krea 2 \"People running, risograph poster\" Generate with Krea 2 svg]:px-3 rounded-full hover:bg-primary-900 dark:hover:bg-primary-100 gap-0 border-[0.5px] border-white/20 bg-black text-white! lg:block dark:border-black/20 dark:bg-white dark:text-black!\" type=\"button\"> Sign up for free App Image Generation Video Generation Upscale & Enhance Pricing Generate AI Image Generation Text to Image Realtime Image Generation AI Video Generation Text to Video Motion Transfer AI 3D Generation Text to 3D Object Image to 3D Object Edit AI Image Enhancements Upscaling AI Image Editor AI Video Enhancements Frame Interpolation Video Style Transfer Video Upscaling Customize AI Finetuning Image LoRA Finetuning Video LoRA Finetuning LoRA Sharing File Management Krea Asset Manager Guides All Podcast Guides Company Product Open Source Research Release Notes Articles Use Cases Customer Stories Guides How to Generate Images With Style References in Krea Learn how to use Style transfer presets with Krea 2 Large to generate images guided by a visual style reference. June 8, 2026 Guides How to Quickly Upscale Images in Krea Learn how to use Quick Upscale from a Krea Image session. June 8, 2026 Guides How to Remove an Image Background in Krea Learn how to remove an image background in Krea Edit by selectin",
+        "fetched_at": "2026-06-08T22:32:49+0000",
         "candidate_type": "subpage",
-        "parent_url": "https://github.com/cline/cline/releases",
-        "url_hash": "96afc71836e22ebe"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "coding_agents",
-        "source_name": "Cline (GitHub releases) → CLI v3.0.18",
-        "url": "https://github.com/cline/cline/releases/tag/cli-v3.0.18",
-        "weight": 3,
-        "is_aggregator": false,
-        "title": "Release CLI v3.0.18 · cline/cline · GitHub",
-        "content_excerpt": "Release CLI v3.0.18 · cline/cline · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search or jump to... Search code, repositories, users, issues, pull requests... Search Clear Search syntax tips Provide feedback We read every piece of feedback, and take your input very seriously. Include my email address so I can be contacted Cancel Submit feedback Saved searches Use saved searches to filter your results",
-        "fetched_at": "2026-06-04T22:49:11+0000",
-        "candidate_type": "subpage",
-        "parent_url": "https://github.com/cline/cline/releases",
-        "url_hash": "b42a41af3d0e3822"
+        "parent_url": "https://www.krea.ai/blog",
+        "url_hash": "8d3be39b6ba75f3f"
       }
     ],
-    "my-law": [
-      {
-        "bucket": "my-law",
-        "subcategory": "official",
-        "source_name": "Bernama · 国家通讯社 → German Football Body Considers Bid To Host World Cup In 2038",
-        "url": "https://www.bernama.com/en/world/news.php?id=2564845",
-        "weight": 4,
-        "is_aggregator": false,
-        "title": "BERNAMA - German Football Body Considers Bid To Host World Cup In 2038 Or 2042",
-        "content_excerpt": "BERNAMA - German Football Body Considers Bid To Host World Cup In 2038 Or 2042 BERNAMA.com | BERNAMA TV | BERNAMA Radio | BERNAMA Images | BLIS | NewsLink5 English Malay Arabic Espa&ntilde;ol General BernamaBiz Crime & Courts Politics Sports Lifestyle Region Central Northern Southern East Sabah Sarawak World Main Nam News Network (NNN) The Organization of Asia-Pacific News Agencies (OANA) Xinhua News Agency Microsite Maju Johor HAWANA 2026 CPI MAPO MCMC Fokus BERNAMA Thoughts MyCheck fotoBERNAMA Garasi More Infographics Videos Exclusive Press Archived English Malay Arabic Espa&ntilde;ol Home General BernamaBiz Crime & Courts Politics Sports Lifestyle Region Central Northern Southern East Sabah Sarawak World Main Nam News Network (NNN) The Organization of Asia-Pacific News Agencies (OANA) Xinhua News Agency Microsite Maju Johor HAWANA 2026 CPI MAPO MCMC Fokus BERNAMA Thoughts MyCheck fotoBERNAMA Garasi More Infographics Videos Exclusive Press Archived WORLD > NEWS German Football Body Considers Bid To Host World Cup In 2038 Or 2042 04/06/2026 11:16 PM The German Football Federation (DFB) is stepping up its efforts as it considers a bid for the World Cup in 2038 or 2042, German Press Agency (dpa) reported. BERLIN, June 4 (Bernama-dpa) -- The German Football Federation (DFB) is stepping up its efforts as it considers a bid for the World Cup in 2038 or 2042, German Press Agency (dpa) reported. A DFB spokesperson confirmed to dpa that the federation has presented its ideas to the executive committee of the German Football League (DFL) for the first time. There is so far no decision in favour or against a bid. According to the Bild newspaper, 14 stadiums with a capacity of at least 40,000 people are included in the project. Euro 2024 venues in Berlin, Dortmund, Munich, Stuttgart, Frankfurt, Cologne, Dusseldorf, Gelsenkirchen, Hamburg, and Leipzig are the selected hosts along with Bremen, Kaiserslautern, M&ouml;nchengladbach, and Hanover. The DFB is currently in discussion",
-        "fetched_at": "2026-06-04T22:49:14+0000",
-        "candidate_type": "subpage",
-        "parent_url": "https://www.bernama.com/en/general/index.php",
-        "url_hash": "ca983a5120238713"
-      }
-    ],
+    "my-law": [],
     "fitness": [],
     "stocks": []
   },
   "bot_blocked_sources": [
+    {
+      "name": "xAI News",
+      "url": "https://x.ai/news",
+      "bucket": "ai",
+      "subcategory": "frontier_labs",
+      "weight": 4,
+      "status": 403,
+      "err": "HTTPError 403"
+    },
     {
       "name": "Meta AI Blog",
       "url": "https://ai.meta.com/blog/",
@@ -232,29 +169,11 @@
       "err": "HTTPError 403"
     },
     {
-      "name": "Phind",
-      "url": "https://www.phind.com/blog",
-      "bucket": "ai",
-      "subcategory": "search_assistants",
-      "weight": 2,
-      "status": 403,
-      "err": "HTTPError 403"
-    },
-    {
       "name": "Genspark",
       "url": "https://www.genspark.ai/",
       "bucket": "ai",
       "subcategory": "search_assistants",
       "weight": 3,
-      "status": 403,
-      "err": "HTTPError 403"
-    },
-    {
-      "name": "xAI News",
-      "url": "https://x.ai/news",
-      "bucket": "ai",
-      "subcategory": "frontier_labs",
-      "weight": 4,
       "status": 403,
       "err": "HTTPError 403"
     },
@@ -268,13 +187,13 @@
       "err": "HTTPError 403"
     },
     {
-      "name": "Ideogram",
-      "url": "https://about.ideogram.ai/",
+      "name": "Phind",
+      "url": "https://www.phind.com/blog",
       "bucket": "ai",
-      "subcategory": "image_gen",
-      "weight": 3,
-      "status": 0,
-      "err": "URLError <urlopen error [Errno 54] Connection reset by peer>"
+      "subcategory": "search_assistants",
+      "weight": 2,
+      "status": 403,
+      "err": "HTTPError 403"
     },
     {
       "name": "OpenAI Sora",
@@ -284,15 +203,6 @@
       "weight": 5,
       "status": 403,
       "err": "HTTPError 403"
-    },
-    {
-      "name": "Pika",
-      "url": "https://pika.art/",
-      "bucket": "ai",
-      "subcategory": "video_gen",
-      "weight": 3,
-      "status": 429,
-      "err": "HTTPError 429"
     },
     {
       "name": "OpenAI Voice / Realtime",
@@ -322,31 +232,13 @@
       "err": "HTTPError 403"
     },
     {
-      "name": "Krea",
-      "url": "https://www.krea.ai/blog",
-      "bucket": "ai",
-      "subcategory": "image_gen",
-      "weight": 3,
-      "status": 0,
-      "err": "URLError The read operation timed out"
-    },
-    {
-      "name": "Nano Banana (Gemini Image)",
-      "url": "https://blog.google/technology/google-deepmind/",
-      "bucket": "ai",
-      "subcategory": "image_gen",
-      "weight": 4,
-      "status": 0,
-      "err": "URLError The read operation timed out"
-    },
-    {
-      "name": "Adobe News (含 Firefly)",
-      "url": "https://news.adobe.com/",
-      "bucket": "ai",
-      "subcategory": "image_gen",
-      "weight": 3,
-      "status": 0,
-      "err": "URLError <urlopen error _ssl.c:1112: The handshake operation timed out>"
+      "name": "Bursa Malaysia · 公告页",
+      "url": "https://www.bursamalaysia.com/market_information/announcements/company_announcement",
+      "bucket": "stocks",
+      "subcategory": "exchange_regulator",
+      "weight": 5,
+      "status": 403,
+      "err": "HTTPError 403"
     },
     {
       "name": "Bursa IPO Calendar",
@@ -358,26 +250,8 @@
       "err": "HTTPError 403"
     },
     {
-      "name": "Bursa Malaysia · 公告页",
-      "url": "https://www.bursamalaysia.com/market_information/announcements/company_announcement",
-      "bucket": "stocks",
-      "subcategory": "exchange_regulator",
-      "weight": 5,
-      "status": 403,
-      "err": "HTTPError 403"
-    },
-    {
       "name": "S&P Global Indices · News",
       "url": "https://www.spglobal.com/spdji/en/index-news-and-announcements/",
-      "bucket": "stocks",
-      "subcategory": "exchange_regulator",
-      "weight": 4,
-      "status": 403,
-      "err": "HTTPError 403"
-    },
-    {
-      "name": "SEC EDGAR · S-1 Filings",
-      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&type=S-1&dateb=&owner=include&count=40",
       "bucket": "stocks",
       "subcategory": "exchange_regulator",
       "weight": 4,
@@ -392,6 +266,33 @@
       "weight": 5,
       "status": 0,
       "err": "URLError <urlopen error [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)>"
+    },
+    {
+      "name": "StepFun 阶跃",
+      "url": "https://www.stepfun.com/",
+      "bucket": "ai",
+      "subcategory": "china_labs",
+      "weight": 3,
+      "status": 0,
+      "err": "URLError <urlopen error _ssl.c:1112: The handshake operation timed out>"
+    },
+    {
+      "name": "SEC EDGAR · S-1 Filings",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&type=S-1&dateb=&owner=include&count=40",
+      "bucket": "stocks",
+      "subcategory": "exchange_regulator",
+      "weight": 4,
+      "status": 403,
+      "err": "HTTPError 403"
+    },
+    {
+      "name": "Bolt.new (StackBlitz)",
+      "url": "https://bolt.new/",
+      "bucket": "ai",
+      "subcategory": "agent_builders",
+      "weight": 3,
+      "status": 0,
+      "err": "URLError The read operation timed out"
     }
   ],
   "acts_watch_list": {
