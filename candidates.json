@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-08T22:50:04+0000",
+  "generated_at": "2026-06-09T06:30:49+0000",
   "fetch_summary": {
     "total_sources": 111,
-    "fetched_200": 91,
-    "fetched_4xx_5xx": 14,
-    "fetched_err": 6,
-    "deduped": 194,
-    "candidates_count": 8,
+    "fetched_200": 93,
+    "fetched_4xx_5xx": 15,
+    "fetched_err": 3,
+    "deduped": 212,
+    "candidates_count": 4,
     "rss_entries": 70,
-    "subpages_fetched": 62,
+    "subpages_fetched": 75,
     "by_bucket": {
-      "ai": 8,
+      "ai": 4,
       "my-law": 0,
       "fitness": 0,
       "stocks": 0
@@ -20,120 +20,59 @@
     "ai": [
       {
         "bucket": "ai",
-        "subcategory": "frontier_labs",
-        "source_name": "OpenAI Blog (RSS entry)",
-        "url": "https://openai.com/index/openai-submits-confidential-s-1",
-        "weight": 5,
-        "is_aggregator": false,
-        "title": "Confidential submission of draft S-1 to the SEC",
-        "content_excerpt": "OpenAI confirms a confidential S-1 submission to the SEC and has not yet determined timing for further action.",
-        "fetched_at": "2026-06-08T22:32:01+0000",
-        "published": "Mon, 08 Jun 2026 14:00:00 GMT",
-        "candidate_type": "rss_entry",
-        "parent_feed": "https://openai.com/blog/rss.xml",
-        "url_hash": "98916af90b99edbd"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "frontier_labs",
-        "source_name": "OpenAI Blog (RSS entry)",
-        "url": "https://openai.com/index/built-to-benefit-everyone-our-plan",
-        "weight": 5,
-        "is_aggregator": false,
-        "title": "Built to benefit everyone: our plan",
-        "content_excerpt": "A vision for the future of AI, focusing on access, safety, and shared prosperity as OpenAI works to ensure AGI benefits everyone.",
-        "fetched_at": "2026-06-08T22:32:01+0000",
-        "published": "Mon, 08 Jun 2026 01:30:00 GMT",
-        "candidate_type": "rss_entry",
-        "parent_feed": "https://openai.com/blog/rss.xml",
-        "url_hash": "da51b3ff6580d673"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "frontier_labs",
-        "source_name": "OpenAI Blog (RSS entry)",
-        "url": "https://openai.com/index/economic-research-exchange",
-        "weight": 5,
-        "is_aggregator": false,
-        "title": "Introducing the OpenAI Economic Research Exchange",
-        "content_excerpt": "OpenAI launches the Economic Research Exchange to study AI’s impact on jobs, productivity, and the economy. Applications are now open for selected research projects.",
-        "fetched_at": "2026-06-08T22:32:01+0000",
-        "published": "Mon, 08 Jun 2026 00:00:00 GMT",
-        "candidate_type": "rss_entry",
-        "parent_feed": "https://openai.com/blog/rss.xml",
-        "url_hash": "1ce2aa9bb46fb039"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "news_analysis",
-        "source_name": "Stratechery (Ben Thompson) (RSS entry)",
-        "url": "https://stratechery.com/2026/google-buys-compute-from-spacex-broadcoms-outlook-apples-ai-politics/",
-        "weight": 5,
-        "is_aggregator": false,
-        "title": "Google Buys Compute From SpaceX, Broadcom’s Outlook, Apple’s AI Politics",
-        "content_excerpt": "Google's deal with SpaceX, and Broadcom's earnings, both seem bullish for Nvidia. Then, what I'm looking for at WWDC.",
-        "fetched_at": "2026-06-08T22:32:39+0000",
-        "published": "Mon, 08 Jun 2026 10:00:00 +0000",
-        "candidate_type": "rss_entry",
-        "parent_feed": "https://stratechery.com/feed/",
-        "url_hash": "a8cde95aa7a39ab5"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "news_analysis",
-        "source_name": "Import AI (Jack Clark) (RSS entry)",
-        "url": "https://importai.substack.com/p/import-ai-460-reward-hacking-society",
+        "subcategory": "ma_funding",
+        "source_name": "36kr AI → 微信agent发出“英雄令”，互联网半壁江山响应",
+        "url": "https://36kr.com/p/3845399354870020",
         "weight": 4,
-        "is_aggregator": false,
-        "title": "Import AI 460: Reward hacking society, RSI data from Anthropic; and RL-based quadcopter racing",
-        "content_excerpt": "When will markets price the singularity?",
-        "fetched_at": "2026-06-08T22:32:39+0000",
-        "published": "Mon, 08 Jun 2026 12:31:32 GMT",
-        "candidate_type": "rss_entry",
-        "parent_feed": "https://importai.substack.com/feed",
-        "url_hash": "783d75fc8051a82a"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "voice_audio",
-        "source_name": "ElevenLabs Blog → ElevenLabs partners with the UK Government to bring voice AI",
-        "url": "https://elevenlabs.io/blog/uk-mou-and-expansion",
-        "weight": 4,
-        "is_aggregator": false,
-        "title": "ElevenLabs to bring voice AI to UK public services",
-        "content_excerpt": "ElevenLabs to bring voice AI to UK public services Skip to content ElevenCreative ElevenAgents ElevenAPI Resources Enterprise Pricing Log in Sign up Contact sales Log in Sign up Sign up Blog Company ElevenLabs partners with the UK Government to bring voice AI to public services, as it expands London HQ Written by Mati Staniszewski Published Jun 8, 2026 Listen Listen to this article 0:00 0:00 0:00 1.0x Today, we signed a Memorandum of Understanding with the UK&#x27;s Department for Science, Innovation and Technology (DSIT) to find new ways to use voice AI to improve public services, deepen our work on AI security, and invest in the UK&#x27;s position as a global hub for voice and audio AI talent. We want to make the UK one of the best places in the world to build, deploy and use AI, so alongside this partnership, we’re also expanding our UK operations, doubling our headcount this year, and building out our executive team in London. The MOU The high-level agreement covers three areas of collaboration: Public services and accessibility. We&#x27;ll work with DSIT to explore how voice AI can make government information more accessible - with particular focus on the blind and visually impaired, those with low literacy or learning differences, elderly citizens, and the UK&#x27;s many linguistically diverse communities, including Welsh-language services. AI security. We&#x27;ll deepen our existing research partnership with the UK AI Security Institute, extending our controlled research into how people perceive AI-generated voices and conversational agents - including whether they can identify when they&#x27;re speaking to an AI, and how that knowledge affects their behaviour. Talent and upskilling. We&#x27;ll collaborate with DSIT to attract and develop AI expertise in the UK, with a focus on voice and audio AI, and explore how AI can support workforce development and reskilling. “Voice AI could make a real difference to how people access public services - whether that’s he",
-        "fetched_at": "2026-06-08T22:32:51+0000",
+        "is_aggregator": true,
+        "title": "微信agent发出“英雄令”，互联网半壁江山响应-36氪",
+        "content_excerpt": "微信agent发出“英雄令”，互联网半壁江山响应-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 安徽 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 微信agent发出“英雄令”，互联网半壁江山响应 字母AI · 2026年06月09日 12:05 14亿人的聊天工具，正在变成AI管家 微信Agent真的要来了。 微信开放平台发布了这样一条关于微信AI开发者指引的内容。 指引称，为给用户提供更智能的交互体验，帮助用户更敏捷地发现并使用小程序服务，微信开放平台在充分尊重开发者权益和自主选择的基础上，为开发者提供便捷接入微信AI生态的能力。 接入后，小程序将有机会被微信AI推荐和调用。未完成接入的小程序，将无法被微信AI调用。 平台提供了两种接入模式。自动模式，授权平台提审时读取小程序源码，无需投入额外开发。开发模式，开发者可基于小程序业务特性，自主个性化开发。 同一天，美团官宣率先接入微信AI生态。作为首批内测团队，美团此前已与微信团队联合开发并测试接入。未来，用户可通过微信AI调用美团外卖等本地生活服务。 携程、同程等生活服务平台也先后宣布接入微信。 早在几天前，腾讯客服就表示，微信正在与华为、小米、荣耀、OPPO、vivo 等手机厂商合作推出A2A助手能力，目前已有多家厂商完成接入。 用户可以通过对应手机系统的AI助手发起微信音视频通话或向指定好友发送消息。 这其实不是第一次有关微信AI的消息了。早在今年3月，就有外媒表示，腾讯在微信内部推进一项高度保密的AI Agent项目。 6月2日，外媒发布消息称，腾讯正在测试微信内置AI Agent原型，最快将于本月启动合规审批流程。报道发布当天，腾讯股价收盘上涨10.5%，单日市值增加超过3000亿港元，创下自2021年1月以来最大单日涨幅。 微信AI，或许就是腾讯AI下半场的终极答案。 01 微信AI的轮廓 看过早期演示的人士透露，用户可以在微信主界面向右滑动，调出AI Agent的对话窗口。用户输入指令后，Agent会自动调用微信生态里的小程序，完成筛选、下单、预订这类任务。 比如你说“帮我点一杯30元以内、不太甜、附近能自取的咖啡”，Agent就会自动调用微信里的小程序，帮你筛选咖啡店、匹配口味和价格，甚至完成下单流程。 光听描述，它和豆包、千问这些AI聊天机器人没什么区别。 但这里面特殊的地方在于，微信AI拥有整个微信生态的调度权。 腾讯在2025年年报中明确提到，目标是在微信生态内建设下一代Agentic services，把小程序、内容、社交和支付能力连接起来。截至2026年3月31日，微信及 WeChat 合并月活达14.32亿。 也就是说，微信AI一旦上线，不管是好是坏，它都注定是一个超级应用。 微信里有数百万个小程序，覆盖打车、外卖、订票、买菜等日常生活场景。国内头部互联网服务几乎都在这一生态中设有小程序入口。 微信AI的核心能力，就是让AI能够调用这些小程序里的服务和交易能力，完成从认知到决策再到执行的完整闭环。 那它要怎么做呢？ 首先是理解用户意图。 用户说“帮我订个餐厅”，在家庭群里说和在工作群里说，意思完全不同。 谁在参与、谁能拍板、预算多少、有什么忌口、任务进行到了哪一步，这些都是Agent需要理解的上下文。难点在于微信里的任务天然跨越时间，家庭群讨论暑假的对话可能断断续续持续好几天。 然后是调用工具。 Agent需要动手，用搜一搜查信息，用小程序完成查询和比价，用微信支付完成交易，用服务通知把结果反馈给用户。 根据QuestMobile《2026全景生态流量春季报告》，小程序日活已超过9亿，覆盖几百个细分领域。 现在工具箱足够大了，问题是微信AI用得明白吗？ 腾讯在3月18日发布的论文中透露了一些技术细节。微信团队开发了 UI-Oceanus，这是一个专门为小程序生态设计的世界模型。它的作用是预测操作结果。Agent找到了按钮，但点下去会发生什么？页面会跳转到哪里？会弹出什么窗口？支付流程会不会启动？ 人类操作APP的时候对这些有直觉，Agent没有这",
+        "fetched_at": "2026-06-09T06:30:42+0000",
         "candidate_type": "subpage",
-        "parent_url": "https://elevenlabs.io/blog",
-        "url_hash": "f19dddd5e3a1acd7"
+        "parent_url": "https://36kr.com/information/AI",
+        "url_hash": "a9d6b4f2ecb46441"
       },
       {
         "bucket": "ai",
         "subcategory": "ma_funding",
-        "source_name": "36kr AI → vivo、荣耀接连入场，戳破了具身智能的AI叙事",
-        "url": "https://36kr.com/p/3844291402021767",
+        "source_name": "36kr AI → 24小时在线的Agent，正批量为外贸企业送来订单",
+        "url": "https://36kr.com/p/3844402952391177",
         "weight": 4,
         "is_aggregator": true,
-        "title": "vivo、荣耀接连入场，戳破了具身智能的AI叙事-36氪",
-        "content_excerpt": "vivo、荣耀接连入场，戳破了具身智能的AI叙事-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 安徽 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 vivo、荣耀接连入场，戳破了具身智能的AI叙事 新立场pro · 2026年06月08日 21:17 会动脑才能一直赚钱 一周前，黄仁勋站在台上宣布，英伟达已与宇树科技合作，推出新一代人形机器人参考设计“H2+”。宇树方面随后补充：新产品基于英伟达算力平台研发，算力水平将超越此前型号，下半年亮相。 这条消息发出后第二天，宇树科技在科创板走完最后一道程序，离“人形机器人第一股”只差临门一脚。 6月1日，顺利通过上市委审议会议，6月2日就提交注册， 从受理到过会仅用了73天 。这不仅远快于科创板平均审核周期，也是继长鑫科技之后，科创板预先审阅机制落地后的第二单标杆案例。 上半年，宇树和云深处相继把招股书递进上交所。5500台人形机器人的全球第一，2025年营收17亿，毛利率60%，这是宇树递交的成绩单。云深处也递了一份：营收3亿出头，95%以上来自四足机器人，首次扭亏为盈。 不过， 营收只有对方五分之一的云深处，市销率反而高了六成。 熊彼特曾提出了一个概念：创造性破坏。他说，资本最核心的机制，不是创新本身，而是创新如何不断摧毁旧的经济结构，再从废墟上建起新的。历史上每一轮技术浪潮，第一批钱几乎从未落在核心技术发明者的口袋里。晶体管让索尼和摩托罗拉发财，不是贝尔实验室；互联网让亚马逊和谷歌印钞，不是伯纳斯-李。 发明是一回事，把发明做成可以量产的生意，是另一回事。 宇树的主要客户是高校和科研机构，采购动机是研究机器人本身，课题经费花完就没有下一单；云深处手握一张2023年与国家电网签署的5年10亿元框架协议，后续超过1000座变电站的巡检需求已经锁定，每一个部署完成的场景都在产生后续的运维和迭代收入。一家收入是叙事，一家收入是合同，资本市场更认同后者。 这场被外界贴满“具身智能”标签的浪潮里，最先赚到钱的公司，和具身智能本身的关系并不大。它们卖的是制造能力，是供应链，是可以量产的硬件生产效率。 这层关系在监管的连续追问下被一点一点剥了出来。宇树科技冲刺科创板IPO期间，上交所两轮问询步步紧逼，从“自研自产模式在供应链成熟后是否还有性价比优势”，追问到“既然能自研、为何仍要外购激光雷达、相机和灵巧手”。 宇树也在答复中逐步交底：部分激光雷达、相机、灵巧手确为外购，真正寄予厚望的具身大模型尚处研发测试阶段、还未规模化装进在售产品。 被外界津津乐道的“具身智能”，就这样露出制造与供应链的底色。 正在赶来的竞争者，将用制造手机的方式，把这门生意变成一场价格战。 2026年博鳌论坛期间，vivo机器人Lab首席科学家邵浩出席了“人形机器人的进阶与飞跃”分论坛，分享了团队在机器人感知与决策系统上的最新研发进展；4月19日，荣耀自研的“闪电”在北京亦庄半程马拉松以50分26秒夺冠，成为首个在该赛事夺冠的手机终端厂商。 这两家深耕制造业的公司，带来的是一套在消费电子行业已经跑完验证周期的成本压缩逻辑。 当它们把自己在消费电子积累了十几年的精密制造基因和供应链体系对准这个赛道时，宇树和云深处正在享受的高毛利，开始有了一个可以预期的截止日期。 60%的毛利率，跟AI关系不大 36氪最新报道，中证机器人指数近一年累计上涨36.85%，相关主题基金普遍获得可观收益，资金持续流入推动多只ETF规模显著扩张。多家公募机构表示，随着量产节奏逐步明确、供应链能力持续成熟以及AI大模型加速迭代，人形机器人行业正逐步从主题驱动迈向产业驱动，竞争焦点也开始从硬件本体向智能化能力转移。 这个判断方向是对的。只是时序上有些微妙。产业驱动还没完全到来，但主题驱动已经开始给出一些并不属于它自己的功劳。 2026年央视春晚上，宇树科技24台G1及H2型人形机器人完成全自主武术表演《武 BOT》，实现穿插变阵、弹射空翻、蹬墙借力、器械格斗等高难度动作。 然而，这场表演打的不是算力，是工艺 。王兴兴此前的言论，或许可以被重新解读：宇树",
-        "fetched_at": "2026-06-08T22:32:52+0000",
+        "title": "24小时在线的Agent，正批量为外贸企业送来订单-36氪",
+        "content_excerpt": "24小时在线的Agent，正批量为外贸企业送来订单-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 安徽 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 24小时在线的Agent，正批量为外贸企业送来订单 晓曦 · 2026年06月09日 13:10 一家深耕外贸SaaS二十多年的企业，如何用Agent跑通从获客到成交的全链路？富通天下将腾讯云ClawPro、智能体开发平台ADP与CodeBuddy深度接入业务，让Agent替业务员做背调、判线索、生成报价、24小时多语种自动回复。6万家外贸企业接入后，成交转化率提升100%。 凌晨两点的外贸业务员，终于能够放心睡觉了。 这是将Agent接入工作流后，一个一线外贸打工人，最能直观感受到的变化之一。 以往，海外买家会跨多达十几个小时的时差来询盘问价，为了不错过跨时区的成交机会，业务员往往要24小时待命，一旦有一刻放松，商机就有可能消失在茫茫互联网之中。而且，就算及时回复了消息，因为语言不通或者文化差异“说错话”，这个单子也有可能插翅而飞。 作为一家深耕外贸SaaS二十余年的企业，富通天下可以说是经历了行业的每一次技术变革：信息化、大模型、智能体……这家公司始终在思考一个问题，如何让新技术，真正解决外贸行业的痛点？ 入行20余年，富通天下联合创始人兼CTO林琦亲身体会过外贸行业现实的压力与无奈。正因如此，林琦对AI Agent能做到什么格外期待。今年，富通天下将腾讯云ClawPro深度集成到自己的私域营销管理云平台里，林琦看到的是全天候在线的AI客服，不仅支持全球多个国家的语言，“甚至比业务员更专业，会学习和背调客户的喜好、语气，或者各个国家的宗教文化习惯”。数据是更有力的证明，超过6万家外贸企业客户在深度使用富通天下Agent之后，询盘成交转化率从低于3%抬升至8%到20%、高价值询盘占比提升40%、独立站及时回复率有98%、谷歌首屏排名占比提升30%。 富通天下联合创始人兼CTO林琦 在跑出实实在在的转化率之后，林琦觉得，这一次，他们终于可以不再为AI带来的生产力革命而焦虑了。 从获客到成交，AI Agent是怎么跑通的？ 对外贸从业者来说，最核心的业务，就是“获客”。 一边是客户越来越难找了，另一边是不少企业还在采取效率极低的方式来获客。“外贸业务员需要通过Google、社媒平台、展会网站、国外B2B平台等多种渠道，根据公司的特点搜索客户，相当于大海捞针，”林琦所描述的，正是大多数外贸业务员的日常，“找到客户以后还得找联系方式，再写邮件群发，很多时候也是杳无音讯。” 加上了客户，也不代表就真正实现转化。特别在客户开始询盘后，业务员还要快速考虑和判断很多事情：“客户的实力怎么样？我们的报价有没有优势？我们的产能和交货周期能不能满足？”林琦说，甚至还会有一些“骗子”询盘，也需要业务员有辨别真假的能力，“业务员如果认认真真准备下来，一项询盘就要花费两三个小时。”这对追求效率的外贸行业来说，算得上是致命伤。 但随着Agent的出现，一切变得不一样了。接入腾讯云ClawPro之后，富通天下打造出了一个智能体矩阵。他们将行业Agent分为三大角色，分别是获客AI机器人、客情AI数字人、决策AI协管人。林琦发现，“AI的工作效率对人是降维打击，相当于100个人对1个人。” 落到具体场景里，这个“100对1”最先改变的，是外贸链路最难熬的两头。 一头是找客户并接住。收到询盘之后，做背调、报价、写回复，这些交给Agent，几分钟就跑完全套流程，报价参考历史订单，回复直接可以发出去。AI客服24小时在线，98%的询盘即时响应，调的是产品知识库和历史订单数据，专业问题的回复质量比人工高出一倍。这两头同时补上，询盘转化率从行业平均不足3%升到了8%-20%，要知道，现在公域平台的流量越来越贵、且行业越来越内卷，很多企业成交率连 1% 都保不住。 接住询盘只是一半，另一半是让客户主动找过来，这是独立站要解决的事。独立站难做，在于运营效率低、人才少。做好SEO要有人懂关键词、懂内容、懂外链；投广告又是另一",
+        "fetched_at": "2026-06-09T06:30:42+0000",
         "candidate_type": "subpage",
         "parent_url": "https://36kr.com/information/AI",
-        "url_hash": "318ba40d0ba29396"
+        "url_hash": "21d73508bc8be086"
       },
       {
         "bucket": "ai",
-        "subcategory": "image_gen",
-        "source_name": "Krea → Guides",
-        "url": "https://www.krea.ai/news/guides",
+        "subcategory": "ma_funding",
+        "source_name": "36kr AI → 下一代企业AI平台，需要怎样的Agent？",
+        "url": "https://36kr.com/p/3845399248439553",
+        "weight": 4,
+        "is_aggregator": true,
+        "title": "谁来管住失控的token？-36氪",
+        "content_excerpt": "谁来管住失控的token？-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 安徽 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 谁来管住失控的token？ 字母AI · 2026年06月09日 12:05 下一代企业AI平台，需要怎样的Agent？ 今年以来，Token经济概念火爆全球。但在刚刚过去的5月底，亚马逊却选择关闭内部AI使用榜单“KiroRank”。 这个榜单原本统计员工在Kiro开发平台上的Token消耗。然而，榜单启用后，一些员工让AI执行无意义任务，只为把使用量刷高。 亚马逊高级副总裁Dave Treadwell随后提醒员工，不要为了使用AI而使用AI。外媒报道称，亚马逊已经把考核重点从原始Token消耗转向“标准化部署”，也就是工程师用AI实际交付了多少可用结果。 企业AI第一轮热潮里，管理层最常问的是员工有没有用AI，部门有没有接入AI，业务有没有做Agent。KiroRank关闭后，第一批大规模应用AI的企业，开始面对另一个问题：AI用量被推高以后，谁能证明它带来了业务结果？ 本月初，一个新词开始在美国企业AI圈层流行：AI sticker shock（AI账单震惊）。 按量计费的AI产品进入企业后，企业用户发现支出账单变得难以预测。Agent进入企业后，又面临海量Token消耗带来的成本攀升。 于是，一个问题被反复提及：企业真正需要的Agent平台，究竟应该是什么样？ 这个由Agent生态引发的系统性问题，正在等待新一代企业级AI平台作答。 01 失控的Token 亚马逊关闭内部AI榜单“KiroRank”背后，是企业大量应用AI后，Token反而“失控”的现实。 亚马逊原本希望用榜单鼓励工程师使用Kiro开发平台，但结果是一些员工让AI执行无意义任务，把使用量刷高。 这是企业AI落地后的第一重困境：用量会失真。员工用了多少AI，部门建了多少Agent，都可以出现在汇报文档上。但企业真正关心的是，项目有没有推进，Agent做出了多少产出，人工链路有没有被缩短。 瑞典金融科技公司Klarna也在客服场景遇到了相似困境。 2024年，Klarna曾对外称，AI客服承担了相当于700名全职客服的工作。一年后，公司开始重新招聘人工客服。Klarna CEO Siemiatkowski承认，过度转向AI影响了服务质量。 Klarna前后两次动作，让行业开始重新审视：AI节省下来的成本，如果换来更多复核成本，就不能称得上是靠谱的生产力。 在组织管理侧，企业大规模引入AI后的资源配置问题也开始显现。 澳大利亚联邦银行CEO Matt Comyn在近期谈到，企业把AI用于更复杂任务后，相关成本会变得更难预测。他还批评低价值AI产出正在增加，用“work slop”（AI工作垃圾）形容那些看似完成工作，实际价值有限的内容。 换言之，AI消耗了很多Token，组织未必获得更多结果。 这也是一些咨询机构调低Agent项目预期的原因。 国际研究与咨询机构高德纳（Gartner）预计，到2027年底，超过40%的Agentic AI项目会因为成本上升、业务价值不清或风险控制不足被取消。Agent项目能否持续，不只取决于模型能力，也取决于企业能否把它放进真正的生产流程。 成本和效率之外，Agent进入企业生产流程后，还会把安全问题推到台前。 本月初，Meta一款用于Instagram账号支持的AI客服机器人，被安全研究人员发现存在漏洞。攻击者通过设计特殊话术诱导AI执行错误操作，最终获得多个高影响力账号的控制权限，其中包括奥巴马白宫账号，丝芙兰等知名品牌账号。 当Agent开始连接企业系统后，这类错误操作可能在更长链路中引发连锁反应。它不只是回答错一句话，而可能错误修改账号信息，触发业务操作，或者访问本不该访问的数据。 成本同样是绕不开的一环。 此前，一篇新加坡南洋理工团队的研究提到，在工具调用链场景下，Agent可能被引导进入极长调用链，实验中单次查询成本最高被放大658倍，能耗提升100到560倍。随着Agent接入MCP，",
+        "fetched_at": "2026-06-09T06:30:42+0000",
+        "candidate_type": "subpage",
+        "parent_url": "https://36kr.com/information/AI",
+        "url_hash": "2ad5282844b9de69"
+      },
+      {
+        "bucket": "ai",
+        "subcategory": "coding_agents",
+        "source_name": "Cline (GitHub releases) → CLI v3.0.21",
+        "url": "https://github.com/cline/cline/releases/tag/cli-v3.0.21",
         "weight": 3,
         "is_aggregator": false,
-        "title": "Guides - Krea",
-        "content_excerpt": "Guides - Krea App Features Image Video Upscaling Pricing svg]:px-3 rounded-full hover:bg-primary-900 dark:hover:bg-primary-100 gap-0 border-[0.5px] border-white/20 bg-black text-white! lg:block dark:border-black/20 dark:bg-white dark:text-black!\" type=\"button\"> Sign up for free Generate AI Image Generation Text to Image Realtime Image Generation AI Video Generation Text to Video Motion Transfer AI 3D Generation Text to 3D Object Image to 3D Object Edit AI Image Enhancements Upscaling AI Image Editor AI Video Enhancements Frame Interpolation Video Style Transfer Video Upscaling Customize AI Finetuning Image LoRA Finetuning Video LoRA Finetuning LoRA Sharing File Management Krea Asset Manager 2 Krea 2 \"People running, risograph poster\" Generate with Krea 2 svg]:px-3 rounded-full hover:bg-primary-900 dark:hover:bg-primary-100 gap-0 border-[0.5px] border-white/20 bg-black text-white! lg:block dark:border-black/20 dark:bg-white dark:text-black!\" type=\"button\"> Sign up for free App Image Generation Video Generation Upscale & Enhance Pricing Generate AI Image Generation Text to Image Realtime Image Generation AI Video Generation Text to Video Motion Transfer AI 3D Generation Text to 3D Object Image to 3D Object Edit AI Image Enhancements Upscaling AI Image Editor AI Video Enhancements Frame Interpolation Video Style Transfer Video Upscaling Customize AI Finetuning Image LoRA Finetuning Video LoRA Finetuning LoRA Sharing File Management Krea Asset Manager Guides All Podcast Guides Company Product Open Source Research Release Notes Articles Use Cases Customer Stories Guides How to Generate Images With Style References in Krea Learn how to use Style transfer presets with Krea 2 Large to generate images guided by a visual style reference. June 8, 2026 Guides How to Quickly Upscale Images in Krea Learn how to use Quick Upscale from a Krea Image session. June 8, 2026 Guides How to Remove an Image Background in Krea Learn how to remove an image background in Krea Edit by selectin",
-        "fetched_at": "2026-06-08T22:32:49+0000",
+        "title": "Release CLI v3.0.21 · cline/cline · GitHub",
+        "content_excerpt": "Release CLI v3.0.21 · cline/cline · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search or jump to... Search code, repositories, users, issues, pull requests... Search Clear Search syntax tips Provide feedback We read every piece of feedback, and take your input very seriously. Include my email address so I can be contacted Cancel Submit feedback Saved searches Use saved searches to filter your results",
+        "fetched_at": "2026-06-09T06:30:38+0000",
         "candidate_type": "subpage",
-        "parent_url": "https://www.krea.ai/blog",
-        "url_hash": "8d3be39b6ba75f3f"
+        "parent_url": "https://github.com/cline/cline/releases",
+        "url_hash": "2e6094fb53095f8b"
       }
     ],
     "my-law": [],
@@ -169,6 +108,15 @@
       "err": "HTTPError 403"
     },
     {
+      "name": "Phind",
+      "url": "https://www.phind.com/blog",
+      "bucket": "ai",
+      "subcategory": "search_assistants",
+      "weight": 2,
+      "status": 403,
+      "err": "HTTPError 403"
+    },
+    {
       "name": "Genspark",
       "url": "https://www.genspark.ai/",
       "bucket": "ai",
@@ -183,15 +131,6 @@
       "bucket": "ai",
       "subcategory": "coding_agents",
       "weight": 4,
-      "status": 403,
-      "err": "HTTPError 403"
-    },
-    {
-      "name": "Phind",
-      "url": "https://www.phind.com/blog",
-      "bucket": "ai",
-      "subcategory": "search_assistants",
-      "weight": 2,
       "status": 403,
       "err": "HTTPError 403"
     },
@@ -232,6 +171,15 @@
       "err": "HTTPError 403"
     },
     {
+      "name": "Bernama · 国家通讯社",
+      "url": "https://www.bernama.com/en/general/index.php",
+      "bucket": "my-law",
+      "subcategory": "official",
+      "weight": 4,
+      "status": 0,
+      "err": "URLError <urlopen error [Errno 54] Connection reset by peer>"
+    },
+    {
       "name": "Bursa Malaysia · 公告页",
       "url": "https://www.bursamalaysia.com/market_information/announcements/company_announcement",
       "bucket": "stocks",
@@ -243,6 +191,15 @@
     {
       "name": "Bursa IPO Calendar",
       "url": "https://www.bursamalaysia.com/listing/listing_resources/ipo_summary",
+      "bucket": "stocks",
+      "subcategory": "exchange_regulator",
+      "weight": 4,
+      "status": 403,
+      "err": "HTTPError 403"
+    },
+    {
+      "name": "SEC EDGAR · S-1 Filings",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&type=S-1&dateb=&owner=include&count=40",
       "bucket": "stocks",
       "subcategory": "exchange_regulator",
       "weight": 4,
@@ -266,33 +223,6 @@
       "weight": 5,
       "status": 0,
       "err": "URLError <urlopen error [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)>"
-    },
-    {
-      "name": "StepFun 阶跃",
-      "url": "https://www.stepfun.com/",
-      "bucket": "ai",
-      "subcategory": "china_labs",
-      "weight": 3,
-      "status": 0,
-      "err": "URLError <urlopen error _ssl.c:1112: The handshake operation timed out>"
-    },
-    {
-      "name": "SEC EDGAR · S-1 Filings",
-      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&type=S-1&dateb=&owner=include&count=40",
-      "bucket": "stocks",
-      "subcategory": "exchange_regulator",
-      "weight": 4,
-      "status": 403,
-      "err": "HTTPError 403"
-    },
-    {
-      "name": "Bolt.new (StackBlitz)",
-      "url": "https://bolt.new/",
-      "bucket": "ai",
-      "subcategory": "agent_builders",
-      "weight": 3,
-      "status": 0,
-      "err": "URLError The read operation timed out"
     }
   ],
   "acts_watch_list": {
