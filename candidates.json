@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-09T06:30:49+0000",
+  "generated_at": "2026-06-13T23:01:42+0000",
   "fetch_summary": {
     "total_sources": 111,
-    "fetched_200": 93,
-    "fetched_4xx_5xx": 15,
-    "fetched_err": 3,
-    "deduped": 212,
-    "candidates_count": 4,
+    "fetched_200": 91,
+    "fetched_4xx_5xx": 14,
+    "fetched_err": 6,
+    "deduped": 209,
+    "candidates_count": 5,
     "rss_entries": 70,
     "subpages_fetched": 75,
     "by_bucket": {
-      "ai": 4,
-      "my-law": 0,
+      "ai": 3,
+      "my-law": 2,
       "fitness": 0,
       "stocks": 0
     }
@@ -20,62 +20,78 @@
     "ai": [
       {
         "bucket": "ai",
-        "subcategory": "ma_funding",
-        "source_name": "36kr AI → 微信agent发出“英雄令”，互联网半壁江山响应",
-        "url": "https://36kr.com/p/3845399354870020",
-        "weight": 4,
-        "is_aggregator": true,
-        "title": "微信agent发出“英雄令”，互联网半壁江山响应-36氪",
-        "content_excerpt": "微信agent发出“英雄令”，互联网半壁江山响应-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 安徽 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 微信agent发出“英雄令”，互联网半壁江山响应 字母AI · 2026年06月09日 12:05 14亿人的聊天工具，正在变成AI管家 微信Agent真的要来了。 微信开放平台发布了这样一条关于微信AI开发者指引的内容。 指引称，为给用户提供更智能的交互体验，帮助用户更敏捷地发现并使用小程序服务，微信开放平台在充分尊重开发者权益和自主选择的基础上，为开发者提供便捷接入微信AI生态的能力。 接入后，小程序将有机会被微信AI推荐和调用。未完成接入的小程序，将无法被微信AI调用。 平台提供了两种接入模式。自动模式，授权平台提审时读取小程序源码，无需投入额外开发。开发模式，开发者可基于小程序业务特性，自主个性化开发。 同一天，美团官宣率先接入微信AI生态。作为首批内测团队，美团此前已与微信团队联合开发并测试接入。未来，用户可通过微信AI调用美团外卖等本地生活服务。 携程、同程等生活服务平台也先后宣布接入微信。 早在几天前，腾讯客服就表示，微信正在与华为、小米、荣耀、OPPO、vivo 等手机厂商合作推出A2A助手能力，目前已有多家厂商完成接入。 用户可以通过对应手机系统的AI助手发起微信音视频通话或向指定好友发送消息。 这其实不是第一次有关微信AI的消息了。早在今年3月，就有外媒表示，腾讯在微信内部推进一项高度保密的AI Agent项目。 6月2日，外媒发布消息称，腾讯正在测试微信内置AI Agent原型，最快将于本月启动合规审批流程。报道发布当天，腾讯股价收盘上涨10.5%，单日市值增加超过3000亿港元，创下自2021年1月以来最大单日涨幅。 微信AI，或许就是腾讯AI下半场的终极答案。 01 微信AI的轮廓 看过早期演示的人士透露，用户可以在微信主界面向右滑动，调出AI Agent的对话窗口。用户输入指令后，Agent会自动调用微信生态里的小程序，完成筛选、下单、预订这类任务。 比如你说“帮我点一杯30元以内、不太甜、附近能自取的咖啡”，Agent就会自动调用微信里的小程序，帮你筛选咖啡店、匹配口味和价格，甚至完成下单流程。 光听描述，它和豆包、千问这些AI聊天机器人没什么区别。 但这里面特殊的地方在于，微信AI拥有整个微信生态的调度权。 腾讯在2025年年报中明确提到，目标是在微信生态内建设下一代Agentic services，把小程序、内容、社交和支付能力连接起来。截至2026年3月31日，微信及 WeChat 合并月活达14.32亿。 也就是说，微信AI一旦上线，不管是好是坏，它都注定是一个超级应用。 微信里有数百万个小程序，覆盖打车、外卖、订票、买菜等日常生活场景。国内头部互联网服务几乎都在这一生态中设有小程序入口。 微信AI的核心能力，就是让AI能够调用这些小程序里的服务和交易能力，完成从认知到决策再到执行的完整闭环。 那它要怎么做呢？ 首先是理解用户意图。 用户说“帮我订个餐厅”，在家庭群里说和在工作群里说，意思完全不同。 谁在参与、谁能拍板、预算多少、有什么忌口、任务进行到了哪一步，这些都是Agent需要理解的上下文。难点在于微信里的任务天然跨越时间，家庭群讨论暑假的对话可能断断续续持续好几天。 然后是调用工具。 Agent需要动手，用搜一搜查信息，用小程序完成查询和比价，用微信支付完成交易，用服务通知把结果反馈给用户。 根据QuestMobile《2026全景生态流量春季报告》，小程序日活已超过9亿，覆盖几百个细分领域。 现在工具箱足够大了，问题是微信AI用得明白吗？ 腾讯在3月18日发布的论文中透露了一些技术细节。微信团队开发了 UI-Oceanus，这是一个专门为小程序生态设计的世界模型。它的作用是预测操作结果。Agent找到了按钮，但点下去会发生什么？页面会跳转到哪里？会弹出什么窗口？支付流程会不会启动？ 人类操作APP的时候对这些有直觉，Agent没有这",
-        "fetched_at": "2026-06-09T06:30:42+0000",
-        "candidate_type": "subpage",
-        "parent_url": "https://36kr.com/information/AI",
-        "url_hash": "a9d6b4f2ecb46441"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "ma_funding",
-        "source_name": "36kr AI → 24小时在线的Agent，正批量为外贸企业送来订单",
-        "url": "https://36kr.com/p/3844402952391177",
-        "weight": 4,
-        "is_aggregator": true,
-        "title": "24小时在线的Agent，正批量为外贸企业送来订单-36氪",
-        "content_excerpt": "24小时在线的Agent，正批量为外贸企业送来订单-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 安徽 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 24小时在线的Agent，正批量为外贸企业送来订单 晓曦 · 2026年06月09日 13:10 一家深耕外贸SaaS二十多年的企业，如何用Agent跑通从获客到成交的全链路？富通天下将腾讯云ClawPro、智能体开发平台ADP与CodeBuddy深度接入业务，让Agent替业务员做背调、判线索、生成报价、24小时多语种自动回复。6万家外贸企业接入后，成交转化率提升100%。 凌晨两点的外贸业务员，终于能够放心睡觉了。 这是将Agent接入工作流后，一个一线外贸打工人，最能直观感受到的变化之一。 以往，海外买家会跨多达十几个小时的时差来询盘问价，为了不错过跨时区的成交机会，业务员往往要24小时待命，一旦有一刻放松，商机就有可能消失在茫茫互联网之中。而且，就算及时回复了消息，因为语言不通或者文化差异“说错话”，这个单子也有可能插翅而飞。 作为一家深耕外贸SaaS二十余年的企业，富通天下可以说是经历了行业的每一次技术变革：信息化、大模型、智能体……这家公司始终在思考一个问题，如何让新技术，真正解决外贸行业的痛点？ 入行20余年，富通天下联合创始人兼CTO林琦亲身体会过外贸行业现实的压力与无奈。正因如此，林琦对AI Agent能做到什么格外期待。今年，富通天下将腾讯云ClawPro深度集成到自己的私域营销管理云平台里，林琦看到的是全天候在线的AI客服，不仅支持全球多个国家的语言，“甚至比业务员更专业，会学习和背调客户的喜好、语气，或者各个国家的宗教文化习惯”。数据是更有力的证明，超过6万家外贸企业客户在深度使用富通天下Agent之后，询盘成交转化率从低于3%抬升至8%到20%、高价值询盘占比提升40%、独立站及时回复率有98%、谷歌首屏排名占比提升30%。 富通天下联合创始人兼CTO林琦 在跑出实实在在的转化率之后，林琦觉得，这一次，他们终于可以不再为AI带来的生产力革命而焦虑了。 从获客到成交，AI Agent是怎么跑通的？ 对外贸从业者来说，最核心的业务，就是“获客”。 一边是客户越来越难找了，另一边是不少企业还在采取效率极低的方式来获客。“外贸业务员需要通过Google、社媒平台、展会网站、国外B2B平台等多种渠道，根据公司的特点搜索客户，相当于大海捞针，”林琦所描述的，正是大多数外贸业务员的日常，“找到客户以后还得找联系方式，再写邮件群发，很多时候也是杳无音讯。” 加上了客户，也不代表就真正实现转化。特别在客户开始询盘后，业务员还要快速考虑和判断很多事情：“客户的实力怎么样？我们的报价有没有优势？我们的产能和交货周期能不能满足？”林琦说，甚至还会有一些“骗子”询盘，也需要业务员有辨别真假的能力，“业务员如果认认真真准备下来，一项询盘就要花费两三个小时。”这对追求效率的外贸行业来说，算得上是致命伤。 但随着Agent的出现，一切变得不一样了。接入腾讯云ClawPro之后，富通天下打造出了一个智能体矩阵。他们将行业Agent分为三大角色，分别是获客AI机器人、客情AI数字人、决策AI协管人。林琦发现，“AI的工作效率对人是降维打击，相当于100个人对1个人。” 落到具体场景里，这个“100对1”最先改变的，是外贸链路最难熬的两头。 一头是找客户并接住。收到询盘之后，做背调、报价、写回复，这些交给Agent，几分钟就跑完全套流程，报价参考历史订单，回复直接可以发出去。AI客服24小时在线，98%的询盘即时响应，调的是产品知识库和历史订单数据，专业问题的回复质量比人工高出一倍。这两头同时补上，询盘转化率从行业平均不足3%升到了8%-20%，要知道，现在公域平台的流量越来越贵、且行业越来越内卷，很多企业成交率连 1% 都保不住。 接住询盘只是一半，另一半是让客户主动找过来，这是独立站要解决的事。独立站难做，在于运营效率低、人才少。做好SEO要有人懂关键词、懂内容、懂外链；投广告又是另一",
-        "fetched_at": "2026-06-09T06:30:42+0000",
-        "candidate_type": "subpage",
-        "parent_url": "https://36kr.com/information/AI",
-        "url_hash": "21d73508bc8be086"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "ma_funding",
-        "source_name": "36kr AI → 下一代企业AI平台，需要怎样的Agent？",
-        "url": "https://36kr.com/p/3845399248439553",
-        "weight": 4,
-        "is_aggregator": true,
-        "title": "谁来管住失控的token？-36氪",
-        "content_excerpt": "谁来管住失控的token？-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 安徽 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 谁来管住失控的token？ 字母AI · 2026年06月09日 12:05 下一代企业AI平台，需要怎样的Agent？ 今年以来，Token经济概念火爆全球。但在刚刚过去的5月底，亚马逊却选择关闭内部AI使用榜单“KiroRank”。 这个榜单原本统计员工在Kiro开发平台上的Token消耗。然而，榜单启用后，一些员工让AI执行无意义任务，只为把使用量刷高。 亚马逊高级副总裁Dave Treadwell随后提醒员工，不要为了使用AI而使用AI。外媒报道称，亚马逊已经把考核重点从原始Token消耗转向“标准化部署”，也就是工程师用AI实际交付了多少可用结果。 企业AI第一轮热潮里，管理层最常问的是员工有没有用AI，部门有没有接入AI，业务有没有做Agent。KiroRank关闭后，第一批大规模应用AI的企业，开始面对另一个问题：AI用量被推高以后，谁能证明它带来了业务结果？ 本月初，一个新词开始在美国企业AI圈层流行：AI sticker shock（AI账单震惊）。 按量计费的AI产品进入企业后，企业用户发现支出账单变得难以预测。Agent进入企业后，又面临海量Token消耗带来的成本攀升。 于是，一个问题被反复提及：企业真正需要的Agent平台，究竟应该是什么样？ 这个由Agent生态引发的系统性问题，正在等待新一代企业级AI平台作答。 01 失控的Token 亚马逊关闭内部AI榜单“KiroRank”背后，是企业大量应用AI后，Token反而“失控”的现实。 亚马逊原本希望用榜单鼓励工程师使用Kiro开发平台，但结果是一些员工让AI执行无意义任务，把使用量刷高。 这是企业AI落地后的第一重困境：用量会失真。员工用了多少AI，部门建了多少Agent，都可以出现在汇报文档上。但企业真正关心的是，项目有没有推进，Agent做出了多少产出，人工链路有没有被缩短。 瑞典金融科技公司Klarna也在客服场景遇到了相似困境。 2024年，Klarna曾对外称，AI客服承担了相当于700名全职客服的工作。一年后，公司开始重新招聘人工客服。Klarna CEO Siemiatkowski承认，过度转向AI影响了服务质量。 Klarna前后两次动作，让行业开始重新审视：AI节省下来的成本，如果换来更多复核成本，就不能称得上是靠谱的生产力。 在组织管理侧，企业大规模引入AI后的资源配置问题也开始显现。 澳大利亚联邦银行CEO Matt Comyn在近期谈到，企业把AI用于更复杂任务后，相关成本会变得更难预测。他还批评低价值AI产出正在增加，用“work slop”（AI工作垃圾）形容那些看似完成工作，实际价值有限的内容。 换言之，AI消耗了很多Token，组织未必获得更多结果。 这也是一些咨询机构调低Agent项目预期的原因。 国际研究与咨询机构高德纳（Gartner）预计，到2027年底，超过40%的Agentic AI项目会因为成本上升、业务价值不清或风险控制不足被取消。Agent项目能否持续，不只取决于模型能力，也取决于企业能否把它放进真正的生产流程。 成本和效率之外，Agent进入企业生产流程后，还会把安全问题推到台前。 本月初，Meta一款用于Instagram账号支持的AI客服机器人，被安全研究人员发现存在漏洞。攻击者通过设计特殊话术诱导AI执行错误操作，最终获得多个高影响力账号的控制权限，其中包括奥巴马白宫账号，丝芙兰等知名品牌账号。 当Agent开始连接企业系统后，这类错误操作可能在更长链路中引发连锁反应。它不只是回答错一句话，而可能错误修改账号信息，触发业务操作，或者访问本不该访问的数据。 成本同样是绕不开的一环。 此前，一篇新加坡南洋理工团队的研究提到，在工具调用链场景下，Agent可能被引导进入极长调用链，实验中单次查询成本最高被放大658倍，能耗提升100到560倍。随着Agent接入MCP，",
-        "fetched_at": "2026-06-09T06:30:42+0000",
-        "candidate_type": "subpage",
-        "parent_url": "https://36kr.com/information/AI",
-        "url_hash": "2ad5282844b9de69"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "coding_agents",
-        "source_name": "Cline (GitHub releases) → CLI v3.0.21",
-        "url": "https://github.com/cline/cline/releases/tag/cli-v3.0.21",
-        "weight": 3,
+        "subcategory": "news_analysis",
+        "source_name": "Latent Space (swyx) (RSS entry)",
+        "url": "https://www.latent.space/p/ainews-fable-and-mythos-officially",
+        "weight": 5,
         "is_aggregator": false,
-        "title": "Release CLI v3.0.21 · cline/cline · GitHub",
-        "content_excerpt": "Release CLI v3.0.21 · cline/cline · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search or jump to... Search code, repositories, users, issues, pull requests... Search Clear Search syntax tips Provide feedback We read every piece of feedback, and take your input very seriously. Include my email address so I can be contacted Cancel Submit feedback Saved searches Use saved searches to filter your results",
-        "fetched_at": "2026-06-09T06:30:38+0000",
+        "title": "[AINews] Fable and Mythos officially too dangerous to release",
+        "content_excerpt": "We are in the strangest timeline.",
+        "fetched_at": "2026-06-13T23:01:19+0000",
+        "published": "Sat, 13 Jun 2026 04:30:52 GMT",
+        "candidate_type": "rss_entry",
+        "parent_feed": "https://www.latent.space/feed",
+        "url_hash": "1a3926308e38dbe8"
+      },
+      {
+        "bucket": "ai",
+        "subcategory": "ma_funding",
+        "source_name": "36kr AI → 通义团队再失核心？阿里首席科学家周靖人被曝离职",
+        "url": "https://36kr.com/p/3850978776759176",
+        "weight": 4,
+        "is_aggregator": true,
+        "title": "通义团队再失核心？阿里首席科学家周靖人被曝离职-36氪",
+        "content_excerpt": "通义团队再失核心？阿里首席科学家周靖人被曝离职-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 安徽 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 通义团队再失核心？阿里首席科学家周靖人被曝离职 ZAKER财经 · 2026年06月13日 13:55 传阿里首席科学家周靖人履新六天离职，阿里AI核心团队动荡。 网传阿里巴巴合伙人、首席科学家周靖人近日已提交离职申请。 6月8日，他才刚刚被任命为阿里首席科学家。也就是说，这距离他履新仅仅过去六天。 消息传出后，阿里方面并未回应媒体的问询。行业普遍猜测，这次所谓的“荣升”，很可能是一次“明升暗降”。 周靖人是阿里巴巴AI业务的关键人物之一。他1994年考入中国科技大学少年班，2004年获得美国哥伦比亚大学计算机博士学位，随后在微软担任研发合伙人，曾领导开发支撑Bing搜索、Office和Windows等核心产品的大数据运算平台。 2015年，他加入阿里。此后十年，他历任阿里云首席科学家、阿里云智能CTO、达摩院副院长。 他手里最硬的一块活，就是通义大模型。 从零开始搭建团队，带队搞出Qwen系列。在他和团队的推动下，阿里开源的Qwen系列在全球开源模型中存在感持续提升，2024年10月其衍生模型数量已超8万个，超越同期Meta的Llama系列。凭借这个战绩，周靖人2025年12月入选阿里巴巴合伙人，成为少数以纯技术背景进入阿里最高决策层的高管之一。 如果把时间拉长一点看，周靖人的离职传闻并不是突然冒出来的。光是2026年以来，他的岗位就变了三次。 3月，Qwen技术负责人林俊旸离职，他临时代管Qwen。4月8日，他被任命为集团首席AI架构师，同时执掌通义大模型事业部。6月8日，头衔换成首席科学家，同时被安排去搞AI未来研究院——做前沿探索，不碰具体业务。 表面上看，每一次调动都被描述为更重要的战略部署，但一个值得注意的细节是：随着每一次调岗，周靖人距离真实的产品战场都更远了一步。从掌管通义大模型事业部，到转入AI 未来研究院专攻前沿探索，不少业内人士认为，这意味着他已不再掌握具体业务实权。 尤其是6月8日那次调整，阿里把通义事业部的核心模型研发团队划进了新成立的Token Foundry事业部，由CEO吴泳铭亲自直管。等于说，周靖人手下最核心的“兵”被调走了，然后给了他一个“最高学术头衔”。 如果周靖人真的离开，那将是通义千问团队2026年流失的第四位核心人物。 今年3月，技术负责人林俊旸在社交媒体上留了一句“me stepping down. bye my beloved qwen”，随后确认离职。紧接着，后训练负责人郁博文、核心成员李凯新也相继离开。 短短几个月，一支亲手把Qwen做成全球明星开源模型的团队，被拆得七零八落。 把这几件事拼在一起看，核心骨干出走、商业化路径内部有分歧、一位灵魂人物半年内被反复调岗，这已经不是单纯的人事变动了。它暴露出来的，是一家大公司在AI转型期最头疼的问题：研究驱动和商业变现之间，到底怎么选？ 阿里没有输不起的人，但输不起时间。 目前阿里官方仍未回应离职传闻。周靖人本人也没有发声。 但无论他最后走还是不走，有一件事已经很清楚：阿里内部关于AI到底该怎么干的博弈，远比外面看到的要激烈得多。 来源：星河商业观察 该文观点仅代表作者本人，36氪平台仅提供信息存储空间服务。 +1 88 好文章，需要你的鼓励 ZAKER财经 特邀作者 8 收 藏 +1 1 评 论 打开微信“扫一扫”，打开网页后点击屏幕右上角分享按钮 微 博 沉浸阅读 返回顶部 举报 参与评论 评论千万条，友善第一条 登录 后参与讨论 提交评论 0/1000 你可能也喜欢这些文章 钉钉的“旧洞”，90后新帅能补上么？ 钉钉危机内幕：996、高层不满、落后焦虑、AI绞杀 钉钉的新CEO，也要还“旧账” 钉钉换帅后《置身钉内》作者再发长文 钉钉换帅下一步，要打通MuleRun 钉钉前CEO无招工位已搬空，陈宇森能否成功接任 阿里又一个新事业部，什么信号？ 即时零售与AI，阿里的「割裂叙事」 ",
+        "fetched_at": "2026-06-13T23:01:35+0000",
         "candidate_type": "subpage",
-        "parent_url": "https://github.com/cline/cline/releases",
-        "url_hash": "2e6094fb53095f8b"
+        "parent_url": "https://36kr.com/information/AI",
+        "url_hash": "fd19853a4a165bdf"
+      },
+      {
+        "bucket": "ai",
+        "subcategory": "ma_funding",
+        "source_name": "36kr AI → 新通教育与36氪联合发布《AI时代留学就业白皮书》，首次系统性定义AI时代留学生就业能力框架",
+        "url": "https://36kr.com/p/3851195290326275",
+        "weight": 4,
+        "is_aggregator": true,
+        "title": "新通教育与36氪联合发布《AI时代留学就业白皮书》，首次系统性定义AI时代留学生就业能力框架-36氪",
+        "content_excerpt": "新通教育与36氪联合发布《AI时代留学就业白皮书》，首次系统性定义AI时代留学生就业能力框架-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 安徽 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 新通教育与36氪联合发布《AI时代留学就业白皮书》，首次系统性定义AI时代留学生就业能力框架 时氪分享 · 2026年06月13日 14:43 2026新通发布AI留学就业白皮书，提出能力框架与黄金赛道 杭州，2026年6月13日 —— 当通用人工智能开始重塑全球就业结构，中国留学家庭该如何做出选择？今日，在“赢在2030：面向AI时代的留学选择”主题论坛上，新通教育联合36氪研究院正式发布《AI时代留学就业白皮书：中国留学生全球就业趋势与人才价值重塑》。这是行业首本从AI重构产业视角出发，系统性定义AI时代留学生就业能力框架与专业价值地图的权威研究报告。活动吸引了现场500个家庭出席及线上超过50万观众共同参与。 选专业，比选学校更重要 新通教育集团创始人、董事长麻亚炜在题为《AI时代，为什么选专业比选学校更重要》的主旨演讲中指出，30年前留学是为了“看见世界”，15年前是为了“不输给别人”；而今天，留学家庭必须回答一个新问题：我们到底为了什么？ 她强调，在AI时代，“好留学”应该是“最适合孩子生命底色的成长路径”，是“十年后孩子依然热爱并且擅长的领域”；“好就业”则是“在AI时代依然不可被替代的核心竞争力”，是“在产业变迁中始终拥有选择权”。 「CORE」模型：首次系统性定义AI时代留学生就业能力框架 本次发布的核心成果，是白皮书首次提出的面向2030的 「CORE」未来胜任力模型 。该模型基于对134家企业中层管理者的一手调研数据，将“AI不可替代的能力”从抽象概念转化为可培养、可评估的四维素养框架： l C — Co-Intelligence（人机协同力） ：驾驭AI而非被AI替代，结构化拆解问题，精准调用并批判性校验AI工具 l O — Omni-cultural Agility（全域跨文化敏捷度） ：超越语言，实现无国界高效协同，快速适配多元文化背景 l R — Responsible Resilience（负责型内核韧性） ：直面不确定性，主动担当与自我复原，在高压下兜住关键环节 l E — Empathetic Insight（批判性共情洞察） ：洞察他人需求，做出人本决策，守护AI无法替代的“人的温度” 麻亚炜在演讲中总结道：“赛道+专业决定你从哪里出发，CORE模型决定你能走多远。 外功是入场券，内功是护城河。 ” 企业招聘逻辑发生根本性转变 36氪研究院院长邹萍在《未来10年，什么能力会持续升值？》主题分享中，首次向公众披露了企业调研的关键数据。 调研显示， 67.91%的企业认为“跨部门协作能力”是当前海归员工的最大短板 ；59.70%的企业对“履历光鲜但抗压能力未经验证”的候选人表示明确顾虑。这一发现打破了“名校+AI熟练=优质人才”的传统认知，标志着企业招聘逻辑正从“看标签”全面转向“看内核”—— 问题定义能力、人机协同能力、共情与韧性，正在取代传统的名校与技能标签，成为决定职业发展的关键。 专业分区图谱与七大黄金赛道首次公开 白皮书独创“AI时代专业分区图谱”，将全部专业划分为 高护城河区、前沿探索区、审慎选择区 三类，帮助家庭科学评估专业选择的长期价值。以传统会计学为例，白皮书引用澳洲会计师公会数据显示，32%的受访企业过去12个月减少招聘初级财会人员，但同时18%的企业正在积极扩招具备AI专业素养的复合型人才——印证了白皮书的核心判断： 不是专业的价值在消失，而是价值构成正在发生变化。 同时，白皮书结合国家“十五五”规划方向，明确了2030年 七大黄金就业赛道 ：AI+、低空经济与空天信息、合成生物与生命健康、绿色低碳与ESG、量子技术与前沿材料、智能制造与工业互联、数字出海与全球战略。 新通2H交付生态，实现全生命周期守护 针对留学家庭的两大核心痛点——专业选择焦虑与海外适应难题，新通教育正式推出“2",
+        "fetched_at": "2026-06-13T23:01:35+0000",
+        "candidate_type": "subpage",
+        "parent_url": "https://36kr.com/information/AI",
+        "url_hash": "a8c97090f40689d6"
       }
     ],
-    "my-law": [],
+    "my-law": [
+      {
+        "bucket": "my-law",
+        "subcategory": "official",
+        "source_name": "Bernama · 国家通讯社 → Bernama's Kelantan Bureau Bags Five Awards At Kelantan Media",
+        "url": "https://www.bernama.com/en/general/news.php?id=2568290",
+        "weight": 4,
+        "is_aggregator": false,
+        "title": "BERNAMA - Bernama's Kelantan Bureau Bags Five Awards At Kelantan Media Awards 2025",
+        "content_excerpt": "BERNAMA - Bernama's Kelantan Bureau Bags Five Awards At Kelantan Media Awards 2025 BERNAMA.com | BERNAMA TV | BERNAMA Radio | BERNAMA Images | BLIS | NewsLink5 English Malay Arabic Espa&ntilde;ol General BernamaBiz Crime & Courts Politics Sports Lifestyle Region Central Northern Southern East Sabah Sarawak World Main Nam News Network (NNN) The Organization of Asia-Pacific News Agencies (OANA) Xinhua News Agency Microsite World Cup 2026 Maju Johor HAWANA 2026 CPI MAPO MCMC Fokus BERNAMA Thoughts MyCheck fotoBERNAMA Garasi More Infographics Videos Exclusive Press Archived English Malay Arabic Espa&ntilde;ol Home General BernamaBiz Crime & Courts Politics Sports Lifestyle Region Central Northern Southern East Sabah Sarawak World Main Nam News Network (NNN) The Organization of Asia-Pacific News Agencies (OANA) Xinhua News Agency Microsite World Cup 2026 Maju Johor HAWANA 2026 CPI MAPO MCMC Fokus BERNAMA Thoughts MyCheck fotoBERNAMA Garasi More Infographics Videos Exclusive Press Archived GENERAL > NEWS Bernama's Kelantan Bureau Bags Five Awards At Kelantan Media Awards 2025 14/06/2026 01:08 AM KOTA BHARU, June 13 (Bernama) -- The Malaysian National News Agency&rsquo;s (Bernama) Kelantan Bureau bagged five awards at the Kelantan Media Awards 2025 ceremony held in conjunction with the State-level National Journalists Day (HAWANA) celebration here tonight. The success was achieved through Muhammad Mustaqim Khairuddin, who emerged as the winner in the Best News Photography category which offered a cash prize of RM1,000, with his entry, Saving Cows in the Flood. Muhammad Afiq Mohd Asri secured second place in the Best Malay Language Newspaper Special Report category and took home RM700 with his entry: Kelantan-Thailand Border: Internal Threats, Geographical Challenges, and Maritime Power Demands. Muhammad Afiq, who is also the Bernama Kelantan Bureau Chief, also won second place in the Best Malay Language Newspaper News category and pocketed another RM700, through his articl",
+        "fetched_at": "2026-06-13T23:01:36+0000",
+        "candidate_type": "subpage",
+        "parent_url": "https://www.bernama.com/en/general/index.php",
+        "url_hash": "a9fb993d33db68b5"
+      },
+      {
+        "bucket": "my-law",
+        "subcategory": "official",
+        "source_name": "Bernama · 国家通讯社 → Bernama Bags Six Main Awards, Seven Merit Awards At Kinabalu",
+        "url": "https://www.bernama.com/en/general/news.php?id=2568279",
+        "weight": 4,
+        "is_aggregator": false,
+        "title": "BERNAMA - Bernama Bags Six Main Awards, Seven Merit Awards At Kinabalu Press Awards 2026",
+        "content_excerpt": "BERNAMA - Bernama Bags Six Main Awards, Seven Merit Awards At Kinabalu Press Awards 2026 BERNAMA.com | BERNAMA TV | BERNAMA Radio | BERNAMA Images | BLIS | NewsLink5 English Malay Arabic Espa&ntilde;ol General BernamaBiz Crime & Courts Politics Sports Lifestyle Region Central Northern Southern East Sabah Sarawak World Main Nam News Network (NNN) The Organization of Asia-Pacific News Agencies (OANA) Xinhua News Agency Microsite World Cup 2026 Maju Johor HAWANA 2026 CPI MAPO MCMC Fokus BERNAMA Thoughts MyCheck fotoBERNAMA Garasi More Infographics Videos Exclusive Press Archived English Malay Arabic Espa&ntilde;ol Home General BernamaBiz Crime & Courts Politics Sports Lifestyle Region Central Northern Southern East Sabah Sarawak World Main Nam News Network (NNN) The Organization of Asia-Pacific News Agencies (OANA) Xinhua News Agency Microsite World Cup 2026 Maju Johor HAWANA 2026 CPI MAPO MCMC Fokus BERNAMA Thoughts MyCheck fotoBERNAMA Garasi More Infographics Videos Exclusive Press Archived GENERAL > NEWS Bernama Bags Six Main Awards, Seven Merit Awards At Kinabalu Press Awards 2026 14/06/2026 12:49 AM KOTA KINABALU, June 13 (Bernama) -- The Malaysian National News Agency (Bernama) turned in a stellar performance at the Kinabalu Press Awards 2026 tonight, walking away with six Main Awards and seven Merit awards. The prestigious annual event, which featured a total of 26 categories, made history this year by receiving a record 354 entries compared to 268 submissions recorded last year. Bernama&rsquo;s excellence in journalism was highly visible in the Bahasa Melayu stream, led by Sabah Bureau Chief Fadzli Ramli, who clinched the Main Award in the News Reporting (Bahasa Melayu) category for his report on how social media and AI dominated the Sabah state election last year. Fadzli, alongside his team members Arjasneh Ahmad and Ahmad Jimmy, also secured the top prize in the English Journalism Award (Feature and News Feature) category for a feature on the human-Borneo ele",
+        "fetched_at": "2026-06-13T23:01:36+0000",
+        "candidate_type": "subpage",
+        "parent_url": "https://www.bernama.com/en/general/index.php",
+        "url_hash": "3c250263c70e6ca8"
+      }
+    ],
     "fitness": [],
     "stocks": []
   },
@@ -158,8 +174,8 @@
       "bucket": "ai",
       "subcategory": "ma_funding",
       "weight": 5,
-      "status": 403,
-      "err": "HTTPError 403"
+      "status": 0,
+      "err": "URLError <urlopen error [Errno 54] Connection reset by peer>"
     },
     {
       "name": "PitchBook AI",
@@ -169,15 +185,6 @@
       "weight": 3,
       "status": 403,
       "err": "HTTPError 403"
-    },
-    {
-      "name": "Bernama · 国家通讯社",
-      "url": "https://www.bernama.com/en/general/index.php",
-      "bucket": "my-law",
-      "subcategory": "official",
-      "weight": 4,
-      "status": 0,
-      "err": "URLError <urlopen error [Errno 54] Connection reset by peer>"
     },
     {
       "name": "Bursa Malaysia · 公告页",
@@ -207,6 +214,15 @@
       "err": "HTTPError 403"
     },
     {
+      "name": "YTL Power International",
+      "url": "https://www.ytlpowerinternational.com/",
+      "bucket": "stocks",
+      "subcategory": "holdings_ir",
+      "weight": 5,
+      "status": 0,
+      "err": "URLError <urlopen error [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)>"
+    },
+    {
       "name": "S&P Global Indices · News",
       "url": "https://www.spglobal.com/spdji/en/index-news-and-announcements/",
       "bucket": "stocks",
@@ -216,13 +232,31 @@
       "err": "HTTPError 403"
     },
     {
-      "name": "YTL Power International",
-      "url": "https://www.ytlpowerinternational.com/",
-      "bucket": "stocks",
-      "subcategory": "holdings_ir",
-      "weight": 5,
+      "name": "StepFun 阶跃",
+      "url": "https://www.stepfun.com/",
+      "bucket": "ai",
+      "subcategory": "china_labs",
+      "weight": 3,
       "status": 0,
-      "err": "URLError <urlopen error [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)>"
+      "err": "URLError The read operation timed out"
+    },
+    {
+      "name": "Boston Dynamics",
+      "url": "https://bostondynamics.com/blog/",
+      "bucket": "ai",
+      "subcategory": "robotics",
+      "weight": 2,
+      "status": 0,
+      "err": "URLError The read operation timed out"
+    },
+    {
+      "name": "宇树 Unitree",
+      "url": "https://www.unitree.com/news",
+      "bucket": "ai",
+      "subcategory": "robotics",
+      "weight": 3,
+      "status": 0,
+      "err": "URLError The read operation timed out"
     }
   ],
   "acts_watch_list": {
