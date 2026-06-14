@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-13T23:01:42+0000",
+  "generated_at": "2026-06-14T22:38:40+0000",
   "fetch_summary": {
     "total_sources": 111,
-    "fetched_200": 91,
-    "fetched_4xx_5xx": 14,
-    "fetched_err": 6,
-    "deduped": 209,
-    "candidates_count": 5,
+    "fetched_200": 94,
+    "fetched_4xx_5xx": 15,
+    "fetched_err": 2,
+    "deduped": 214,
+    "candidates_count": 2,
     "rss_entries": 70,
     "subpages_fetched": 75,
     "by_bucket": {
-      "ai": 3,
-      "my-law": 2,
+      "ai": 2,
+      "my-law": 0,
       "fitness": 0,
       "stocks": 0
     }
@@ -20,78 +20,34 @@
     "ai": [
       {
         "bucket": "ai",
-        "subcategory": "news_analysis",
-        "source_name": "Latent Space (swyx) (RSS entry)",
-        "url": "https://www.latent.space/p/ainews-fable-and-mythos-officially",
-        "weight": 5,
-        "is_aggregator": false,
-        "title": "[AINews] Fable and Mythos officially too dangerous to release",
-        "content_excerpt": "We are in the strangest timeline.",
-        "fetched_at": "2026-06-13T23:01:19+0000",
-        "published": "Sat, 13 Jun 2026 04:30:52 GMT",
-        "candidate_type": "rss_entry",
-        "parent_feed": "https://www.latent.space/feed",
-        "url_hash": "1a3926308e38dbe8"
+        "subcategory": "ma_funding",
+        "source_name": "36kr AI → 华人AI工程师也搭上了SpaceX的财富火箭",
+        "url": "https://36kr.com/p/3852485841156997",
+        "weight": 4,
+        "is_aggregator": true,
+        "title": "华人AI工程师也搭上了SpaceX的财富火箭-36氪",
+        "content_excerpt": "华人AI工程师也搭上了SpaceX的财富火箭-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 安徽 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 华人AI工程师也搭上了SpaceX的财富火箭 字母AI · 2026年06月14日 12:04 从多模态到代码智能体，xAI里的华人AI工程师也被装进了SpaceX上市故事。 SpaceX上市，先制造了一场财富神话。 马斯克成为了全球首位万亿富翁，身家被推到了人类商业史从未到过的位置。 4400多名现任和前员工，账面成为百万富翁；约400人，持有的股票价值超过1亿美元。 这些新晋富豪不全是创始人、投资人或者高管，里面有工程师、焊工、厨师、食堂员工…… 入职那天，公司给了他们股票。拿住的人，等了十年、二十年，等到SpaceX上市的这一天，收获了十分丰厚的回报。 这场全世界有史以来最大规模的IPO，引发了一轮关于SpaceX员工股权的财富重估。 上市的SpaceX，不只是火箭、星舰和Starlink；xAI并入之后，AI模型、工程自动化和多模态能力，也被装进了同一个资本故事。 SpaceX的财富火箭，也不只载着发射台、火箭工厂和星链网络里的人，还载着xAI的模型训练团队。 这支团队刚刚经历过一轮剧烈洗牌，负责Grok Code和Grok Imagine的张国栋、戴子航等早期核心人物相继出走，公司经历重组，马斯克之外的xAI原始联合创始人全部离开。 过去我们关心离开的人才，但留下来的那些人同样值得关注，其中不乏一些中文名字： 胡戎航（Ronghang Hu）、赵龙（Long Zhao）、刘泽（Ze Liu）、黄杰（Jie Huang）、林禹臣（Bill Yuchen Lin）、沈卓然（Zhuoran Shen）、李英儒（Yingru Li）…… 对于这些仍然留在xAI体系内、并持有股权激励的核心工程师来说，SpaceX的上市意味着他们手里的权益被带到了公开市场的兑现窗口前。 拿住股票的人，等来了回报 SpaceX从很早开始，就把股票发到了各个层级的员工手里。 有人拿到的是期权，有人拿到的是受限股票。无论形式是什么，都不是一笔确定的财富，很多人并不相信这家公司真的能走到上市这一天。 毕竟SpaceX并不是一家看起来稳赢的公司，2006年、2007年、2008年，猎鹰1号前三次发射全部失败，直到08年9月，第四次发射才终于成功入轨。 马斯克后来对NASA前局长Jim Bridenstine回忆，当时SpaceX已经没有预算再做一次发射，第四次都是用备用零件凑出来的；如果还失败，SpaceX就没有后来了。 三个月后，靠NASA给的一份价值16亿美元的国际空间站商业补给合同，SpaceX才真正从悬崖边上被拉回来。 在那之后，SpaceX也经历了重重波折。Falcon 9任务失败、发射台也发生过爆炸，到了星舰阶段，失败、调查和整改依然是故事的一部分。 今天看起来像一夜暴富的故事，当年其实更像是接受了一张可能永远无法兑现的欠条。 但事实就是，SpaceX上市这天，拿住股票的人都等来了回报。 《纽约时报》报道里提到的Trevor Hise是典型的工程师版本，他2011年大学毕业后加入SpaceX，从实习生做起，后来成为发射工程师，在SpaceX工作了12年。到上市时，他手里还有超过10万股，按每股135美元的发行价计算，这些股票价值至少1350万美元。 前SpaceX焊工Juan Hernandez来自墨西哥，早年在SpaceX的时薪约28美元，获得过约1万美元股票授予；他在2020年SpaceX估值达到360亿美元时卖出过一部分，到IPO前剩余6,500股，按每股135美元计算，价值约87.75万美元。 更何况SpaceX首日收盘价为160.95美元，盘中一度超过176美元。 当然，也不是所有人都等到了这一天。SpaceX内部曾流传过一个说法：早期有员工不相信公司真的会上市，离职时把股票换成了美国连锁餐厅Chili’s的礼品卡。 正所谓“早知三日事，富贵几千年”，可惜那时只当手里攥着的是一张废纸，哪想",
+        "fetched_at": "2026-06-14T22:38:07+0000",
+        "candidate_type": "subpage",
+        "parent_url": "https://36kr.com/information/AI",
+        "url_hash": "99e0682978c763d5"
       },
       {
         "bucket": "ai",
         "subcategory": "ma_funding",
-        "source_name": "36kr AI → 通义团队再失核心？阿里首席科学家周靖人被曝离职",
-        "url": "https://36kr.com/p/3850978776759176",
+        "source_name": "36kr AI → 大反转！Anthropic CEO拒修漏洞才被封，举报Claude新模型是自家大股东",
+        "url": "https://36kr.com/p/3852376401220868",
         "weight": 4,
         "is_aggregator": true,
-        "title": "通义团队再失核心？阿里首席科学家周靖人被曝离职-36氪",
-        "content_excerpt": "通义团队再失核心？阿里首席科学家周靖人被曝离职-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 安徽 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 通义团队再失核心？阿里首席科学家周靖人被曝离职 ZAKER财经 · 2026年06月13日 13:55 传阿里首席科学家周靖人履新六天离职，阿里AI核心团队动荡。 网传阿里巴巴合伙人、首席科学家周靖人近日已提交离职申请。 6月8日，他才刚刚被任命为阿里首席科学家。也就是说，这距离他履新仅仅过去六天。 消息传出后，阿里方面并未回应媒体的问询。行业普遍猜测，这次所谓的“荣升”，很可能是一次“明升暗降”。 周靖人是阿里巴巴AI业务的关键人物之一。他1994年考入中国科技大学少年班，2004年获得美国哥伦比亚大学计算机博士学位，随后在微软担任研发合伙人，曾领导开发支撑Bing搜索、Office和Windows等核心产品的大数据运算平台。 2015年，他加入阿里。此后十年，他历任阿里云首席科学家、阿里云智能CTO、达摩院副院长。 他手里最硬的一块活，就是通义大模型。 从零开始搭建团队，带队搞出Qwen系列。在他和团队的推动下，阿里开源的Qwen系列在全球开源模型中存在感持续提升，2024年10月其衍生模型数量已超8万个，超越同期Meta的Llama系列。凭借这个战绩，周靖人2025年12月入选阿里巴巴合伙人，成为少数以纯技术背景进入阿里最高决策层的高管之一。 如果把时间拉长一点看，周靖人的离职传闻并不是突然冒出来的。光是2026年以来，他的岗位就变了三次。 3月，Qwen技术负责人林俊旸离职，他临时代管Qwen。4月8日，他被任命为集团首席AI架构师，同时执掌通义大模型事业部。6月8日，头衔换成首席科学家，同时被安排去搞AI未来研究院——做前沿探索，不碰具体业务。 表面上看，每一次调动都被描述为更重要的战略部署，但一个值得注意的细节是：随着每一次调岗，周靖人距离真实的产品战场都更远了一步。从掌管通义大模型事业部，到转入AI 未来研究院专攻前沿探索，不少业内人士认为，这意味着他已不再掌握具体业务实权。 尤其是6月8日那次调整，阿里把通义事业部的核心模型研发团队划进了新成立的Token Foundry事业部，由CEO吴泳铭亲自直管。等于说，周靖人手下最核心的“兵”被调走了，然后给了他一个“最高学术头衔”。 如果周靖人真的离开，那将是通义千问团队2026年流失的第四位核心人物。 今年3月，技术负责人林俊旸在社交媒体上留了一句“me stepping down. bye my beloved qwen”，随后确认离职。紧接着，后训练负责人郁博文、核心成员李凯新也相继离开。 短短几个月，一支亲手把Qwen做成全球明星开源模型的团队，被拆得七零八落。 把这几件事拼在一起看，核心骨干出走、商业化路径内部有分歧、一位灵魂人物半年内被反复调岗，这已经不是单纯的人事变动了。它暴露出来的，是一家大公司在AI转型期最头疼的问题：研究驱动和商业变现之间，到底怎么选？ 阿里没有输不起的人，但输不起时间。 目前阿里官方仍未回应离职传闻。周靖人本人也没有发声。 但无论他最后走还是不走，有一件事已经很清楚：阿里内部关于AI到底该怎么干的博弈，远比外面看到的要激烈得多。 来源：星河商业观察 该文观点仅代表作者本人，36氪平台仅提供信息存储空间服务。 +1 88 好文章，需要你的鼓励 ZAKER财经 特邀作者 8 收 藏 +1 1 评 论 打开微信“扫一扫”，打开网页后点击屏幕右上角分享按钮 微 博 沉浸阅读 返回顶部 举报 参与评论 评论千万条，友善第一条 登录 后参与讨论 提交评论 0/1000 你可能也喜欢这些文章 钉钉的“旧洞”，90后新帅能补上么？ 钉钉危机内幕：996、高层不满、落后焦虑、AI绞杀 钉钉的新CEO，也要还“旧账” 钉钉换帅后《置身钉内》作者再发长文 钉钉换帅下一步，要打通MuleRun 钉钉前CEO无招工位已搬空，陈宇森能否成功接任 阿里又一个新事业部，什么信号？ 即时零售与AI，阿里的「割裂叙事」 ",
-        "fetched_at": "2026-06-13T23:01:35+0000",
+        "title": "大反转！Anthropic CEO拒修漏洞才被封，举报Claude新模型是自家大股东-36氪",
+        "content_excerpt": "大反转！Anthropic CEO拒修漏洞才被封，举报Claude新模型是自家大股东-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 安徽 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 大反转！Anthropic CEO拒修漏洞才被封，举报Claude新模型是自家大股东 智东西 · 2026年06月14日 11:08 Claude开启退款，金额按剩余时长折算。 Anthropic C+轮 海外 2019-02 人工智能安全和研究公司 36氪报道 前沿技术 我要联系 智东西6月14日报道，今日凌晨，据多家外媒爆料，Anthropic宣布终止访问Fable 5和Mythos 5模型的导火索，可能是 亚马逊CEO是‌安迪·贾西‌（Andy Jassy） 。 《华尔街日报》报道，亚马逊研究人员利用Anthropic的Claude Fable 5进行研究时，获取到了可用于网络攻击的信息。随后，美国政府对Fable 5和Mythos 5实施了出口管制禁令。 特朗普前AI专员、现任总统科学技术顾问委员会联合主席大卫·萨克斯（David Sacks）在社交平台X上发帖爆料了美国政府封禁的一些细节，他提到美国政府在发现安全漏洞时要求Anthropic进行修复否则就下架该模型，但 Anthropic首席执行官达里奥·阿莫代伊（Dario Amodei）拒绝修复 ，并在后续官宣中声称 该漏洞不严重，其它公司的模型也有 。 萨克斯认为，这种淡化风险的表述，与Anthropic标榜自身是AI安全企业的品牌定位自相矛盾。他还透露，美国政府希望 Anthropic能尽快解决安全问题以解除出口管制 ，并重新发布Fable 5模型。 为了弥补用户权益，Anthropic提供了 退款通道 ，有网友发布了收到的Claude退款邮件。邮件中提到，Anthropic已关闭Claude Fable 5模型的使用权限；Opus、Sonnet、Haiku其余全系模型均可正常使用；已重置用户的用量额度。 如果用户认为此次调整不符合需求，其可以选择取消订阅，并自动获得按剩余时长折算的退款。退款时间截止到当地时间6月20日。此次退款不支持在Claude移动端App操作。 ▲网友收到的退款邮件（图源：X） 01 . Claude开启退款 网友：无法回头了 有不少网友提到，Anthropic为封禁Fable 5仓促上架的退款处理方案有很多bug。其中一位网友称，Anthropic直接关停了用户的全部订阅服务，他此前5倍时长有效期到6月19日的订阅权益都没了，很离谱。 还有网友直接断言Claude已经被淘汰、无法回头了。 有网友分析，Anthropic此次的退款操作也证明，Fable 5不会很快回来， 有网友称要取消订阅，然后等待ChatGPT的新型号。 02 . 美国政府称Anthropic避重就轻 弱化新模型安全漏洞 亚马逊发言人告诉The Information，作为服务大量私营和公共部门客户的领先云服务提供商，美国政府就潜在安全风险寻求亚马逊的意见并不罕见。即便开展相关沟通，他们也不会透露洽谈的具体内容。 发言人还透露，亚马逊云科技也受到了Anthropic封禁模型的影响。6月13日早上，亚马逊云科技就撤销了所有地区对Fable 5和Mythos 5的访问权限。 The Information援引知情人士说法，在与贾西及其他科技企业负责人会谈结束后，美国国家网络事务总监肖恩·凯恩斯克罗斯（Sean Cairncross）于周五召集美国政府高层官员开会，会上敲定， 出口管制是针对Anthropic采取举措最直接的手段 。 这场会议结束后，Anthropic首席执行官达里奥·阿莫代伊（Dario Amodei）与美国政府官员进行了通话。会谈中，Anthropic方面解释称，此次所谓越狱漏洞暴露出的 安全隐患门槛并不算高 ，其他大模型也存在出现同类问题的可能性。但美国政府告知Anthropic，实施出口管制的决议已经敲定。 特朗普前AI专员、现任总统科学技术顾问委员会联合主席大卫·萨",
+        "fetched_at": "2026-06-14T22:38:07+0000",
         "candidate_type": "subpage",
         "parent_url": "https://36kr.com/information/AI",
-        "url_hash": "fd19853a4a165bdf"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "ma_funding",
-        "source_name": "36kr AI → 新通教育与36氪联合发布《AI时代留学就业白皮书》，首次系统性定义AI时代留学生就业能力框架",
-        "url": "https://36kr.com/p/3851195290326275",
-        "weight": 4,
-        "is_aggregator": true,
-        "title": "新通教育与36氪联合发布《AI时代留学就业白皮书》，首次系统性定义AI时代留学生就业能力框架-36氪",
-        "content_excerpt": "新通教育与36氪联合发布《AI时代留学就业白皮书》，首次系统性定义AI时代留学生就业能力框架-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 安徽 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 新通教育与36氪联合发布《AI时代留学就业白皮书》，首次系统性定义AI时代留学生就业能力框架 时氪分享 · 2026年06月13日 14:43 2026新通发布AI留学就业白皮书，提出能力框架与黄金赛道 杭州，2026年6月13日 —— 当通用人工智能开始重塑全球就业结构，中国留学家庭该如何做出选择？今日，在“赢在2030：面向AI时代的留学选择”主题论坛上，新通教育联合36氪研究院正式发布《AI时代留学就业白皮书：中国留学生全球就业趋势与人才价值重塑》。这是行业首本从AI重构产业视角出发，系统性定义AI时代留学生就业能力框架与专业价值地图的权威研究报告。活动吸引了现场500个家庭出席及线上超过50万观众共同参与。 选专业，比选学校更重要 新通教育集团创始人、董事长麻亚炜在题为《AI时代，为什么选专业比选学校更重要》的主旨演讲中指出，30年前留学是为了“看见世界”，15年前是为了“不输给别人”；而今天，留学家庭必须回答一个新问题：我们到底为了什么？ 她强调，在AI时代，“好留学”应该是“最适合孩子生命底色的成长路径”，是“十年后孩子依然热爱并且擅长的领域”；“好就业”则是“在AI时代依然不可被替代的核心竞争力”，是“在产业变迁中始终拥有选择权”。 「CORE」模型：首次系统性定义AI时代留学生就业能力框架 本次发布的核心成果，是白皮书首次提出的面向2030的 「CORE」未来胜任力模型 。该模型基于对134家企业中层管理者的一手调研数据，将“AI不可替代的能力”从抽象概念转化为可培养、可评估的四维素养框架： l C — Co-Intelligence（人机协同力） ：驾驭AI而非被AI替代，结构化拆解问题，精准调用并批判性校验AI工具 l O — Omni-cultural Agility（全域跨文化敏捷度） ：超越语言，实现无国界高效协同，快速适配多元文化背景 l R — Responsible Resilience（负责型内核韧性） ：直面不确定性，主动担当与自我复原，在高压下兜住关键环节 l E — Empathetic Insight（批判性共情洞察） ：洞察他人需求，做出人本决策，守护AI无法替代的“人的温度” 麻亚炜在演讲中总结道：“赛道+专业决定你从哪里出发，CORE模型决定你能走多远。 外功是入场券，内功是护城河。 ” 企业招聘逻辑发生根本性转变 36氪研究院院长邹萍在《未来10年，什么能力会持续升值？》主题分享中，首次向公众披露了企业调研的关键数据。 调研显示， 67.91%的企业认为“跨部门协作能力”是当前海归员工的最大短板 ；59.70%的企业对“履历光鲜但抗压能力未经验证”的候选人表示明确顾虑。这一发现打破了“名校+AI熟练=优质人才”的传统认知，标志着企业招聘逻辑正从“看标签”全面转向“看内核”—— 问题定义能力、人机协同能力、共情与韧性，正在取代传统的名校与技能标签，成为决定职业发展的关键。 专业分区图谱与七大黄金赛道首次公开 白皮书独创“AI时代专业分区图谱”，将全部专业划分为 高护城河区、前沿探索区、审慎选择区 三类，帮助家庭科学评估专业选择的长期价值。以传统会计学为例，白皮书引用澳洲会计师公会数据显示，32%的受访企业过去12个月减少招聘初级财会人员，但同时18%的企业正在积极扩招具备AI专业素养的复合型人才——印证了白皮书的核心判断： 不是专业的价值在消失，而是价值构成正在发生变化。 同时，白皮书结合国家“十五五”规划方向，明确了2030年 七大黄金就业赛道 ：AI+、低空经济与空天信息、合成生物与生命健康、绿色低碳与ESG、量子技术与前沿材料、智能制造与工业互联、数字出海与全球战略。 新通2H交付生态，实现全生命周期守护 针对留学家庭的两大核心痛点——专业选择焦虑与海外适应难题，新通教育正式推出“2",
-        "fetched_at": "2026-06-13T23:01:35+0000",
-        "candidate_type": "subpage",
-        "parent_url": "https://36kr.com/information/AI",
-        "url_hash": "a8c97090f40689d6"
+        "url_hash": "3b23eba9bbfde3c6"
       }
     ],
-    "my-law": [
-      {
-        "bucket": "my-law",
-        "subcategory": "official",
-        "source_name": "Bernama · 国家通讯社 → Bernama's Kelantan Bureau Bags Five Awards At Kelantan Media",
-        "url": "https://www.bernama.com/en/general/news.php?id=2568290",
-        "weight": 4,
-        "is_aggregator": false,
-        "title": "BERNAMA - Bernama's Kelantan Bureau Bags Five Awards At Kelantan Media Awards 2025",
-        "content_excerpt": "BERNAMA - Bernama's Kelantan Bureau Bags Five Awards At Kelantan Media Awards 2025 BERNAMA.com | BERNAMA TV | BERNAMA Radio | BERNAMA Images | BLIS | NewsLink5 English Malay Arabic Espa&ntilde;ol General BernamaBiz Crime & Courts Politics Sports Lifestyle Region Central Northern Southern East Sabah Sarawak World Main Nam News Network (NNN) The Organization of Asia-Pacific News Agencies (OANA) Xinhua News Agency Microsite World Cup 2026 Maju Johor HAWANA 2026 CPI MAPO MCMC Fokus BERNAMA Thoughts MyCheck fotoBERNAMA Garasi More Infographics Videos Exclusive Press Archived English Malay Arabic Espa&ntilde;ol Home General BernamaBiz Crime & Courts Politics Sports Lifestyle Region Central Northern Southern East Sabah Sarawak World Main Nam News Network (NNN) The Organization of Asia-Pacific News Agencies (OANA) Xinhua News Agency Microsite World Cup 2026 Maju Johor HAWANA 2026 CPI MAPO MCMC Fokus BERNAMA Thoughts MyCheck fotoBERNAMA Garasi More Infographics Videos Exclusive Press Archived GENERAL > NEWS Bernama's Kelantan Bureau Bags Five Awards At Kelantan Media Awards 2025 14/06/2026 01:08 AM KOTA BHARU, June 13 (Bernama) -- The Malaysian National News Agency&rsquo;s (Bernama) Kelantan Bureau bagged five awards at the Kelantan Media Awards 2025 ceremony held in conjunction with the State-level National Journalists Day (HAWANA) celebration here tonight. The success was achieved through Muhammad Mustaqim Khairuddin, who emerged as the winner in the Best News Photography category which offered a cash prize of RM1,000, with his entry, Saving Cows in the Flood. Muhammad Afiq Mohd Asri secured second place in the Best Malay Language Newspaper Special Report category and took home RM700 with his entry: Kelantan-Thailand Border: Internal Threats, Geographical Challenges, and Maritime Power Demands. Muhammad Afiq, who is also the Bernama Kelantan Bureau Chief, also won second place in the Best Malay Language Newspaper News category and pocketed another RM700, through his articl",
-        "fetched_at": "2026-06-13T23:01:36+0000",
-        "candidate_type": "subpage",
-        "parent_url": "https://www.bernama.com/en/general/index.php",
-        "url_hash": "a9fb993d33db68b5"
-      },
-      {
-        "bucket": "my-law",
-        "subcategory": "official",
-        "source_name": "Bernama · 国家通讯社 → Bernama Bags Six Main Awards, Seven Merit Awards At Kinabalu",
-        "url": "https://www.bernama.com/en/general/news.php?id=2568279",
-        "weight": 4,
-        "is_aggregator": false,
-        "title": "BERNAMA - Bernama Bags Six Main Awards, Seven Merit Awards At Kinabalu Press Awards 2026",
-        "content_excerpt": "BERNAMA - Bernama Bags Six Main Awards, Seven Merit Awards At Kinabalu Press Awards 2026 BERNAMA.com | BERNAMA TV | BERNAMA Radio | BERNAMA Images | BLIS | NewsLink5 English Malay Arabic Espa&ntilde;ol General BernamaBiz Crime & Courts Politics Sports Lifestyle Region Central Northern Southern East Sabah Sarawak World Main Nam News Network (NNN) The Organization of Asia-Pacific News Agencies (OANA) Xinhua News Agency Microsite World Cup 2026 Maju Johor HAWANA 2026 CPI MAPO MCMC Fokus BERNAMA Thoughts MyCheck fotoBERNAMA Garasi More Infographics Videos Exclusive Press Archived English Malay Arabic Espa&ntilde;ol Home General BernamaBiz Crime & Courts Politics Sports Lifestyle Region Central Northern Southern East Sabah Sarawak World Main Nam News Network (NNN) The Organization of Asia-Pacific News Agencies (OANA) Xinhua News Agency Microsite World Cup 2026 Maju Johor HAWANA 2026 CPI MAPO MCMC Fokus BERNAMA Thoughts MyCheck fotoBERNAMA Garasi More Infographics Videos Exclusive Press Archived GENERAL > NEWS Bernama Bags Six Main Awards, Seven Merit Awards At Kinabalu Press Awards 2026 14/06/2026 12:49 AM KOTA KINABALU, June 13 (Bernama) -- The Malaysian National News Agency (Bernama) turned in a stellar performance at the Kinabalu Press Awards 2026 tonight, walking away with six Main Awards and seven Merit awards. The prestigious annual event, which featured a total of 26 categories, made history this year by receiving a record 354 entries compared to 268 submissions recorded last year. Bernama&rsquo;s excellence in journalism was highly visible in the Bahasa Melayu stream, led by Sabah Bureau Chief Fadzli Ramli, who clinched the Main Award in the News Reporting (Bahasa Melayu) category for his report on how social media and AI dominated the Sabah state election last year. Fadzli, alongside his team members Arjasneh Ahmad and Ahmad Jimmy, also secured the top prize in the English Journalism Award (Feature and News Feature) category for a feature on the human-Borneo ele",
-        "fetched_at": "2026-06-13T23:01:36+0000",
-        "candidate_type": "subpage",
-        "parent_url": "https://www.bernama.com/en/general/index.php",
-        "url_hash": "3c250263c70e6ca8"
-      }
-    ],
+    "my-law": [],
     "fitness": [],
     "stocks": []
   },
@@ -174,8 +130,8 @@
       "bucket": "ai",
       "subcategory": "ma_funding",
       "weight": 5,
-      "status": 0,
-      "err": "URLError <urlopen error [Errno 54] Connection reset by peer>"
+      "status": 403,
+      "err": "HTTPError 403"
     },
     {
       "name": "PitchBook AI",
@@ -205,8 +161,8 @@
       "err": "HTTPError 403"
     },
     {
-      "name": "SEC EDGAR · S-1 Filings",
-      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&type=S-1&dateb=&owner=include&count=40",
+      "name": "S&P Global Indices · News",
+      "url": "https://www.spglobal.com/spdji/en/index-news-and-announcements/",
       "bucket": "stocks",
       "subcategory": "exchange_regulator",
       "weight": 4,
@@ -223,8 +179,8 @@
       "err": "URLError <urlopen error [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)>"
     },
     {
-      "name": "S&P Global Indices · News",
-      "url": "https://www.spglobal.com/spdji/en/index-news-and-announcements/",
+      "name": "SEC EDGAR · S-1 Filings",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&type=S-1&dateb=&owner=include&count=40",
       "bucket": "stocks",
       "subcategory": "exchange_regulator",
       "weight": 4,
@@ -232,29 +188,11 @@
       "err": "HTTPError 403"
     },
     {
-      "name": "StepFun 阶跃",
-      "url": "https://www.stepfun.com/",
-      "bucket": "ai",
-      "subcategory": "china_labs",
-      "weight": 3,
-      "status": 0,
-      "err": "URLError The read operation timed out"
-    },
-    {
-      "name": "Boston Dynamics",
-      "url": "https://bostondynamics.com/blog/",
-      "bucket": "ai",
-      "subcategory": "robotics",
-      "weight": 2,
-      "status": 0,
-      "err": "URLError The read operation timed out"
-    },
-    {
-      "name": "宇树 Unitree",
-      "url": "https://www.unitree.com/news",
-      "bucket": "ai",
-      "subcategory": "robotics",
-      "weight": 3,
+      "name": "Bernama · 国家通讯社",
+      "url": "https://www.bernama.com/en/general/index.php",
+      "bucket": "my-law",
+      "subcategory": "official",
+      "weight": 4,
       "status": 0,
       "err": "URLError The read operation timed out"
     }
