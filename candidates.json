@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-14T22:38:40+0000",
+  "generated_at": "2026-06-15T22:47:46+0000",
   "fetch_summary": {
     "total_sources": 111,
-    "fetched_200": 94,
+    "fetched_200": 86,
     "fetched_4xx_5xx": 15,
-    "fetched_err": 2,
-    "deduped": 214,
-    "candidates_count": 2,
+    "fetched_err": 10,
+    "deduped": 189,
+    "candidates_count": 6,
     "rss_entries": 70,
-    "subpages_fetched": 75,
+    "subpages_fetched": 61,
     "by_bucket": {
-      "ai": 2,
+      "ai": 6,
       "my-law": 0,
       "fitness": 0,
       "stocks": 0
@@ -20,31 +20,90 @@
     "ai": [
       {
         "bucket": "ai",
-        "subcategory": "ma_funding",
-        "source_name": "36kr AI → 华人AI工程师也搭上了SpaceX的财富火箭",
-        "url": "https://36kr.com/p/3852485841156997",
+        "subcategory": "frontier_labs",
+        "source_name": "OpenAI Blog (RSS entry)",
+        "url": "https://openai.com/index/introducing-openai-partner-network",
+        "weight": 5,
+        "is_aggregator": false,
+        "title": "Introducing the OpenAI Partner Network",
+        "content_excerpt": "OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation.",
+        "fetched_at": "2026-06-15T22:45:05+0000",
+        "published": "Sun, 14 Jun 2026 17:00:00 GMT",
+        "candidate_type": "rss_entry",
+        "parent_feed": "https://openai.com/blog/rss.xml",
+        "url_hash": "4a1a2edfc53fbcf8"
+      },
+      {
+        "bucket": "ai",
+        "subcategory": "news_analysis",
+        "source_name": "Stratechery (Ben Thompson) (RSS entry)",
+        "url": "https://stratechery.com/2026/anthropics-safety-superpower/",
+        "weight": 5,
+        "is_aggregator": false,
+        "title": "Anthropic’s Safety Superpower",
+        "content_excerpt": "Anthropic's belief in its own commitment to safety gives the company license to aggressively favor its business and even challenge the U.S. government.",
+        "fetched_at": "2026-06-15T22:45:10+0000",
+        "published": "Mon, 15 Jun 2026 10:00:00 +0000",
+        "candidate_type": "rss_entry",
+        "parent_feed": "https://stratechery.com/feed/",
+        "url_hash": "8cea41195b55dfb0"
+      },
+      {
+        "bucket": "ai",
+        "subcategory": "news_analysis",
+        "source_name": "Import AI (Jack Clark) (RSS entry)",
+        "url": "https://importai.substack.com/p/import-ai-461-alignment-is-not-on",
         "weight": 4,
-        "is_aggregator": true,
-        "title": "华人AI工程师也搭上了SpaceX的财富火箭-36氪",
-        "content_excerpt": "华人AI工程师也搭上了SpaceX的财富火箭-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 安徽 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 华人AI工程师也搭上了SpaceX的财富火箭 字母AI · 2026年06月14日 12:04 从多模态到代码智能体，xAI里的华人AI工程师也被装进了SpaceX上市故事。 SpaceX上市，先制造了一场财富神话。 马斯克成为了全球首位万亿富翁，身家被推到了人类商业史从未到过的位置。 4400多名现任和前员工，账面成为百万富翁；约400人，持有的股票价值超过1亿美元。 这些新晋富豪不全是创始人、投资人或者高管，里面有工程师、焊工、厨师、食堂员工…… 入职那天，公司给了他们股票。拿住的人，等了十年、二十年，等到SpaceX上市的这一天，收获了十分丰厚的回报。 这场全世界有史以来最大规模的IPO，引发了一轮关于SpaceX员工股权的财富重估。 上市的SpaceX，不只是火箭、星舰和Starlink；xAI并入之后，AI模型、工程自动化和多模态能力，也被装进了同一个资本故事。 SpaceX的财富火箭，也不只载着发射台、火箭工厂和星链网络里的人，还载着xAI的模型训练团队。 这支团队刚刚经历过一轮剧烈洗牌，负责Grok Code和Grok Imagine的张国栋、戴子航等早期核心人物相继出走，公司经历重组，马斯克之外的xAI原始联合创始人全部离开。 过去我们关心离开的人才，但留下来的那些人同样值得关注，其中不乏一些中文名字： 胡戎航（Ronghang Hu）、赵龙（Long Zhao）、刘泽（Ze Liu）、黄杰（Jie Huang）、林禹臣（Bill Yuchen Lin）、沈卓然（Zhuoran Shen）、李英儒（Yingru Li）…… 对于这些仍然留在xAI体系内、并持有股权激励的核心工程师来说，SpaceX的上市意味着他们手里的权益被带到了公开市场的兑现窗口前。 拿住股票的人，等来了回报 SpaceX从很早开始，就把股票发到了各个层级的员工手里。 有人拿到的是期权，有人拿到的是受限股票。无论形式是什么，都不是一笔确定的财富，很多人并不相信这家公司真的能走到上市这一天。 毕竟SpaceX并不是一家看起来稳赢的公司，2006年、2007年、2008年，猎鹰1号前三次发射全部失败，直到08年9月，第四次发射才终于成功入轨。 马斯克后来对NASA前局长Jim Bridenstine回忆，当时SpaceX已经没有预算再做一次发射，第四次都是用备用零件凑出来的；如果还失败，SpaceX就没有后来了。 三个月后，靠NASA给的一份价值16亿美元的国际空间站商业补给合同，SpaceX才真正从悬崖边上被拉回来。 在那之后，SpaceX也经历了重重波折。Falcon 9任务失败、发射台也发生过爆炸，到了星舰阶段，失败、调查和整改依然是故事的一部分。 今天看起来像一夜暴富的故事，当年其实更像是接受了一张可能永远无法兑现的欠条。 但事实就是，SpaceX上市这天，拿住股票的人都等来了回报。 《纽约时报》报道里提到的Trevor Hise是典型的工程师版本，他2011年大学毕业后加入SpaceX，从实习生做起，后来成为发射工程师，在SpaceX工作了12年。到上市时，他手里还有超过10万股，按每股135美元的发行价计算，这些股票价值至少1350万美元。 前SpaceX焊工Juan Hernandez来自墨西哥，早年在SpaceX的时薪约28美元，获得过约1万美元股票授予；他在2020年SpaceX估值达到360亿美元时卖出过一部分，到IPO前剩余6,500股，按每股135美元计算，价值约87.75万美元。 更何况SpaceX首日收盘价为160.95美元，盘中一度超过176美元。 当然，也不是所有人都等到了这一天。SpaceX内部曾流传过一个说法：早期有员工不相信公司真的会上市，离职时把股票换成了美国连锁餐厅Chili’s的礼品卡。 正所谓“早知三日事，富贵几千年”，可惜那时只当手里攥着的是一张废纸，哪想",
-        "fetched_at": "2026-06-14T22:38:07+0000",
-        "candidate_type": "subpage",
-        "parent_url": "https://36kr.com/information/AI",
-        "url_hash": "99e0682978c763d5"
+        "is_aggregator": false,
+        "title": "Import AI 461: \"Alignment is not on track\"; FrontierCode; and synthetic research interns",
+        "content_excerpt": "Where are your agents right now?",
+        "fetched_at": "2026-06-15T22:45:38+0000",
+        "published": "Mon, 15 Jun 2026 11:30:53 GMT",
+        "candidate_type": "rss_entry",
+        "parent_feed": "https://importai.substack.com/feed",
+        "url_hash": "369271d4ab79ed86"
       },
       {
         "bucket": "ai",
         "subcategory": "ma_funding",
-        "source_name": "36kr AI → 大反转！Anthropic CEO拒修漏洞才被封，举报Claude新模型是自家大股东",
-        "url": "https://36kr.com/p/3852376401220868",
+        "source_name": "36kr AI → Claude Fable 5 平替指南突然爆火，真能一句话「复活」？",
+        "url": "https://36kr.com/p/3854354308961287",
         "weight": 4,
         "is_aggregator": true,
-        "title": "大反转！Anthropic CEO拒修漏洞才被封，举报Claude新模型是自家大股东-36氪",
-        "content_excerpt": "大反转！Anthropic CEO拒修漏洞才被封，举报Claude新模型是自家大股东-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 安徽 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 大反转！Anthropic CEO拒修漏洞才被封，举报Claude新模型是自家大股东 智东西 · 2026年06月14日 11:08 Claude开启退款，金额按剩余时长折算。 Anthropic C+轮 海外 2019-02 人工智能安全和研究公司 36氪报道 前沿技术 我要联系 智东西6月14日报道，今日凌晨，据多家外媒爆料，Anthropic宣布终止访问Fable 5和Mythos 5模型的导火索，可能是 亚马逊CEO是‌安迪·贾西‌（Andy Jassy） 。 《华尔街日报》报道，亚马逊研究人员利用Anthropic的Claude Fable 5进行研究时，获取到了可用于网络攻击的信息。随后，美国政府对Fable 5和Mythos 5实施了出口管制禁令。 特朗普前AI专员、现任总统科学技术顾问委员会联合主席大卫·萨克斯（David Sacks）在社交平台X上发帖爆料了美国政府封禁的一些细节，他提到美国政府在发现安全漏洞时要求Anthropic进行修复否则就下架该模型，但 Anthropic首席执行官达里奥·阿莫代伊（Dario Amodei）拒绝修复 ，并在后续官宣中声称 该漏洞不严重，其它公司的模型也有 。 萨克斯认为，这种淡化风险的表述，与Anthropic标榜自身是AI安全企业的品牌定位自相矛盾。他还透露，美国政府希望 Anthropic能尽快解决安全问题以解除出口管制 ，并重新发布Fable 5模型。 为了弥补用户权益，Anthropic提供了 退款通道 ，有网友发布了收到的Claude退款邮件。邮件中提到，Anthropic已关闭Claude Fable 5模型的使用权限；Opus、Sonnet、Haiku其余全系模型均可正常使用；已重置用户的用量额度。 如果用户认为此次调整不符合需求，其可以选择取消订阅，并自动获得按剩余时长折算的退款。退款时间截止到当地时间6月20日。此次退款不支持在Claude移动端App操作。 ▲网友收到的退款邮件（图源：X） 01 . Claude开启退款 网友：无法回头了 有不少网友提到，Anthropic为封禁Fable 5仓促上架的退款处理方案有很多bug。其中一位网友称，Anthropic直接关停了用户的全部订阅服务，他此前5倍时长有效期到6月19日的订阅权益都没了，很离谱。 还有网友直接断言Claude已经被淘汰、无法回头了。 有网友分析，Anthropic此次的退款操作也证明，Fable 5不会很快回来， 有网友称要取消订阅，然后等待ChatGPT的新型号。 02 . 美国政府称Anthropic避重就轻 弱化新模型安全漏洞 亚马逊发言人告诉The Information，作为服务大量私营和公共部门客户的领先云服务提供商，美国政府就潜在安全风险寻求亚马逊的意见并不罕见。即便开展相关沟通，他们也不会透露洽谈的具体内容。 发言人还透露，亚马逊云科技也受到了Anthropic封禁模型的影响。6月13日早上，亚马逊云科技就撤销了所有地区对Fable 5和Mythos 5的访问权限。 The Information援引知情人士说法，在与贾西及其他科技企业负责人会谈结束后，美国国家网络事务总监肖恩·凯恩斯克罗斯（Sean Cairncross）于周五召集美国政府高层官员开会，会上敲定， 出口管制是针对Anthropic采取举措最直接的手段 。 这场会议结束后，Anthropic首席执行官达里奥·阿莫代伊（Dario Amodei）与美国政府官员进行了通话。会谈中，Anthropic方面解释称，此次所谓越狱漏洞暴露出的 安全隐患门槛并不算高 ，其他大模型也存在出现同类问题的可能性。但美国政府告知Anthropic，实施出口管制的决议已经敲定。 特朗普前AI专员、现任总统科学技术顾问委员会联合主席大卫·萨",
-        "fetched_at": "2026-06-14T22:38:07+0000",
+        "title": "Claude Fable 5 平替指南突然爆火，真能一句话「复活」？-36氪",
+        "content_excerpt": "Claude Fable 5 平替指南突然爆火，真能一句话「复活」？-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 安徽 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 Claude Fable 5 平替指南突然爆火，真能一句话「复活」？ 爱范儿 · 2026年06月15日 21:10 三个臭皮匠，顶个诸葛亮？ Claude Fable 5 周末被停用之后，成了不少人心中逝去的白月光。连原本定好的 Claude Fable 5 开发者大会，主角也被临时调整为 Opus 4.8。 可 Fable 的悼念帖还没刷完，知名 AI 模型聚合平台 OpenRouter 带着 Fusion API 闪亮登场。 它自称是市面上最聪明的「拼盘模型」，智力接近 Fable，且价格只要一半。 截至发稿前，OpenRouter 这条推文已经冲到 518.5 万阅读。某种程度上，Fusion API 展示了一种新思路： 模型能力不一定只能靠参数的力大飞砖，协作本身也能产生增益。 AI 也讲究群殴战术？ Fusion 本质上是一套「多模型协作」机制。 与传统大模型由单个模型完成思考、搜索和回答不同，Fusion 会把同一个问题同时交给多个模型独立研究，再对结果进行综合。 整个流程分为三步： 1. 并行研究：多个参与模型（Panel Models）在相同工具权限下独立完成搜索、资料整理和答案生成； 2. 交叉评审：裁判模型（Judge Model）阅读所有答案，分析共识、分歧、遗漏、独特观点以及潜在错误和风险； 3. 生成结论：主模型根据评审结果完成信息整合，输出最终答案。 因此，Fusion 的核心并非简单拼接多个回答，而是通过独立研究、交叉验证和统一综合来提升结果质量。 为了验证这种协作模式是否有效，OpenRouter 采用了 Perplexity AI 发布的 DRACO 作为测试基准。 DRACO 专门评估深度研究能力，共包含 100 道任务，覆盖学术、金融、法律、医疗、技术、UX 设计、产品比较等 10 个领域。与传统问答测试不同，它不仅考察知识储备，还会评估推理能力、工具使用能力、资料检索能力以及最终报告质量。 每道题接近 40 条评分标准，主要关注事实准确性、分析完整性、信息整合能力、引用可靠性和表达清晰度。同时还设置了负分项，例如给出危险医疗建议或引用明显错误信息都会被扣分，因此模型很难依靠堆字数来刷成绩。 🔗 https://openrouter.ai/blog/announcements/fusion-beats-frontier/ 在这套测试里，Gemini 3 Flash、Kimi K2.6 和 DeepSeek V4 Pro 三个模型组成团队，再由 Opus 4.8 负责综合，最终拿到 64.7%。 作为对比，GPT-5.5 单独作战为 60.0%；Opus 4.8 单独作战为 58.8%。 而 Fable 5 单独作战的成绩是 65.3%。这意味着 Fusion 的平价组合距离 Fable 只差不到 1 个百分点，但成本大约只有后者的一半。 此外，OpenRouter 还做了一个有趣的实验：让 Opus 4.8 和另一个 Opus 4.8 组成双人小组，然后仍然由 Opus 4.8 负责综合结果。 照理说，两个一模一样的模型搭伙，能有多大变化？结果却拿到了 65.5% 的 DRACO 成绩。相比之下，单独运行的 Opus 4.8 只有 58.8%。也就是说，仅仅增加一次独立思考和综合过程，分数就提高了 6.7 个百分点。 究其原因，同一个模型面对同一个问题时，也可能走出不同推理路径。它可能调用不同工具、搜索不同资料、关注不同细节，最终形成两份并不完全相同的答案。 当这些答案被放在一起比较时，就有机会发现遗漏、修正错误、补充证据。 这也是为什么 OpenRouter 估算，Fusion 带来的提升里，大约四分之三来自综合环节本身，只有四分之一来自模型之间的多样性。 DeepSeek V4 Pro 的表现也尤其让 OpenRou",
+        "fetched_at": "2026-06-15T22:47:17+0000",
         "candidate_type": "subpage",
         "parent_url": "https://36kr.com/information/AI",
-        "url_hash": "3b23eba9bbfde3c6"
+        "url_hash": "ec1b9445bfb76947"
+      },
+      {
+        "bucket": "ai",
+        "subcategory": "ma_funding",
+        "source_name": "36kr AI → 1680份员工履历揭开Anthropic招人底牌：「基础设施老兵」更吃香",
+        "url": "https://36kr.com/p/3854356944311297",
+        "weight": 4,
+        "is_aggregator": true,
+        "title": "1680份员工履历揭开Anthropic招人底牌：「基础设施老兵」更吃香-36氪",
+        "content_excerpt": "1680份员工履历揭开Anthropic招人底牌：「基础设施老兵」更吃香-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 安徽 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 1680份员工履历揭开Anthropic招人底牌：「基础设施老兵」更吃香 机器之心 · 2026年06月15日 21:14 「不招应届生、只要资深工程师」！ Anthropic C+轮 海外 2019-02 人工智能安全和研究公司 36氪报道 前沿技术 我要联系 当前，在狂热的 AI 浪潮下，大众对于头部 AI 大厂或明星初创公司往往有着一种带有光环的「刻板印象」：一定是由顶尖高校博士、各大优秀前沿研究论文的作者、算法天才等组成的团队。 但实际上，似乎并不总是如此。 最近，科技行业招聘专家 seb@hiiinternet 在 X 上发文，在针对硅谷新贵 Anthropic 进行的一次硬核背景大普查，抓取并分析了 1680 份公开 LinkedIn 履历后发现，这家被外界视为前沿 AI Lab 的公司，真正极度渴求并大规模雇佣的， 似乎并不是理论派的「研究员」，而是有能力在产业界落地大规模生产系统的「构建者」…… seb 表示，他抓取了所有在 LinkedIn 个人资料里把 Anthropic 列为当前雇主的人，一共 5306 人。然后筛出其中真正属于工程岗位的 1680 人，接着又分析了他们过往岗位描述中的 7986 条信息，看看他们在加入 Anthropic 之前到底做过什么。 而从一系列的分析来看，在这在 1680 名工程师的履历数据背后，藏着不同于传统认知 7 大特点： 「闪电式」扩张，18 个月建成「超级战舰」 数据如下图所示： 从数据来看，在 2021 年之前就加入 Anthropic、并且现在仍在职的工程师只有 15 人；到 2025 年，这个组织规模大约增长了 3 倍， 当年新招了 686 名工程师；而 2026 年整体也在以类似速度的扩张，截至 6 月已经招了 455 人。 当前工程团队里，有一半人在 Anthropic 的任职时间还不到一年，过去 12 个月加入的人占 53%，员工任职时间中位数是 10 个月。 也就是说， 这是一个差不多在 18 月内搭起来的庞大工程组织， 「几乎是一夜之间把组织规模做起来的。」 「极度排斥」小白，更偏好「资深工程师」 仔细看，seb 又有了一个新发现，那就是他们几乎只招「资深工程师」。从下面这张图中可以看出这一点： Anthropic 工程师在加入该公司之前的「工程经验中位数」约为 12.2 年，而中间 50% 的人，经验集中在 8.8 年到 16.5 年之间； 拥有 13 年或以上的行业深耕经验的工程师占比为 44%； 1680 人里，工作经验少于 3 年的只有 50 人，应届生招聘基本不存在。 所以，从整体来看，Anthropic 的典型新员工画像是： 有着 12 年的工作经验，但加入公司才 10 个月。 而这些冰冷的数据似乎在传递着这样一个信号：Anthropic 几乎完全拒绝了传统意义上的初级工程师，它所看中的，是已经在残酷的商业战场上证明过自己、能够「拿来即用」的资深开发者。 更偏好「基础设施」，而非「研究」 在传统认知中，或者活在一线的，大多是前沿的模型架构和 RLHF 等人才，可根据数据来看，在实际的工程图谱中， 基础设施建设才是大多数人的履历「底色」。 数据显示，40% 的 Anthropic 员工背景中出现了基础设施相关经历。后端、分布式系统、数据库和安全，每一类都接近 20%。而强化学习背景的仅占 3.3%。 典型的 Anthropic 工程师，过去十年大多是在超大规模云厂商，或者基础设施能力很强的创业公司里，构建大规模生产系统。他们自述的技能标签也说明了同一件事：Python585 人、Java566 人、C++ 443 人、JavaScript 376 人、SQL 302 人、Linux 230 人、分布式系统 189 人等。 这表明，Anthropic 工程团队的日常核心工作，",
+        "fetched_at": "2026-06-15T22:47:16+0000",
+        "candidate_type": "subpage",
+        "parent_url": "https://36kr.com/information/AI",
+        "url_hash": "72276320ed078396"
+      },
+      {
+        "bucket": "ai",
+        "subcategory": "ma_funding",
+        "source_name": "36kr AI → “我花近万元买的智能眼镜，最近不敢戴出门”",
+        "url": "https://36kr.com/p/3854356284134406",
+        "weight": 4,
+        "is_aggregator": true,
+        "title": "“我花近万元买的智能眼镜，最近不敢戴出门”-36氪",
+        "content_excerpt": "“我花近万元买的智能眼镜，最近不敢戴出门”-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 安徽 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 “我花近万元买的智能眼镜，最近不敢戴出门” 新周刊 · 2026年06月15日 21:13 “如果用户知道自己真正录下了什么，恐怕没人敢继续戴这款眼镜。” 智能眼镜要取代手机的预言，你可能已经至少听了三年。但很遗憾，大多数人揭开它的庐山真面目，居然是从接二连三的尴尬开始。 一个在天空。有人戴着Rokid在飞机上偷拍空乘，9.9元的遮光贴，轻松破解了厂商精心设计的拍摄指示灯。电商平台上，这种遮光贴卖了6000多件。 一个在考场。高考安检把智能眼镜写进违禁品名单，考生入场要过“二次安检”，眼镜得摘下来，在监控下接受专项检查。 奥维云网数据显示，截至2026年4月，中国智能眼镜线上在售品牌已经增长到了356个。Meta Ray-Ban卖了700万副，三年销量翻了10倍。与此同时，集成录音、摄影与AI交互技术后，雷鸟V4将重量压到了38克，科大讯飞压到了40克， 差不多就是一副普通墨镜的重量。 市面上的智能眼镜从视觉上看，和普通眼镜并无二样。（图/淘宝截图） 也就是说，更轻、更久、更多样，智能眼镜在突破“不可能三角”的同时，以一个尴尬的姿势，开始为大众熟知： 更轻和更日常，也意味着偷拍更隐蔽；对面那个戴眼镜的人看起来不怀好意，ta不会是在偷拍吧？ 扎克伯格等科技界名人都曾断言，智能眼镜终将取代手机，成为下一代计算平台。国内各家AI眼镜厂商，也纷纷传出预备IPO。一时间，每个人都心照不宣地将故事当做了预言。 很多人相信，智能眼镜代表着未来。（图/《明日生存指南》） 但问题是，技术很好，信任成本很高；功能很强大，“被看见”的代价更大。更不用说， 年轻人连手机都懒得换了。 一台三四年前的旧手机，换个电池还能再战两年。连天天捧在手心的东西都不愿升级，你凭什么把脸交给一副可能被当成偷拍嫌疑犯的眼镜？ 未来科技还是偷拍“神器” 很多人对智能眼镜动心，不是因为偷拍，而是因为它确实有用。 出差时打开同声传译，对方说一句，镜片上实时显示一句，不用举着手机来回递；逛博物馆时对着展品问一句，AI就能把背后的故事讲给你听，比导览器还详细；骑行时喊一声导航，路线直接浮在眼前，不用低头看手机。翻译支持一百多种语言，续航撑得过大半天。 这些功能听起来都很像“未来的样子”。但问题是，当这副眼镜同时具备“第一视角拍摄”的能力时，事情就变味了。 最需要被记住的优点，反而被最大的风险盖过。 李然第一次对智能眼镜动心，是在骑行博主的视频里。 画面里，博主戴着一副黑色边框眼镜一路骑行，沿途风景被稳稳记录下来。没有举着手机的狼狈，没有头盔上架着运动相机的累赘。对每天骑车通勤的李然而言， 这副眼镜承诺了一种更轻盈的记录方式。 两周后，李然花两千多元买下了它。起初骑车时戴着确实方便，轻触镜腿就能拍照，解放双手记录路况。两个小时的续航，也足够让他在通勤路上拍个来回。更重要的是，这副眼镜不到50克，穿戴体感上跟普通眼镜几乎没差别。 智能眼镜在穿戴体感上和普通眼镜几乎没差别。（图/《明日生存指南》） 但这份“无感”的隐蔽性，却在偶然间变成了他的负担。不止一次， 在得知他戴的是智能眼镜后，身旁的路人会警惕地问：“你的眼镜会拍到我吗？”“可以不要往我这边看吗？” 不到一个月，李然就把眼镜挂闲鱼了。对他而言，比起续航虚标、拍摄卡顿这些产品缺陷，无处不在的“被怀疑”更让人难以忍受：“真的很尴尬，我要一遍遍地解释我没开机，或者没有在拍他们。” 李然承受的是“被怀疑者”的尴尬，而刚刚过去的Rokid社区事件，则暴露了被拍者的无奈和愤怒。 6月初，上海的云女士在Rokid AI的App社区里刷到一个视频。有人戴着该品牌智能眼镜登机，全程第一视角记录下春秋航空女空乘的工作画面，视频配文带有冒犯性，挂在社区里公开传播。于是，云女士向平台举报，并发文：“小心智能眼镜偷拍。” 云女士在社交平台发文（图/社交媒体截图） 相关内容在社区内流转，大批网友在网上进行声讨：“这",
+        "fetched_at": "2026-06-15T22:47:17+0000",
+        "candidate_type": "subpage",
+        "parent_url": "https://36kr.com/information/AI",
+        "url_hash": "080f36273603691d"
       }
     ],
     "my-law": [],
@@ -161,6 +220,24 @@
       "err": "HTTPError 403"
     },
     {
+      "name": "Sport Australia",
+      "url": "https://www.sportaus.gov.au/",
+      "bucket": "fitness",
+      "subcategory": "policy_government",
+      "weight": 2,
+      "status": 0,
+      "err": "URLError <urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>"
+    },
+    {
+      "name": "SEC EDGAR · S-1 Filings",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&type=S-1&dateb=&owner=include&count=40",
+      "bucket": "stocks",
+      "subcategory": "exchange_regulator",
+      "weight": 4,
+      "status": 403,
+      "err": "HTTPError 403"
+    },
+    {
       "name": "S&P Global Indices · News",
       "url": "https://www.spglobal.com/spdji/en/index-news-and-announcements/",
       "bucket": "stocks",
@@ -179,20 +256,56 @@
       "err": "URLError <urlopen error [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)>"
     },
     {
-      "name": "SEC EDGAR · S-1 Filings",
-      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&type=S-1&dateb=&owner=include&count=40",
-      "bucket": "stocks",
-      "subcategory": "exchange_regulator",
-      "weight": 4,
-      "status": 403,
-      "err": "HTTPError 403"
+      "name": "Boston Dynamics",
+      "url": "https://bostondynamics.com/blog/",
+      "bucket": "ai",
+      "subcategory": "robotics",
+      "weight": 2,
+      "status": 0,
+      "err": "URLError The read operation timed out"
     },
     {
-      "name": "Bernama · 国家通讯社",
-      "url": "https://www.bernama.com/en/general/index.php",
-      "bucket": "my-law",
-      "subcategory": "official",
+      "name": "宇树 Unitree",
+      "url": "https://www.unitree.com/news",
+      "bucket": "ai",
+      "subcategory": "robotics",
+      "weight": 3,
+      "status": 0,
+      "err": "URLError The read operation timed out"
+    },
+    {
+      "name": "StepFun 阶跃",
+      "url": "https://www.stepfun.com/",
+      "bucket": "ai",
+      "subcategory": "china_labs",
+      "weight": 3,
+      "status": 0,
+      "err": "URLError The read operation timed out"
+    },
+    {
+      "name": "Crunchbase AI Deals",
+      "url": "https://news.crunchbase.com/sections/ai/",
+      "bucket": "ai",
+      "subcategory": "ma_funding",
       "weight": 4,
+      "status": 0,
+      "err": "URLError The read operation timed out"
+    },
+    {
+      "name": "WHO · Physical Activity",
+      "url": "https://www.who.int/health-topics/physical-activity",
+      "bucket": "fitness",
+      "subcategory": "policy_government",
+      "weight": 4,
+      "status": 0,
+      "err": "URLError The read operation timed out"
+    },
+    {
+      "name": "CDC · Physical Activity",
+      "url": "https://www.cdc.gov/physical-activity/index.html",
+      "bucket": "fitness",
+      "subcategory": "policy_government",
+      "weight": 3,
       "status": 0,
       "err": "URLError The read operation timed out"
     }
