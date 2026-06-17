@@ -10,7 +10,7 @@
 
   <key>ProgramArguments</key>
   <array>
-    <string>/Users/kelvin/Desktop/Kelvin-Brain/kenyalang-ai/_routine/run-fetcher-local.sh</string>
+    <string>/Users/kelvin/Desktop/Kelvin-Projects/kenyalang-ai/_routine/run-fetcher-local.sh</string>
   </array>
 
   <!-- MYT 6:30am · launchd 用本机时区 · 你 Mac 是 Asia/Kuala_Lumpur 直接写 6:30 -->
@@ -32,7 +32,7 @@
 
   <!-- 路径与 PATH -->
   <key>WorkingDirectory</key>
-  <string>/Users/kelvin/Desktop/Kelvin-Brain/kenyalang-ai</string>
+  <string>/Users/kelvin/Desktop/Kelvin-Projects/kenyalang-ai</string>
 
   <key>EnvironmentVariables</key>
   <dict>

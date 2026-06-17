@@ -17,7 +17,7 @@
 
 set -e
 
-REPO=~/Desktop/Kelvin-Brain/kenyalang-ai
+REPO=~/Desktop/Kelvin-Projects/kenyalang-ai
 LOG=~/Library/Logs/kenyalang-fetcher.log
 
 # ensure log dir
@@ -55,4 +55,8 @@ git push origin main >> "$LOG" 2>&1 || {
   exit 1
 }
 
-echo "[$(date '+%Y-%m-%d %H:%M:%S %Z')] B2 fetcher DONE · pushed to origin/main" >> "$LOG"
+# 5. 同步最新 brief/周报 → Obsidian 财经仪表盘（~/Brain · iCloud · 手机可见）
+echo "[$(date '+%H:%M:%S')] syncing to Obsidian vault" >> "$LOG"
+bash "$REPO/_routine/sync-to-obsidian.sh" >> "$LOG" 2>&1 || echo "WARN: obsidian sync failed" >> "$LOG"
+
+echo "[$(date '+%Y-%m-%d %H:%M:%S %Z')] B2 fetcher DONE · pushed + synced to Obsidian" >> "$LOG"
