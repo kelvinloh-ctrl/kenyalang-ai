@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-06-16T22:30:37+0000",
+  "generated_at": "2026-06-17T03:36:02+0000",
   "fetch_summary": {
     "total_sources": 111,
-    "fetched_200": 93,
-    "fetched_4xx_5xx": 15,
-    "fetched_err": 3,
-    "deduped": 208,
-    "candidates_count": 8,
+    "fetched_200": 94,
+    "fetched_4xx_5xx": 16,
+    "fetched_err": 1,
+    "deduped": 211,
+    "candidates_count": 6,
     "rss_entries": 70,
     "subpages_fetched": 74,
     "by_bucket": {
-      "ai": 8,
-      "my-law": 0,
-      "fitness": 0,
+      "ai": 4,
+      "my-law": 1,
+      "fitness": 1,
       "stocks": 0
     }
   },
@@ -20,124 +20,93 @@
     "ai": [
       {
         "bucket": "ai",
-        "subcategory": "frontier_labs",
-        "source_name": "Google DeepMind Blog (RSS entry)",
-        "url": "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/",
-        "weight": 5,
-        "is_aggregator": false,
-        "title": "Unlocking UK house-building with AI-accelerated planning",
-        "content_excerpt": "UK government partners with Google DeepMind to build a new AI-powered prototype aimed at faster housing decisions.",
-        "fetched_at": "2026-06-16T22:30:05+0000",
-        "published": "Tue, 16 Jun 2026 21:29:50 +0000",
-        "candidate_type": "rss_entry",
-        "parent_feed": "https://deepmind.google/blog/rss.xml",
-        "url_hash": "334cabed9c982aa6"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "frontier_labs",
-        "source_name": "OpenAI Blog (RSS entry)",
-        "url": "https://openai.com/index/deployment-simulation",
-        "weight": 5,
-        "is_aggregator": false,
-        "title": "Predicting model behavior before release by simulating deployment",
-        "content_excerpt": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
-        "fetched_at": "2026-06-16T22:30:05+0000",
-        "published": "Tue, 16 Jun 2026 00:00:00 GMT",
-        "candidate_type": "rss_entry",
-        "parent_feed": "https://openai.com/blog/rss.xml",
-        "url_hash": "c000018ba1f03575"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "news_analysis",
-        "source_name": "Latent Space (swyx) (RSS entry)",
-        "url": "https://www.latent.space/p/ainews-satya-on-loopcraft-building",
-        "weight": 5,
-        "is_aggregator": false,
-        "title": "[AINews] Satya on Loopcraft: Building Frontier Ecosystems",
-        "content_excerpt": "a quiet day lets us report on Satya's hit essay",
-        "fetched_at": "2026-06-16T22:30:11+0000",
-        "published": "Tue, 16 Jun 2026 02:29:29 GMT",
-        "candidate_type": "rss_entry",
-        "parent_feed": "https://www.latent.space/feed",
-        "url_hash": "d682a304bd82efd4"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "news_analysis",
-        "source_name": "Stratechery (Ben Thompson) (RSS entry)",
-        "url": "https://stratechery.com/2026/fox-buys-roku-the-problem-with-foxs-smart-strategy-streaming-that-works/",
-        "weight": 5,
-        "is_aggregator": false,
-        "title": "Fox Buys Roku, The Problem With Fox’s Smart Strategy, Streaming That Works",
-        "content_excerpt": "The market hates Fox's acquisition of Roku, but the company is trading extraction from rights holders for leverage as a renter.",
-        "fetched_at": "2026-06-16T22:30:11+0000",
-        "published": "Tue, 16 Jun 2026 10:00:00 +0000",
-        "candidate_type": "rss_entry",
-        "parent_feed": "https://stratechery.com/feed/",
-        "url_hash": "184435ab1f7d2834"
+        "subcategory": "ma_funding",
+        "source_name": "36kr AI → 炸裂，OpenAI财报泄密：去年亏了2600亿",
+        "url": "https://36kr.com/p/3856014374753544",
+        "weight": 4,
+        "is_aggregator": true,
+        "title": "炸裂，OpenAI财报泄密：去年亏了2600亿-36氪",
+        "content_excerpt": "炸裂，OpenAI财报泄密：去年亏了2600亿-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 安徽 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 炸裂，OpenAI财报泄密：去年亏了2600亿 智东西 · 2026年06月17日 11:32 OpenAI讲了一个巨亏的故事？ 智东西6月16日报道，今日，据美国资深科技专栏自媒体Ed Zitron报道，其查阅了OpenAI经审计的财务文件，OpenAI在2025年 营收达130.7亿美元 （约合人民币883亿元）， 亏损约385亿美元 （约合人民币2601亿元）。 Ed Zitron称，OpenAI的财务报表讲述了 一家公司巨额亏损的故事 。他同时披露了公司2024年、2025年其他详细财务状况，以及与微软合作的相关情况，并称相关数据也已得到《金融时报》独立核验。 01.2025年：营收超130亿美元，净亏损385亿美元 根据Ed Zitron爆料，具体来看，2025年全年，OpenAI营收130.7亿美元，成本与支出340亿美元，经营亏损209.2亿美元，归属于公司的净亏损达385.3亿美元。 各项数据如下： -营收：130.7亿美元 -营业成本：75亿美元 -研发费用：191.8亿美元 -销售与营销：57.3亿美元 -一般及行政费用：15.7亿美元 -总成本与费用：340亿美元 -经营亏损：209.2亿美元 2025年是OpenAI从非营利组织转型为营利实体的一年，受可转换权益和认股权证负债公允价值变动影响，产生415.5亿美元亏损。 计入利息收入、利息支出等其他因素后，净亏损为603.5亿美元。 通过将178.7亿美元计入“归属于非控股成员资本的净亏损”、再将39.5亿美元计入“归属于可赎回非控股权益的净亏损”，最终归属于OpenAI的净亏损为385.3亿美元。 截至2025年底，OpenAI 总资产约500亿美元 ，其中近半数为现金。 02.2024年：营收达37亿美元，净亏损50.9亿美元 再看看2024年，据Ed Zitron爆料，OpenAI营收达37亿美元，成本和费用为124亿美元，净亏损50.9亿美元。各项数据如下： -营收：37亿美元 -营业成本：26.5亿美元 -研发费用：78.1亿美元 -销售与营销：11.1亿美元 -一般及行政费用：9.07亿美元 -总成本与费用：124.8亿美元 -经营亏损：87.8亿美元 计入利息收入与利息支出等因素后，净亏损为88.4亿美元。随后公司将 37.4亿美元 亏损记为“归属于非控股成员资本的净亏损”，最终归属于公司的净亏损为50.9亿美元。 目前尚不清楚这一会计处理的具体含义，也不清楚OpenAI如何抵消这37.4亿美元成本，暂不做进一步推测。 03.软银注资8.67亿美元，微软拿走172亿美元 2025年，据Ed Zitron爆料，软银向OpenAI支付 8.67亿美元 ，微软支付 3.03亿美 元。 文件同时披露了OpenAI向微软支付的服务费用。2025日历年内， OpenAI向微软支付105.9亿美元“研发”费用——这极有可能对应模型训练成本。 此外还有60.47亿美元“营业成本”相关费用、5.27亿美元销售与营销费用，以及4200万美元一般及行政费用。OpenAI对微软的支出总计达172亿美元。 截至年底，OpenAI对微软的负债为36.4亿美元，另有2100万美元应计费用及其他流动负债，以及5800万美元非流动负债。 04.结语：OpenAI讲了一个巨亏的故事？ Ed Zitron称，他计划下个月就这批文件推出更深入的跟进报道。文件内容详尽，需要时间全面梳理。 如果上述财务信息属实，OpenAI的财务状况令人深忧。385.3亿美元的亏损规模堪称天文数字，远超多数人预期，且亏损呈逐年急剧扩大之势。这家公司如何实现可持续运营或盈利，目前尚不明朗。 本文来自微信公众号 “智东西”（ID：zhidxcom） ，作者：李水青，36氪经授权发布。 该文观点仅代表作者本人，36氪平台仅提供信息存储空间服务。 +1 0 好文",
+        "fetched_at": "2026-06-17T03:35:49+0000",
+        "candidate_type": "subpage",
+        "parent_url": "https://36kr.com/information/AI",
+        "url_hash": "fdfcb257c654f0bb"
       },
       {
         "bucket": "ai",
         "subcategory": "ma_funding",
-        "source_name": "36kr AI → 不是人人都要做DeepSeek，机会在大模型底座之上",
-        "url": "https://36kr.com/p/3855745873171718",
+        "source_name": "36kr AI → 逆矩阵计划于 2026 年底发布旗舰模型。",
+        "url": "https://36kr.com/p/3826129009234824",
         "weight": 4,
         "is_aggregator": true,
-        "title": "AI时代的3条创业路径，你选择哪一条？-36氪",
-        "content_excerpt": "AI时代的3条创业路径，你选择哪一条？-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 安徽 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 AI时代的3条创业路径，你选择哪一条？ 混沌学园 · 2026年06月16日 20:21 不是人人都要做DeepSeek，机会在大模型底座之上 每一代创业者，都有自己的时代命题。 马化腾赶上了PC互联网，张一鸣赶上了移动互联网。而今天，AI正在把接力棒递给新一代创业者。 过去一年，几乎所有人都在说：AI让创业的门槛变低了。 但这句话只对了一半。 AI确实让“做出来”变容易了，但正因为人人都做得出，难的事被顶到了前面：你到底该做什么？为谁做？这是不是个真问题？ 如果你想要创业或正在创业，你是否想清楚：当AI开始改变每个行业，我所在的领域里，哪个环节值得被重新做一遍？ DeepSeek之后，技术创业的上限被重新打开 2025年1月，DeepSeek发布推理大模型R1，其超高性能、极低成本震惊了整个行业。 2026年以来，DeepSeek对外融资的消息不断。有最新消息称，DeepSeek完成了约500亿元人民币融资，腾讯、宁德时代和国家级AI基金都在参与，其中创始人梁文锋个人出资200亿元。 DeepSeek持续受到市场和产业关注，让人强烈感受到：中国创业者已经不只是在做模式创新、应用创新，而是开始进入底层技术创新、原创能力和全球竞争。 事实上，中国已经出现了一批最前沿的技术公司。而这些公司的创始人，很多都有很强的技术背景、研究经历和工程能力，同时也有面对真实需求、组织资源、承担风险、创造价值的能力。 DeepSeek创始人，梁文锋，拥有浙江大学信息与电子工程学系本科和硕士学位。 智谱创始人，张鹏，曾在清华大学计算机系知识工程实验室深造。 月之暗面创始人，杨植麟，清华大学计算机系本科，卡内基梅隆大学计算机博士。 MiniMax创始人，闫俊杰，毕业于中国科学院自动化研究所。 寒武纪创始人，陈天石，16岁考入中科大少年班，专攻人工智能算法。 这类“研究型创业者”，正在成为AI时代的新主角。 但也正因为他们太耀眼，很多普通创业者反而容易被吓住。 是不是AI时代创业，就必须做大模型？ 是不是没有名校背景、没有顶级技术团队，就没有机会？ 是不是只有“干票大的”，才算真正上场？ 当然不是。 AI技术，最终会像水、电、互联网一样，进入千行百业，变成一种基础能力。 大模型是底座。而真正的商业机会，往往发生在底座之上。 不做DeepSeek，新一代创业者还有三条路 今天，中国新一代创业者正在走出三条路。 第一条路，是技术原创型。 这类创业者做的是底层创新、工程突破和全球竞争。 DeepSeek 是其中最典型的代表。但技术原创型创业，并不只等于做下一个 DeepSeek。 值得关注的趋势是：越来越多具有技术背景的创业者，正在把 AI 带进更具体的垂直行业里。 1997年出生的 宋亚宸 ，23岁在商汤科技从0到1孵化AIGC项目，25岁以001号员工身份参与创立MiniMax。2023年创立“ VAST ”，专注于通用3D大模型研发，目标不是再造一个通用聊天机器人，而是降低 3D 内容创作的门槛，把原本专业、昂贵的建模流程变成大众可以调用的能力。 1998年出生的 姜哲源 ，清华博士辍学创业，2023年成立“ 松延动力 ”，专注人形机器人研发。瞄准的不是纯软件模型，而是 AI 与硬件、运动控制、制造能力结合后的新场景。 他们不是做一个通用大模型，而是围绕 3D 生成、人形机器人、工业设计、医疗、教育、金融、内容生产、企业服务等具体方向，重新开发某个行业的关键技术能力。 也就是说，AI 时代的技术创业正在分成两层： 一层是 DeepSeek 代表的通用底座能力，拼的是模型、算力、算法、工程和全球竞争。 另一层是垂直行业里的技术重做，拼的是能不能把 AI 能力真正嵌入一个具体行业、一个具体流程、一个具体场景。 前者决定技术上限，后者决定产业落地。 对大多数具有技术背景的创业者来说，机会未必是再做一个大模型，而是找到一个行",
-        "fetched_at": "2026-06-16T22:30:33+0000",
+        "title": "「逆矩阵」完成超亿美元融资，创始人：通用世界基座模型窗口期已压至18个月-36氪",
+        "content_excerpt": "「逆矩阵」完成超亿美元融资，创始人：通用世界基座模型窗口期已压至18个月-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 安徽 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 「逆矩阵」完成超亿美元融资，创始人：通用世界基座模型窗口期已压至18个月 王毓婵 · 2026年06月17日 09:00 逆矩阵计划于 2026 年底发布旗舰模型。 文｜王毓婵 编辑｜张雨忻 2026 年以来，一级市场对世界模型的抢筹进入白热化阶段。资金不再像早期那样“广撒网”，而是高度向头部玩家集中。这其中，逆矩阵科技（Physis）就接连完成了多轮融资。 36氪智能涌现独家据悉，世界模型公司逆矩阵科技已完成超亿美元种子++轮融资；此前的 3 月，刚完成了超千万美元首轮融资。本轮由经纬创投、五源资本、光合创投等机构共同参与，并获蚂蚁集团战略投资，老股东高瓴创投、燕缘创投持续加注。 在本轮融资落定前后，逆矩阵发布了通用世界基座模型Physis-v0.1，并将其概括为“One For All”的通用物理世界应用。该模型主打物理正确、长程一致、动作因果、通用泛化四项能力，一次预训练即可服务具身智能、工业仿真、游戏物理、科学预测等多类场景。 逆矩阵计划于 2026 年底发布旗舰模型，过程中将放出开源切片和技术报告。本轮资金将主要用于通用世界基座模型的预训练研发、规模化训练体系建设。 团队由北大青年学者陈博远、吉嘉铭联合创立，一半是青年学者（含奥赛金牌、省市状元与多位顶会论文作者），一半是来自一线科技企业的资深工程人才。他们组成了一个 AI-native 的扁平化团队，没有层级汇报与季度指标，靠技术判断而非行政命令对齐方向；信奉自由探索、第一性原理与长期主义。 智能涌现在新一轮融资敲定之际，独家采访了陈博远。他回答了关于组织架构、融资节奏、技术路线、行业判断和场景落地等多个问题。 “行业内目前的共识是，18~24个月内，世界基座模型能力会出现标志性的阶跃，36个月内，能在多个真实场景完成实际应用落地。”陈博远说。“这与语言模型从 GPT-3 到 ChatGPT 的路径高度吻合。” 以下是智能涌现与陈博远的对话实录： 通用世界基座模型的窗口期正在从三年压缩到十八个月 Q1：恭喜逆矩阵完成新一轮超亿美元量级的融资。距离上一轮融资仅仅过去不到两个月，为什么能保持这么快的融资节奏？ 陈博远：这背后反映了投资人对 AI 发展第三次范式跃迁的押注。 过去十年，AI 经历了语言模型（预测下一个词）和视觉生成模型（预测下一帧）两次跃迁，分别催生了平台级公司。现在的第三次跃迁是由 AI 从虚拟世界走向物理世界带来的，核心是面向物理空间“预测下一个物理状态”。 这套“给定当前状态与动作，预测世界如何演化”的范式，曾在 AlphaGo、机器人控制等子问题中出现过，如今正在收敛为同一套解法框架。但物理世界与虚拟世界的根本区别在于，物理世界是“部分可观测”的，模型不能只停留在“看到什么做什么”，必须理解底层的物理约束。 投资人愿意快速跟进并追加投资，主要基于两点判断： 一是“底层统一建模物理规律，上层按需适配不同场景”的基座模型路径正在成为行业共识； 二是通用世界基座模型的窗口期正在从三年压缩到十八个月，做通用预训练的团队会拥有更大的空间。一个领先的通用基座具有数据scaling和算法有效性，会构成难以被追赶的壁垒。 Q2：在融资过程中，投资人问得最多的问题是什么？大家对技术走向落地的时间周期有怎样的共识？ 陈博远：问得最密集的是：“凭什么相信通用世界基座模型能做成？”以及“团队是否在坚定地做基座模型？” 在我们看来，能不能称之为基座模型，关键在于是否真正从物理预测这个目标出发去构建。于是我们从零开始解决物理预测目标，自研底层架构，并在训练分布外看到了合理的物理推演曙光。 逆矩阵的内部实验表明，随着数据和参数规模增加，状态预测误差持续下降，呈现出类似大语言模型的指数级 Scaling 潜力，而未出现垂类模型的饱和拐点。 关于落地周期，共识是 18~24个月内基座模型能力会出现标志性的阶跃，",
+        "fetched_at": "2026-06-17T03:35:48+0000",
         "candidate_type": "subpage",
         "parent_url": "https://36kr.com/information/AI",
-        "url_hash": "a92def9f9e9698d7"
+        "url_hash": "51896202bf89f654"
       },
       {
         "bucket": "ai",
         "subcategory": "ma_funding",
-        "source_name": "36kr AI → 具身智能进家庭：别把范围当场景，进门要先找切口",
-        "url": "https://36kr.com/p/3855699426950025",
+        "source_name": "36kr AI → 当AI开始替你“付钱”：谁在定义“授权”的新规则？——支付宝、京东、微信竞速AI支付",
+        "url": "https://36kr.com/p/3855975918992256",
         "weight": 4,
         "is_aggregator": true,
-        "title": "具身智能进家庭：别把范围当场景，进门要先找切口-36氪",
-        "content_excerpt": "具身智能进家庭：别把范围当场景，进门要先找切口-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 安徽 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 具身智能进家庭：别把范围当场景，进门要先找切口 具身研习社 · 2026年06月16日 20:25 被打包的“家庭场景”。 家庭从来都不是一个“场景”。它是一个物理范围，是上百个截然不同的细分场景的集合体。把家庭等同于一个场景去定义产品、规划路径，正是当下具身智能迟迟无法进家门的核心原因。 简单来说， 被打包的“家庭场景”，是个伪命题。 要理解这个判断，首先要明确，什么是真正的“场景”。 一个可落地的产业场景，通常具备三个特征：环 境相对标准化、任务目标明确、效果可量化验证 。工厂产线上的零部件分拣是场景，酒店走廊里的客房送物是场景，商业大厅的前台咨询也是场景。它们的边界清晰，需求固定，机器人只要做好一类任务，就能完成商业闭环。 但家庭不是。 一个普通的三居室住宅，是客厅、厨房、卧室、卫生间的空间集合，也是清洁、收纳、烹饪辅助、老人陪护、儿童陪伴、安防巡检、物品递送等数十类任务的需求集合。单是“清洁”这一项，就可拆分为地面清扫、桌面擦拭、衣物整理、餐具清洗等子任务，它们对机器人操作能力的要求天差地别。 把这样一个复杂的综合体称作“一个场景”，其荒谬程度，等同于把“整个制造业”当成一个落地场景。 当我们把家庭从“一个场景”还原成“一片范围”，落地路径反而瞬间清晰了。 具身智能走进家庭，不会是某一天突然出现一个全能管家，一步到位接管所有家务。它会遵循单点突破、逐步渗透的产业规律：先在家庭这个大范围内，找到第一个技术可实现、用户有刚需、商业能跑通的细分场景，打透之后再延伸第二个、第三个。 用商业语境来说，这叫切入点。 这正是家庭机器人商业化所面临的难题，机器人应该先提供什么价值，才能让用户愿意为之付费？许华哲也在最近一次采访中提到，破壳机器人目前还没有找到那个真正独特的场景。 一方面，家庭机器人赛道刚刚起步，技术能力远未成熟，可供选择的切入点本就有限；另一方面，商业闭环需要有支点，就像大语言模型的商业支点是对话App。技术需要找到那个出口，真实地落入到人们的日常生活。 寻找出口的本质，是在寻找第一批用户愿意买单的理由。而对于家庭场景而言，这件事尤其艰难。 这一步拼的不只是技术，更是对需求的洞察力，以及将不同功能耦合起来，塑造成产品的能力。 01 家务是海洋，切口是先造船 拥有一台机器人保姆，是人类一直以来的幻想。 今天，在不少公司发布的Demo里，机器人已经能够从容地操作洗衣机、烹饪食物，可以在主人出门时抬手道别，很容易给人未来已来的错觉。 问题是，Demo展示的是能力的上限，而家庭考验的是能力的下限。莫拉维克定律至今仍在发挥作用，成年人轻而易举完成的简单家务，恰恰是机器人最难掌握的任务。 那么问题来了，如何在技术尚不成熟的阶段，寻求商业化落地的可行性？ 眼下，大多数机器人在家庭范围内，能够完成的工作集中在物品抓取、叠衣服、擦拭桌面等基础操作上。但需要注意的是，这些能力是厂商在展示技术可行性和可落地性。而不是外界认为的商业价值。 真正的商业空间取决于解决痛点。 能够有机会打开市场的功能，往往需要满足三个条件： 足够高频、足够令人厌烦，并且无法被现有工具轻易替代。 扫地机器人就是最经典的范本。地面清洁每日都要做，弯腰费力且枯燥乏味，又没有更轻便的替代方案，它只打透了家务海洋里的这一个细分水域，就撑起了一个千亿级的成熟产业。 顺着这个标准看，收纳是最被低估的潜力方向。整洁的房间总会在几天内复归杂乱，这种持续的熵增是所有家庭的共同烦恼。机器人可以以润物无声的频率持续归位物品，把人从“ 收拾 - 变乱 - 再收拾 ” 的循环里解放出来。再往下，马桶清洁、垃圾处理这类又脏又累的刚性家务，天然具备更高的付费意愿。 这些需求的共同点是：它们都不是什么“黑科技”，但它们足够痛，也足够实在。 征服海洋不需要抽干海水，只需要找到可靠的锚点 。对今天的具身智能而言，最务实的路径，就是在家务这片庞杂的海洋里，先",
-        "fetched_at": "2026-06-16T22:30:33+0000",
+        "title": "当AI开始替你“付钱”：谁在定义“授权”的新规则？——支付宝、京东、微信竞速AI支付-36氪",
+        "content_excerpt": "当AI开始替你“付钱”：谁在定义“授权”的新规则？——支付宝、京东、微信竞速AI支付-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 浙江 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 当AI开始替你“付钱”：谁在定义“授权”的新规则？——支付宝、京东、微信竞速AI支付 互联网法律评论 · 2026年06月17日 11:32 多家互联网巨头布局AI支付，争夺行业标准与用户信任。 支付宝 未融资 上海市 2004-12 第三方支付服务平台 36氪报道 金融 瞪羚企业 高新技术企业 我要联系 2026 年6月16日，支付宝正式推出AI原生版本“阿宝”。这是蚂蚁的最高保密级项目，也是支付宝近二十年来最彻底的一次改版——用户可以在对话界面查看自己的流动资产、理财持仓、信用额度，AI也能给出配置建议。但有一条红线画得很清楚： AI不动钱，每笔支付必须本人确认，资金管理权限始终在用户手中 。 而几乎是在同期，京东和微信也推出了各自的AI支付功能/协议。6月11日，京东发布国内首个智能体自主支付协议A2P2，把AI“花钱”的权限拆成L0到L5六个等级，并配套一套三方核验机制（ARI）；6月8日，微信内测AI平台，京东、美团、携程、滴滴等首批接入，并计划推出的“AI专属卡”，据称该功能最快于本周上线。 AI化后，支付机构不仅要解决技术层面的问题，更要谨慎探索“安全风险”和“用户信任”的问题。这背后的竞争绝不仅仅是“入口之争”或“体验之争”，更是谁能把“用户授权AI智能体花钱”这件事变成行业标准。为此，他们必须在制度上回应更深层的问题： AI智能体在法律上属于什么“身份”？这个“授权”到底在法律上是什么性质？出了问题之后责任应该落在谁头上？ 一、三条支付路线 为了看清楚各家方案的差异，我们可以借用国际货币基金组织（IMF）今年4月发布的一份题为《AI智能体如何重塑支付》（How Agentic AI Will Reshape Payments）报告中提出的三层模型。这个模型把AI参与的支付流程分成三个层次： 第一层：意图与编排层（L1） ——AI理解你想要什么，帮你搜索、比价、生成购物清单或支付需求。这一层是概率性的、自适应的，AI可以发挥创造力，但不做实际的资金操作。 第二层：控制与授权层（L2） ——把第一层产出的“意图”拿过来，检查它是否在授权范围内、身份是否可核验、金额是否超限。这一层必须是确定性的、规则驱动的——符合条件就放行，不符合就打回。 第三层：结算层（L3） ——真正的资金划转，通过传统的支付轨道（银行卡、实时清算系统等）完成，具有法律上的终局性。这一层不应该允许概率性决策介入。 这个模型的价值在于它指出了关键问题： AI在替你“想”（L1）和替你“付”（L3）之间，需要一道闸门（L2），这也是授权法律性质之争的真正战场。如此，三家公司的产品差异就更加清晰可辨： 1、支付宝“阿宝”：L2闸门关闭，AI暂居“参谋”之位 支付宝是所有超级App里最接近“纯粹支付工具”的一个——用户打开它就是为了“动钱”，而不是聊天或刷短视频。正因为它的核心场景就是资金操作，所以它对“AI能不能动钱”这根弦绷得最紧。 李俊明在阿宝发布时重申了支付宝沿用二十年的赔付承诺—— \"你敢付，我敢赔\" 。但这句承诺的实质是商业保障层的心理托底和事后救济，不是授权合法性的正面依据。阿宝授权模型的真正法律支点，仍然是两项硬约束： AI不直接操作资金，支付环节回归传统支付指令确认（本人密码/生物核验） 。也就是说，“阿宝”在第一层（L1）做信息聚合和建议，但资金操作全部留给第二层（L2）的传统支付指令确认——支付指令的最终发起者和确认者始终是用户自己。 当然，当用户习惯了“让AI帮忙看看”，自然会希望“让AI顺便帮我付了”——每笔确认的摩擦有一天可能会被体验压力侵蚀。到那时，授权边界很可能被拓宽，到时候也会产生新问题。 2、京东A2P2：自建L2规则，抢占“授权语法”定义权 京东是一个“自营电商起家”的平台，它不只管支付，还管商品、库存、物流、售后，整个交易链路都",
+        "fetched_at": "2026-06-17T03:35:49+0000",
         "candidate_type": "subpage",
         "parent_url": "https://36kr.com/information/AI",
-        "url_hash": "f211fdd9c305bdce"
+        "url_hash": "4ee28cbf340a644a"
       },
       {
         "bucket": "ai",
-        "subcategory": "ma_funding",
-        "source_name": "36kr AI → 曝DeepSeek融资细节，梁文锋如何保住控制权",
-        "url": "https://36kr.com/p/3855773631976456",
-        "weight": 4,
-        "is_aggregator": true,
-        "title": "曝DeepSeek融资细节，梁文锋如何保住控制权-36氪",
-        "content_excerpt": "曝DeepSeek融资细节，梁文锋如何保住控制权-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务 寻求报道 36氪Pro 创投氪堂 企业入驻 创业者服务 创投平台 AI测评网 首页 快讯 资讯 推荐 财经 AI 自助报道 安徽 最新 创投 汽车 科技 专精特新 直播 视频 专题 活动 搜索 寻求报道 我要入驻 城市合作 曝DeepSeek融资细节，梁文锋如何保住控制权 投行圈子 · 2026年06月16日 20:10 ‍精明的梁文锋，拿捏了资本！也改写了科创企业融资的剧本。 ‍这两天AI圈最大的新闻，莫过于DeepSeek的首轮融资终于落定。 500亿人民币，74亿美元，估值超500亿美元。中国AI行业迄今规模最大的单轮融资。 其中，腾讯100亿、宁德时代50亿、京东和IDG各30亿，国家AI基金10亿直投。。。数字够大，股东牛叉，排面够足。 DeepSeek这轮融资真正精彩的部分，是 梁文锋如何在端出这500亿的资本盛宴之后，依然把公司的方向盘死死握在自己手里 。 数据来源：公开查询，投行小师妹整理汇总 梁文锋的“非常规操作” 先简单回顾一下这轮融资的骨架。 6月16日，据The Information报道，DeepSeek完成首次外部融资，募资超500亿元人民币。 梁文锋个人出资200亿，是最大出资方；腾讯100亿、宁德时代50亿、京东和IDG各30亿。估值突破500亿美元。 如果只是这些，那不过又是一起“AI融资大新闻”。但DeepSeek这次玩的花样，在于交易架构，一种堪称教科书级别的控制权防守术。 梁文锋精心布局的“三重保险”。 这轮融资的特殊之处，不在于金额，而在于钱怎么进、权怎么分、人怎么退。 钱不直接进公司，先进梁文锋管的“口袋” 。报道称，除国家AI基金外，其他外部投资者被要求将资金注入由梁文锋管理的有限合伙企业，而非直接投资DeepSeek公司本体。 翻译成大白话：你投的钱，不是直接买DeepSeek的股权，而是进了一个由梁文锋控制的“资金池”。这个池子再以某种方式对接公司，但投票权——对不起，没有。 外部投资者获得的是经济权益、优先参与未来融资的权利以及更高权限的财务信息。但公司怎么走、战略怎么定、技术路线怎么选——跟你没关系。 五年锁定期，别想赚快钱。 这轮融资还设置了五年锁定期。在这五年里，多数投资者不能出售所持权益。 五年。在AI这个“三年上市、五年退休”的浮躁赛道里，五年锁定期基本等于把短期套利的念想直接掐断。DeepSeek的逻辑很明确：不欢迎赚快钱的资本，只接受愿意陪公司长期走下去的资金。 梁文锋团队还要求核查所有出资基金背后的有限合伙人真实身份，规避股权最终流入不明主体手中的风险。连你是谁、你的钱从哪里来，都要查得一清二楚。 国家AI基金例外，唯一的“破例”。 整笔交易最特殊的部分，是国家人工智能产业投资基金，直接投资DeepSeek，金额10亿元，不受五年锁定期限制，并拥有公司投票权。 其他外部资金被放在有限合伙结构里，国家AI基金则直接进入公司股权层。这个安排既体现了DeepSeek对控制权的极度谨慎，也说明这家公司在中国AI产业体系中的位置已经不只是普通创业公司。 三重保险叠加，梁文锋把“钱可以拿、话不能说”的原则执行到了极致。 笔者认为，这不是巧合，而是梁文锋团队精心设计的“控制权保卫战”。 为什么梁文锋要如此大费周章？ 答案藏在DeepSeek的基因里。 这家公司成立于2023年，最早来自梁文锋的量化基金幻方旗下AI团队。在R1模型于2025年初走红之前，DeepSeek没有进行过外部融资，也没有像多数大模型创业公司那样一路引入风险资本。 它的形象更接近一个研究导向的模型实验室：团队小、外部压力少、强调开源和模型效率。 长达近三年时间，DeepSeek坚持零外部股权融资原则，研发、算力采购、人才薪酬等成本均由母公司幻方量化自有经营收益全额承担。 幻方量化巅峰时期资产管理规模突破700亿元，2025年旗下产品平均收益率达56.55%。稳定的现金流持续反哺DeepSeek的超算集群搭建与大模型预训练投入。 换句话说，DeepSeek从来就不是靠VC输血活下来的公司。它的底层逻辑是“内生造血”，不是“外部催熟”。 但大模型研发持续消耗算力，顶尖研究员的争夺",
-        "fetched_at": "2026-06-16T22:30:33+0000",
-        "candidate_type": "subpage",
-        "parent_url": "https://36kr.com/information/AI",
-        "url_hash": "46488a0f3e700894"
-      },
-      {
-        "bucket": "ai",
-        "subcategory": "news_analysis",
-        "source_name": "Ben's Bites (RSS entry)",
-        "url": "https://www.bensbites.com/p/bye-bye-fable",
+        "subcategory": "coding_agents",
+        "source_name": "Cline (GitHub releases) → CLI v3.0.25",
+        "url": "https://github.com/cline/cline/releases/tag/cli-v3.0.25",
         "weight": 3,
-        "is_aggregator": true,
-        "title": "Bye bye Fable",
-        "content_excerpt": "another benchmark for real swe work",
-        "fetched_at": "2026-06-16T22:30:12+0000",
-        "published": "Tue, 16 Jun 2026 13:01:05 GMT",
-        "candidate_type": "rss_entry",
-        "parent_feed": "https://bensbites.com/feed",
-        "url_hash": "dc467729963e2b9a"
+        "is_aggregator": false,
+        "title": "Release CLI v3.0.25 · cline/cline · GitHub",
+        "content_excerpt": "Release CLI v3.0.25 · cline/cline · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search or jump to... Search code, repositories, users, issues, pull requests... Search Clear Search syntax tips Provide feedback We read every piece of feedback, and take your input very seriously. Include my email address so I can be contacted Cancel Submit feedback Saved searches Use saved searches to filter your results",
+        "fetched_at": "2026-06-17T03:35:46+0000",
+        "candidate_type": "subpage",
+        "parent_url": "https://github.com/cline/cline/releases",
+        "url_hash": "8ee6ac071a8dd1d8"
       }
     ],
-    "my-law": [],
-    "fitness": [],
+    "my-law": [
+      {
+        "bucket": "my-law",
+        "subcategory": "official",
+        "source_name": "Bernama · 国家通讯社 → Top News Headlines In Indonesia, Laos, Myanmar, Philippines,",
+        "url": "https://www.bernama.com/en/world/news.php?id=2569484",
+        "weight": 4,
+        "is_aggregator": false,
+        "title": "BERNAMA - Top News Headlines In Indonesia, Laos, Myanmar, Philippines, Singapore, Thailand & Vietnam : June 17, 2026",
+        "content_excerpt": "BERNAMA - Top News Headlines In Indonesia, Laos, Myanmar, Philippines, Singapore, Thailand & Vietnam : June 17, 2026 BERNAMA.com | BERNAMA TV | BERNAMA Radio | BERNAMA Images | BLIS | NewsLink5 English Malay Arabic Espa&ntilde;ol General BernamaBiz Crime & Courts Politics Sports Lifestyle Region Central Northern Southern East Sabah Sarawak World Main Nam News Network (NNN) The Organization of Asia-Pacific News Agencies (OANA) Xinhua News Agency Microsite World Cup 2026 Maju Johor HAWANA 2026 CPI MAPO MCMC Fokus BERNAMA Thoughts MyCheck fotoBERNAMA Garasi More Infographics Videos Exclusive Press Archived English Malay Arabic Espa&ntilde;ol Home General BernamaBiz Crime & Courts Politics Sports Lifestyle Region Central Northern Southern East Sabah Sarawak World Main Nam News Network (NNN) The Organization of Asia-Pacific News Agencies (OANA) Xinhua News Agency Microsite World Cup 2026 Maju Johor HAWANA 2026 CPI MAPO MCMC Fokus BERNAMA Thoughts MyCheck fotoBERNAMA Garasi More Infographics Videos Exclusive Press Archived bootstrap slideshow WORLD > NEWS Top News Headlines In Indonesia, Laos, Myanmar, Philippines, Singapore, Thailand & Vietnam : June 17, 2026 17/06/2026 11:00 AM Sunset at Melasti beach in Desa Ungasan, Bali INDONESIA 1.STEINMEIER S VISIT SIGNALS A NEW PHASE IN INDONESIA-GERMANY TIES -- ANTARA The visit of German President Frank-Walter Steinmeier to Jakarta on June 15 extended far beyond the busy diplomatic schedule at the Merdeka Palace. bootstrap slideshow 2.C SULAWESI LAUNCHES EMERGENCY RESPONSE AFTER M6.7 QUAKE HITS PALU -- ANTARA Central Sulawesi Governor Anwar Hafid has ordered emergency response measures after a magnitude-6.7 tectonic earthquake struck the Palu area on Tuesday. LAOS 1.BIG LEAP INTO NUCLEAR ENERGY -- VIENTIANE TIMES Laos and Russia have agreed to cooperate in the peaceful use of nuclear energy. They plan to conduct a preliminary feasibility study to assess how a nuclear power plant could be integrated into Laos&rsquo; energy system.",
+        "fetched_at": "2026-06-17T03:35:50+0000",
+        "candidate_type": "subpage",
+        "parent_url": "https://www.bernama.com/en/general/index.php",
+        "url_hash": "860a6bec266be3dc"
+      }
+    ],
+    "fitness": [
+      {
+        "bucket": "fitness",
+        "subcategory": "policy_government",
+        "source_name": "Sport Australia → ASC welcomes funding to prepare athletes to take on the worl",
+        "url": "https://www.sportaus.gov.au/media-centre/news/asc-welcomes-funding-to-prepare-athletes-to-take-on-the-worlds-best",
+        "weight": 2,
+        "is_aggregator": false,
+        "title": "ASC welcomes funding to prepare athletes to take on the world’s best | ASC",
+        "content_excerpt": "ASC welcomes funding to prepare athletes to take on the world’s best | ASC Skip to main content AIS shop Careers Sign In or register My account Search this website Search Menu Services Grants and funding Guidance and resources Visit AIS News Events About us Contact us Search Menu Services Grants and funding Guidance and resources Visit AIS News Events About us Contact us Home … Media centre News ASC welcomes funding to prepare athletes to take on the world’s best (current page) AIS ASC 17 June 2026 ASC welcomes funding to prepare athletes to take on the world’s best The Australian Sports Commission (ASC) has welcomed the Australian Government’s $513 million investment in sport, strengthening support for athletes to perform on the world stage on the road to Brisbane 2032 and beyond. The Minister for Sport The Hon Anika Wells was joined by Australian athletes and sport leaders for the announcement in Brisbane. The Australian Sports Commission (ASC) has welcomed the Australian Government’s $513 million investment in sport, strengthening support for athletes to perform on the world stage on the road to Brisbane 2032 and beyond. Announced ahead of next month’s Commonwealth Games in Glasgow, the two-year package backs Olympians and Paralympians preparing for Los Angeles 2028 and the French Alps 2030 and ensures the right support is in place for the next six years leading into Brisbane 2032. Historic funding for Para sport will also be maintained for a further two years with $54.9 million going towards better classification opportunities for Para athletes, access to fit-for-purpose training environments, and specialised coaching and performance support. More than 150 new Para athletes were uncovered in the first 12 months of the Para Uplift with Para sport units also established in every state and territory. The Minister for Sport The Hon Anika Wells was joined by Australia’s fastest athletes on land and water in Lachie Kennedy (athletics) and Cam McEvoy (swimming) as well",
+        "fetched_at": "2026-06-17T03:35:52+0000",
+        "candidate_type": "subpage",
+        "parent_url": "https://www.sportaus.gov.au/",
+        "url_hash": "c695b19db977d6d2"
+      }
+    ],
     "stocks": []
   },
   "bot_blocked_sources": [
@@ -169,15 +138,6 @@
       "err": "HTTPError 403"
     },
     {
-      "name": "Phind",
-      "url": "https://www.phind.com/blog",
-      "bucket": "ai",
-      "subcategory": "search_assistants",
-      "weight": 2,
-      "status": 403,
-      "err": "HTTPError 403"
-    },
-    {
       "name": "Genspark",
       "url": "https://www.genspark.ai/",
       "bucket": "ai",
@@ -192,6 +152,15 @@
       "bucket": "ai",
       "subcategory": "coding_agents",
       "weight": 4,
+      "status": 403,
+      "err": "HTTPError 403"
+    },
+    {
+      "name": "Phind",
+      "url": "https://www.phind.com/blog",
+      "bucket": "ai",
+      "subcategory": "search_assistants",
+      "weight": 2,
       "status": 403,
       "err": "HTTPError 403"
     },
@@ -250,6 +219,15 @@
       "err": "HTTPError 403"
     },
     {
+      "name": "SEC EDGAR · S-1 Filings",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&type=S-1&dateb=&owner=include&count=40",
+      "bucket": "stocks",
+      "subcategory": "exchange_regulator",
+      "weight": 4,
+      "status": 403,
+      "err": "HTTPError 403"
+    },
+    {
       "name": "S&P Global Indices · News",
       "url": "https://www.spglobal.com/spdji/en/index-news-and-announcements/",
       "bucket": "stocks",
@@ -266,24 +244,6 @@
       "weight": 5,
       "status": 0,
       "err": "URLError <urlopen error [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)>"
-    },
-    {
-      "name": "SEC EDGAR · S-1 Filings",
-      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&type=S-1&dateb=&owner=include&count=40",
-      "bucket": "stocks",
-      "subcategory": "exchange_regulator",
-      "weight": 4,
-      "status": 403,
-      "err": "HTTPError 403"
-    },
-    {
-      "name": "KBS Malaysia · 青体部",
-      "url": "https://www.kbs.gov.my/",
-      "bucket": "fitness",
-      "subcategory": "policy_government",
-      "weight": 5,
-      "status": 0,
-      "err": "URLError <urlopen error timed out>"
     }
   ],
   "acts_watch_list": {
