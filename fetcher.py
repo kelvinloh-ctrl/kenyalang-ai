@@ -332,13 +332,15 @@ def fetch_subpage(url, anchor_hint, parent):
 def flatten_sources(data):
     """Walk yaml tree, return flat list of source dicts with _bucket/_subcategory."""
     out = []
-    for bucket in ["ai", "my-law", "fitness", "stocks"]:
+    for bucket in ["ai", "my-law", "fitness", "stocks", "macro"]:
         b = data.get(bucket, {})
         for subcat, items in b.items():
             if not isinstance(items, list):
                 continue
             for item in items:
                 if isinstance(item, dict) and "url" in item:
+                    if item.get("research_only"):
+                        continue  # 仅周度研判 agent 用 · fetcher 跳过不抓
                     item["_bucket"] = bucket
                     item["_subcategory"] = subcat
                     out.append(item)
@@ -540,7 +542,7 @@ def main():
         }, f, indent=2, ensure_ascii=False)
 
     # Candidates grouped by bucket for easier LLM consumption
-    by_bucket = {"ai": [], "my-law": [], "fitness": [], "stocks": []}
+    by_bucket = {"ai": [], "my-law": [], "fitness": [], "stocks": [], "macro": []}
     for c in candidates:
         by_bucket.setdefault(c["bucket"], []).append(c)
     # Sort each bucket by weight desc

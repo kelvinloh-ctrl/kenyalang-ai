@@ -16,7 +16,7 @@ description: 抓全球 AI 产业新闻并产出可读的 brief。用在 Kenyalan
 
 ## Step 1 · 读 sources.yaml + seen.json
 
-项目家：`~/Desktop/Kelvin-Brain/kenyalang-ai/`
+项目家：`~/Desktop/Kelvin-Projects/kenyalang-ai/`
 
 读：
 - `sources.yaml` —— 来源清单（17 类，~95 个来源）
@@ -74,11 +74,11 @@ description: 抓全球 AI 产业新闻并产出可读的 brief。用在 Kenyalan
 去重忽略：J
 ```
 
-参考样板：`~/Desktop/Kelvin-Brain/kenyalang-ai/daily/_SAMPLE.md`
+参考样板：`~/Desktop/Kelvin-Projects/kenyalang-ai/daily/_SAMPLE.md`
 
 ## Step 6 · 写到 daily log
 
-文件路径：`~/Desktop/Kelvin-Brain/kenyalang-ai/daily/YYYY-MM-DD.md`
+文件路径：`~/Desktop/Kelvin-Projects/kenyalang-ai/daily/YYYY-MM-DD.md`
 
 如果当天文件已存在 → 别覆盖，加 `_v2` 后缀。
 

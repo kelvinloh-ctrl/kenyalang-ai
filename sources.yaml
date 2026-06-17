@@ -649,6 +649,10 @@ fitness:
 # BUCKET 4 · 股市持仓 + IPO（9 来源）
 # 个人投资 · 跟 Fitcom 无关 · 重大事件级（季报 / M&A / 派息 / 法律调查 / IPO）
 # weight ≥ 3 全收
+# 持仓 watchlist（2026-06-17）：MBB(1155) · Oriental Kopi(0338·KOPI) · Mr.DIY(5296)
+#   · YTL POWR(6742) · CIMB(1023) · 美股 S&P500 走 VOO(Vanguard·费率0.03%·NYSEARCA)
+#   ⚠️ Oriental Kopi 真实代码 0338(ACE) 非 5302(5302=Aurelius Tech) · 2026-06-17 实测修正
+#   ⚠️ VOO 是美元 ETF · 入场成本看 VOO 价 × USD/MYR · 跟 macro 桶林吉特走向联动看
 # ============================================================
 stocks:
 
@@ -659,8 +663,8 @@ stocks:
       weight: 5
       tags: [stocks, klse, official]
       needs_browser_ua: true
-      note: "覆盖 Maybank 1155 / Oriental Kopi 5302 / Mr.DIY 5296 / YTL POWR 6742 / CIMB 1023"
-      filter_stock_codes: ["1155", "5302", "5296", "6742", "1023"]
+      note: "覆盖 Maybank 1155 / Oriental Kopi 0338(KOPI·非5302) / Mr.DIY 5296 / YTL POWR 6742 / CIMB 1023"
+      filter_stock_codes: ["1155", "0338", "5296", "6742", "1023"]
     - name: Securities Commission Malaysia · Press
       type: web
       url: https://www.sc.com.my/resources/media/media-release
@@ -715,6 +719,90 @@ stocks:
 
 
 # ============================================================
+# BUCKET 5 · 经济走向 MY vs 世界（macro · 2026-06-17 加）
+# ADR: ~/Brain/02_Decisions/2026-06-17-kenyalang-intel-system-redesign.md
+# 两路：央行/多边走 RSS（fetcher 抓离散事件）· my_data 走 research_only（fetcher 跳过，周度研判 agent 直抓）
+# 「走向/趋势」由周度研判 agent 综合产出，不靠 fetcher 抽首页
+# cadence: daily = 进每日 brief（利率决议红线）· weekly = 进周日 digest
+# ============================================================
+macro:
+
+  central_banks:
+    - name: US Federal Reserve · FOMC/货币政策
+      type: rss
+      url: https://www.federalreserve.gov/feeds/press_monetary.xml
+      weight: 5
+      tags: [macro, central_bank, us, rates]
+      cadence: daily
+      note: "最干净 RSS · FOMC 一年 8 次 · 利率决议→插每日"
+    - name: Bank Negara Malaysia · Press/MPC
+      type: rss
+      url: https://www.bnm.gov.my/rss
+      weight: 5
+      tags: [macro, central_bank, my, rates]
+      research_only: true   # 2026-06-17 实测 fetcher 返 202 空内容(bot 挑战) · 转研判 agent
+      cadence: weekly
+      note: "Mac fetcher 实测 202 空 · MY 利率(MPC 6次/年)由周度研判 agent 经 WebSearch 捕获 · 待找可抓 alt 端点"
+    - name: ECB · Press Releases
+      type: web
+      url: https://www.ecb.europa.eu/press/pr/html/index.en.html
+      weight: 4
+      tags: [macro, central_bank, eu, rates]
+      cadence: daily
+      note: "RSS 确切 feed 待 fetch-log 验证 · 先 web 抓子页"
+
+  multilateral:
+    - name: IMF · What's New
+      type: rss
+      url: https://www.imf.org/en/rss-list/feed?category=WHATSNEW
+      weight: 4
+      tags: [macro, imf, world]
+      research_only: true   # 2026-06-17 实测 fetcher 403(全站墙) · 转研判 agent
+      cadence: weekly
+      note: "WEO 一年 2 次(4月/10月)+季度 Update · fetcher 403 由研判 agent 经 WebSearch 捕获"
+    - name: World Bank · News
+      type: web
+      url: https://www.worldbank.org/en/news
+      weight: 4
+      tags: [macro, worldbank, world]
+      cadence: weekly
+      note: "blog 有 RSS · 旗舰 Global Economic Prospects 一年 2 次"
+    - name: OECD · Newsroom
+      type: web
+      url: https://www.oecd.org/en/about/news.html
+      weight: 3
+      tags: [macro, oecd, world]
+      research_only: true   # 2026-06-17 实测 fetcher 403 · 转研判 agent
+      cadence: weekly
+      note: "Economic Outlook 一年 2 次(6月/11-12月)+Interim 2 次 · fetcher 403 由研判 agent 捕获"
+
+  # ⚠️ research_only = fetcher 跳过不抓 · 仅周度研判 agent WebFetch release 页用
+  # 这些源无 RSS / 月季度节奏 / 主站对 WebFetch 不稳 · 实测 release 页 200 可读
+  my_data_research_only:
+    - name: OpenDOSM · 统计发布（GDP/CPI/失业/贸易）
+      type: web
+      url: https://open.dosm.gov.my/publications
+      weight: 5
+      research_only: true
+      tags: [macro, my, statistics]
+      note: "无 RSS · 有 API developer.data.gov.my/static-api/opendosm + 发布日历(.ics) · 月度为主 GDP 季度"
+    - name: MOF Malaysia · News & Media
+      type: web
+      url: https://www.mof.gov.my/portal/en
+      weight: 4
+      research_only: true
+      tags: [macro, my, fiscal]
+      note: "无 RSS · 不定期 · 预算季(10月)集中"
+    - name: MIDA · Media Release（FDI/投资）
+      type: web
+      url: https://www.mida.gov.my/media-and-events/announcement-media-release/
+      weight: 4
+      research_only: true
+      tags: [macro, my, investment]
+      note: "无 RSS · 季度投资统计+不定期"
+
+
+# ============================================================
 # Daily brief 输出规则（routine prompt 读这段）
 # ============================================================
 daily_output:
@@ -739,12 +827,43 @@ daily_output:
       top_n_max: 3
       weight_threshold: 3
       empty_label: "今日无重大健身行业新闻"
-    - bucket: stocks
-      heading: "## 4. 股市持仓 + IPO"
+    - bucket: macro
+      heading: "## 2. 央行 / 利率红线"
       top_n_min: 0
-      top_n_max: 5
-      weight_threshold: 3
-      empty_label: "今日无重大持仓 / IPO 动作"
+      top_n_max: 3
+      weight_threshold: 4
+      empty_label: "今日无央行 / 利率动作"
+      daily_only_subcategory: central_banks  # 每日只放央行利率决议这类红线 · 其余 macro 留周报
+      note: "日 brief 瘦身后：AI + 央行红线 + 命中 33 Acts/持仓票的突发；低频桶全移周报"
+
+
+# ============================================================
+# Weekly digest 输出规则（周日晚 routine 读 · 2026-06-17 加）
+# 周报装：低频桶（法律/股市/健身）一周攒批 + §经济走向（研判 agent 产）
+# ============================================================
+weekly_output:
+  cadence: "周日晚 MYT"
+  format: "5-section markdown"
+  sections:
+    - bucket: macro
+      heading: "## 1. 经济走向 · MY vs 世界"
+      mode: research_synthesis   # ← 研判 agent 综合，不是抓取罗列
+      empty_label: "本周无足够数据出走向判断"
+      rule: "judgment 可综合 · 每个数字必须贴原文 URL+发布日 · 核查对不上就删（守真实性>数量）"
+    - bucket: my-law
+      heading: "## 2. 大马法律（本周）"
+      empty_label: "本周无重大法律修订"
+      highlight_acts: true
+    - bucket: stocks
+      heading: "## 3. 股市持仓 + IPO（本周）"
+      empty_label: "本周无重大持仓 / IPO 动作"
+    - bucket: fitness
+      heading: "## 4. 健身行业（本周）"
+      empty_label: "本周无重大健身行业新闻"
+    - bucket: macro
+      heading: "## 5. 央行 / 多边机构（本周事件）"
+      mode: events   # 罗列 fetcher 抓到的离散事件 · 跟 §1 走向互补
+      empty_label: "本周无央行 / 多边机构事件"
 
 
 # ============================================================
