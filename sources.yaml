@@ -463,6 +463,11 @@ ai:
       weight: 3
       aggregator: true
       tags: [news, weekly, aggregator]
+    - name: Simon Willison's Blog
+      type: rss
+      url: https://simonwillison.net/atom/everything/
+      weight: 4
+      tags: [analysis, dev, practitioner]
 
   opensource_trends:
     - name: HuggingFace Trending
