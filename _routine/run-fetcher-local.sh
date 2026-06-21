@@ -29,6 +29,7 @@ echo "[$(date '+%Y-%m-%d %H:%M:%S %Z')] B2 fetcher kickoff" >> "$LOG"
 cd "$REPO" || { echo "FATAL: cd $REPO failed" >> "$LOG"; exit 1; }
 
 # 1. sync repo (in case routine pushed something overnight)
+git config pull.rebase true >> "$LOG" 2>&1
 git pull origin main >> "$LOG" 2>&1 || {
   echo "WARN: git pull failed, continuing with local state" >> "$LOG"
 }
