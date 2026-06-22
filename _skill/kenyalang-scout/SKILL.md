@@ -1,6 +1,7 @@
 ---
 name: kenyalang-scout
 description: 抓全球 AI 产业新闻并产出可读的 brief。用在 Kenyalang.AI（每日早 brief / 周 digest / 按需 Q&A）+ 未来其他情报 Agent（Kenyalang.Fit 健身竞品 / Bijak 营销文案选题等）。Trigger when 用户说「跑 AI 早报」「跑 brief」「scout AI 新闻」「Kenyalang」「AI weekly digest」。
+group: dev
 ---
 
 你在跑 Kenyalang 情报抓取流程。这只犀鸟做一件事：**在嘈杂的 AI 信息流里挑出真值得报的 5-8 条**。

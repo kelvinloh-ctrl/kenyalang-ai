@@ -49,9 +49,26 @@ log "running fetcher.py"
 
 OUT="daily/${DATE}.md"
 
+# 3.3 Semantic dedup · 对比历史语义相似度 · 标记 may_be_duplicate
+log "running semantic-dedup.py"
+/usr/bin/env python3 _routine/semantic-dedup.py >>"$LOG" 2>&1 || log "WARN semantic-dedup.py 跳过（无 API key 或异常 · 不影响 brief）"
+
+# 3.5 Reflexion · 提取昨日自我批评
+PREV_CRITIQUE=""
+YESTERDAY=$(TZ=Asia/Kuala_Lumpur date -v-1d +%Y-%m-%d 2>/dev/null || date -d "yesterday" +%Y-%m-%d 2>/dev/null)
+PREV_BRIEF="daily/${YESTERDAY}.md"
+if [ -f "$PREV_BRIEF" ]; then
+  # 提取 ## 自我批评 后的第一段非空行
+  PREV_CRITIQUE=$(awk '/^## 自我批评/{found=1; next} found && /^[^#]/ && NF{print; exit}' "$PREV_BRIEF")
+  if [ -n "$PREV_CRITIQUE" ]; then
+    log "Reflexion: 注入昨日批评 → \"${PREV_CRITIQUE:0:60}…\""
+  fi
+fi
+
 # 4. headless claude 写 brief（candidates.json 内嵌进 prompt · 只要 stdout markdown · 无需工具）
 log "writing brief via headless claude → $OUT"
-PROMPT="$(cat _routine/v5.3-local-prompt.md)
+PROMPT_TEMPLATE="$(cat _routine/v5.3-local-prompt.md)"
+PROMPT="${PROMPT_TEMPLATE//\{\{PREV_CRITIQUE\}\}/$PREV_CRITIQUE}
 
 下面是今天的 candidates.json 全文：
 
@@ -61,8 +78,8 @@ $(cat candidates.json)"
 BRIEF="$(perl -e 'alarm 300; exec @ARGV' /opt/homebrew/bin/claude -p "$PROMPT" --output-format text 2>>"$LOG")"
 RC=$?
 
-# 5. 合法性校验：必须以 brief 头开头，否则不写（防垃圾覆盖）
-if [ $RC -ne 0 ] || ! printf '%s' "$BRIEF" | head -1 | grep -q "^# Kenyalang Daily"; then
+# 5. 合法性校验：必须含 brief 头（支持 YAML frontmatter 前缀），否则不写（防垃圾覆盖）
+if [ $RC -ne 0 ] || ! printf '%s' "$BRIEF" | grep -q "^# Kenyalang Daily"; then
   log "FATAL claude 写 brief 失败 rc=$RC · 首行: $(printf '%s' "$BRIEF" | head -1)"
   exit 1
 fi
@@ -71,7 +88,7 @@ printf '%s\n' "$BRIEF" > "$OUT"
 log "brief written: $OUT ($(wc -l <"$OUT") 行)"
 
 # 6. push（本地 keychain 凭证 · 无 PAT）· 连状态文件一起提交（持久化去重状态 + 保持工作区干净）
-git add "$OUT" candidates.json fetch-log.json seen.json >>"$LOG" 2>&1
+git add "$OUT" candidates.json fetch-log.json seen.json _routine/semantic-seen.json >>"$LOG" 2>&1
 git -c user.email="kenyalang-auto@kelvinloh.my" -c user.name="Kenyalang Auto-Local" \
     commit -m "auto-local brief: ${DATE}" >>"$LOG" 2>&1 || { log "no changes to commit"; }
 git push --quiet origin main >>"$LOG" 2>&1 || { log "ERR git push 失败"; exit 1; }
