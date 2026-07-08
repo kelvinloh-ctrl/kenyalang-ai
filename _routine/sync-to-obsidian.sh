@@ -1,10 +1,10 @@
 #!/bin/bash
-# Kenyalang.AI · 同步最新 brief/周报 → Obsidian 财经仪表盘（~/Brain · iCloud · 手机可见）
-# 2026-06-17 建 · ADR: ~/Brain/02_Decisions/2026-06-17-kenyalang-intel-system-redesign.md
+# Kenyalang.AI · 同步最新 brief/周报 → Obsidian 财经仪表盘（Kelvin_SecondBrain · GDrive）
+# 2026-06-17 建 · 2026-07-05 改指向统一 vault（旧 ~/Brain iCloud 已退役 · 见 memory reference_three_layer_ai_infrastructure）
 # 由 run-fetcher-local.sh 末尾调用 · 也可单独跑：bash _routine/sync-to-obsidian.sh
 
 REPO=~/Desktop/Kelvin-Projects/kenyalang-ai
-VAULT=~/Brain/_财经数据
+VAULT=~/Desktop/Kelvin_SecondBrain/Learning/财经数据
 
 # 先拉最新（含远程 routine 写的 daily/weekly）
 git -C "$REPO" pull origin main >/dev/null 2>&1 || true

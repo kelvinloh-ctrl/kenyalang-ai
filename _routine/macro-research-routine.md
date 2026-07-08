@@ -1,6 +1,6 @@
 # Kenyalang.AI · 周度宏观研判 routine（Track B）
 
-- 建立：2026-06-17 · ADR: `~/Brain/02_Decisions/2026-06-17-kenyalang-intel-system-redesign.md`
+- 建立：2026-06-17 · ADR: `~/Desktop/Kelvin_SecondBrain/Journal/Decisions/Archive/2026-06-17-kenyalang-intel-system-redesign.md`
 - 跑频：周日晚 MYT（计划接 RemoteTrigger cron · 先手动跑验证）
 - 角色：方向 3 的「研判 agent」—— 抓取(fetcher)管离散事件，本 routine 管**趋势综合 + 持仓快照**
 - 引擎：WebSearch + WebFetch（不依赖 Mac fetcher · 这些源多数 fetcher 403/202 抓不到）
